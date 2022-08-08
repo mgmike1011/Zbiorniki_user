@@ -32,3 +32,83 @@
 #ContentTopControl_LogoutButton1 {
 		z-index: 1;
 }
+#ContentTopControl_LogoutButton1 {
+	&:not(.disabled):not(.active):not(.checked) span{
+		color: rgba(64, 64, 64, 1);
+	}
+}
+#ContentTopControl_LogoutButton1 {
+	span{
+	@include font-weight-bold(true);
+	}
+}
+#ContentTopControl_LoginInfo1 {
+	@include elemAutoHeight(30);
+}
+#ContentTopControl_LoginInfo1 {
+	@include elemTop(15);
+}
+#ContentTopControl_LoginInfo1 {
+	@include elemLeft(1050);
+}
+#ContentTopControl_LoginInfo1 {
+	@include elemAutoWidth(180);
+}
+#ContentTopControl_LoginInfo1 {
+		z-index: 2;
+}
+#ContentTopControl_LoginInfo1 {
+	& span{
+		color: rgba(64, 64, 64, 1);
+	}
+}
+#ContentTopControl_LoginInfo1 {
+	@include text-alignment-all('center');
+}
+#ContentTopControl_LoginInfo1 {
+		font-size: 18px;
+}
+#ContentTopControl_LoginInfo1 {
+	@include font-weight-bold(true);
+}
+#ContentTopControl_Label1 {
+	@include elemAutoHeight(30);
+}
+#ContentTopControl_Label1 {
+	@include elemTop(15);
+}
+#ContentTopControl_Label1 {
+	@include elemLeft(855);
+}
+#ContentTopControl_Label1 {
+	@include elemAutoWidth(170);
+}
+#ContentTopControl_Label1 {
+		z-index: 3;
+}
+#ContentTopControl_Label1 {
+	& span{
+		color: rgba(64, 64, 64, 1);
+	}
+}
+#ContentTopControl_Label1 {
+		font-size: 18px;
+}
+#ContentTopControl_Label1 {
+	@include font-weight-bold(true);
+}
+#ContentTopControl_Image2 {
+	@include elemTop(60);
+}
+#ContentTopControl_Image2 {
+	@include elemLeft(900);
+}
+#ContentTopControl_Image2 {
+	@include elemAutoWidth(45);
+}
+#ContentTopControl_Image2 {
+	@include elemAutoHeight(45);
+}
+#ContentTopControl_Image2 {
+		z-index: 4;
+}

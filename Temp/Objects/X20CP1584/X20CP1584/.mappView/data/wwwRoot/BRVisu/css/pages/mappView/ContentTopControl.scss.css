@@ -45,3 +45,108 @@
 #ContentTopControl_LogoutButton1 {
   z-index: 1;
 }
+
+#ContentTopControl_LogoutButton1:not(.disabled):not(.active):not(.checked) span {
+  color: #404040;
+}
+
+#ContentTopControl_LogoutButton1 span {
+  font-weight: bold;
+}
+
+#ContentTopControl_LoginInfo1 {
+  height: 30px;
+}
+
+#ContentTopControl_LoginInfo1 {
+  top: 15px;
+  position: absolute;
+}
+
+#ContentTopControl_LoginInfo1 {
+  left: 1050px;
+  position: absolute;
+}
+
+#ContentTopControl_LoginInfo1 {
+  width: 180px;
+}
+
+#ContentTopControl_LoginInfo1 {
+  z-index: 2;
+}
+
+#ContentTopControl_LoginInfo1 span {
+  color: #404040;
+}
+
+#ContentTopControl_LoginInfo1 {
+  justify-content: center;
+  text-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+#ContentTopControl_LoginInfo1 {
+  font-size: 18px;
+}
+
+#ContentTopControl_LoginInfo1 {
+  font-weight: bold;
+}
+
+#ContentTopControl_Label1 {
+  height: 30px;
+}
+
+#ContentTopControl_Label1 {
+  top: 15px;
+  position: absolute;
+}
+
+#ContentTopControl_Label1 {
+  left: 855px;
+  position: absolute;
+}
+
+#ContentTopControl_Label1 {
+  width: 170px;
+}
+
+#ContentTopControl_Label1 {
+  z-index: 3;
+}
+
+#ContentTopControl_Label1 span {
+  color: #404040;
+}
+
+#ContentTopControl_Label1 {
+  font-size: 18px;
+}
+
+#ContentTopControl_Label1 {
+  font-weight: bold;
+}
+
+#ContentTopControl_Image2 {
+  top: 60px;
+  position: absolute;
+}
+
+#ContentTopControl_Image2 {
+  left: 900px;
+  position: absolute;
+}
+
+#ContentTopControl_Image2 {
+  width: 45px;
+}
+
+#ContentTopControl_Image2 {
+  height: 45px;
+}
+
+#ContentTopControl_Image2 {
+  z-index: 4;
+}

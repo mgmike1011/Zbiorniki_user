@@ -161,7 +161,7 @@
 }
 
 #ContentMainPageControl_Label2 {
-  top: 240px;
+  top: 225px;
   position: absolute;
 }
 
@@ -171,7 +171,7 @@
 }
 
 #ContentMainPageControl_Label2 {
-  width: 220px;
+  width: 385px;
 }
 
 #ContentMainPageControl_Label2 {
@@ -191,10 +191,6 @@
 }
 
 #ContentMainPageControl_NumericOutput1 {
-  width: 100px;
-}
-
-#ContentMainPageControl_NumericOutput1 {
   height: 30px;
 }
 
@@ -204,8 +200,12 @@
 }
 
 #ContentMainPageControl_NumericOutput1 {
-  left: 120px;
+  left: 60px;
   position: absolute;
+}
+
+#ContentMainPageControl_NumericOutput1 {
+  width: 225px;
 }
 
 #ContentMainPageControl_NumericOutput1 {
@@ -220,8 +220,9 @@
   color: #404040;
 }
 
-#ContentMainPageControl_NumericOutput2 {
-  width: 100px;
+#ContentMainPageControl_NumericOutput1 input {
+  justify-content: center;
+  text-align: center;
 }
 
 #ContentMainPageControl_NumericOutput2 {
@@ -234,8 +235,12 @@
 }
 
 #ContentMainPageControl_NumericOutput2 {
-  left: 400px;
+  left: 345px;
   position: absolute;
+}
+
+#ContentMainPageControl_NumericOutput2 {
+  width: 225px;
 }
 
 #ContentMainPageControl_NumericOutput2 {
@@ -250,8 +255,9 @@
   color: #404040;
 }
 
-#ContentMainPageControl_NumericOutput3 {
-  width: 100px;
+#ContentMainPageControl_NumericOutput2 input {
+  justify-content: center;
+  text-align: center;
 }
 
 #ContentMainPageControl_NumericOutput3 {
@@ -264,8 +270,12 @@
 }
 
 #ContentMainPageControl_NumericOutput3 {
-  left: 680px;
+  left: 615px;
   position: absolute;
+}
+
+#ContentMainPageControl_NumericOutput3 {
+  width: 240px;
 }
 
 #ContentMainPageControl_NumericOutput3 {
@@ -278,6 +288,11 @@
 
 #ContentMainPageControl_NumericOutput3 span.breaseNumericOutput_unit {
   color: #404040;
+}
+
+#ContentMainPageControl_NumericOutput3 input {
+  justify-content: center;
+  text-align: center;
 }
 
 #ContentMainPageControl_Label3 {
@@ -778,4 +793,70 @@
 
 #ContentMainPageControl_NumericInput2 input {
   font-weight: bold;
+}
+
+#ContentMainPageControl_ImgZB2 {
+  top: 540px;
+  position: absolute;
+}
+
+#ContentMainPageControl_ImgZB2 {
+  left: 315px;
+  position: absolute;
+}
+
+#ContentMainPageControl_ImgZB2 {
+  width: 60px;
+}
+
+#ContentMainPageControl_ImgZB2 {
+  height: 55px;
+}
+
+#ContentMainPageControl_ImgZB2 {
+  z-index: 12;
+}
+
+#ContentMainPageControl_Image2 {
+  top: 540px;
+  position: absolute;
+}
+
+#ContentMainPageControl_Image2 {
+  left: 0px;
+  position: absolute;
+}
+
+#ContentMainPageControl_Image2 {
+  width: 60px;
+}
+
+#ContentMainPageControl_Image2 {
+  height: 55px;
+}
+
+#ContentMainPageControl_Image2 {
+  z-index: 13;
+}
+
+#ContentMainPageControl_ImgZB3 {
+  top: 540px;
+  position: absolute;
+}
+
+#ContentMainPageControl_ImgZB3 {
+  left: 585px;
+  position: absolute;
+}
+
+#ContentMainPageControl_ImgZB3 {
+  width: 60px;
+}
+
+#ContentMainPageControl_ImgZB3 {
+  height: 55px;
+}
+
+#ContentMainPageControl_ImgZB3 {
+  z-index: 14;
 }

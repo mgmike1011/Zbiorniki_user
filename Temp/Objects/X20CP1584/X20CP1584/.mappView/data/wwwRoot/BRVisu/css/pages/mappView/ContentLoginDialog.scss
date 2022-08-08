@@ -1,0 +1,16 @@
+﻿@import "mixins.scss";
+#ContentLoginDialog_Login1 {
+	@include elemTop(60);
+}
+#ContentLoginDialog_Login1 {
+	@include elemLeft(0);
+}
+#ContentLoginDialog_Login1 {
+	@include elemWidth(390);
+}
+#ContentLoginDialog_Login1 {
+	@include elemHeight(195);
+}
+#ContentLoginDialog_Login1 {
+		z-index: 0;
+}

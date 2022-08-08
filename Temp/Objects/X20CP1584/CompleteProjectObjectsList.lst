@@ -1499,7 +1499,7 @@
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\VisualizationOperatorControl\Pages\AreaContents\ContentTopControl.content"
     LogicalPath="mappView.VisualizationOperatorControl.Pages.AreaContents.ContentTopControl.content"
     Type="File"
-    LastWriteTime="133044515958110738"
+    LastWriteTime="133044552295566786"
     Private="false" />
   <Object
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\VisualizationOperatorControl\Pages\AreaContents\ContentLeftControl.content"
@@ -1522,7 +1522,7 @@
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\VisualizationOperatorControl\Pages\MainPageControl\ContentMainPageControl.content"
     LogicalPath="mappView.VisualizationOperatorControl.Pages.MainPageControl.ContentMainPageControl.content"
     Type="File"
-    LastWriteTime="133044520815597651"
+    LastWriteTime="133044555095191486"
     Private="false" />
   <Object
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\VisualizationOperatorControl\Pages\AlarmPageControl\Package.pkg"
@@ -1556,7 +1556,7 @@
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\VisualizationOperatorControl\Pages\ServicePageControl\ContentServicePageControl.content"
     LogicalPath="mappView.VisualizationOperatorControl.Pages.ServicePageControl.ContentServicePageControl.content"
     Type="File"
-    LastWriteTime="133044507475011871"
+    LastWriteTime="133044548968611681"
     Private="false" />
   <Object
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\VisualizationOperatorControl\Variables\Package.pkg"
@@ -1572,7 +1572,7 @@
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\VisualizationOperatorControl\Layouts\Package.pkg"
     LogicalPath="mappView.VisualizationOperatorControl.Layouts"
     Type="Package"
-    LastWriteTime="133044195218354172" />
+    LastWriteTime="133044560620753700" />
   <Object
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\VisualizationOperatorControl\Layouts\MainLayout.layout"
     LogicalPath="mappView.VisualizationOperatorControl.Layouts.MainLayout.layout"
@@ -1580,15 +1580,38 @@
     LastWriteTime="133044198300678634"
     Private="false" />
   <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\VisualizationOperatorControl\Layouts\LoginDialogLayout.layout"
+    LogicalPath="mappView.VisualizationOperatorControl.Layouts.LoginDialogLayout.layout"
+    Type="File"
+    LastWriteTime="133044561059326508"
+    Private="false" />
+  <Object
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\VisualizationOperatorControl\Dialogs\Package.pkg"
     LogicalPath="mappView.VisualizationOperatorControl.Dialogs"
     Type="Package"
-    LastWriteTime="133044189007037510" />
+    LastWriteTime="133044560231202439" />
   <Object
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\VisualizationOperatorControl\Dialogs\AreaContents\Package.pkg"
     LogicalPath="mappView.VisualizationOperatorControl.Dialogs.AreaContents"
     Type="Package"
     LastWriteTime="133044189007008274" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\VisualizationOperatorControl\Dialogs\DialogLogin\Package.pkg"
+    LogicalPath="mappView.VisualizationOperatorControl.Dialogs.DialogLogin"
+    Type="Package"
+    LastWriteTime="133044561295791313" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\VisualizationOperatorControl\Dialogs\DialogLogin\Dialog.dialog"
+    LogicalPath="mappView.VisualizationOperatorControl.Dialogs.DialogLogin.Dialog.dialog"
+    Type="File"
+    LastWriteTime="133044564471184086"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\VisualizationOperatorControl\Dialogs\DialogLogin\ContentLoginDialog.content"
+    LogicalPath="mappView.VisualizationOperatorControl.Dialogs.DialogLogin.ContentLoginDialog.content"
+    Type="File"
+    LastWriteTime="133044563757395001"
+    Private="false" />
   <Object
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\VisualizationOperatorControl\Resources\Package.pkg"
     LogicalPath="mappView.VisualizationOperatorControl.Resources"
@@ -1598,7 +1621,7 @@
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\VisualizationOperatorControl\Resources\Texts\Package.pkg"
     LogicalPath="mappView.VisualizationOperatorControl.Resources.Texts"
     Type="Package"
-    LastWriteTime="133044506122509535" />
+    LastWriteTime="133044549256700824" />
   <Object
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\VisualizationOperatorControl\Resources\Texts\TextsLeftArea.tmx"
     LogicalPath="mappView.VisualizationOperatorControl.Resources.Texts.TextsLeftArea.tmx"
@@ -1609,7 +1632,7 @@
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\VisualizationOperatorControl\Resources\Texts\TextsTop.tmx"
     LogicalPath="mappView.VisualizationOperatorControl.Resources.Texts.TextsTop.tmx"
     Type="File"
-    LastWriteTime="133044245327440174"
+    LastWriteTime="133044564880748182"
     Private="false" />
   <Object
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\VisualizationOperatorControl\Resources\Texts\TextsMainPageControl.tmx"
@@ -1627,7 +1650,7 @@
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\VisualizationOperatorControl\Resources\Texts\TextsServicePage.tmx"
     LogicalPath="mappView.VisualizationOperatorControl.Resources.Texts.TextsServicePage.tmx"
     Type="File"
-    LastWriteTime="133044506873315141"
+    LastWriteTime="133044547431663268"
     Private="false" />
   <Object
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\VisualizationOperatorControl\Resources\Snippets\Package.pkg"
@@ -1758,7 +1781,7 @@
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\Cpu.pkg"
     LogicalPath="X20CP1584.X20CP1584"
     Type="Cpu"
-    LastWriteTime="133044519750728777" />
+    LastWriteTime="133044564151838512" />
   <Object
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\Cpu.sw"
     LogicalPath="X20CP1584.X20CP1584.Cpu.sw"
@@ -1907,7 +1930,7 @@
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\mappView\Package.pkg"
     LogicalPath="X20CP1584.X20CP1584.mappView"
     Type="Package"
-    LastWriteTime="133044391755964848" />
+    LastWriteTime="133044563451546618" />
   <Object
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\mappView\OpcUaServer.uaserver"
     LogicalPath="X20CP1584.X20CP1584.mappView.OpcUaServer.uaserver"
@@ -1954,7 +1977,7 @@
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\mappView\VisOperCon.vis"
     LogicalPath="X20CP1584.X20CP1584.mappView.VisOperCon.vis"
     Type="File"
-    LastWriteTime="133044391756130456"
+    LastWriteTime="133044563451683276"
     Private="false" />
   <Object
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\mappView\ContentMainPageControl.binding"
@@ -1966,7 +1989,7 @@
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\mappView\ContentMainPageControl.eventbinding"
     LogicalPath="X20CP1584.X20CP1584.mappView.ContentMainPageControl.eventbinding"
     Type="File"
-    LastWriteTime="133044338804730646"
+    LastWriteTime="133044558552956080"
     Private="false" />
   <Object
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\mappView\ContentAlarmPageControl.eventbinding"
@@ -1979,6 +2002,18 @@
     LogicalPath="X20CP1584.X20CP1584.mappView.ContentAlarmPageControl.binding"
     Type="File"
     LastWriteTime="133044391782265232"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\mappView\ContentLoginDialog.eventbinding"
+    LogicalPath="X20CP1584.X20CP1584.mappView.ContentLoginDialog.eventbinding"
+    Type="File"
+    LastWriteTime="133044563358362786"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\mappView\ContentTopControl.eventbinding"
+    LogicalPath="X20CP1584.X20CP1584.mappView.ContentTopControl.eventbinding"
+    Type="File"
+    LastWriteTime="133044565118717648"
     Private="false" />
   <Object
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\mappCockpit\Package.pkg"

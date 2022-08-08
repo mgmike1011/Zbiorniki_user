@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingDefinition xmlns="http://www.br-automation.com/iat2014/eventbinding/runtime/v2">
+  <Content id="ContentTopControl">
+    <EventBinding id="ContentTopControl.Image2.Click">
+      <Source type="widgets.brease.Image.Event" event="Click" refId="ContentTopControl_Image2" />
+      <EventHandler>
+        <Action>
+          <Target type="clientSystem.Action">
+            <Method type="clientSystem.Action.OpenDialog"><Parameter name="dialogId" xsi:type="ANY_STRING" value="DialogLogin" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /><Parameter name="headerText" xsi:type="ANY_STRING" value="$IAT/Top/LoginDialogtxt" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+</EventBindingDefinition>

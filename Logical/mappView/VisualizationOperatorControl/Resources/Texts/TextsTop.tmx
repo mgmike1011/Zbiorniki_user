@@ -4,5 +4,30 @@
     <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
     <prop type="x-BR-TS:Namespace">IAT/Top</prop>
   </header>
-  <body />
+  <body>
+    <tu tuid="Loggedinastxt">
+      <tuv xml:lang="pl">
+        <seg>Zalogowano:</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Logged in as:</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Logouttxt">
+      <tuv xml:lang="pl">
+        <seg>Wyloguj</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Logout</seg>
+      </tuv>
+    </tu>
+    <tu tuid="LoginDialogtxt">
+      <tuv xml:lang="pl">
+        <seg>Zaloguj się!</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Login!</seg>
+      </tuv>
+    </tu>
+  </body>
 </tmx>

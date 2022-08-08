@@ -157,13 +157,13 @@
 	@include elemAutoHeight(30);
 }
 #ContentMainPageControl_Label2 {
-	@include elemTop(240);
+	@include elemTop(225);
 }
 #ContentMainPageControl_Label2 {
 	@include elemLeft(20);
 }
 #ContentMainPageControl_Label2 {
-	@include elemAutoWidth(220);
+	@include elemAutoWidth(385);
 }
 #ContentMainPageControl_Label2 {
 		z-index: 3;
@@ -180,16 +180,16 @@
 	@include font-weight-bold(true);
 }
 #ContentMainPageControl_NumericOutput1 {
-	@include elemAutoWidth(100);
-}
-#ContentMainPageControl_NumericOutput1 {
 	@include elemAutoHeight(30);
 }
 #ContentMainPageControl_NumericOutput1 {
 	@include elemTop(555);
 }
 #ContentMainPageControl_NumericOutput1 {
-	@include elemLeft(120);
+	@include elemLeft(60);
+}
+#ContentMainPageControl_NumericOutput1 {
+	@include elemAutoWidth(225);
 }
 #ContentMainPageControl_NumericOutput1 {
 		z-index: 4;
@@ -204,8 +204,10 @@
 		color: rgba(64, 64, 64, 1);
 	}
 }
-#ContentMainPageControl_NumericOutput2 {
-	@include elemAutoWidth(100);
+#ContentMainPageControl_NumericOutput1 {
+	input{
+	@include text-alignment(center);
+	}
 }
 #ContentMainPageControl_NumericOutput2 {
 	@include elemAutoHeight(30);
@@ -214,7 +216,10 @@
 	@include elemTop(555);
 }
 #ContentMainPageControl_NumericOutput2 {
-	@include elemLeft(400);
+	@include elemLeft(345);
+}
+#ContentMainPageControl_NumericOutput2 {
+	@include elemAutoWidth(225);
 }
 #ContentMainPageControl_NumericOutput2 {
 		z-index: 5;
@@ -229,8 +234,10 @@
 		color: rgba(64, 64, 64, 1);
 	}
 }
-#ContentMainPageControl_NumericOutput3 {
-	@include elemAutoWidth(100);
+#ContentMainPageControl_NumericOutput2 {
+	input{
+	@include text-alignment(center);
+	}
 }
 #ContentMainPageControl_NumericOutput3 {
 	@include elemAutoHeight(30);
@@ -239,7 +246,10 @@
 	@include elemTop(555);
 }
 #ContentMainPageControl_NumericOutput3 {
-	@include elemLeft(680);
+	@include elemLeft(615);
+}
+#ContentMainPageControl_NumericOutput3 {
+	@include elemAutoWidth(240);
 }
 #ContentMainPageControl_NumericOutput3 {
 		z-index: 6;
@@ -252,6 +262,11 @@
 #ContentMainPageControl_NumericOutput3 {
 	span.breaseNumericOutput_unit{
 		color: rgba(64, 64, 64, 1);
+	}
+}
+#ContentMainPageControl_NumericOutput3 {
+	input{
+	@include text-alignment(center);
 	}
 }
 #ContentMainPageControl_Label3 {
@@ -690,4 +705,49 @@
 	input{
 	@include font-weight-bold(true);
 	}
+}
+#ContentMainPageControl_ImgZB2 {
+	@include elemTop(540);
+}
+#ContentMainPageControl_ImgZB2 {
+	@include elemLeft(315);
+}
+#ContentMainPageControl_ImgZB2 {
+	@include elemAutoWidth(60);
+}
+#ContentMainPageControl_ImgZB2 {
+	@include elemAutoHeight(55);
+}
+#ContentMainPageControl_ImgZB2 {
+		z-index: 12;
+}
+#ContentMainPageControl_Image2 {
+	@include elemTop(540);
+}
+#ContentMainPageControl_Image2 {
+	@include elemLeft(0);
+}
+#ContentMainPageControl_Image2 {
+	@include elemAutoWidth(60);
+}
+#ContentMainPageControl_Image2 {
+	@include elemAutoHeight(55);
+}
+#ContentMainPageControl_Image2 {
+		z-index: 13;
+}
+#ContentMainPageControl_ImgZB3 {
+	@include elemTop(540);
+}
+#ContentMainPageControl_ImgZB3 {
+	@include elemLeft(585);
+}
+#ContentMainPageControl_ImgZB3 {
+	@include elemAutoWidth(60);
+}
+#ContentMainPageControl_ImgZB3 {
+	@include elemAutoHeight(55);
+}
+#ContentMainPageControl_ImgZB3 {
+		z-index: 14;
 }

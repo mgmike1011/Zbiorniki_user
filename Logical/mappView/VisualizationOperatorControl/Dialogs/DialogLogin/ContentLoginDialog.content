@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="ContentLoginDialog" height="300" width="400" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Login" id="Login1" top="60" left="0" width="390" height="195" zIndex="0" buttonLabel="$IAT/ServicePage/Login_txt" passwordLabel="$IAT/ServicePage/Passwordtxt" userLabel="$IAT/ServicePage/Usernametxt" />
+  </Widgets>
+</Content>

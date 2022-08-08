@@ -2,6 +2,9 @@
 <Content id="ContentTopControl" height="120" width="1280" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Widgets>
     <Widget xsi:type="widgets.brease.Image" id="Image1" top="0" left="0" width="260" height="110" zIndex="0" image="Media/Graphics/BuR_new_2.jpg" margin="5px" />
-    <Widget xsi:type="widgets.brease.LogoutButton" id="LogoutButton1" top="60" left="1050" width="175" zIndex="1" text="LogoutButton1" />
+    <Widget xsi:type="widgets.brease.LogoutButton" id="LogoutButton1" top="60" left="1050" width="175" zIndex="1" text="$IAT/Top/Logouttxt" textColor="rgba(64, 64, 64, 1)" bold="true" />
+    <Widget xsi:type="widgets.brease.LoginInfo" id="LoginInfo1" top="15" left="1050" width="180" zIndex="2" textColor="rgba(64, 64, 64, 1)" textAlign="center" fontSize="18px" bold="true" />
+    <Widget xsi:type="widgets.brease.Label" id="Label1" top="15" left="855" width="170" zIndex="3" text="$IAT/Top/Loggedinastxt" textColor="rgba(64, 64, 64, 1)" fontSize="18px" bold="true" />
+    <Widget xsi:type="widgets.brease.Image" id="Image2" top="60" left="900" width="45" height="45" zIndex="4" image="Media/SymbolLib/User/User.svg" />
   </Widgets>
 </Content>

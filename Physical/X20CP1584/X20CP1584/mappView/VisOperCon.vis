@@ -14,14 +14,19 @@
   <EventBindingsSets>
     <EventBindingsSet refId="ContentMainPageControl_eventbinding" />
     <EventBindingsSet refId="ContentAlarmPageControl_eventbinding" />
+    <EventBindingsSet refId="ContentLoginDialog_eventbinding" />
+    <EventBindingsSet refId="ContentTopControl_eventbinding" />
   </EventBindingsSets>
-  <Dialogs />
+  <Dialogs>
+    <Dialog refId="DialogLogin" />
+  </Dialogs>
   <Contents>
     <Content refId="ContentTopControl" />
     <Content refId="ContentLeftControl" />
     <Content refId="ContentMainPageControl" />
     <Content refId="ContentAlarmPageControl" />
     <Content refId="ContentServicePageControl" />
+    <Content refId="ContentLoginDialog" />
   </Contents>
   <SnippetsSets />
   <VariablesSets />

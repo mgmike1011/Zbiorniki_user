@@ -1,25 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Content id="ContentMainPageControl" height="600" width="1130" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Widgets>
-    <Widget xsi:type="widgets.brease.BarChart" id="BarChart1" top="255" left="20" zIndex="0" unit="{'metric':'P1','imperial':'P1','imperial-us':'P1'}" textColor="rgba(64, 64, 64, 1)">
+    <Widget xsi:type="widgets.brease.BarChart" id="BarChart1" top="255" left="20" zIndex="0" showUnit="true" unit="{'metric':'P1','imperial':'P1','imperial-us':'P1'}" textColor="rgba(64, 64, 64, 1)">
       <Widgets>
         <Widget xsi:type="widgets.brease.BarChartItem" id="BarChartItem1" zIndex="0" text="$IAT/MainPageControl/Tank1txt" value="0" textColor="rgba(64, 64, 64, 1)" bold="false" />
       </Widgets>
     </Widget>
-    <Widget xsi:type="widgets.brease.BarChart" id="BarChart2" top="255" left="300" zIndex="1" unit="{'metric':'P1','imperial':'P1','imperial-us':'P1'}" textColor="rgba(64, 64, 64, 1)" bold="false">
+    <Widget xsi:type="widgets.brease.BarChart" id="BarChart2" top="255" left="300" zIndex="1" showUnit="true" unit="{'metric':'P1','imperial':'P1','imperial-us':'P1'}" textColor="rgba(64, 64, 64, 1)" bold="false">
       <Widgets>
         <Widget xsi:type="widgets.brease.BarChartItem" id="BarChartItem2" zIndex="0" text="$IAT/MainPageControl/Tank2txt" textColor="rgba(64, 64, 64, 1)" bold="false" />
       </Widgets>
     </Widget>
-    <Widget xsi:type="widgets.brease.BarChart" id="BarChart3" top="255" left="580" zIndex="2" unit="{'metric':'P1','imperial':'P1','imperial-us':'P1'}" textColor="rgba(64, 64, 64, 1)">
+    <Widget xsi:type="widgets.brease.BarChart" id="BarChart3" top="255" left="580" zIndex="2" showUnit="true" unit="{'metric':'P1','imperial':'P1','imperial-us':'P1'}" textColor="rgba(64, 64, 64, 1)">
       <Widgets>
         <Widget xsi:type="widgets.brease.BarChartItem" id="BarChartItem3" zIndex="0" text="$IAT/MainPageControl/Tank3txt" textColor="rgba(64, 64, 64, 1)" bold="false" />
       </Widgets>
     </Widget>
-    <Widget xsi:type="widgets.brease.Label" id="Label2" top="240" left="20" width="220" zIndex="3" text="$IAT/MainPageControl/Fillingtxt" textColor="rgba(64, 64, 64, 1)" fontSize="22px" bold="true" />
-    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput1" top="555" left="120" zIndex="4" unit="{'metric':'LTR','imperial':'GLI','imperial-us':'GLL'}" unitAlign="right" textColor="rgba(64, 64, 64, 1)" />
-    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput2" top="555" left="400" zIndex="5" unit="{'metric':'LTR','imperial':'GLI','imperial-us':'GLL'}" unitAlign="right" textColor="rgba(64, 64, 64, 1)" />
-    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput3" top="555" left="680" zIndex="6" unit="{'metric':'LTR','imperial':'GLI','imperial-us':'GLL'}" unitAlign="right" textColor="rgba(64, 64, 64, 1)" />
+    <Widget xsi:type="widgets.brease.Label" id="Label2" top="225" left="20" width="385" zIndex="3" text="$IAT/MainPageControl/Fillingtxt" textColor="rgba(64, 64, 64, 1)" fontSize="22px" bold="true" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput1" top="555" left="60" width="225" zIndex="4" unit="{'metric':'LTR','imperial':'GLI','imperial-us':'GLL'}" unitAlign="right" textColor="rgba(64, 64, 64, 1)" textAlign="center" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput2" top="555" left="345" width="225" zIndex="5" unit="{'metric':'LTR','imperial':'GLI','imperial-us':'GLL'}" unitAlign="right" textColor="rgba(64, 64, 64, 1)" textAlign="center" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput3" top="555" left="615" width="240" zIndex="6" unit="{'metric':'LTR','imperial':'GLI','imperial-us':'GLL'}" unitAlign="right" textColor="rgba(64, 64, 64, 1)" textAlign="center" />
     <Widget xsi:type="widgets.brease.Label" id="Label3" top="225" left="880" width="200" height="60" zIndex="7" breakWord="true" multiLine="true" text="$IAT/MainPageControl/Statetxt" wordWrap="true" textColor="rgba(64, 64, 64, 1)" fontSize="20px" bold="true" />
     <Widget xsi:type="widgets.brease.TextPicker" id="TextPicker1" top="285" left="880" width="220" height="220" zIndex="8" dataProvider="[{'value':'0','text':'$IAT/MainPageControl/State_STOPtxt'},{'value':'1','text':'$IAT/MainPageControl/State_FILLING_1_2txt'},{'value':'2','text':'$IAT/MainPageControl/STATE_FILLING_3txt'},{'value':'3','text':'$IAT/MainPageControl/STATE_MIXING_3txt'},{'value':'4','text':'$IAT/MainPageControl/STATE_EMPTYING_3txt'}]" multiLine="true" submitOnChange="false" wordWrap="true" bold="true" disabledMarkerColor="rgba(255, 136, 0, 1)" disabledItemTextColor="rgba(100, 100, 100, 1)" disabledItemActiveTextColor="rgba(0, 0, 0, 1)" disabledItemBorderColor="rgba(0, 0, 0, 1)" disabledItemActiveBackColor="rgba(204, 204, 204, 1)" enable="false" />
     <Widget xsi:type="widgets.brease.GroupBox" id="GrpBoxProcessControll" top="15" left="20" width="240" height="205" zIndex="9" text="$IAT/MainPageControl/Processcontrolltxt" textColor="rgba(64, 64, 64, 1)" fontSize="20px" bold="true">
@@ -42,5 +42,8 @@
         <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput2" top="125" left="45" width="150" zIndex="3" unit="{'metric':'P1','imperial':'P1','imperial-us':'P1'}" unitAlign="right" bold="true" permissionOperate="['Administrators', 'Operator']" />
       </Widgets>
     </Widget>
+    <Widget xsi:type="widgets.brease.Image" id="ImgZB2" top="540" left="315" width="60" height="55" zIndex="12" image="Media/SymbolLib/Alarm/Alarm.svg" />
+    <Widget xsi:type="widgets.brease.Image" id="Image2" top="540" left="0" width="60" height="55" zIndex="13" image="Media/SymbolLib/Alarm/Alarm.svg" />
+    <Widget xsi:type="widgets.brease.Image" id="ImgZB3" top="540" left="585" width="60" height="55" zIndex="14" image="Media/SymbolLib/Alarm/Alarm.svg" />
   </Widgets>
 </Content>

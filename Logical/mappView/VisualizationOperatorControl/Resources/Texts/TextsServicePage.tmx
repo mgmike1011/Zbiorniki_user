@@ -21,5 +21,37 @@
         <seg>Language</seg>
       </tuv>
     </tu>
+    <tu tuid="Usernametxt">
+      <tuv xml:lang="pl">
+        <seg>Użytkownik</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Username</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Passwordtxt">
+      <tuv xml:lang="pl">
+        <seg>Hasło</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Password</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Logouttxt">
+      <tuv xml:lang="pl">
+        <seg>Wyloguj</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Logout</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Login_txt">
+      <tuv xml:lang="pl">
+        <seg>Zaloguj</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Login</seg>
+      </tuv>
+    </tu>
   </body>
 </tmx>

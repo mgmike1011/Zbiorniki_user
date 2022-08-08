@@ -43,9 +43,11 @@
 				<Folder Name="server" ProjectDependent="1">
 					<File Name="-222062230.binding" Size="14403" HashValue="AF615BF7430CBCB9EA390965D202223C" ProjectDependent="1"/>
 					<File Name="-683776460.binding" Size="6624" HashValue="902BDD752ACDC92A6C91AC1318331CBF" ProjectDependent="1"/>
+					<File Name="1247878736.eventbinding" Size="727" HashValue="B4EB6E51CAAD7F8873AA5CD207C6F372" ProjectDependent="1"/>
 					<File Name="1534101751.binding" Size="4207" HashValue="C693CF4D34275461B64AF0A88175BD53" ProjectDependent="1"/>
+					<File Name="1563350379.eventbinding" Size="872" HashValue="83ACC0F2BA2288CE6D870E8332FBD48B" ProjectDependent="1"/>
 					<File Name="1625532323.binding" Size="18985" HashValue="BC9E37C5DE8D3CAEE048716709859CEF" ProjectDependent="1"/>
-					<File Name="1823084006.eventbinding" Size="3132" HashValue="84E3E9DAC46AAED700693C6D141872D6" ProjectDependent="1"/>
+					<File Name="1823084006.eventbinding" Size="6231" HashValue="7EE2A95899C3BB85BAE890FFE8ECEB2D" ProjectDependent="1"/>
 					<File Name="2139907734.binding" Size="510" HashValue="3AFB003A15E44D0CE0F59A613E155BF2" ProjectDependent="1"/>
 					<File Name="654233811.eventbinding" Size="34451" HashValue="E4DD359C1DCDF72B3EEF1782218C0FB0" ProjectDependent="1"/>
 					<File Name="861746268.eventbinding" Size="1220" HashValue="9CA85F2250962163CB4B6F74B590B405" ProjectDependent="1"/>
@@ -53,13 +55,13 @@
 					<File Name="Config.mappviewcfg" Size="1815" HashValue="0D783EFE3B6004B6CBB7D0F6FD6D506D" ProjectDependent="1"/>
 					<File Name="svar_1.sessionVar" Size="5135" HashValue="3DD5FA269102CC26E083AFCBAF490FAD" ProjectDependent="1"/>
 					<File Name="Tanks_expressionsSet.expression" Size="6689" HashValue="5C8492414502DD6702B0E1CA5B9AE395" ProjectDependent="1"/>
-					<File Name="VisualizationOperatorControl.vis" Size="1479" HashValue="6C03EEC2DE46F2D045DFC8D0ADEBC4A6" ProjectDependent="1"/>
+					<File Name="VisualizationOperatorControl.vis" Size="1661" HashValue="CBCA430C0D5BB56C1D193EF8DF7E7F60" ProjectDependent="1"/>
 					<File Name="Zbiorniki.vis" Size="1299" HashValue="74AD0C15CC0E07A33ECDBAB1D002DE3C" ProjectDependent="1"/>
 				</Folder>
 				<Folder Name="wwwRoot" ProjectDependent="1">
 					<File Name="favicon.ico" Size="1406" HashValue="B3D2122594565CE5AF565BE898EF539A" ProjectDependent="1"/>
 					<File Name="index.html" Size="4385" HashValue="BC3ED7AA954B2FBC318B1E291F29D2CE" ProjectDependent="1"/>
-					<File Name="VisualizationOperatorControl.json" Size="2251" HashValue="1F67C1266C3DAFD43D1F2ED1397470C9" ProjectDependent="1"/>
+					<File Name="VisualizationOperatorControl.json" Size="2676" HashValue="88C7EAF91F4BA4B78C372253DDECF270" ProjectDependent="1"/>
 					<File Name="Zbiorniki.json" Size="479" HashValue="B0D9D6E2455181DA5ED6318E4D6783B3" ProjectDependent="1"/>
 					<Folder Name="BRVisu" ProjectDependent="1">
 						<File Name="bootstrapper.min.js" Size="13375" HashValue="D970BA2261EFFBADA669B768E509AAF3" ProjectDependent="1"/>
@@ -712,10 +714,10 @@
 							</Folder>
 						</Folder>
 						<Folder Name="release" ProjectDependent="1">
-							<File Name="brease.js" Size="1310224" HashValue="A81B661AD26BA49580863CA36E20F771" ProjectDependent="1"/>
-							<File Name="brease_core.min.css" Size="441129" HashValue="1145B0A44F7F6417E237843C1B14B1EA" ProjectDependent="1"/>
-							<File Name="BuRThemeFlat1.min.css" Size="267514" HashValue="BDFC3C01D034CC1C5E37FD4E9BF11AC7" ProjectDependent="1"/>
-							<File Name="BuRThemeFlat2.min.css" Size="270493" HashValue="8072FB623CC35E87C978FC14881FB19C" ProjectDependent="1"/>
+							<File Name="brease.js" Size="1312775" HashValue="774DF340632B88C7752A1E605A96CD4B" ProjectDependent="1"/>
+							<File Name="brease_core.min.css" Size="442703" HashValue="4FC9AD48D51996BEAC377E320BD027DB" ProjectDependent="1"/>
+							<File Name="BuRThemeFlat1.min.css" Size="269006" HashValue="537C5D6BD5990A76A2F34B4F37EAD568" ProjectDependent="1"/>
+							<File Name="BuRThemeFlat2.min.css" Size="271985" HashValue="63469BD3FAAE362DFD24E0D01BA93D9E" ProjectDependent="1"/>
 						</Folder>
 						<Folder Name="system" ProjectDependent="1">
 							<Folder Name="brease" ProjectDependent="1">
@@ -1828,6 +1830,26 @@
 										<File Name="Login_Styles.xsd" Size="1346" HashValue="42BF6AC9881FC1AEB8D963CFA1BE12FE" ProjectDependent="1"/>
 									</Folder>
 								</Folder>
+								<Folder Name="LoginInfo" ProjectDependent="1">
+									<File Name="LoginInfo.html" Size="84" HashValue="5887E868066DE286F01F749431DD255D" ProjectDependent="1"/>
+									<File Name="LoginInfo.js" Size="1641" HashValue="60421913C9F833D376E1C1BCD7CAC797" ProjectDependent="1"/>
+									<Folder Name="designer" ProjectDependent="1">
+										<File Name="ClassInfo.js" Size="1918" HashValue="BCDBD59ABCE155218CADD298D8AA2494" ProjectDependent="1"/>
+									</Folder>
+									<Folder Name="meta" ProjectDependent="1">
+										<File Name="LoginInfo.json" Size="18659" HashValue="42D6E4B72B8D61E1412092F4EFA04CD0" ProjectDependent="1"/>
+										<File Name="LoginInfo.style" Size="781" HashValue="52FCAE7550F0D2ABCAA127683D4B13AE" ProjectDependent="1"/>
+										<File Name="LoginInfo.widget" Size="19139" HashValue="E015C2EB70FE821F4864486D49F07277" ProjectDependent="1"/>
+										<File Name="LoginInfo.xsd" Size="3566" HashValue="AAEA4F31647653669173913D595E26C6" ProjectDependent="1"/>
+										<File Name="LoginInfo_base.scss" Size="892" HashValue="5DF24B0CF94E24D7501E37B93275F221" ProjectDependent="1"/>
+										<File Name="LoginInfo_Copied.markerFile" Size="0" HashValue="D41D8CD98F00B204E9800998ECF8427E" ProjectDependent="1"/>
+										<File Name="LoginInfo_default.sass.css" Size="881" HashValue="B162599CD55B1A9C6BCD612FABAC2C45" ProjectDependent="1"/>
+										<File Name="LoginInfo_default.scss" Size="976" HashValue="E64FEE130C9C52AD9098D51D67715596" ProjectDependent="1"/>
+										<File Name="LoginInfo_doc.html" Size="28058" HashValue="A8DAFFD0CB1109BF5C356D540FA3161F" ProjectDependent="1"/>
+										<File Name="LoginInfo_EventsActions.xsd" Size="3625" HashValue="3659BEB5DA322EAD6F7094FF2A23629B" ProjectDependent="1"/>
+										<File Name="LoginInfo_Styles.xsd" Size="2115" HashValue="13F0EF842A83DC03B46B53FB9C53E55F" ProjectDependent="1"/>
+									</Folder>
+								</Folder>
 								<Folder Name="LogoutButton" ProjectDependent="1">
 									<File Name="LogoutButton.html" Size="83" HashValue="8D0F1BC77D30D572B81F15537C3C1C28" ProjectDependent="1"/>
 									<File Name="LogoutButton.js" Size="1449" HashValue="57CCD01AFEC20BAF312C1FCB477ADF9A" ProjectDependent="1"/>
@@ -2386,9 +2408,10 @@
 						<Folder Name="mappView" ProjectDependent="1">
 							<File Name="ContentAlarmPageControl.html" Size="2792" HashValue="9170F148E77B590EB5857CD41ABD4EC4" ProjectDependent="1"/>
 							<File Name="ContentLeftControl.html" Size="1534" HashValue="FE8B5790E0481FED401F3F497AF5A62C" ProjectDependent="1"/>
-							<File Name="ContentMainPageControl.html" Size="10822" HashValue="45079C328EAB9CACDE099499BBAEB02A" ProjectDependent="1"/>
-							<File Name="ContentServicePageControl.html" Size="2675" HashValue="4B0A7AA3BAF3633830840AA3ADC8F3BC" ProjectDependent="1"/>
-							<File Name="ContentTopControl.html" Size="659" HashValue="D4EA1924176ABDD9CBFA81582E50F65F" ProjectDependent="1"/>
+							<File Name="ContentLoginDialog.html" Size="1349" HashValue="2A76D5DB856E52F6743C4AC04F5031E0" ProjectDependent="1"/>
+							<File Name="ContentMainPageControl.html" Size="11911" HashValue="AAE0F93A03E721C08ED36B34FFB187FF" ProjectDependent="1"/>
+							<File Name="ContentServicePageControl.html" Size="2907" HashValue="FCE1AE70FBAF690EB47FC0CBE6315EEA" ProjectDependent="1"/>
+							<File Name="ContentTopControl.html" Size="1764" HashValue="ADC2FD4B3A8EFB3F0848A580AE255447" ProjectDependent="1"/>
 							<File Name="MainPageContent.html" Size="49239" HashValue="119AC7CF8C2A2FC35E44E17D90EB7707" ProjectDependent="1"/>
 						</Folder>
 					</Folder>

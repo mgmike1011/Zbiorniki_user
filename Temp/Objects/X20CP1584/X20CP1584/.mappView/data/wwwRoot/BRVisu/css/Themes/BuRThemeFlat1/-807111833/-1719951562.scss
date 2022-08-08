@@ -248,6 +248,32 @@ input {
 }
 
 }
+@import "../../../../widgets/brease/LoginInfo/meta/LoginInfo_base";
+.widgets_brease_LoginInfo_style_Output {
+@include widgets_brease_LoginInfo_base; 
+& span {
+	color: #646464;
+}
+	border-style: solid;
+&:before {
+	border-style: solid;
+}
+&:after {
+	border-style: solid;
+}
+	border-width: 1px;
+	border-color: #646464;
+&:before {
+	border-color: #646464;
+}
+&:after {
+	border-color: #646464;
+}
+	font-size: 20px;
+	background-color: transparent;
+@include font-weight-bold(false);
+
+}
 @import "../../../../widgets/brease/Label/meta/Label_base";
 .widgets_brease_Label_style_FavoriteWatch {
 @include widgets_brease_Label_base; 

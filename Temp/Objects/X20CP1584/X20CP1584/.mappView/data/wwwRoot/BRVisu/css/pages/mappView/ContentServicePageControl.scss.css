@@ -42,6 +42,14 @@
   z-index: 1;
 }
 
+#ContentServicePageControl_GroupBox1 > .header span {
+  color: #404040;
+}
+
+#ContentServicePageControl_GroupBox1 > .header span {
+  font-weight: bold;
+}
+
 #ContentServicePageControl_MeasurementSystemSelector1 {
   top: 15px;
   position: absolute;
@@ -84,6 +92,14 @@
 
 #ContentServicePageControl_GroupBox2 {
   z-index: 2;
+}
+
+#ContentServicePageControl_GroupBox2 > .header span {
+  color: #404040;
+}
+
+#ContentServicePageControl_GroupBox2 > .header span {
+  font-weight: bold;
 }
 
 #ContentServicePageControl_LanguageSelector1 {

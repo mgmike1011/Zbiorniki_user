@@ -23,6 +23,7 @@
   <widget name="widgets.brease.Line" />
   <widget name="widgets.brease.ListWidget" />
   <widget name="widgets.brease.Login" />
+  <widget name="widgets.brease.LoginInfo" />
   <widget name="widgets.brease.LogoutButton" />
   <widget name="widgets.brease.MeasurementSystemSelector" />
   <widget name="widgets.brease.MessageBox" />

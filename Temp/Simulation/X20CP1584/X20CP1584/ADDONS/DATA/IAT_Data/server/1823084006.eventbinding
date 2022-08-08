@@ -60,4 +60,61 @@
       </EventHandler>
     </EventBinding>
   </Content>
+  <Content id="ContentMainPageControl">
+    <EventBinding id="EventBinding_1">
+      <Source type="opcUa.Event" refId="::LevelScali:ZB1Percentage" event="ValueChanged" />
+      <EventHandler condition="newValue &gt;= 80">
+        <Action>
+          <Target type="widgets.brease.Image.Action" refId="ContentMainPageControl_Image2">
+            <Method type="widgets.brease.Image.Action.SetVisible"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="newValue &lt; 80">
+        <Action>
+          <Target type="widgets.brease.Image.Action" refId="ContentMainPageControl_Image2">
+            <Method type="widgets.brease.Image.Action.SetVisible"><Parameter name="value" xsi:type="BOOL" value="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+  <Content id="ContentMainPageControl">
+    <EventBinding id="EventBinding_2">
+      <Source type="opcUa.Event" refId="::LevelScali:ZB2Percentage" event="ValueChanged" />
+      <EventHandler condition="newValue &gt;= 80">
+        <Action>
+          <Target type="widgets.brease.Image.Action" refId="ContentMainPageControl_ImgZB2">
+            <Method type="widgets.brease.Image.Action.SetVisible"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="newValue &lt; 80">
+        <Action>
+          <Target type="widgets.brease.Image.Action" refId="ContentMainPageControl_ImgZB2">
+            <Method type="widgets.brease.Image.Action.SetVisible"><Parameter name="value" xsi:type="BOOL" value="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+  <Content id="ContentMainPageControl">
+    <EventBinding id="EventBinding_3">
+      <Source type="opcUa.Event" refId="::LevelScali:ZB3Percentage" event="ValueChanged" />
+      <EventHandler condition="newValue &gt;= 80">
+        <Action>
+          <Target type="widgets.brease.Image.Action" refId="ContentMainPageControl_ImgZB3">
+            <Method type="widgets.brease.Image.Action.SetVisible"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="newValue &lt; 80">
+        <Action>
+          <Target type="widgets.brease.Image.Action" refId="ContentMainPageControl_ImgZB3">
+            <Method type="widgets.brease.Image.Action.SetVisible"><Parameter name="value" xsi:type="BOOL" value="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Content>
 </EventBindingDefinition>

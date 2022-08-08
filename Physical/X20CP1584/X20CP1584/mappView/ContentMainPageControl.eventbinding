@@ -57,5 +57,56 @@
         </Sequence>
       </EventHandler>
     </EventBinding>
+    <EventBinding id="EventBinding_1">
+      <Source xsi:type="opcUa.Event" refId="::LevelScali:ZB1Percentage" event="ValueChanged" />
+      <EventHandler condition="newValue &gt;= 80">
+        <Action>
+          <Target xsi:type="widgets.brease.Image.Action" contentRefId="ContentMainPageControl" widgetRefId="Image2">
+            <Method xsi:type="widgets.brease.Image.Action.SetVisible" value="true" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="newValue &lt; 80">
+        <Action>
+          <Target xsi:type="widgets.brease.Image.Action" contentRefId="ContentMainPageControl" widgetRefId="Image2">
+            <Method xsi:type="widgets.brease.Image.Action.SetVisible" value="false" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_2">
+      <Source xsi:type="opcUa.Event" refId="::LevelScali:ZB2Percentage" event="ValueChanged" />
+      <EventHandler condition="newValue &gt;= 80">
+        <Action>
+          <Target xsi:type="widgets.brease.Image.Action" contentRefId="ContentMainPageControl" widgetRefId="ImgZB2">
+            <Method xsi:type="widgets.brease.Image.Action.SetVisible" value="true" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="newValue &lt; 80">
+        <Action>
+          <Target xsi:type="widgets.brease.Image.Action" contentRefId="ContentMainPageControl" widgetRefId="ImgZB2">
+            <Method xsi:type="widgets.brease.Image.Action.SetVisible" value="false" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_3">
+      <Source xsi:type="opcUa.Event" refId="::LevelScali:ZB3Percentage" event="ValueChanged" />
+      <EventHandler condition="newValue &gt;= 80">
+        <Action>
+          <Target xsi:type="widgets.brease.Image.Action" contentRefId="ContentMainPageControl" widgetRefId="ImgZB3">
+            <Method xsi:type="widgets.brease.Image.Action.SetVisible" value="true" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="newValue &lt; 80">
+        <Action>
+          <Target xsi:type="widgets.brease.Image.Action" contentRefId="ContentMainPageControl" widgetRefId="ImgZB3">
+            <Method xsi:type="widgets.brease.Image.Action.SetVisible" value="false" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
   </Bindings>
 </EventBindingSet>

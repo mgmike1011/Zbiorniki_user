@@ -247,3 +247,29 @@ input {
 }
 
 }
+@import "../../../../widgets/brease/LoginInfo/meta/LoginInfo_base";
+.widgets_brease_LoginInfo_style_Output {
+@include widgets_brease_LoginInfo_base; 
+& span {
+	color: #b4b4b4;
+}
+	border-style: solid;
+&:before {
+	border-style: solid;
+}
+&:after {
+	border-style: solid;
+}
+	border-width: 3px;
+	border-color: #b4b4b4;
+&:before {
+	border-color: #b4b4b4;
+}
+&:after {
+	border-color: #b4b4b4;
+}
+	font-size: 20px;
+	background-color: transparent;
+@include font-weight-bold(false);
+
+}

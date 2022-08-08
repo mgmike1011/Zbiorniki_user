@@ -693,6 +693,19 @@ span {
 }
 
 }
+@import "../../../../widgets/brease/LoginInfo/meta/LoginInfo_base";
+.widgets_brease_LoginInfo_style_default {
+@include widgets_brease_LoginInfo_base; 
+& span {
+	color: #474747;
+}
+	border-width: 0px;
+	font-size: 16px;
+	background-color: transparent;
+@include font-weight-bold(true);
+@include text-alignment-all('left');
+
+}
 @import "../../../../widgets/brease/Rectangle/meta/Rectangle_base";
 .widgets_brease_Rectangle_style_default {
 @include widgets_brease_Rectangle_base; 

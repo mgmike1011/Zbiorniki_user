@@ -3570,6 +3570,111 @@ div[id$="_breaseMainWrapper"]{position:absolute;pointer-events:none}.breaseInfoB
 #ContentTopControl_LogoutButton1 {
   z-index: 1;
 }
+
+#ContentTopControl_LogoutButton1:not(.disabled):not(.active):not(.checked) span {
+  color: #404040;
+}
+
+#ContentTopControl_LogoutButton1 span {
+  font-weight: bold;
+}
+
+#ContentTopControl_LoginInfo1 {
+  height: 30px;
+}
+
+#ContentTopControl_LoginInfo1 {
+  top: 15px;
+  position: absolute;
+}
+
+#ContentTopControl_LoginInfo1 {
+  left: 1050px;
+  position: absolute;
+}
+
+#ContentTopControl_LoginInfo1 {
+  width: 180px;
+}
+
+#ContentTopControl_LoginInfo1 {
+  z-index: 2;
+}
+
+#ContentTopControl_LoginInfo1 span {
+  color: #404040;
+}
+
+#ContentTopControl_LoginInfo1 {
+  justify-content: center;
+  text-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+#ContentTopControl_LoginInfo1 {
+  font-size: 18px;
+}
+
+#ContentTopControl_LoginInfo1 {
+  font-weight: bold;
+}
+
+#ContentTopControl_Label1 {
+  height: 30px;
+}
+
+#ContentTopControl_Label1 {
+  top: 15px;
+  position: absolute;
+}
+
+#ContentTopControl_Label1 {
+  left: 855px;
+  position: absolute;
+}
+
+#ContentTopControl_Label1 {
+  width: 170px;
+}
+
+#ContentTopControl_Label1 {
+  z-index: 3;
+}
+
+#ContentTopControl_Label1 span {
+  color: #404040;
+}
+
+#ContentTopControl_Label1 {
+  font-size: 18px;
+}
+
+#ContentTopControl_Label1 {
+  font-weight: bold;
+}
+
+#ContentTopControl_Image2 {
+  top: 60px;
+  position: absolute;
+}
+
+#ContentTopControl_Image2 {
+  left: 900px;
+  position: absolute;
+}
+
+#ContentTopControl_Image2 {
+  width: 45px;
+}
+
+#ContentTopControl_Image2 {
+  height: 45px;
+}
+
+#ContentTopControl_Image2 {
+  z-index: 4;
+}
 #ContentMainPageControl_BarChart1 {
   width: 300px;
 }
@@ -3733,7 +3838,7 @@ div[id$="_breaseMainWrapper"]{position:absolute;pointer-events:none}.breaseInfoB
 }
 
 #ContentMainPageControl_Label2 {
-  top: 240px;
+  top: 225px;
   position: absolute;
 }
 
@@ -3743,7 +3848,7 @@ div[id$="_breaseMainWrapper"]{position:absolute;pointer-events:none}.breaseInfoB
 }
 
 #ContentMainPageControl_Label2 {
-  width: 220px;
+  width: 385px;
 }
 
 #ContentMainPageControl_Label2 {
@@ -3763,10 +3868,6 @@ div[id$="_breaseMainWrapper"]{position:absolute;pointer-events:none}.breaseInfoB
 }
 
 #ContentMainPageControl_NumericOutput1 {
-  width: 100px;
-}
-
-#ContentMainPageControl_NumericOutput1 {
   height: 30px;
 }
 
@@ -3776,8 +3877,12 @@ div[id$="_breaseMainWrapper"]{position:absolute;pointer-events:none}.breaseInfoB
 }
 
 #ContentMainPageControl_NumericOutput1 {
-  left: 120px;
+  left: 60px;
   position: absolute;
+}
+
+#ContentMainPageControl_NumericOutput1 {
+  width: 225px;
 }
 
 #ContentMainPageControl_NumericOutput1 {
@@ -3792,8 +3897,9 @@ div[id$="_breaseMainWrapper"]{position:absolute;pointer-events:none}.breaseInfoB
   color: #404040;
 }
 
-#ContentMainPageControl_NumericOutput2 {
-  width: 100px;
+#ContentMainPageControl_NumericOutput1 input {
+  justify-content: center;
+  text-align: center;
 }
 
 #ContentMainPageControl_NumericOutput2 {
@@ -3806,8 +3912,12 @@ div[id$="_breaseMainWrapper"]{position:absolute;pointer-events:none}.breaseInfoB
 }
 
 #ContentMainPageControl_NumericOutput2 {
-  left: 400px;
+  left: 345px;
   position: absolute;
+}
+
+#ContentMainPageControl_NumericOutput2 {
+  width: 225px;
 }
 
 #ContentMainPageControl_NumericOutput2 {
@@ -3822,8 +3932,9 @@ div[id$="_breaseMainWrapper"]{position:absolute;pointer-events:none}.breaseInfoB
   color: #404040;
 }
 
-#ContentMainPageControl_NumericOutput3 {
-  width: 100px;
+#ContentMainPageControl_NumericOutput2 input {
+  justify-content: center;
+  text-align: center;
 }
 
 #ContentMainPageControl_NumericOutput3 {
@@ -3836,8 +3947,12 @@ div[id$="_breaseMainWrapper"]{position:absolute;pointer-events:none}.breaseInfoB
 }
 
 #ContentMainPageControl_NumericOutput3 {
-  left: 680px;
+  left: 615px;
   position: absolute;
+}
+
+#ContentMainPageControl_NumericOutput3 {
+  width: 240px;
 }
 
 #ContentMainPageControl_NumericOutput3 {
@@ -3850,6 +3965,11 @@ div[id$="_breaseMainWrapper"]{position:absolute;pointer-events:none}.breaseInfoB
 
 #ContentMainPageControl_NumericOutput3 span.breaseNumericOutput_unit {
   color: #404040;
+}
+
+#ContentMainPageControl_NumericOutput3 input {
+  justify-content: center;
+  text-align: center;
 }
 
 #ContentMainPageControl_Label3 {
@@ -4351,6 +4471,72 @@ div[id$="_breaseMainWrapper"]{position:absolute;pointer-events:none}.breaseInfoB
 #ContentMainPageControl_NumericInput2 input {
   font-weight: bold;
 }
+
+#ContentMainPageControl_ImgZB2 {
+  top: 540px;
+  position: absolute;
+}
+
+#ContentMainPageControl_ImgZB2 {
+  left: 315px;
+  position: absolute;
+}
+
+#ContentMainPageControl_ImgZB2 {
+  width: 60px;
+}
+
+#ContentMainPageControl_ImgZB2 {
+  height: 55px;
+}
+
+#ContentMainPageControl_ImgZB2 {
+  z-index: 12;
+}
+
+#ContentMainPageControl_Image2 {
+  top: 540px;
+  position: absolute;
+}
+
+#ContentMainPageControl_Image2 {
+  left: 0px;
+  position: absolute;
+}
+
+#ContentMainPageControl_Image2 {
+  width: 60px;
+}
+
+#ContentMainPageControl_Image2 {
+  height: 55px;
+}
+
+#ContentMainPageControl_Image2 {
+  z-index: 13;
+}
+
+#ContentMainPageControl_ImgZB3 {
+  top: 540px;
+  position: absolute;
+}
+
+#ContentMainPageControl_ImgZB3 {
+  left: 585px;
+  position: absolute;
+}
+
+#ContentMainPageControl_ImgZB3 {
+  width: 60px;
+}
+
+#ContentMainPageControl_ImgZB3 {
+  height: 55px;
+}
+
+#ContentMainPageControl_ImgZB3 {
+  z-index: 14;
+}
 #ContentAlarmPageControl_AlarmList1 {
   top: 15px;
   position: absolute;
@@ -4500,6 +4686,14 @@ div[id$="_breaseMainWrapper"]{position:absolute;pointer-events:none}.breaseInfoB
   z-index: 1;
 }
 
+#ContentServicePageControl_GroupBox1 > .header span {
+  color: #404040;
+}
+
+#ContentServicePageControl_GroupBox1 > .header span {
+  font-weight: bold;
+}
+
 #ContentServicePageControl_MeasurementSystemSelector1 {
   top: 15px;
   position: absolute;
@@ -4544,6 +4738,14 @@ div[id$="_breaseMainWrapper"]{position:absolute;pointer-events:none}.breaseInfoB
   z-index: 2;
 }
 
+#ContentServicePageControl_GroupBox2 > .header span {
+  color: #404040;
+}
+
+#ContentServicePageControl_GroupBox2 > .header span {
+  font-weight: bold;
+}
+
 #ContentServicePageControl_LanguageSelector1 {
   top: 15px;
   position: absolute;
@@ -4563,6 +4765,27 @@ div[id$="_breaseMainWrapper"]{position:absolute;pointer-events:none}.breaseInfoB
 }
 
 #ContentServicePageControl_LanguageSelector1 {
+  z-index: 0;
+}
+#ContentLoginDialog_Login1 {
+  top: 60px;
+  position: absolute;
+}
+
+#ContentLoginDialog_Login1 {
+  left: 0px;
+  position: absolute;
+}
+
+#ContentLoginDialog_Login1 {
+  width: 390px;
+}
+
+#ContentLoginDialog_Login1 {
+  height: 195px;
+}
+
+#ContentLoginDialog_Login1 {
   z-index: 0;
 }
 .remove{display:none !important}

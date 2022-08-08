@@ -29,6 +29,16 @@
 #ContentServicePageControl_GroupBox1 {
 		z-index: 1;
 }
+#ContentServicePageControl_GroupBox1 {
+	> .header span{
+		color: rgba(64, 64, 64, 1);
+	}
+}
+#ContentServicePageControl_GroupBox1 {
+	> .header span{
+	@include font-weight-bold(true);
+	}
+}
 #ContentServicePageControl_MeasurementSystemSelector1 {
 	@include elemTop(15);
 }
@@ -62,6 +72,16 @@
 }
 #ContentServicePageControl_GroupBox2 {
 		z-index: 2;
+}
+#ContentServicePageControl_GroupBox2 {
+	> .header span{
+		color: rgba(64, 64, 64, 1);
+	}
+}
+#ContentServicePageControl_GroupBox2 {
+	> .header span{
+	@include font-weight-bold(true);
+	}
 }
 #ContentServicePageControl_LanguageSelector1 {
 	@include elemTop(15);
