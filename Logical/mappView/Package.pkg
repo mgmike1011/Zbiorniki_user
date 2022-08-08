@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<?AutomationStudio Version=4.4.6.71 SP?>
+<?AutomationStudio FileVersion="4.9"?>
 <Package SubType="mappViewPackage" PackageType="mappViewPackage" xmlns="http://br-automation.co.at/AS/Package">
   <Objects>
     <Object Type="Package" Description="Layouts">Layouts</Object>
@@ -7,5 +7,6 @@
     <Object Type="Package" Description="Resources">Resources</Object>
     <Object Type="File">Project.language</Object>
     <Object Type="Package">Visualization</Object>
+    <Object Type="Package">VisualizationOperatorControl</Object>
   </Objects>
 </Package>

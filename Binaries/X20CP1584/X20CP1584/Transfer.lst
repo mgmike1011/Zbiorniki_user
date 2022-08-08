@@ -3,6 +3,7 @@
 <Transfer xmlns="http://br-automation.co.at/AS/Transfer">
   <OperatingSystem Version="B4.92"/>
   <Hardware Target="SG4"/>
+  <Operation Delete="AutomaticC.br"/>
   <Operation Delete="Tanks.br"/>
   <Operation Delete="ClockSigna.br"/>
   <Operation Delete="mvLoader.br"/>
@@ -26,10 +27,12 @@
   <Operation Download="mvLoader.br" Memory="UserROM"/>
   <Operation Download="OpcUaSrv.br" Memory="UserROM"/>
   <Operation Download="Role.br" Memory="UserROM"/>
+  <Operation Download="TC.br" Memory="UserROM"/>
   <Operation Download="TCData.br" Memory="SystemROM"/>
   <Operation Download="TCLang.br" Memory="UserROM"/>
   <Operation Download="udbdef.br" Memory="UserROM"/>
   <Operation Download="User.br" Memory="UserROM"/>
   <Operation Download="ClockSigna.br" Memory="UserROM"/>
   <Operation Download="Tanks.br" Memory="UserROM"/>
+  <Operation Download="AutomaticC.br" Memory="UserROM"/>
 </Transfer>

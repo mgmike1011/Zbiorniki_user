@@ -3,10 +3,6 @@
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\iat_media.job._markerfile">
     <BuildReason>Target "iat_media.job._markerfile" does not exist</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\server\config.mappviewcfg">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\x20cp1584\x20cp1584\mappview\config.mappviewcfg" differs.
-</BuildReason>
-  </Rule>
   <Rule ID=".mappView_Build">
     <BuildReason>Rule contains a phony target. </BuildReason>
   </Rule>

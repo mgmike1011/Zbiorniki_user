@@ -36,9 +36,10 @@
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\wwwroot\brvisu\widgets\brease\numpad\meta\numpad_copied.markerfile" LastWriteTime="2022-08-08 07:39:22" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\wwwroot\brvisu\widgets\brease\keyboard\meta\keyboard_copied.markerfile" LastWriteTime="2022-08-08 07:39:24" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\wwwroot\brvisu\widgets\brease\datetimepicker\meta\datetimepicker_copied.markerfile" LastWriteTime="2022-08-08 07:39:22" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\iat_media.job" LastWriteTime="2022-08-08 07:42:50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\iat_media.job" LastWriteTime="2022-08-08 09:03:34" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\iat_media.job._markerfile" LastWriteTime="1601-01-01 00:00:00" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\wwwroot\zbiorniki.json" LastWriteTime="2022-08-08 07:39:24" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\wwwroot\visualizationoperatorcontrol.json" LastWriteTime="2022-08-08 08:10:38" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\wwwroot\brvisu\css\pages\mappview\mainpagecontent.scss.css" LastWriteTime="2022-08-08 07:39:24" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\server\-222062230.binding._markerfile" LastWriteTime="2022-08-08 07:39:24" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\server\1534101751.binding._markerfile" LastWriteTime="2022-08-08 07:39:24" />
@@ -51,6 +52,7 @@
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\server\svar_1.sessionvar" LastWriteTime="2022-08-08 07:39:22" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\server\__systemvariables.sessionvar" LastWriteTime="2022-08-08 07:39:22" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\server\zbiorniki.vis" LastWriteTime="2022-08-08 07:39:04" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\server\visualizationoperatorcontrol.vis" LastWriteTime="2022-08-08 07:59:24" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\wwwroot\brvisu\css\themes\grunt.themescsso._markerfile" LastWriteTime="2022-08-08 07:39:30" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\wwwroot\grunt.breasecsso._markerfile" LastWriteTime="2022-08-08 07:39:32" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\wwwroot\grunt.breaserelease._markerfile" LastWriteTime="2022-08-08 07:39:38" />
@@ -298,7 +300,7 @@
     <CommandLine Parameter="-category CopyDirectory -i &quot;C:/BRAutomation/AS411/AS/TechnologyPackages/mappView/5.18.1/Widgets/brease/DateTimePicker&quot; -o &quot;D:/BuR/Projekt_indywidualny_/Zbiorniki_user/Temp/Objects/X20CP1584/X20CP1584/.mappView/data/wwwRoot/BRVisu/widgets/brease/DateTimePicker&quot; -markerFile &quot;D:/BuR/Projekt_indywidualny_/Zbiorniki_user/Temp/Objects/X20CP1584/X20CP1584/.mappView/data/wwwRoot/BRVisu/widgets/brease/DateTimePicker/meta/DateTimePicker_Copied.markerFile&quot; -cultureName &quot;pl-PL&quot; -uiCultureName &quot;en-US&quot;" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\iat_media.job._markerfile">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\iat_media.job" LastWriteTime="2022-08-08 07:42:50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\iat_media.job" LastWriteTime="2022-08-08 09:03:34" />
     <CommandLine Parameter="-category BulkCopy -i &quot;D:/BuR/Projekt_indywidualny_/Zbiorniki_user/Temp/Objects/X20CP1584/X20CP1584/IAT_MEDIA.job&quot; -o &quot;D:/BuR/Projekt_indywidualny_/Zbiorniki_user/Temp/Objects/X20CP1584/X20CP1584/IAT_MEDIA.job._markerfile&quot; -markerFile &quot;D:/BuR/Projekt_indywidualny_/Zbiorniki_user/Temp/Objects/X20CP1584/X20CP1584/IAT_MEDIA.job._markerfile&quot; -cultureName &quot;pl-PL&quot; -uiCultureName &quot;en-US&quot;" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\wwwroot\zbiorniki.json._markerfile">
@@ -315,6 +317,18 @@
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\server\654233811.eventbinding" LastWriteTime="2022-08-08 07:39:24" />
     <CommandLine Parameter="-i &quot;D:/BuR/Projekt_indywidualny_/Zbiorniki_user/Physical/X20CP1584/X20CP1584/mappView/Visualizat.vis&quot; -o &quot;D:/BuR/Projekt_indywidualny_/Zbiorniki_user/Temp/Objects/X20CP1584/X20CP1584/.mappView/data/wwwRoot/Zbiorniki.json&quot; -indexFile &quot;D:/BuR/Projekt_indywidualny_/Zbiorniki_user/Temp/Objects/X20CP1584/X20CP1584/.mappView/BR.IAT.indexfile&quot; -fileList &quot;D:/BuR/Projekt_indywidualny_/Zbiorniki_user/Temp/Objects/X20CP1584/X20CP1584/.mappView/zbiorniki_json.bin&quot; -logicalDir &quot;D:/BuR/Projekt_indywidualny_/Zbiorniki_user/Logical&quot; -cultureName &quot;pl-PL&quot; -uiCultureName &quot;en-US&quot;" />
   </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\wwwroot\visualizationoperatorcontrol.json._markerfile">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1584\x20cp1584\mappview\visopercon.vis" LastWriteTime="2022-08-08 07:59:18" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\.mappview_prerequisites._markerfile" LastWriteTime="2022-08-08 07:39:20" />
+    <CommandLine Parameter="-i &quot;D:/BuR/Projekt_indywidualny_/Zbiorniki_user/Physical/X20CP1584/X20CP1584/mappView/VisOperCon.vis&quot; -o &quot;D:/BuR/Projekt_indywidualny_/Zbiorniki_user/Temp/Objects/X20CP1584/X20CP1584/.mappView/data/wwwRoot/VisualizationOperatorControl.json._markerfile&quot; -schemaset &quot;C:/BRAutomation/AS411/AS/TechnologyPackages/mappView/5.18.1/Schemas/vis/Visualization.xmlschemaset&quot; -cultureName &quot;pl-PL&quot; -uiCultureName &quot;en-US&quot;" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\wwwroot\visualizationoperatorcontrol.json">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1584\x20cp1584\mappview\visopercon.vis" LastWriteTime="2022-08-08 07:59:18" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\wwwroot\visualizationoperatorcontrol.json._markerfile" LastWriteTime="2022-08-08 07:59:24" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\wwwroot\mainpagecontrol.page._markerfile" LastWriteTime="2022-08-08 08:10:38" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\wwwroot\mainlayoutcontrol.layout._markerfile" LastWriteTime="2022-08-08 08:10:38" />
+    <CommandLine Parameter="-i &quot;D:/BuR/Projekt_indywidualny_/Zbiorniki_user/Physical/X20CP1584/X20CP1584/mappView/VisOperCon.vis&quot; -o &quot;D:/BuR/Projekt_indywidualny_/Zbiorniki_user/Temp/Objects/X20CP1584/X20CP1584/.mappView/data/wwwRoot/VisualizationOperatorControl.json&quot; -indexFile &quot;D:/BuR/Projekt_indywidualny_/Zbiorniki_user/Temp/Objects/X20CP1584/X20CP1584/.mappView/BR.IAT.indexfile&quot; -fileList &quot;D:/BuR/Projekt_indywidualny_/Zbiorniki_user/Temp/Objects/X20CP1584/X20CP1584/.mappView/visualizationoperatorcontrol_json.bin&quot; -logicalDir &quot;D:/BuR/Projekt_indywidualny_/Zbiorniki_user/Logical&quot; -cultureName &quot;pl-PL&quot; -uiCultureName &quot;en-US&quot;" />
+  </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\wwwroot\mainpage.page._markerfile">
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\mainpage\mainpage.page" LastWriteTime="2019-02-19 09:27:10" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\.mappview_prerequisites._markerfile" LastWriteTime="2022-08-08 07:39:20" />
@@ -322,10 +336,21 @@
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\wwwroot\contents\mappview\mainpagecontent._markerfile" LastWriteTime="2022-08-08 07:39:24" />
     <CommandLine Parameter="-i &quot;D:/BuR/Projekt_indywidualny_/Zbiorniki_user/Logical/mappView/Visualization/Pages/MainPage/MainPage.page&quot; -o &quot;D:/BuR/Projekt_indywidualny_/Zbiorniki_user/Temp/Objects/X20CP1584/X20CP1584/.mappView/data/wwwRoot/MainPage.page._markerfile&quot; -schemaset &quot;C:/BRAutomation/AS411/AS/TechnologyPackages/mappView/5.18.1/Schemas/page/engineering/PageDefinition.xmlschemaset&quot; -cultureName &quot;pl-PL&quot; -uiCultureName &quot;en-US&quot;" />
   </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\wwwroot\mainpagecontrol.page._markerfile">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualizationoperatorcontrol\pages\mainpagecontrol\page.page" LastWriteTime="2022-08-08 08:10:04" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\.mappview_prerequisites._markerfile" LastWriteTime="2022-08-08 07:39:20" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\wwwroot\mainlayoutcontrol.layout._markerfile" LastWriteTime="2022-08-08 08:10:38" />
+    <CommandLine Parameter="-i &quot;D:/BuR/Projekt_indywidualny_/Zbiorniki_user/Logical/mappView/VisualizationOperatorControl/Pages/MainPageControl/Page.page&quot; -o &quot;D:/BuR/Projekt_indywidualny_/Zbiorniki_user/Temp/Objects/X20CP1584/X20CP1584/.mappView/data/wwwRoot/MainPageControl.page._markerfile&quot; -schemaset &quot;C:/BRAutomation/AS411/AS/TechnologyPackages/mappView/5.18.1/Schemas/page/engineering/PageDefinition.xmlschemaset&quot; -cultureName &quot;pl-PL&quot; -uiCultureName &quot;en-US&quot;" />
+  </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\wwwroot\mainlayout.layout._markerfile">
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\layouts\layout.layout" LastWriteTime="2019-02-18 14:38:48" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\.mappview_prerequisites._markerfile" LastWriteTime="2022-08-08 07:39:20" />
     <CommandLine Parameter="-i &quot;D:/BuR/Projekt_indywidualny_/Zbiorniki_user/Logical/mappView/Visualization/Layouts/Layout.layout&quot; -o &quot;D:/BuR/Projekt_indywidualny_/Zbiorniki_user/Temp/Objects/X20CP1584/X20CP1584/.mappView/data/wwwRoot/MainLayout.layout._markerfile&quot; -schemaset &quot;C:/BRAutomation/AS411/AS/TechnologyPackages/mappView/5.18.1/Schemas/layout/Layout.xmlschemaset&quot; -cultureName &quot;pl-PL&quot; -uiCultureName &quot;en-US&quot;" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\wwwroot\mainlayoutcontrol.layout._markerfile">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualizationoperatorcontrol\layouts\mainlayout.layout" LastWriteTime="2022-08-08 08:10:30" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\.mappview_prerequisites._markerfile" LastWriteTime="2022-08-08 07:39:20" />
+    <CommandLine Parameter="-i &quot;D:/BuR/Projekt_indywidualny_/Zbiorniki_user/Logical/mappView/VisualizationOperatorControl/Layouts/MainLayout.layout&quot; -o &quot;D:/BuR/Projekt_indywidualny_/Zbiorniki_user/Temp/Objects/X20CP1584/X20CP1584/.mappView/data/wwwRoot/MainLayoutControl.layout._markerfile&quot; -schemaset &quot;C:/BRAutomation/AS411/AS/TechnologyPackages/mappView/5.18.1/Schemas/layout/Layout.xmlschemaset&quot; -cultureName &quot;pl-PL&quot; -uiCultureName &quot;en-US&quot;" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\wwwroot\contents\mappview\mainpagecontent._markerfile">
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualization\pages\mainpage\mainpagecontent.content" LastWriteTime="2019-03-28 10:40:20" />
@@ -452,6 +477,10 @@
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\server\zbiorniki.vis">
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1584\x20cp1584\mappview\visualizat.vis" LastWriteTime="2019-04-08 11:07:26" />
     <CommandLine Parameter="-i &quot;D:/BuR/Projekt_indywidualny_/Zbiorniki_user/Physical/X20CP1584/X20CP1584/mappView/Visualizat.vis&quot; -o &quot;D:/BuR/Projekt_indywidualny_/Zbiorniki_user/Temp/Objects/X20CP1584/X20CP1584/.mappView/data/server/Zbiorniki.vis&quot; -eventBindingsSets  &quot;&quot; -cultureName &quot;pl-PL&quot; -uiCultureName &quot;en-US&quot;" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\server\visualizationoperatorcontrol.vis">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1584\x20cp1584\mappview\visopercon.vis" LastWriteTime="2022-08-08 07:59:18" />
+    <CommandLine Parameter="-i &quot;D:/BuR/Projekt_indywidualny_/Zbiorniki_user/Physical/X20CP1584/X20CP1584/mappView/VisOperCon.vis&quot; -o &quot;D:/BuR/Projekt_indywidualny_/Zbiorniki_user/Temp/Objects/X20CP1584/X20CP1584/.mappView/data/server/VisualizationOperatorControl.vis&quot; -eventBindingsSets  &quot;&quot; -cultureName &quot;pl-PL&quot; -uiCultureName &quot;en-US&quot;" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\wwwroot\brvisu\css\themes\grunt.themescsso._markerfile">
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\.mappview_prerequisites._markerfile" LastWriteTime="2022-08-08 07:39:20" />
@@ -1096,7 +1125,7 @@
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1584\x20cp1584\connectivity\opcua\opcuamap.uad" LastWriteTime="2019-04-08 11:15:58" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\sterowanie\mappingvariables.var" LastWriteTime="2019-04-08 11:15:58" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\wizualizacja\clocksignal\variables.var" LastWriteTime="2019-04-08 11:10:58" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1584\x20cp1584\cpu.sw" LastWriteTime="2019-04-10 10:19:04" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1584\x20cp1584\cpu.sw" LastWriteTime="2022-08-08 08:13:20" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\X20CP1584\X20CP1584\Connectivity\OpcUA\OpcUaMap.uad&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1584\X20CP1584\OpcUaMap\OpcUaMap.uar&quot; -H &quot;$(AS_PROJECT_PATH)\Physical\X20CP1584\Hardware.hw&quot; -B B4.92 -c X20CP1584 -P &quot;$(AS_PROJECT_PATH)&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; " />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\ashwac.br">
@@ -1132,13 +1161,14 @@
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1584\x20cp1584\iomap.iom" LastWriteTime="2019-04-08 11:02:02" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1584\x20cp1584\pvmap.vvm" LastWriteTime="2019-04-08 11:02:02" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1584\hardware.hw" LastWriteTime="2022-08-08 07:39:48" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1584\x20cp1584\cpu.sw" LastWriteTime="2019-04-10 10:19:04" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1584\x20cp1584\cpu.sw" LastWriteTime="2022-08-08 08:13:20" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\channelconfiguration.xml" LastWriteTime="2022-08-08 07:39:08" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\X20CP1584\X20CP1584\IoMap.iom&quot; &quot;$(AS_PROJECT_PATH)\Physical\X20CP1584\X20CP1584\PvMap.vvm&quot;  -m &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1584\X20CP1584\ConfigInfo.cfi&quot; -g &quot;$(AS_PROJECT_PATH)\Temp\Objects\Declarations.lst&quot; -x &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1584\X20CP1584\ChannelConfiguration.xml&quot; -v V1.00.0 -f &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1584\X20CP1584&quot; -iomap -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1584\X20CP1584\iomap.br&quot; -T SG4 -B B4.92 -P &quot;$(AS_PROJECT_PATH)&quot; -s &quot;X20CP1584.X20CP1584&quot;" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\tcdata\tcdata.imx">
-    <Prerequisite ID="c:\brautomation\as411\as\technologypackages\textsystem\n.d\objectcatalog\elements\textconfig\template\tc.textconfig" LastWriteTime="2022-01-12 12:20:20" />
-    <CommandLine Parameter=" -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1584\X20CP1584\TCData\TCData.imx&quot; -c &quot;C:\BRAutomation\AS411\AS\TechnologyPackages\TextSystem\n.d\ObjectCatalog\Elements\TextConfig\Template\TC.textconfig&quot; -I &quot;C:\BRAutomation\AS\System\B0492&quot; &quot;C:\BRAutomation\AS411\AS\TechnologyPackages\mappView\5.18.1&quot; &quot;C:\BRAutomation\AS411\AS\TechnologyPackages\UnitSystem\n.d&quot; -P &quot;$(AS_PROJECT_PATH)&quot;" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\visualizationoperatorcontrol\resources\texts\localizabletexts.tmx" LastWriteTime="2022-08-08 08:11:10" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1584\x20cp1584\textsystem\tc.textconfig" LastWriteTime="2022-08-08 08:11:46" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Logical\mappView\VisualizationOperatorControl\Resources\Texts\LocalizableTexts.tmx&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1584\X20CP1584\TCData\TCData.imx&quot; -c &quot;$(AS_PROJECT_PATH)\Physical\X20CP1584\X20CP1584\TextSystem\TC.textconfig&quot; -I &quot;C:\BRAutomation\AS\System\B0492&quot; &quot;C:\BRAutomation\AS411\AS\TechnologyPackages\mappView\5.18.1&quot; &quot;C:\BRAutomation\AS411\AS\TechnologyPackages\UnitSystem\n.d&quot; -P &quot;$(AS_PROJECT_PATH)&quot; -m mappView.VisualizationOperatorControl.Resources.Texts.LocalizableTexts.tmx" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\tcdata\tcdata.s18d">
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\tcdata\tcdata.imx" LastWriteTime="2022-08-08 07:39:08" />
@@ -1151,6 +1181,11 @@
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\tclang.br">
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\project.language" LastWriteTime="2019-02-13 10:48:30" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Logical\mappView\Project.language&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1584\X20CP1584\TCLang.br&quot; -zip -B B4.92 -z n.d -P &quot;$(AS_PROJECT_PATH)&quot; -c &quot;X20CP1584&quot; " />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\tc.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1584\x20cp1584\textsystem\tc.textconfig" LastWriteTime="2022-08-08 08:11:46" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\mappview\project.language" LastWriteTime="2019-02-13 10:48:30" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\X20CP1584\X20CP1584\TextSystem\TC.textconfig&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1584\X20CP1584\TC.br&quot; -zip -B B4.92 -z n.d -P &quot;$(AS_PROJECT_PATH)&quot; -c &quot;X20CP1584&quot; " />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\role.br">
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1584\x20cp1584\accessandsecurity\userrolesystem\role.role" LastWriteTime="2019-04-08 11:02:02" />
@@ -1243,6 +1278,55 @@
     <CommandLine Parameter="&quot;C:\BRAutomation\AS411\AS\gnuinst\V4.1.2\4.9\i386-elf\include\bur\_bur_pvdef.st&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1584\X20CP1584\Tanks\_bur_pvdef.st.o&quot; -S &quot;Main.st&quot;  -T SG4 -M IA32 -B B4.92 -G V4.1.2  -s &quot;Sterowanie.Tanks&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -pointers -extComments -extBitAccess -extConstants -D _SG4 -l &quot;$(AS_PROJECT_PATH)\Logical\Sterowanie\Tanks\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Sterowanie\Tanks\Variables.var&quot; -g &quot;$(AS_PROJECT_PATH)\Logical\Global.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Global.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Sterowanie\mappingVariables.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.var&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
     <AdditionalBuildTrigger Key="IecDeclarationsInAnsiC" Value="False" />
   </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\automaticc.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\automaticc\automaticc.ox" LastWriteTime="2022-08-08 08:58:20" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1584\x20cp1584\cpu.per" LastWriteTime="2019-04-08 11:02:02" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\standard\standard.fun" LastWriteTime="2019-04-08 11:17:48" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\sterowanie\automaticcontrol\variables.var" LastWriteTime="2022-08-08 08:58:12" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\sterowanie\mappingvariables.var" LastWriteTime="2019-04-08 11:15:58" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\sterowanie\automaticcontrol\types.typ" LastWriteTime="2022-08-08 08:19:04" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1584\X20CP1584\AutomaticC\AutomaticC.ox&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1584\X20CP1584\AutomaticC.br&quot; -v V1.00.0 -f &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1584\X20CP1584\NT.ofs&quot; -offsetLT &quot;$(AS_PROJECT_PATH)\Binaries\X20CP1584\X20CP1584\LT.ofs&quot; -T SG4 -M IA32 -B B4.92 -G V4.1.2  -extConstants -d &quot;runtime: V* - V*,asieccon: V* - V*&quot; -r Cyclic4 -p 3 -s &quot;Sterowanie.AutomaticControl&quot; -L &quot;AsIecCon: V*, astime: V*, operator: V*, runtime: V*, standard: V*&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
+    <AdditionalBuildTrigger Key="VolatileMemory" Value="65535" />
+    <AdditionalBuildTrigger Key="PermanentAnalogMemory" Value="0" />
+    <AdditionalBuildTrigger Key="PermanentDigitalMemory" Value="0" />
+    <AdditionalBuildTrigger Key="RemanentMemory" Value="4096" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\automaticc\automaticc.ox">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\automaticc\a.out" LastWriteTime="2022-08-08 08:58:20" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\standard\standard.fun" LastWriteTime="2019-04-08 11:17:48" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\sterowanie\automaticcontrol\variables.var" LastWriteTime="2022-08-08 08:58:12" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\sterowanie\mappingvariables.var" LastWriteTime="2019-04-08 11:15:58" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\sterowanie\automaticcontrol\types.typ" LastWriteTime="2022-08-08 08:19:04" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1584\X20CP1584\AutomaticC\a.out&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1584\X20CP1584\AutomaticC\AutomaticC.ox&quot; -T SG4 -r Cyclic4 -G V4.1.2  -B B4.92 " />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\automaticc\a.out">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\automaticc\main.st.o" LastWriteTime="2022-08-08 08:58:20" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\automaticc\_bur_pvdef.st.o" LastWriteTime="2022-08-08 08:58:20" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\standard\standard.fun" LastWriteTime="2019-04-08 11:17:48" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\sterowanie\automaticcontrol\variables.var" LastWriteTime="2022-08-08 08:58:12" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\sterowanie\mappingvariables.var" LastWriteTime="2019-04-08 11:15:58" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\sterowanie\automaticcontrol\types.typ" LastWriteTime="2022-08-08 08:19:04" />
+    <CommandLine Parameter=" -link &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1584\X20CP1584\AutomaticC\Main.st.o&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1584\X20CP1584\AutomaticC\_bur_pvdef.st.o&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1584\X20CP1584\AutomaticC\a.out&quot; -G V4.1.2  -T SG4 -M IA32 &quot;-Wl,C:\BRAutomation\AS\System\B0492\SG4\Ia32\libAsIecCon.a&quot; &quot;-Wl,C:\BRAutomation\AS\System\B0492\SG4\Ia32\libastime.a&quot; &quot;-Wl,C:\BRAutomation\AS\System\B0492\SG4\Ia32\libstandard.a&quot; &quot;-Wl,C:\BRAutomation\AS\System\B0492\SG4\Ia32\libruntime.a&quot; &quot;-Wl,C:\BRAutomation\AS\System\B0492\SG4\Ia32\liboperator.a&quot; -specs &quot;C:\BRAutomation\AS411\AS\gnuinst\V4.1.2\4.9\i386-elf\specs\I386specs_brelf&quot; -nostdlib" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\automaticc\main.st.o">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\sterowanie\automaticcontrol\main.st" LastWriteTime="2022-08-08 08:57:28" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\standard\standard.fun" LastWriteTime="2019-04-08 11:17:48" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\sterowanie\automaticcontrol\variables.var" LastWriteTime="2022-08-08 08:58:12" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\sterowanie\mappingvariables.var" LastWriteTime="2019-04-08 11:15:58" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\sterowanie\automaticcontrol\types.typ" LastWriteTime="2022-08-08 08:19:04" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Logical\Sterowanie\AutomaticControl\Main.st&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1584\X20CP1584\AutomaticC\Main.st.o&quot; -T SG4 -M IA32 -B B4.92 -G V4.1.2  -s &quot;Sterowanie.AutomaticControl&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -pointers -extComments -extBitAccess -extConstants -D _SG4 -l &quot;$(AS_PROJECT_PATH)\Logical\Sterowanie\AutomaticControl\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Sterowanie\AutomaticControl\Variables.var&quot; -g &quot;$(AS_PROJECT_PATH)\Logical\Global.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Global.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Sterowanie\mappingVariables.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.var&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
+    <AdditionalBuildTrigger Key="IecDeclarationsInAnsiC" Value="False" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\automaticc\_bur_pvdef.st.o">
+    <Prerequisite ID="c:\brautomation\as411\as\gnuinst\v4.1.2\4.9\i386-elf\include\bur\_bur_pvdef.st" LastWriteTime="2022-01-12 12:20:12" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\automaticc\main.st.o" LastWriteTime="2022-08-08 08:58:20" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\standard\standard.fun" LastWriteTime="2019-04-08 11:17:48" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\sterowanie\automaticcontrol\variables.var" LastWriteTime="2022-08-08 08:58:12" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\sterowanie\mappingvariables.var" LastWriteTime="2019-04-08 11:15:58" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\sterowanie\automaticcontrol\types.typ" LastWriteTime="2022-08-08 08:19:04" />
+    <CommandLine Parameter="&quot;C:\BRAutomation\AS411\AS\gnuinst\V4.1.2\4.9\i386-elf\include\bur\_bur_pvdef.st&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\X20CP1584\X20CP1584\AutomaticC\_bur_pvdef.st.o&quot; -S &quot;Main.st&quot;  -T SG4 -M IA32 -B B4.92 -G V4.1.2  -s &quot;Sterowanie.AutomaticControl&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -pointers -extComments -extBitAccess -extConstants -D _SG4 -l &quot;$(AS_PROJECT_PATH)\Logical\Sterowanie\AutomaticControl\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Sterowanie\AutomaticControl\Variables.var&quot; -g &quot;$(AS_PROJECT_PATH)\Logical\Global.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Global.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Sterowanie\mappingVariables.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\astime\astime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\standard\standard.var&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
+    <AdditionalBuildTrigger Key="IecDeclarationsInAnsiC" Value="False" />
+  </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\standard.br">
     <Prerequisite ID="c:\brautomation\as\system\b0492\sg4\ia32\standard.br" LastWriteTime="2021-12-02 10:49:00" />
     <CommandLine Parameter="C:\BRAutomation\AS\System\B0492\SG4\Ia32\standard.br, $(AS_PROJECT_PATH)\Temp\Objects\X20CP1584\X20CP1584\standard.br" />
@@ -1261,13 +1345,15 @@
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\iomap.br" LastWriteTime="2022-08-08 07:39:10" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\tcdata.br" LastWriteTime="2022-08-08 07:39:10" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\tclang.br" LastWriteTime="2022-08-08 07:39:08" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\tc.br" LastWriteTime="2022-08-08 08:44:22" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\role.br" LastWriteTime="2022-08-08 07:39:08" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\user.br" LastWriteTime="2022-08-08 07:39:08" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\opcuasrv.br" LastWriteTime="2022-08-08 07:39:08" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\clocksigna.br" LastWriteTime="2022-08-08 07:39:04" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\tanks.br" LastWriteTime="2022-08-08 07:39:04" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\automaticc.br" LastWriteTime="2022-08-08 08:58:20" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\standard.br" LastWriteTime="2021-12-02 10:49:00" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1584\x20cp1584\cpu.sw" LastWriteTime="2019-04-10 10:19:04" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\x20cp1584\x20cp1584\cpu.sw" LastWriteTime="2022-08-08 08:13:20" />
     <CommandLine Parameter=" &quot;$(AS_PROJECT_PATH)\CaseWeek_user.apj&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -o &quot;$(AS_PROJECT_PATH)\Binaries&quot; -c &quot;X20CP1584&quot; -i &quot;C:\BRAutomation\AS411&quot; -S &quot;X20CP1584&quot; -A &quot;X20CP1584&quot; -pil -swFiles &quot;$(AS_PROJECT_PATH)\Physical\X20CP1584\X20CP1584\Cpu.sw&quot; -Z &quot;mappView: 5.18.1, Connectivity: n.d, UnitSystem: n.d, TextSystem: n.d, ProgrammingSystem: n.d, RemanentData: n.d, AAS: n.d&quot; -C &quot;/COMT=2500 /RT=1000 /AM=* /SDT=5 /DAIP=192.168.20.15 /REPO=11159 /ANSL=1 /PT=11169&quot; -D &quot;/IF=tcpip /LOPO=11159 /SA=1&quot; -M IA32 -T SG4" />
   </Rule>
 </RuleSetOptions>

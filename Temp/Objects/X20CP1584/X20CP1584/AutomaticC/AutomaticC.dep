@@ -1,0 +1,4 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/standard/standard.fun
+$(AS_PROJECT_PATH)/Logical/Sterowanie/AutomaticControl/Variables.var
+$(AS_PROJECT_PATH)/Logical/Sterowanie/mappingVariables.var
+$(AS_PROJECT_PATH)/Logical/Sterowanie/AutomaticControl/Types.typ

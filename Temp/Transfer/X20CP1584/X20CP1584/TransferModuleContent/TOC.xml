@@ -10,6 +10,7 @@
 					<File Name="654233811.eventbinding" Size="34451" HashValue="E4DD359C1DCDF72B3EEF1782218C0FB0" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="Config.mappviewcfg" Size="1815" HashValue="0D783EFE3B6004B6CBB7D0F6FD6D506D" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="Tanks_expressionsSet.expression" Size="6689" HashValue="5C8492414502DD6702B0E1CA5B9AE395" ProjectDependent="1" IgnoreDifference="0" />
+					<File Name="VisualizationOperatorControl.vis" Size="800" HashValue="A3C2CF67AB3F3B03B33C660704A16CBF" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="Zbiorniki.vis" Size="1299" HashValue="74AD0C15CC0E07A33ECDBAB1D002DE3C" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="__SystemVariables.sessionVar" Size="3679" HashValue="47F4015152DC77A4E81EB725C733FBD6" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="svar_1.sessionVar" Size="5135" HashValue="3DD5FA269102CC26E083AFCBAF490FAD" ProjectDependent="1" IgnoreDifference="0" />
@@ -1494,6 +1495,7 @@
 							<File Name="index.html" Size="2479" HashValue="F1F1D0084A9D511CE769D2BF4C3C77CD" ProjectDependent="1" IgnoreDifference="0" />
 						</Folder>
 					</Folder>
+					<File Name="VisualizationOperatorControl.json" Size="423" HashValue="79036C78CC8A255915082E7EE7D35586" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="Zbiorniki.json" Size="479" HashValue="B0D9D6E2455181DA5ED6318E4D6783B3" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="favicon.ico" Size="1406" HashValue="B3D2122594565CE5AF565BE898EF539A" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="index.html" Size="4385" HashValue="BC3ED7AA954B2FBC318B1E291F29D2CE" ProjectDependent="1" IgnoreDifference="0" />
@@ -1502,7 +1504,7 @@
 			<Folder Name="OPCUA" ProjectDependent="1" IgnoreDifference="0" IsGroup="1">
 				<Folder Name="NodeSet" ProjectDependent="1" IgnoreDifference="0">
 					<Folder Name="Generated" ProjectDependent="1" IgnoreDifference="0">
-						<File Name="OpcUaMap.uar.gz" Size="622" HashValue="A8D2C15DB204057582BBA9C790F90F2B" ProjectDependent="1" IgnoreDifference="0" />
+						<File Name="OpcUaMap.uar.gz" Size="622" HashValue="2C2CDC78269994EF07CB32CE52A81E3A" ProjectDependent="1" IgnoreDifference="0" />
 					</Folder>
 					<Folder Name="Vendor" ProjectDependent="1" IgnoreDifference="0">
 						<File Name="plc.aprol.uanodeset" Size="6712" HashValue="08ADF5B15D3AF0566E164F0E4D4FB418" ProjectDependent="1" IgnoreDifference="0" />
@@ -1589,10 +1591,12 @@
 		<Memory Name="USERROM">
 			<Module Name="::ArSsl" Type="18" Size="13436" Modified="2021-12-02 10:23:01" Version="4.92" ProjectDependent="1" />
 			<Module Name="::AsIecCon" Type="18" Size="17432" Modified="2021-12-02 10:27:54" Version="4.92" ProjectDependent="1" />
+			<Module Name="::AutomaticC" Type="17" Size="3456" Modified="2022-08-08 10:58:21" Version="1.00" ProjectDependent="1" />
 			<Module Name="::ClockSigna" Type="17" Size="2396" Modified="2022-08-08 09:39:05" Version="1.00" ProjectDependent="1" />
 			<Module Name="::FileIO" Type="18" Size="38708" Modified="2021-12-02 10:39:56" Version="4.92" ProjectDependent="1" />
 			<Module Name="::OpcUaSrv" Type="136" Size="1048" Modified="2022-08-08 09:39:09" Version="5.181" ProjectDependent="1" />
 			<Module Name="::Role" Type="136" Size="760" Modified="2022-08-08 09:39:09" Version="1.00" ProjectDependent="1" />
+			<Module Name="::TC" Type="136" Size="864" Modified="2022-08-08 10:44:22" Version="1.00" ProjectDependent="1" />
 			<Module Name="::TCLang" Type="136" Size="1840" Modified="2022-08-08 09:39:09" Version="1.00" ProjectDependent="1" />
 			<Module Name="::Tanks" Type="17" Size="2284" Modified="2022-08-08 09:39:05" Version="1.00" ProjectDependent="1" />
 			<Module Name="::User" Type="136" Size="648" Modified="2022-08-08 09:39:09" Version="1.00" ProjectDependent="1" />

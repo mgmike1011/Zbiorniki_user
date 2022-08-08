@@ -1,0 +1,11 @@
+VAR
+	Step : State := STATE_STOP;
+	Mieszanie : BOOL := FALSE;
+	Start : BOOL := FALSE;
+	TimerMixing : TON;
+	ZB3LevelMaxMix : INT := 10000;
+	ZB3LevelMax : INT := 8000;
+	ZB2LevelMax : INT := 8000;
+	ZB1LevelMax : INT := 8000;
+	Stop : BOOL := FALSE;
+END_VAR
