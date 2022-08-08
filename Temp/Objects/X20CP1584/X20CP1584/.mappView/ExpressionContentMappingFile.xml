@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mappings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Mapping contentRefId="MainPageContent" expressionRefId="Zb3_lewy_przeplyw" />
+  <Mapping contentRefId="MainPageContent" expressionRefId="Zb3_prawy_przeplyw" />
+  <Mapping contentRefId="MainPageContent" expressionRefId="Zb3_prawy_zawor" />
+  <Mapping contentRefId="MainPageContent" expressionRefId="Zb3_lewy_zawor" />
+  <Mapping contentRefId="MainPageContent" expressionRefId="Zb3_przeplyw" />
+  <Mapping contentRefId="MainPageContent" expressionRefId="Zb1_zawor_Negative" />
+  <Mapping contentRefId="MainPageContent" expressionRefId="Zb2_zawor_Negative" />
+  <Mapping contentRefId="MainPageContent" expressionRefId="Zb3_zawor_Negative" />
+  <Mapping contentRefId="MainPageContent" expressionRefId="Mixer_Visible" />
+  <Mapping contentRefId="MainPageContent" expressionRefId="Zb1_rising" />
+  <Mapping contentRefId="MainPageContent" expressionRefId="Zb2_rising" />
+  <Mapping contentRefId="MainPageContent" expressionRefId="Zb1_droping" />
+  <Mapping contentRefId="MainPageContent" expressionRefId="Zb2_droping" />
+  <Mapping contentRefId="MainPageContent" expressionRefId="Zb3_droping" />
+  <Mapping contentRefId="MainPageContent" expressionRefId="Zb1_change" />
+  <Mapping contentRefId="MainPageContent" expressionRefId="Zb2_change" />
+  <Mapping contentRefId="MainPageContent" expressionRefId="Zb3_change" />
+  <Mapping contentRefId="MainPageContent" expressionRefId="Zb12_decrease" />
+</Mappings>

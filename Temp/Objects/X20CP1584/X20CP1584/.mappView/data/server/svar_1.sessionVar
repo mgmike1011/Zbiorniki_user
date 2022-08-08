@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VariableDefinition xmlns="http://www.br-automation.com/iat2014/session/runtime/v1">
+  <Session>
+    <Variable name="Zb1_poziom" xsi:type="ANY_INT" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+  </Session>
+  <Session>
+    <Variable name="Zb2_poziom" xsi:type="ANY_INT" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+  </Session>
+  <Session>
+    <Variable name="Zb3_poziom" xsi:type="ANY_INT" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+  </Session>
+  <Session>
+    <Variable name="Zb3_zawor_lewy" xsi:type="ANY_INT" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+  </Session>
+  <Session>
+    <Variable name="Zb3_zawor_prawy" xsi:type="ANY_INT" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+  </Session>
+  <Session>
+    <Variable name="Zb1_zawor" xsi:type="BOOL" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+  </Session>
+  <Session>
+    <Variable name="Zb2_zawor" xsi:type="BOOL" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+  </Session>
+  <Session>
+    <Variable name="Zb3_zawor" xsi:type="BOOL" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+  </Session>
+  <Session>
+    <Variable name="Mieszadlo" xsi:type="BOOL" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+  </Session>
+  <Session>
+    <Variable name="Zb3_lewy_przeplyw" xsi:type="BOOL" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+  </Session>
+  <Session>
+    <Variable name="Zb3_prawy_przeplyw" xsi:type="BOOL" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+  </Session>
+  <Session>
+    <Variable name="Zawory_dwustanowe" xsi:type="BOOL" value="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+  </Session>
+  <Session>
+    <Variable name="Zawory_analogowe" xsi:type="BOOL" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+  </Session>
+  <Session>
+    <Variable name="Mieszadlo_Mruganie" xsi:type="BOOL" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+  </Session>
+  <Session>
+    <Variable name="Zb3_prawy_przeplyw_expression_result" xsi:type="BOOL" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+  </Session>
+  <Session>
+    <Variable name="Zb3_lewy_przeplyw_expression_result" xsi:type="BOOL" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+  </Session>
+  <Session>
+    <Variable name="Zb3_przeplyw_expression_result" xsi:type="BOOL" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+  </Session>
+  <Session>
+    <Variable name="ClockSignal" xsi:type="BOOL" value="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+  </Session>
+  <Session>
+    <Variable name="MixerClockSignal" xsi:type="BOOL" value="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+  </Session>
+  <Session>
+    <Variable name="Zb1_rising_expression_result" xsi:type="BOOL" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+  </Session>
+  <Session>
+    <Variable name="Zb2_rising_expression_result" xsi:type="BOOL" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+  </Session>
+  <Session>
+    <Variable name="Zb1_droping_expression_result" xsi:type="BOOL" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+  </Session>
+  <Session>
+    <Variable name="Zb2_droping_expression_result" xsi:type="BOOL" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+  </Session>
+  <Session>
+    <Variable name="Zb3_droping_expression_result" xsi:type="BOOL" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+  </Session>
+  <Session>
+    <Variable name="Zb1_change" xsi:type="ANY_INT" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+  </Session>
+  <Session>
+    <Variable name="Zb2_change" xsi:type="ANY_INT" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+  </Session>
+  <Session>
+    <Variable name="Zb3_change" xsi:type="ANY_INT" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+  </Session>
+  <Session>
+    <Variable name="Zb1_increase" xsi:type="ANY_INT" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+  </Session>
+  <Session>
+    <Variable name="Zb1_decrease" xsi:type="ANY_INT" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+  </Session>
+  <Session>
+    <Variable name="Zb2_increase" xsi:type="ANY_INT" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+  </Session>
+  <Session>
+    <Variable name="Zb2_decrease" xsi:type="ANY_INT" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+  </Session>
+  <Session>
+    <Variable name="Zb3_decrease" xsi:type="ANY_INT" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+  </Session>
+  <Session>
+    <Variable name="Zb12Decrease" xsi:type="ANY_INT" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+  </Session>
+</VariableDefinition>

@@ -1,0 +1,557 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.11.2.75"?>
+<Objects>
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Package.pkg"
+    LogicalPath=""
+    Type="Package.ParentUnknown"
+    LastWriteTime="131991956780000000" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Global.typ"
+    LogicalPath="Global.typ"
+    Type="File"
+    LastWriteTime="131991949160000000"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Global.var"
+    LogicalPath="Global.var"
+    Type="File"
+    LastWriteTime="131991949160000000"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Libraries\Package.pkg"
+    LogicalPath="Libraries"
+    Type="Package"
+    LastWriteTime="131991958680000000" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Libraries\operator\Binary.lby"
+    LogicalPath="Libraries.operator"
+    Type="Library"
+    LastWriteTime="131991949200000000" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Libraries\operator\operator.fun"
+    LogicalPath="Libraries.operator.operator.fun"
+    Type="File"
+    LastWriteTime="131991949200000000"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Libraries\operator\operator.typ"
+    LogicalPath="Libraries.operator.operator.typ"
+    Type="File"
+    LastWriteTime="131991949200000000"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Libraries\operator\operator.var"
+    LogicalPath="Libraries.operator.operator.var"
+    Type="File"
+    LastWriteTime="131991949200000000"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Libraries\runtime\Binary.lby"
+    LogicalPath="Libraries.runtime"
+    Type="Library"
+    LastWriteTime="131991949200000000" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Libraries\runtime\runtime.fun"
+    LogicalPath="Libraries.runtime.runtime.fun"
+    Type="File"
+    LastWriteTime="131991949200000000"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Libraries\runtime\runtime.typ"
+    LogicalPath="Libraries.runtime.runtime.typ"
+    Type="File"
+    LastWriteTime="131991949200000000"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Libraries\runtime\runtime.var"
+    LogicalPath="Libraries.runtime.runtime.var"
+    Type="File"
+    LastWriteTime="131991949200000000"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Libraries\astime\Binary.lby"
+    LogicalPath="Libraries.astime"
+    Type="Library"
+    LastWriteTime="131991949200000000" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Libraries\astime\astime.fun"
+    LogicalPath="Libraries.astime.astime.fun"
+    Type="File"
+    LastWriteTime="131991949200000000"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Libraries\astime\astime.typ"
+    LogicalPath="Libraries.astime.astime.typ"
+    Type="File"
+    LastWriteTime="131991949200000000"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Libraries\astime\astime.var"
+    LogicalPath="Libraries.astime.astime.var"
+    Type="File"
+    LastWriteTime="131991949200000000"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Libraries\AsIecCon\Binary.lby"
+    LogicalPath="Libraries.AsIecCon"
+    Type="Library"
+    LastWriteTime="131991949220000000" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Libraries\AsIecCon\AsIecCon.fun"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.fun"
+    Type="File"
+    LastWriteTime="131991949220000000"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Libraries\AsIecCon\AsIecCon.typ"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.typ"
+    Type="File"
+    LastWriteTime="131991949220000000"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Libraries\AsIecCon\AsIecCon.var"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.var"
+    Type="File"
+    LastWriteTime="131991949220000000"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Libraries\standard\Binary.lby"
+    LogicalPath="Libraries.standard"
+    Type="Library"
+    LastWriteTime="131991958680000000" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Libraries\standard\standard.fun"
+    LogicalPath="Libraries.standard.standard.fun"
+    Type="File"
+    LastWriteTime="131991958680000000"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Libraries\standard\standard.typ"
+    LogicalPath="Libraries.standard.standard.typ"
+    Type="File"
+    LastWriteTime="131991958680000000"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Libraries\standard\standard.var"
+    LogicalPath="Libraries.standard.standard.var"
+    Type="File"
+    LastWriteTime="131991958680000000"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Wizualizacja\Package.pkg"
+    LogicalPath="Wizualizacja"
+    Type="Package"
+    LastWriteTime="131991954580000000" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Wizualizacja\ClockSignal\IEC.prg"
+    LogicalPath="Wizualizacja.ClockSignal"
+    Type="Program"
+    LastWriteTime="131991954580000000" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Wizualizacja\ClockSignal\Main.st"
+    LogicalPath="Wizualizacja.ClockSignal.Main.st"
+    Type="File"
+    LastWriteTime="131991954580000000"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Wizualizacja\ClockSignal\Types.typ"
+    LogicalPath="Wizualizacja.ClockSignal.Types.typ"
+    Type="File"
+    LastWriteTime="131991954580000000"
+    Private="true" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Wizualizacja\ClockSignal\Variables.var"
+    LogicalPath="Wizualizacja.ClockSignal.Variables.var"
+    Type="File"
+    LastWriteTime="131991954580000000"
+    Private="true" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Package.pkg"
+    LogicalPath="mappView"
+    Type="Package"
+    LastWriteTime="131945186480000000" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Layouts\Package.pkg"
+    LogicalPath="mappView.Layouts"
+    Type="Package"
+    LastWriteTime="131945186280000000" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Widgets\Package.pkg"
+    LogicalPath="mappView.Widgets"
+    Type="Package"
+    LastWriteTime="131945186280000000" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Package.pkg"
+    LogicalPath="mappView.Resources"
+    Type="Package"
+    LastWriteTime="131945186280000000" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Texts\Package.pkg"
+    LogicalPath="mappView.Resources.Texts"
+    Type="Package"
+    LastWriteTime="131945186280000000" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Snippets\Package.pkg"
+    LogicalPath="mappView.Resources.Snippets"
+    Type="Package"
+    LastWriteTime="131945186280000000" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Themes\Package.pkg"
+    LogicalPath="mappView.Resources.Themes"
+    Type="Package"
+    LastWriteTime="131945186280000000" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\Package.pkg"
+    LogicalPath="mappView.Resources.Media"
+    Type="Package"
+    LastWriteTime="131971275640000000" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Project.language"
+    LogicalPath="mappView.Project.language"
+    Type="File"
+    LastWriteTime="131945285100000000"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Visualization\Package.pkg"
+    LogicalPath="mappView.Visualization"
+    Type="Package"
+    LastWriteTime="131945186480000000" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Visualization\Pages\Package.pkg"
+    LogicalPath="mappView.Visualization.Pages"
+    Type="Package"
+    LastWriteTime="131945274820000000" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Visualization\Pages\AreaContents\Package.pkg"
+    LogicalPath="mappView.Visualization.Pages.AreaContents"
+    Type="Package"
+    LastWriteTime="131950586240000000" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Visualization\Pages\MainPage\Package.pkg"
+    LogicalPath="mappView.Visualization.Pages.MainPage"
+    Type="Package"
+    LastWriteTime="131945274720000000" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Visualization\Pages\MainPage\MainPage.page"
+    LogicalPath="mappView.Visualization.Pages.MainPage.MainPage.page"
+    Type="File"
+    LastWriteTime="131950420300000000"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Visualization\Pages\MainPage\MainPageContent.content"
+    LogicalPath="mappView.Visualization.Pages.MainPage.MainPageContent.content"
+    Type="File"
+    LastWriteTime="131982432200000000"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Visualization\Variables\Package.pkg"
+    LogicalPath="mappView.Visualization.Variables"
+    Type="Package"
+    LastWriteTime="131945191320000000" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Visualization\Variables\sessionvar.svar"
+    LogicalPath="mappView.Visualization.Variables.sessionvar.svar"
+    Type="File"
+    LastWriteTime="131977361380000000"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Visualization\Expressions\Package.pkg"
+    LogicalPath="mappView.Visualization.Expressions"
+    Type="Package"
+    LastWriteTime="131952086720000000" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Visualization\Expressions\Expression.expression"
+    LogicalPath="mappView.Visualization.Expressions.Expression.expression"
+    Type="File"
+    LastWriteTime="131977359180000000"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Visualization\Expressions\ExpressionType.expressiontype"
+    LogicalPath="mappView.Visualization.Expressions.ExpressionType.expressiontype"
+    Type="File"
+    LastWriteTime="131977361380000000"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Visualization\Layouts\Package.pkg"
+    LogicalPath="mappView.Visualization.Layouts"
+    Type="Package"
+    LastWriteTime="131945270780000000" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Visualization\Layouts\Layout.layout"
+    LogicalPath="mappView.Visualization.Layouts.Layout.layout"
+    Type="File"
+    LastWriteTime="131949743280000000"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Visualization\Dialogs\Package.pkg"
+    LogicalPath="mappView.Visualization.Dialogs"
+    Type="Package"
+    LastWriteTime="131945186480000000" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Visualization\Dialogs\AreaContents\Package.pkg"
+    LogicalPath="mappView.Visualization.Dialogs.AreaContents"
+    Type="Package"
+    LastWriteTime="131945186480000000" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Visualization\Resources\Package.pkg"
+    LogicalPath="mappView.Visualization.Resources"
+    Type="Package"
+    LastWriteTime="131945186480000000" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Visualization\Resources\Texts\Package.pkg"
+    LogicalPath="mappView.Visualization.Resources.Texts"
+    Type="Package"
+    LastWriteTime="131945186480000000" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Visualization\Resources\Snippets\Package.pkg"
+    LogicalPath="mappView.Visualization.Resources.Snippets"
+    Type="Package"
+    LastWriteTime="131971116680000000" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Sterowanie\Package.pkg"
+    LogicalPath="Sterowanie"
+    Type="Package"
+    LastWriteTime="131993651440000000" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Sterowanie\mappingVariables.var"
+    LogicalPath="Sterowanie.mappingVariables.var"
+    Type="File"
+    LastWriteTime="131991957580000000"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Sterowanie\Tanks\IEC.prg"
+    LogicalPath="Sterowanie.Tanks"
+    Type="Program"
+    LastWriteTime="131991955840000000" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Sterowanie\Tanks\Main.st"
+    LogicalPath="Sterowanie.Tanks.Main.st"
+    Type="File"
+    LastWriteTime="131994418720000000"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Sterowanie\Tanks\Types.typ"
+    LogicalPath="Sterowanie.Tanks.Types.typ"
+    Type="File"
+    LastWriteTime="131991955840000000"
+    Private="true" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Sterowanie\Tanks\Variables.var"
+    LogicalPath="Sterowanie.Tanks.Variables.var"
+    Type="File"
+    LastWriteTime="131993656500000000"
+    Private="true" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\Config.pkg"
+    LogicalPath="X20CP1584"
+    Type="Configuration.ParentUnknown"
+    LastWriteTime="131991953120000000" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\Hardware.hw"
+    LogicalPath="X20CP1584.Hardware.hw"
+    Type="File"
+    LastWriteTime="133044179889826618"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\Hardware.hwl"
+    LogicalPath="X20CP1584.Hardware.hwl"
+    Type="File"
+    LastWriteTime="132300500600000000"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\Cpu.pkg"
+    LogicalPath="X20CP1584.X20CP1584"
+    Type="Cpu"
+    LastWriteTime="133044180692258153" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\Cpu.sw"
+    LogicalPath="X20CP1584.X20CP1584.Cpu.sw"
+    Type="File"
+    LastWriteTime="131993651440000000"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\Cpu.per"
+    LogicalPath="X20CP1584.X20CP1584.Cpu.per"
+    Type="File"
+    LastWriteTime="131991949220000000"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\IoMap.iom"
+    LogicalPath="X20CP1584.X20CP1584.IoMap.iom"
+    Type="File"
+    LastWriteTime="131991949220000000"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\PvMap.vvm"
+    LogicalPath="X20CP1584.X20CP1584.PvMap.vvm"
+    Type="File"
+    LastWriteTime="131991949220000000"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\Connectivity\Package.pkg"
+    LogicalPath="X20CP1584.X20CP1584.Connectivity"
+    Type="Package"
+    LastWriteTime="131991949220000000" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\Connectivity\OpcUA\Package.pkg"
+    LogicalPath="X20CP1584.X20CP1584.Connectivity.OpcUA"
+    Type="Package"
+    LastWriteTime="131991953540000000" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\Connectivity\OpcUA\OpcUaMap.uad"
+    LogicalPath="X20CP1584.X20CP1584.Connectivity.OpcUA.OpcUaMap.uad"
+    Type="File"
+    LastWriteTime="131991957580000000"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\TextSystem\Package.pkg"
+    LogicalPath="X20CP1584.X20CP1584.TextSystem"
+    Type="Package"
+    LastWriteTime="131991949220000000" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\UnitSystem\Package.pkg"
+    LogicalPath="X20CP1584.X20CP1584.UnitSystem"
+    Type="Package"
+    LastWriteTime="131991949220000000" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\AccessAndSecurity\Package.pkg"
+    LogicalPath="X20CP1584.X20CP1584.AccessAndSecurity"
+    Type="Package"
+    LastWriteTime="131991949220000000" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\AccessAndSecurity\UserRoleSystem\Package.pkg"
+    LogicalPath="X20CP1584.X20CP1584.AccessAndSecurity.UserRoleSystem"
+    Type="Package"
+    LastWriteTime="131991949220000000" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\AccessAndSecurity\UserRoleSystem\Role.role"
+    LogicalPath="X20CP1584.X20CP1584.AccessAndSecurity.UserRoleSystem.Role.role"
+    Type="File"
+    LastWriteTime="131991949220000000"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\AccessAndSecurity\UserRoleSystem\User.user"
+    LogicalPath="X20CP1584.X20CP1584.AccessAndSecurity.UserRoleSystem.User.user"
+    Type="File"
+    LastWriteTime="131991949220000000"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\AccessAndSecurity\CertificateStore\Package.pkg"
+    LogicalPath="X20CP1584.X20CP1584.AccessAndSecurity.CertificateStore"
+    Type="Package"
+    LastWriteTime="131991949220000000" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\AccessAndSecurity\CertificateStore\OwnCertificates\Package.pkg"
+    LogicalPath="X20CP1584.X20CP1584.AccessAndSecurity.CertificateStore.OwnCertificates"
+    Type="Package"
+    LastWriteTime="131991949220000000" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\AccessAndSecurity\CertificateStore\OwnCertificates\Certificates\Package.pkg"
+    LogicalPath="X20CP1584.X20CP1584.AccessAndSecurity.CertificateStore.OwnCertificates.Certificates"
+    Type="Package"
+    LastWriteTime="131991949220000000" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\AccessAndSecurity\CertificateStore\OwnCertificates\PrivateKeys\Package.pkg"
+    LogicalPath="X20CP1584.X20CP1584.AccessAndSecurity.CertificateStore.OwnCertificates.PrivateKeys"
+    Type="Package"
+    LastWriteTime="131991949220000000" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\AccessAndSecurity\CertificateStore\ThirdPartyCertificates\Package.pkg"
+    LogicalPath="X20CP1584.X20CP1584.AccessAndSecurity.CertificateStore.ThirdPartyCertificates"
+    Type="Package"
+    LastWriteTime="131991949220000000" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\AccessAndSecurity\CertificateStore\ThirdPartyCertificates\SoftwareCertificates\Package.pkg"
+    LogicalPath="X20CP1584.X20CP1584.AccessAndSecurity.CertificateStore.ThirdPartyCertificates.SoftwareCertificates"
+    Type="Package"
+    LastWriteTime="131991949220000000" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\AccessAndSecurity\CertificateStore\CertificateRevocationLists\Package.pkg"
+    LogicalPath="X20CP1584.X20CP1584.AccessAndSecurity.CertificateStore.CertificateRevocationLists"
+    Type="Package"
+    LastWriteTime="131991949220000000" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\AccessAndSecurity\CertificateStore\CertificateSigningRequests\Package.pkg"
+    LogicalPath="X20CP1584.X20CP1584.AccessAndSecurity.CertificateStore.CertificateSigningRequests"
+    Type="Package"
+    LastWriteTime="131991949220000000" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\AccessAndSecurity\TransportLayerSecurity\Package.pkg"
+    LogicalPath="X20CP1584.X20CP1584.AccessAndSecurity.TransportLayerSecurity"
+    Type="Package"
+    LastWriteTime="131991949220000000" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\mappControl\Package.pkg"
+    LogicalPath="X20CP1584.X20CP1584.mappControl"
+    Type="Package"
+    LastWriteTime="131991949220000000" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\mappMotion\Package.pkg"
+    LogicalPath="X20CP1584.X20CP1584.mappMotion"
+    Type="Package"
+    LastWriteTime="131991949220000000" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\mappServices\Package.pkg"
+    LogicalPath="X20CP1584.X20CP1584.mappServices"
+    Type="Package"
+    LastWriteTime="131991949220000000" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\mappView\Package.pkg"
+    LogicalPath="X20CP1584.X20CP1584.mappView"
+    Type="Package"
+    LastWriteTime="131991952480000000" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\mappView\OpcUaServer.uaserver"
+    LogicalPath="X20CP1584.X20CP1584.mappView.OpcUaServer.uaserver"
+    Type="File"
+    LastWriteTime="131991952460000000"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\mappView\Visualizat.vis"
+    LogicalPath="X20CP1584.X20CP1584.mappView.Visualizat.vis"
+    Type="File"
+    LastWriteTime="131991952460000000"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\mappView\Config.mappviewcfg"
+    LogicalPath="X20CP1584.X20CP1584.mappView.Config.mappviewcfg"
+    Type="File"
+    LastWriteTime="131991952480000000"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\mappView\MainPage.binding"
+    LogicalPath="X20CP1584.X20CP1584.mappView.MainPage.binding"
+    Type="File"
+    LastWriteTime="131991952480000000"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\mappView\SessionBinding.binding"
+    LogicalPath="X20CP1584.X20CP1584.mappView.SessionBinding.binding"
+    Type="File"
+    LastWriteTime="131991952480000000"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\mappView\EventBinding.eventbinding"
+    LogicalPath="X20CP1584.X20CP1584.mappView.EventBinding.eventbinding"
+    Type="File"
+    LastWriteTime="131991952480000000"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\mappView\ExpressionBinding.binding"
+    LogicalPath="X20CP1584.X20CP1584.mappView.ExpressionBinding.binding"
+    Type="File"
+    LastWriteTime="131991952480000000"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\mappCockpit\Package.pkg"
+    LogicalPath="X20CP1584.X20CP1584.mappCockpit"
+    Type="Package"
+    LastWriteTime="131991949220000000" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\Hardware.jpg"
+    LogicalPath="X20CP1584.Hardware.jpg"
+    Type="File"
+    LastWriteTime="132300500600000000"
+    Private="false" />
+</Objects>

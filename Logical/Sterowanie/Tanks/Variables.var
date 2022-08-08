@@ -1,0 +1,5 @@
+VAR
+	Start : BOOL;
+	krok : USINT;
+	stop : BOOL;
+END_VAR

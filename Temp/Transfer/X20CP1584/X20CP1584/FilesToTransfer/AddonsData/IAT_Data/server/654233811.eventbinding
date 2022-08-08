@@ -1,0 +1,677 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingDefinition xmlns="http://www.br-automation.com/iat2014/eventbinding/runtime/v2">
+  <Content id="MainPageContent">
+    <EventBinding>
+			<Source type="session.Event" refId="ClockSignal" event="ValueChanged" />
+			<Operand name="Zb1_zawor" datatype="BOOL">
+				<ReadTarget type="session.VariableAction.Read" refId="Zb1_zawor">
+					<Method type="session.VariableAction.GetValue" />
+				</ReadTarget>	
+			</Operand>
+			<EventHandler condition="Zb1_zawor=TRUE">
+				<Parallel>
+					<Action>
+						<Target type="widgets.brease.ProgressBar.Action" refId="MainPageContent_ProgressBarTank1Top1">
+							<Method type="widgets.brease.ProgressBar.Action.SetValue"><Parameter name="value" xsi:type="ANY_REAL" value="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+						</Target>
+					</Action>
+					<Action>
+						<Target type="widgets.brease.ProgressBar.Action" refId="MainPageContent_ProgressBarTank1Top2">
+							<Method type="widgets.brease.ProgressBar.Action.SetValue"><Parameter name="value" xsi:type="ANY_REAL" value="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+						</Target>
+					</Action>
+					<Action>
+						<Target type="widgets.brease.ProgressBar.Action" refId="MainPageContent_ProgressBarTank1Inside">
+							<Method type="widgets.brease.ProgressBar.Action.SetVisible"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+						</Target>
+					</Action>
+				</Parallel>
+			</EventHandler>
+			<EventHandler condition="Zb1_zawor=FALSE">
+				<Parallel>
+					<Action>
+						<Target type="widgets.brease.ProgressBar.Action" refId="MainPageContent_ProgressBarTank1Top1">
+							<Method type="widgets.brease.ProgressBar.Action.SetValue"><Parameter name="value" xsi:type="ANY_REAL" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+						</Target>
+					</Action>
+					<Action>
+						<Target type="widgets.brease.ProgressBar.Action" refId="MainPageContent_ProgressBarTank1Top2">
+							<Method type="widgets.brease.ProgressBar.Action.SetValue"><Parameter name="value" xsi:type="ANY_REAL" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+						</Target>
+					</Action>
+					<Action>
+						<Target type="widgets.brease.ProgressBar.Action" refId="MainPageContent_ProgressBarTank1Inside">
+							<Method type="widgets.brease.ProgressBar.Action.SetVisible"><Parameter name="value" xsi:type="BOOL" value="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+						</Target>
+					</Action>
+				</Parallel>
+			</EventHandler>
+		</EventBinding>
+  </Content>
+  <Content id="MainPageContent">
+    <EventBinding>
+			<Source type="session.Event" refId="ClockSignal" event="ValueChanged" />
+			<Operand name="Zb2_zawor" datatype="BOOL">
+				<ReadTarget type="session.VariableAction.Read" refId="Zb2_zawor">
+					<Method type="session.VariableAction.GetValue" />
+				</ReadTarget>	
+			</Operand>
+			<EventHandler condition="Zb2_zawor=TRUE">
+				<Parallel>
+					<Action>
+						<Target type="widgets.brease.ProgressBar.Action" refId="MainPageContent_ProgressBarTank2Top1">
+							<Method type="widgets.brease.ProgressBar.Action.SetValue"><Parameter name="value" xsi:type="ANY_REAL" value="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+						</Target>
+					</Action>
+					<Action>
+						<Target type="widgets.brease.ProgressBar.Action" refId="MainPageContent_ProgressBarTank2Top2">
+							<Method type="widgets.brease.ProgressBar.Action.SetValue"><Parameter name="value" xsi:type="ANY_REAL" value="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+						</Target>
+					</Action>
+					<Action>
+						<Target type="widgets.brease.ProgressBar.Action" refId="MainPageContent_ProgressBarTank2Inside">
+							<Method type="widgets.brease.ProgressBar.Action.SetVisible"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+						</Target>
+					</Action>
+				</Parallel>
+			</EventHandler>
+			<EventHandler condition="Zb2_zawor=FALSE">
+				<Parallel>
+					<Action>
+						<Target type="widgets.brease.ProgressBar.Action" refId="MainPageContent_ProgressBarTank2Top1">
+							<Method type="widgets.brease.ProgressBar.Action.SetValue"><Parameter name="value" xsi:type="ANY_REAL" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+						</Target>
+					</Action>
+					<Action>
+						<Target type="widgets.brease.ProgressBar.Action" refId="MainPageContent_ProgressBarTank2Top2">
+							<Method type="widgets.brease.ProgressBar.Action.SetValue"><Parameter name="value" xsi:type="ANY_REAL" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+						</Target>
+					</Action>
+					<Action>
+						<Target type="widgets.brease.ProgressBar.Action" refId="MainPageContent_ProgressBarTank2Inside">
+							<Method type="widgets.brease.ProgressBar.Action.SetVisible"><Parameter name="value" xsi:type="BOOL" value="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+						</Target>
+					</Action>
+				</Parallel>
+			</EventHandler>
+		</EventBinding>
+  </Content>
+  <Content id="MainPageContent">
+    <EventBinding>
+			<Source type="session.Event" refId="Zb3_prawy_przeplyw_expression_result" event="ValueChanged" />
+			<EventHandler condition="newValue=TRUE">
+				<Parallel>
+					<Action>
+						<Target type="widgets.brease.ProgressBar.Action" refId="MainPageContent_PrgBarTank2Right1">
+							<Method type="widgets.brease.ProgressBar.Action.SetValue"><Parameter name="value" xsi:type="ANY_REAL" value="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+						</Target>
+					</Action>
+					<Action>
+						<Target type="widgets.brease.ProgressBar.Action" refId="MainPageContent_PrgBarTank2Right2">
+							<Method type="widgets.brease.ProgressBar.Action.SetValue"><Parameter name="value" xsi:type="ANY_REAL" value="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+						</Target>
+					</Action>
+					<Action>
+						<Target type="widgets.brease.ProgressBar.Action" refId="MainPageContent_PrgBarTank2Right3">
+							<Method type="widgets.brease.ProgressBar.Action.SetValue"><Parameter name="value" xsi:type="ANY_REAL" value="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+						</Target>
+					</Action>
+					<Action>
+						<Target type="widgets.brease.ProgressBar.Action" refId="MainPageContent_PrgBarTank2Right4">
+							<Method type="widgets.brease.ProgressBar.Action.SetValue"><Parameter name="value" xsi:type="ANY_REAL" value="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+						</Target>
+					</Action>
+				</Parallel>
+			</EventHandler>
+			<EventHandler condition="newValue=FALSE">
+				<Parallel>
+					<Action>
+						<Target type="widgets.brease.ProgressBar.Action" refId="MainPageContent_PrgBarTank2Right1">
+							<Method type="widgets.brease.ProgressBar.Action.SetValue"><Parameter name="value" xsi:type="ANY_REAL" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+						</Target>
+					</Action>
+					<Action>
+						<Target type="widgets.brease.ProgressBar.Action" refId="MainPageContent_PrgBarTank2Right2">
+							<Method type="widgets.brease.ProgressBar.Action.SetValue"><Parameter name="value" xsi:type="ANY_REAL" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+						</Target>
+					</Action>
+					<Action>
+						<Target type="widgets.brease.ProgressBar.Action" refId="MainPageContent_PrgBarTank2Right3">
+							<Method type="widgets.brease.ProgressBar.Action.SetValue"><Parameter name="value" xsi:type="ANY_REAL" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+						</Target>
+					</Action>
+					<Action>
+						<Target type="widgets.brease.ProgressBar.Action" refId="MainPageContent_PrgBarTank2Right4">
+							<Method type="widgets.brease.ProgressBar.Action.SetValue"><Parameter name="value" xsi:type="ANY_REAL" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+						</Target>
+					</Action>
+				</Parallel>
+			</EventHandler>
+		</EventBinding>
+  </Content>
+  <Content id="MainPageContent">
+    <EventBinding>
+			<Source type="session.Event" refId="Zb3_lewy_przeplyw_expression_result" event="ValueChanged" />
+			<EventHandler condition="newValue=TRUE">
+				<Parallel>
+					<Action>
+						<Target type="widgets.brease.ProgressBar.Action" refId="MainPageContent_PrgBarTank1Left1">
+							<Method type="widgets.brease.ProgressBar.Action.SetValue"><Parameter name="value" xsi:type="ANY_REAL" value="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+						</Target>
+					</Action>
+					<Action>
+						<Target type="widgets.brease.ProgressBar.Action" refId="MainPageContent_PrgBarTank1Left2">
+							<Method type="widgets.brease.ProgressBar.Action.SetValue"><Parameter name="value" xsi:type="ANY_REAL" value="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+						</Target>
+					</Action>
+					<Action>
+						<Target type="widgets.brease.ProgressBar.Action" refId="MainPageContent_PrgBarTank1Left3">
+							<Method type="widgets.brease.ProgressBar.Action.SetValue"><Parameter name="value" xsi:type="ANY_REAL" value="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+						</Target>
+					</Action>
+					<Action>
+						<Target type="widgets.brease.ProgressBar.Action" refId="MainPageContent_PrgBarTank1Left4">
+							<Method type="widgets.brease.ProgressBar.Action.SetValue"><Parameter name="value" xsi:type="ANY_REAL" value="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+						</Target>
+					</Action>
+				</Parallel>
+			</EventHandler>
+			<EventHandler condition="newValue=FALSE">
+				<Parallel>
+					<Action>
+						<Target type="widgets.brease.ProgressBar.Action" refId="MainPageContent_PrgBarTank1Left1">
+							<Method type="widgets.brease.ProgressBar.Action.SetValue"><Parameter name="value" xsi:type="ANY_REAL" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+						</Target>
+					</Action>
+					<Action>
+						<Target type="widgets.brease.ProgressBar.Action" refId="MainPageContent_PrgBarTank1Left2">
+							<Method type="widgets.brease.ProgressBar.Action.SetValue"><Parameter name="value" xsi:type="ANY_REAL" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+						</Target>
+					</Action>
+					<Action>
+						<Target type="widgets.brease.ProgressBar.Action" refId="MainPageContent_PrgBarTank1Left3">
+							<Method type="widgets.brease.ProgressBar.Action.SetValue"><Parameter name="value" xsi:type="ANY_REAL" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+						</Target>
+					</Action>
+					<Action>
+						<Target type="widgets.brease.ProgressBar.Action" refId="MainPageContent_PrgBarTank1Left4">
+							<Method type="widgets.brease.ProgressBar.Action.SetValue"><Parameter name="value" xsi:type="ANY_REAL" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+						</Target>
+					</Action>
+				</Parallel>
+			</EventHandler>
+		</EventBinding>
+  </Content>
+  <Content id="MainPageContent">
+    <EventBinding>
+			<Source type="session.Event" refId="Zb3_przeplyw_expression_result" event="ValueChanged" />
+			<EventHandler condition="newValue=TRUE">
+				<Parallel>
+					<Action>
+						<Target type="widgets.brease.ProgressBar.Action" refId="MainPageContent_ProgressBarTank3Sink1">
+							<Method type="widgets.brease.ProgressBar.Action.SetValue"><Parameter name="value" xsi:type="ANY_REAL" value="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+						</Target>
+					</Action>
+					<Action>
+						<Target type="widgets.brease.ProgressBar.Action" refId="MainPageContent_ProgressBarTank3Sink2">
+							<Method type="widgets.brease.ProgressBar.Action.SetValue"><Parameter name="value" xsi:type="ANY_REAL" value="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+						</Target>
+					</Action>
+				</Parallel>
+			</EventHandler>
+			<EventHandler condition="newValue=FALSE">
+				<Parallel>
+					<Action>
+						<Target type="widgets.brease.ProgressBar.Action" refId="MainPageContent_ProgressBarTank3Sink1">
+							<Method type="widgets.brease.ProgressBar.Action.SetValue"><Parameter name="value" xsi:type="ANY_REAL" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+						</Target>
+					</Action>
+					<Action>
+						<Target type="widgets.brease.ProgressBar.Action" refId="MainPageContent_ProgressBarTank3Sink2">
+							<Method type="widgets.brease.ProgressBar.Action.SetValue"><Parameter name="value" xsi:type="ANY_REAL" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+						</Target>
+					</Action>
+				</Parallel>
+			</EventHandler>
+		</EventBinding>
+  </Content>
+  <Visualization>
+    <EventBinding>
+			<Source type="session.Event" refId="Zb1_zawor" event="ValueChanged" />
+			<EventHandler condition="newValue=TRUE">
+				<Action>
+					<Target type="session.VariableAction" refId="Zb1_increase">
+						<Method type="session.VariableAction.SetValueNumber"><Parameter name="value" xsi:type="ANY_REAL" value="100" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+			<EventHandler condition="newValue=FALSE">
+				<Action>
+					<Target type="session.VariableAction" refId="Zb1_increase">
+						<Method type="session.VariableAction.SetValueNumber"><Parameter name="value" xsi:type="ANY_REAL" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+  </Visualization>
+  <Visualization>
+    <EventBinding>
+			<Source type="session.Event" refId="ClockSignal" event="ValueChanged" />
+			<Operand name="Zb3_zawor_lewy" datatype="ANY_INT">
+				<ReadTarget type="session.VariableAction.Read" refId="Zb3_zawor_lewy">
+					<Method type="session.VariableAction.GetValue" />
+				</ReadTarget>	
+			</Operand>
+			<Operand name="Zb1_poziom" datatype="ANY_INT">
+				<ReadTarget type="session.VariableAction.Read" refId="Zb1_poziom">
+					<Method type="session.VariableAction.GetValue" />
+				</ReadTarget>	
+			</Operand>
+			<Operand name="Zb3_poziom" datatype="ANY_INT">
+				<ReadTarget type="session.VariableAction.Read" refId="Zb3_poziom">
+					<Method type="session.VariableAction.GetValue" />
+				</ReadTarget>	
+			</Operand>
+			<Operand name="BooleanValves" datatype="BOOL">
+				<ReadTarget type="session.VariableAction.Read" refId="Zawory_dwustanowe">
+					<Method type="session.VariableAction.GetValue" />
+				</ReadTarget>	
+			</Operand>
+			<EventHandler condition="newValue=TRUE AND Zb1_poziom &gt; 0 AND BooleanValves=TRUE AND Zb3_zawor_lewy &gt; 0 AND Zb3_poziom &lt; 10000">
+				<Action>
+					<Target type="session.VariableAction" refId="Zb1_decrease">
+						<Method type="session.VariableAction.SetValueNumber"><Parameter name="value" xsi:type="ANY_REAL" value="100" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+			<EventHandler condition="newValue=TRUE AND Zb1_poziom &gt; 0 AND BooleanValves=TRUE AND (Zb3_zawor_lewy &lt;= 0 OR Zb3_poziom &gt; 10000)">
+				<Action>
+					<Target type="session.VariableAction" refId="Zb1_decrease">
+						<Method type="session.VariableAction.SetValueNumber"><Parameter name="value" xsi:type="ANY_REAL" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+			<EventHandler condition="newValue=TRUE AND Zb1_poziom &gt; 0 AND BooleanValves=FALSE AND Zb3_zawor_lewy &gt; 0 AND Zb3_poziom &lt; 10000">
+				<Action>
+					<Target type="session.VariableAction" refId="Zb1_decrease">
+						<Method type="session.VariableAction.SetValueNumber"><Parameter name="value" xsi:type="ANY_REAL" value="=Zb3_zawor_lewy" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+			<EventHandler condition="newValue=TRUE AND Zb1_poziom &gt; 0 AND BooleanValves=FALSE AND (Zb3_zawor_lewy &lt;= 0 OR Zb3_poziom &gt; 10000)">
+				<Action>
+					<Target type="session.VariableAction" refId="Zb1_decrease">
+						<Method type="session.VariableAction.SetValueNumber"><Parameter name="value" xsi:type="ANY_REAL" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+			<EventHandler condition="newValue=TRUE AND Zb1_poziom &lt;= 0">
+				<Action>
+					<Target type="session.VariableAction" refId="Zb1_decrease">
+						<Method type="session.VariableAction.SetValueNumber"><Parameter name="value" xsi:type="ANY_REAL" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+  </Visualization>
+  <Visualization>
+    <EventBinding>
+			<Source type="session.Event" refId="ClockSignal" event="ValueChanged" />
+			<Operand name="Zb1Change" datatype="ANY_INT">
+				<ReadTarget type="session.VariableAction.Read" refId="Zb1_change">
+					<Method type="session.VariableAction.GetValue" />
+				</ReadTarget>	
+			</Operand>
+			<EventHandler condition="newValue=TRUE">
+				<Action>
+					<Target type="session.VariableAction" refId="Zb1_poziom">
+						<Method type="session.VariableAction.AddValue"><Parameter name="value" xsi:type="ANY_REAL" value="=Zb1Change" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+  </Visualization>
+  <Visualization>
+    <EventBinding>
+			<Source type="session.Event" refId="Zb2_zawor" event="ValueChanged" />
+			<EventHandler condition="newValue=TRUE">
+				<Action>
+					<Target type="session.VariableAction" refId="Zb2_increase">
+						<Method type="session.VariableAction.SetValueNumber"><Parameter name="value" xsi:type="ANY_REAL" value="100" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+			<EventHandler condition="newValue=FALSE">
+				<Action>
+					<Target type="session.VariableAction" refId="Zb2_increase">
+						<Method type="session.VariableAction.SetValueNumber"><Parameter name="value" xsi:type="ANY_REAL" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+  </Visualization>
+  <Visualization>
+    <EventBinding>
+			<Source type="session.Event" refId="ClockSignal" event="ValueChanged" />
+			<Operand name="Zb3_zawor_prawy" datatype="ANY_INT">
+				<ReadTarget type="session.VariableAction.Read" refId="Zb3_zawor_prawy">
+					<Method type="session.VariableAction.GetValue" />
+				</ReadTarget>	
+			</Operand>
+			<Operand name="Zb2_poziom" datatype="ANY_INT">
+				<ReadTarget type="session.VariableAction.Read" refId="Zb2_poziom">
+					<Method type="session.VariableAction.GetValue" />
+				</ReadTarget>	
+			</Operand>
+			<Operand name="Zb3_poziom" datatype="ANY_INT">
+				<ReadTarget type="session.VariableAction.Read" refId="Zb3_poziom">
+					<Method type="session.VariableAction.GetValue" />
+				</ReadTarget>	
+			</Operand>
+			<Operand name="BooleanValves" datatype="BOOL">
+				<ReadTarget type="session.VariableAction.Read" refId="Zawory_dwustanowe">
+					<Method type="session.VariableAction.GetValue" />
+				</ReadTarget>	
+			</Operand>
+			<EventHandler condition="newValue=TRUE AND Zb2_poziom &gt; 0 AND BooleanValves=TRUE AND Zb3_zawor_prawy &gt; 0 AND Zb3_poziom &lt; 10000 ">
+				<Action>
+					<Target type="session.VariableAction" refId="Zb2_decrease">
+						<Method type="session.VariableAction.SetValueNumber"><Parameter name="value" xsi:type="ANY_REAL" value="100" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+			<EventHandler condition="newValue=TRUE AND Zb2_poziom &gt; 0 AND BooleanValves=TRUE AND (Zb3_zawor_prawy &lt;= 0 OR Zb3_poziom &gt; 10000)">
+				<Action>
+					<Target type="session.VariableAction" refId="Zb2_decrease">
+						<Method type="session.VariableAction.SetValueNumber"><Parameter name="value" xsi:type="ANY_REAL" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+			<EventHandler condition="newValue=TRUE AND Zb2_poziom &gt; 0 AND BooleanValves=FALSE AND Zb3_zawor_prawy &gt; 0 AND Zb3_poziom &lt; 10000">
+				<Action>
+					<Target type="session.VariableAction" refId="Zb2_decrease">
+						<Method type="session.VariableAction.SetValueNumber"><Parameter name="value" xsi:type="ANY_REAL" value="=Zb3_zawor_prawy" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+			<EventHandler condition="newValue=TRUE AND Zb2_poziom &gt; 0 AND BooleanValves=FALSE AND (Zb3_zawor_prawy &lt;= 0 OR Zb3_poziom &gt; 10000)">
+				<Action>
+					<Target type="session.VariableAction" refId="Zb2_decrease">
+						<Method type="session.VariableAction.SetValueNumber"><Parameter name="value" xsi:type="ANY_REAL" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+			<EventHandler condition="newValue=TRUE AND Zb2_poziom &lt;= 0 ">
+				<Action>
+					<Target type="session.VariableAction" refId="Zb2_decrease">
+						<Method type="session.VariableAction.SetValueNumber"><Parameter name="value" xsi:type="ANY_REAL" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+  </Visualization>
+  <Visualization>
+    <EventBinding>
+			<Source type="session.Event" refId="ClockSignal" event="ValueChanged" />
+			<Operand name="Zb2Change" datatype="ANY_INT">
+				<ReadTarget type="session.VariableAction.Read" refId="Zb2_change">
+					<Method type="session.VariableAction.GetValue" />
+				</ReadTarget>	
+			</Operand>
+			<EventHandler condition="newValue=TRUE">
+				<Action>
+					<Target type="session.VariableAction" refId="Zb2_poziom">
+						<Method type="session.VariableAction.AddValue"><Parameter name="value" xsi:type="ANY_REAL" value="=Zb2Change" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+  </Visualization>
+  <Visualization>
+    <EventBinding>
+			<Source type="session.Event" refId="Zb3_zawor" event="ValueChanged" />
+			<EventHandler condition="newValue=TRUE">
+				<Action>
+					<Target type="session.VariableAction" refId="Zb3_decrease">
+						<Method type="session.VariableAction.SetValueNumber"><Parameter name="value" xsi:type="ANY_REAL" value="100" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+			<EventHandler condition="newValue=FALSE">
+				<Action>
+					<Target type="session.VariableAction" refId="Zb3_decrease">
+						<Method type="session.VariableAction.SetValueNumber"><Parameter name="value" xsi:type="ANY_REAL" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+  </Visualization>
+  <Visualization>
+    <EventBinding>
+			<Source type="session.Event" refId="ClockSignal" event="ValueChanged" />
+			<Operand name="Zb3Change" datatype="ANY_INT">
+				<ReadTarget type="session.VariableAction.Read" refId="Zb3_change">
+					<Method type="session.VariableAction.GetValue" />
+				</ReadTarget>	
+			</Operand>
+			<Operand name="BooleanValves" datatype="BOOL">
+				<ReadTarget type="session.VariableAction.Read" refId="Zawory_dwustanowe">
+					<Method type="session.VariableAction.GetValue" />
+				</ReadTarget>	
+			</Operand>
+			<Operand name="Zb3_lewy" datatype="ANY_INT">
+				<ReadTarget type="session.VariableAction.Read" refId="Zb3_zawor_lewy">
+					<Method type="session.VariableAction.GetValue" />
+				</ReadTarget>	
+			</Operand>
+			<Operand name="Zb3_prawy" datatype="ANY_INT">
+				<ReadTarget type="session.VariableAction.Read" refId="Zb3_zawor_prawy">
+					<Method type="session.VariableAction.GetValue" />
+				</ReadTarget>	
+			</Operand>
+			<Operand name="Zb3Poziom" datatype="ANY_INT">
+				<ReadTarget type="session.VariableAction.Read" refId="Zb3_poziom">
+					<Method type="session.VariableAction.GetValue" />
+				</ReadTarget>	
+			</Operand>
+			<EventHandler condition="newValue=TRUE AND Zb3Poziom &lt;= 10000">
+				<Action>
+					<Target type="session.VariableAction" refId="Zb3_poziom">
+						<Method type="session.VariableAction.AddValue"><Parameter name="value" xsi:type="ANY_REAL" value="=Zb3Change" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+  </Visualization>
+  <Visualization>
+    <EventBinding>
+			<Source type="session.Event" refId="Zb1_poziom" event="ValueChanged" />
+			<EventHandler condition="newValue &lt; 0">
+				<Action>
+					<Target type="session.VariableAction" refId="Zb1_poziom">
+						<Method type="session.VariableAction.SetValueNumber"><Parameter name="value" xsi:type="ANY_REAL" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+			<EventHandler condition="newValue &gt; 10000">
+				<Action>
+					<Target type="session.VariableAction" refId="Zb1_poziom">
+						<Method type="session.VariableAction.SetValueNumber"><Parameter name="value" xsi:type="ANY_REAL" value="10000" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+  </Visualization>
+  <Visualization>
+    <EventBinding>
+			<Source type="session.Event" refId="Zb2_poziom" event="ValueChanged" />
+			<EventHandler condition="newValue &lt; 0">
+				<Action>
+					<Target type="session.VariableAction" refId="Zb2_poziom">
+						<Method type="session.VariableAction.SetValueNumber"><Parameter name="value" xsi:type="ANY_REAL" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+			<EventHandler condition="newValue &gt; 10000">
+				<Action>
+					<Target type="session.VariableAction" refId="Zb2_poziom">
+						<Method type="session.VariableAction.SetValueNumber"><Parameter name="value" xsi:type="ANY_REAL" value="10000" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+  </Visualization>
+  <Visualization>
+    <EventBinding>
+			<Source type="session.Event" refId="Zb3_poziom" event="ValueChanged" />
+			<EventHandler condition="newValue &lt; 0">
+				<Action>
+					<Target type="session.VariableAction" refId="Zb3_poziom">
+						<Method type="session.VariableAction.SetValueNumber"><Parameter name="value" xsi:type="ANY_REAL" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+			<EventHandler condition="newValue &gt; 10000">
+				<Action>
+					<Target type="session.VariableAction" refId="Zb3_poziom">
+						<Method type="session.VariableAction.SetValueNumber"><Parameter name="value" xsi:type="ANY_REAL" value="10000" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+  </Visualization>
+  <Visualization>
+    <EventBinding>
+			<Source type="session.Event" refId="Zb3_zawor_lewy" event="ValueChanged" />
+			<EventHandler condition="newValue &lt; 0">
+				<Action>
+					<Target type="session.VariableAction" refId="Zb3_zawor_lewy">
+						<Method type="session.VariableAction.SetValueNumber"><Parameter name="value" xsi:type="ANY_REAL" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+			<EventHandler condition="newValue &gt; 100">
+				<Action>
+					<Target type="session.VariableAction" refId="Zb3_zawor_lewy">
+						<Method type="session.VariableAction.SetValueNumber"><Parameter name="value" xsi:type="ANY_REAL" value="100" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+  </Visualization>
+  <Visualization>
+    <EventBinding>
+			<Source type="session.Event" refId="Zb3_zawor_prawy" event="ValueChanged" />
+			<EventHandler condition="newValue &lt; 0">
+				<Action>
+					<Target type="session.VariableAction" refId="Zb3_zawor_prawy">
+						<Method type="session.VariableAction.SetValueNumber"><Parameter name="value" xsi:type="ANY_REAL" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+			<EventHandler condition="newValue &gt; 100">
+				<Action>
+					<Target type="session.VariableAction" refId="Zb3_zawor_prawy">
+						<Method type="session.VariableAction.SetValueNumber"><Parameter name="value" xsi:type="ANY_REAL" value="100" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+  </Visualization>
+  <Content id="MainPageContent">
+    <EventBinding>
+			<Source type="session.Event" refId="Zb3_zawor_lewy" event="ValueChanged" />
+			<Operand name="BooleanValves" datatype="BOOL">
+				<ReadTarget type="session.VariableAction.Read" refId="Zawory_dwustanowe">
+					<Method type="session.VariableAction.GetValue" />
+				</ReadTarget>	
+			</Operand>
+			<Operand name="Zb1Valve" datatype="ANY_INT">
+				<ReadTarget type="session.VariableAction.Read" refId="Zb3_zawor_lewy">
+					<Method type="session.VariableAction.GetValue" />
+				</ReadTarget>	
+			</Operand>
+			<EventHandler condition="newValue &gt; 0 AND BooleanValves=TRUE">
+				<Action>
+					<Target type="widgets.brease.NumericOutput.Action" refId="MainPageContent_LeftValveNumericOutput">
+						<Method type="widgets.brease.NumericOutput.Action.SetValue"><Parameter name="value" xsi:type="ANY_REAL" value="100" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+			<EventHandler condition="newValue &gt; 0 AND BooleanValves=FALSE">
+				<Action>
+					<Target type="widgets.brease.NumericOutput.Action" refId="MainPageContent_LeftValveNumericOutput">
+						<Method type="widgets.brease.NumericOutput.Action.SetValue"><Parameter name="value" xsi:type="ANY_REAL" value="=Zb1Valve" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+			<EventHandler condition="newValue=0">
+				<Action>
+					<Target type="widgets.brease.NumericOutput.Action" refId="MainPageContent_LeftValveNumericOutput">
+						<Method type="widgets.brease.NumericOutput.Action.SetValue"><Parameter name="value" xsi:type="ANY_REAL" value="=0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+  </Content>
+  <Content id="MainPageContent">
+    <EventBinding>
+			<Source type="session.Event" refId="Zb3_zawor_prawy" event="ValueChanged" />
+			<Operand name="BooleanValves" datatype="BOOL">
+				<ReadTarget type="session.VariableAction.Read" refId="Zawory_dwustanowe">
+					<Method type="session.VariableAction.GetValue" />
+				</ReadTarget>	
+			</Operand>
+			<Operand name="Zb2Valve" datatype="ANY_INT">
+				<ReadTarget type="session.VariableAction.Read" refId="Zb3_zawor_prawy">
+					<Method type="session.VariableAction.GetValue" />
+				</ReadTarget>	
+			</Operand>
+			<EventHandler condition="newValue &gt; 0 AND BooleanValves=TRUE">
+				<Action>
+					<Target type="widgets.brease.NumericOutput.Action" refId="MainPageContent_RightValveNumericOutput">
+						<Method type="widgets.brease.NumericOutput.Action.SetValue"><Parameter name="value" xsi:type="ANY_REAL" value="100" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+			<EventHandler condition="newValue &gt; 0 AND BooleanValves=FALSE">
+				<Action>
+					<Target type="widgets.brease.NumericOutput.Action" refId="MainPageContent_RightValveNumericOutput">
+						<Method type="widgets.brease.NumericOutput.Action.SetValue"><Parameter name="value" xsi:type="ANY_REAL" value="=Zb2Valve" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+			<EventHandler condition="newValue=0">
+				<Action>
+					<Target type="widgets.brease.NumericOutput.Action" refId="MainPageContent_RightValveNumericOutput">
+						<Method type="widgets.brease.NumericOutput.Action.SetValue"><Parameter name="value" xsi:type="ANY_REAL" value="=0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+  </Content>
+  <Visualization>
+    <EventBinding>
+			<Source type="session.Event" refId="Zawory_dwustanowe" event="ValueChanged" />
+			<EventHandler>
+				<Action>
+					<Target type="session.VariableAction" refId="Zb3_zawor_lewy">
+						<Method type="session.VariableAction.SetValueNumber"><Parameter name="value" xsi:type="ANY_REAL" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+  </Visualization>
+  <Visualization>
+    <EventBinding>
+			<Source type="session.Event" refId="Zawory_dwustanowe" event="ValueChanged" />
+			<EventHandler>
+				<Action>
+					<Target type="session.VariableAction" refId="Zb3_zawor_prawy">
+						<Method type="session.VariableAction.SetValueNumber"><Parameter name="value" xsi:type="ANY_REAL" value="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+  </Visualization>
+</EventBindingDefinition>

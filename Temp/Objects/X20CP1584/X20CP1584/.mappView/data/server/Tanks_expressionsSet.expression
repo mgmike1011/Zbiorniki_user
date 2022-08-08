@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ExpressionDefinition xmlns="http://www.br-automation.com/iat2016/expression/runtime/v2">
+  <Content id="MainPageContent">
+    <Expression refId="Zb3_lewy_przeplyw" datatype="BOOL">
+      <Operands>
+        <Operand name="Zb_zawor" datatype="ANY_INT" />
+        <Operand name="Zb_poziom" datatype="ANY_INT" />
+      </Operands>
+      <Operation>
+				Zb_zawor&gt;0 AND Zb_poziom &gt; 0
+			</Operation>
+    </Expression>
+  </Content>
+  <Content id="MainPageContent">
+    <Expression refId="Zb3_prawy_przeplyw" datatype="BOOL">
+      <Operands>
+        <Operand name="Zb_zawor" datatype="ANY_INT" />
+        <Operand name="Zb_poziom" datatype="ANY_INT" />
+      </Operands>
+      <Operation>
+				Zb_zawor&gt;0 AND Zb_poziom &gt; 0
+			</Operation>
+    </Expression>
+  </Content>
+  <Content id="MainPageContent">
+    <Expression refId="Zb3_prawy_zawor" datatype="BOOL">
+      <Operands>
+        <Operand name="Zb_zawor" datatype="ANY_INT" />
+      </Operands>
+      <Operation>
+				Zb_zawor &gt;0 
+			</Operation>
+    </Expression>
+  </Content>
+  <Content id="MainPageContent">
+    <Expression refId="Zb3_lewy_zawor" datatype="BOOL">
+      <Operands>
+        <Operand name="Zb_zawor" datatype="ANY_INT" />
+      </Operands>
+      <Operation>
+				Zb_zawor &gt;0 
+			</Operation>
+    </Expression>
+  </Content>
+  <Content id="MainPageContent">
+    <Expression refId="Zb3_przeplyw" datatype="BOOL">
+      <Operands>
+        <Operand name="Zb_zawor" datatype="BOOL" />
+        <Operand name="Zb_poziom" datatype="ANY_INT" />
+      </Operands>
+      <Operation>
+				Zb_zawor AND Zb_poziom &gt; 0
+			</Operation>
+    </Expression>
+  </Content>
+  <Content id="MainPageContent">
+    <Expression refId="Zb1_zawor_Negative" datatype="BOOL">
+      <Operands>
+        <Operand name="BoolVariable" datatype="BOOL" />
+      </Operands>
+      <Operation>
+				NOT BoolVariable
+			</Operation>
+    </Expression>
+  </Content>
+  <Content id="MainPageContent">
+    <Expression refId="Zb2_zawor_Negative" datatype="BOOL">
+      <Operands>
+        <Operand name="BoolVariable" datatype="BOOL" />
+      </Operands>
+      <Operation>
+				NOT BoolVariable
+			</Operation>
+    </Expression>
+  </Content>
+  <Content id="MainPageContent">
+    <Expression refId="Zb3_zawor_Negative" datatype="BOOL">
+      <Operands>
+        <Operand name="BoolVariable" datatype="BOOL" />
+      </Operands>
+      <Operation>
+				NOT BoolVariable
+			</Operation>
+    </Expression>
+  </Content>
+  <Content id="MainPageContent">
+    <Expression refId="Mixer_Visible" datatype="BOOL">
+      <Operands>
+        <Operand name="Clock" datatype="BOOL" />
+        <Operand name="Mixer" datatype="BOOL" />
+      </Operands>
+      <Operation>
+				Clock AND Mixer
+			</Operation>
+    </Expression>
+  </Content>
+  <Content id="MainPageContent">
+    <Expression refId="Zb1_rising" datatype="BOOL">
+      <Operands>
+        <Operand name="Clock" datatype="BOOL" />
+        <Operand name="Zb_Zawor" datatype="BOOL" />
+        <Operand name="Zb_Poziom" datatype="ANY_INT" />
+      </Operands>
+      <Operation>
+				Zb_Zawor AND Clock AND Zb_Poziom &lt; 10000
+			</Operation>
+    </Expression>
+  </Content>
+  <Content id="MainPageContent">
+    <Expression refId="Zb2_rising" datatype="BOOL">
+      <Operands>
+        <Operand name="Clock" datatype="BOOL" />
+        <Operand name="Zb_Zawor" datatype="BOOL" />
+        <Operand name="Zb_Poziom" datatype="ANY_INT" />
+      </Operands>
+      <Operation>
+				Zb_Zawor AND Clock AND Zb_Poziom &lt; 10000
+			</Operation>
+    </Expression>
+  </Content>
+  <Content id="MainPageContent">
+    <Expression refId="Zb1_droping" datatype="BOOL">
+      <Operands>
+        <Operand name="Clock" datatype="BOOL" />
+        <Operand name="Zb_Zawor" datatype="ANY_INT" />
+        <Operand name="Zawory_Dwustanowe" datatype="BOOL" />
+        <Operand name="Zb12_Poziom" datatype="ANY_INT" />
+        <Operand name="Zb3_Poziom" datatype="ANY_INT" />
+      </Operands>
+      <Operation>
+				Zb_Zawor &gt; 0 AND Clock AND Zb3_Poziom &lt; 10000 AND Zb12_Poziom &gt; 0 
+			</Operation>
+    </Expression>
+  </Content>
+  <Content id="MainPageContent">
+    <Expression refId="Zb2_droping" datatype="BOOL">
+      <Operands>
+        <Operand name="Clock" datatype="BOOL" />
+        <Operand name="Zb_Zawor" datatype="ANY_INT" />
+        <Operand name="Zawory_Dwustanowe" datatype="BOOL" />
+        <Operand name="Zb12_Poziom" datatype="ANY_INT" />
+        <Operand name="Zb3_Poziom" datatype="ANY_INT" />
+      </Operands>
+      <Operation>
+				Zb_Zawor &gt; 0 AND Clock AND Zb3_Poziom &lt; 10000 AND Zb12_Poziom &gt; 0 
+			</Operation>
+    </Expression>
+  </Content>
+  <Content id="MainPageContent">
+    <Expression refId="Zb3_droping" datatype="BOOL">
+      <Operands>
+        <Operand name="Clock" datatype="BOOL" />
+        <Operand name="Zb_Zawor" datatype="BOOL" />
+        <Operand name="Zb_Poziom" datatype="ANY_INT" />
+      </Operands>
+      <Operation>
+				Zb_Zawor AND Clock AND Zb_Poziom &gt; 0
+			</Operation>
+    </Expression>
+  </Content>
+  <Content id="MainPageContent">
+    <Expression refId="Zb1_change" datatype="ANY_INT">
+      <Operands>
+        <Operand name="Zb_increase" datatype="ANY_INT" />
+        <Operand name="Zb_decrease" datatype="ANY_INT" />
+      </Operands>
+      <Operation>
+				Zb_increase-Zb_decrease
+			</Operation>
+    </Expression>
+  </Content>
+  <Content id="MainPageContent">
+    <Expression refId="Zb2_change" datatype="ANY_INT">
+      <Operands>
+        <Operand name="Zb_increase" datatype="ANY_INT" />
+        <Operand name="Zb_decrease" datatype="ANY_INT" />
+      </Operands>
+      <Operation>
+				Zb_increase-Zb_decrease
+			</Operation>
+    </Expression>
+  </Content>
+  <Content id="MainPageContent">
+    <Expression refId="Zb3_change" datatype="ANY_INT">
+      <Operands>
+        <Operand name="Zb1_decrease" datatype="ANY_INT" />
+        <Operand name="Zb2_decrease" datatype="ANY_INT" />
+        <Operand name="Zb3_decrease" datatype="ANY_INT" />
+      </Operands>
+      <Operation>
+				Zb1_decrease+Zb2_decrease-Zb3_decrease
+			</Operation>
+    </Expression>
+  </Content>
+  <Content id="MainPageContent">
+    <Expression refId="Zb12_decrease" datatype="ANY_INT">
+      <Operands>
+        <Operand name="Zb1_decrease" datatype="ANY_INT" />
+        <Operand name="Zb2_decrease" datatype="ANY_INT" />
+      </Operands>
+      <Operation>
+				Zb1_decrease+Zb2_decrease
+			</Operation>
+    </Expression>
+  </Content>
+</ExpressionDefinition>

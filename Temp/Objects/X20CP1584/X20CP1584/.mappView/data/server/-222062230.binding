@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingDefinition xmlns="http://www.br-automation.com/iat2014/binding/runtime/v1">
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="variable" refId="Zb1_poziom" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="MainPageContent_ProgressBarTank1" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="twoWay">
+			<Source xsi:type="variable" refId="Zb2_poziom" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="MainPageContent_ProgressBarTank2" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />	
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="twoWay">
+			<Source xsi:type="variable" refId="Zb3_poziom" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="MainPageContent_ProgressBarTank3" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gZb2_zawor" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="MainPageContent_ProgressBarTank2Inside" attribute="visible" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gZb1_zawor" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="MainPageContent_ProgressBarTank1Inside" attribute="visible" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="twoWay">
+			<Source xsi:type="variable" refId="Zawory_dwustanowe" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="MainPageContent_RadioButtonBooleanValves" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="twoWay">
+			<Source xsi:type="variable" refId="Zawory_analogowe" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="MainPageContent_RadioButtonAnalogValves" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="variable" refId="Zb2_poziom" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="MainPageContent_NumericOutputTank2Level" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="variable" refId="Zb1_poziom" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="MainPageContent_NumericOutputTank1Level" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="variable" refId="Zb3_poziom" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="MainPageContent_NumericOutputTank3Level" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="twoWay">
+			<Source xsi:type="variable" refId="Zb1_zawor" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="MainPageContent_Line66" attribute="visible" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="twoWay">
+			<Source xsi:type="variable" refId="Zb2_zawor" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="MainPageContent_Line72" attribute="visible" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="twoWay">
+			<Source xsi:type="variable" refId="Zb2_zawor" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="MainPageContent_Line71" attribute="visible" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="twoWay">
+			<Source xsi:type="variable" refId="Zb2_zawor" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="MainPageContent_Rectangle10" attribute="visible" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gZb1_zawor" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="MainPageContent_Line65" attribute="visible" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gZb1_zawor" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="MainPageContent_Rectangle8" attribute="visible" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="variable" refId="Zb1_zawor" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="MainPageContent_ToggleButtonValveTank1" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="variable" refId="Zb2_zawor" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="MainPageContent_ToggleButtonValveTank2" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="variable" refId="Mieszadlo" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="MainPageContent_ToggleButtonMixer" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="variable" refId="Zb3_zawor" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="MainPageContent_ToggleButtonValve3" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="expression" refId="Zb3_lewy_przeplyw" attribute="result" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="MainPageContent_PrgBarTank3Left" attribute="visible" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="expression" refId="Zb3_zawor_Negative" attribute="result" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="MainPageContent_Line48" attribute="visible" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="expression" refId="Zb2_zawor_Negative" attribute="result" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="MainPageContent_Line22" attribute="visible" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="expression" refId="Zb1_zawor_Negative" attribute="result" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="MainPageContent_Line23" attribute="visible" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="expression" refId="Zb3_lewy_zawor" attribute="result" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="MainPageContent_Rectangle4" attribute="visible" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="expression" refId="Zb3_lewy_zawor" attribute="result" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="MainPageContent_Line51" attribute="visible" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="expression" refId="Zb3_lewy_zawor" attribute="result" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="MainPageContent_Line52" attribute="visible" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="expression" refId="Zb3_prawy_zawor" attribute="result" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="MainPageContent_Rectangle3" attribute="visible" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="expression" refId="Zb3_prawy_zawor" attribute="result" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="MainPageContent_Line49" attribute="visible" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="expression" refId="Zb3_prawy_zawor" attribute="result" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="MainPageContent_Line50" attribute="visible" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="expression" refId="Zb3_prawy_przeplyw" attribute="result" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="MainPageContent_PrgBarTank3Right" attribute="visible" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="twoWay">
+			<Source xsi:type="variable" refId="Mieszadlo" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="MainPageContent_LabelMixerGreen" attribute="visible" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="variable" refId="Zb3_zawor" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="MainPageContent_Rectangle6" attribute="visible" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="variable" refId="Zb3_zawor" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="MainPageContent_Line59" attribute="visible" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="variable" refId="Zb3_zawor" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="MainPageContent_Line60" attribute="visible" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="expression" refId="Mixer_Visible" attribute="result" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="MainPageContent_MixerAxis" attribute="visible" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="expression" refId="Mixer_Visible" attribute="result" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="MainPageContent_MixerBottom" attribute="visible" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="expression" refId="Mixer_Visible" attribute="result" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="MainPageContent_MixerMiddle" attribute="visible" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="expression" refId="Mixer_Visible" attribute="result" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="brease" refId="MainPageContent_MixerFrame" attribute="visible" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+</BindingDefinition>

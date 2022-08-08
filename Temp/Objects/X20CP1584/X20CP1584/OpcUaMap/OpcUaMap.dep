@@ -1,0 +1,3 @@
+$(AS_PROJECT_PATH)/Logical/Sterowanie/mappingVariables.var
+$(AS_PROJECT_PATH)/Logical/Wizualizacja/ClockSignal/Variables.var
+$(AS_PROJECT_PATH)/Physical/X20CP1584/X20CP1584/Cpu.sw

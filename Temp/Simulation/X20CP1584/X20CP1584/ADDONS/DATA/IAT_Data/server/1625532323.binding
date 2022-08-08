@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingDefinition xmlns="http://www.br-automation.com/iat2014/binding/runtime/v1">
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="variable" refId="Zb3_zawor_lewy" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="expression" refId="Zb3_lewy_przeplyw" attribute="Zb_zawor" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="variable" refId="Zb1_poziom" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="expression" refId="Zb3_lewy_przeplyw" attribute="Zb_poziom" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="variable" refId="Zb3_zawor_prawy" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="expression" refId="Zb3_prawy_przeplyw" attribute="Zb_zawor" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="variable" refId="Zb2_poziom" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="expression" refId="Zb3_prawy_przeplyw" attribute="Zb_poziom" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="variable" refId="Zb3_zawor" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="expression" refId="Zb3_przeplyw" attribute="Zb_zawor" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="variable" refId="Zb3_poziom" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="expression" refId="Zb3_przeplyw" attribute="Zb_poziom" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="expression" refId="Zb3_lewy_zawor" attribute="result" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="expression" refId="Zb1_zawor_Negative" attribute="BoolVariable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="expression" refId="Zb3_prawy_zawor" attribute="result" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="expression" refId="Zb2_zawor_Negative" attribute="BoolVariable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="variable" refId="Zb3_zawor" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="expression" refId="Zb3_zawor_Negative" attribute="BoolVariable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="variable" refId="Zb3_zawor_lewy" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="expression" refId="Zb3_lewy_zawor" attribute="Zb_zawor" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="variable" refId="Zb3_zawor_prawy" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="expression" refId="Zb3_prawy_zawor" attribute="Zb_zawor" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="expression" refId="Zb3_prawy_przeplyw" attribute="result" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="variable" refId="Zb3_prawy_przeplyw_expression_result" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="expression" refId="Zb3_lewy_przeplyw" attribute="result" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="variable" refId="Zb3_lewy_przeplyw_expression_result" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="expression" refId="Zb3_przeplyw" attribute="result" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="variable" refId="Zb3_przeplyw_expression_result" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="variable" refId="ClockSignal" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="expression" refId="Zb1_rising" attribute="Clock" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="variable" refId="Zb1_zawor" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="expression" refId="Zb1_rising" attribute="Zb_Zawor" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="variable" refId="Zb1_poziom" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="expression" refId="Zb1_rising" attribute="Zb_Poziom" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="expression" refId="Zb1_rising" attribute="result" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="variable" refId="Zb1_rising_expression_result" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="variable" refId="ClockSignal" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="expression" refId="Zb2_rising" attribute="Clock" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="variable" refId="Zb2_zawor" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="expression" refId="Zb2_rising" attribute="Zb_Zawor" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="variable" refId="Zb2_poziom" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="expression" refId="Zb2_rising" attribute="Zb_Poziom" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="expression" refId="Zb2_rising" attribute="result" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="variable" refId="Zb2_rising_expression_result" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="variable" refId="ClockSignal" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="expression" refId="Zb1_droping" attribute="Clock" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="variable" refId="Zb3_zawor_lewy" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="expression" refId="Zb1_droping" attribute="Zb_Zawor" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="variable" refId="Zawory_dwustanowe" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="expression" refId="Zb1_droping" attribute="Zawory_Dwustanowe" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="variable" refId="Zb1_poziom" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="expression" refId="Zb1_droping" attribute="Zb12_Poziom" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="variable" refId="Zb3_poziom" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="expression" refId="Zb1_droping" attribute="Zb3_Poziom" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="expression" refId="Zb1_droping" attribute="result" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="variable" refId="Zb1_droping_expression_result" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="variable" refId="ClockSignal" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="expression" refId="Zb2_droping" attribute="Clock" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="variable" refId="Zb3_zawor_prawy" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="expression" refId="Zb2_droping" attribute="Zb_Zawor" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="variable" refId="Zawory_dwustanowe" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="expression" refId="Zb2_droping" attribute="Zawory_Dwustanowe" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="variable" refId="Zb2_poziom" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="expression" refId="Zb2_droping" attribute="Zb12_Poziom" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="variable" refId="Zb3_poziom" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="expression" refId="Zb2_droping" attribute="Zb3_Poziom" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="expression" refId="Zb2_droping" attribute="result" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="variable" refId="Zb2_droping_expression_result" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="variable" refId="ClockSignal" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="expression" refId="Zb3_droping" attribute="Clock" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="variable" refId="Zb3_zawor" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="expression" refId="Zb3_droping" attribute="Zb_Zawor" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="variable" refId="Zb3_poziom" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="expression" refId="Zb3_droping" attribute="Zb_Poziom" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="expression" refId="Zb3_droping" attribute="result" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="variable" refId="Zb3_droping_expression_result" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="variable" refId="MixerClockSignal" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="expression" refId="Mixer_Visible" attribute="Clock" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="variable" refId="Mieszadlo" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="expression" refId="Mixer_Visible" attribute="Mixer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="variable" refId="Zb1_increase" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="expression" refId="Zb1_change" attribute="Zb_increase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="variable" refId="Zb1_decrease" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="expression" refId="Zb1_change" attribute="Zb_decrease" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="expression" refId="Zb1_change" attribute="result" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="variable" refId="Zb1_change" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="variable" refId="Zb2_increase" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="expression" refId="Zb2_change" attribute="Zb_increase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="variable" refId="Zb2_decrease" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="expression" refId="Zb2_change" attribute="Zb_decrease" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="expression" refId="Zb2_change" attribute="result" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="variable" refId="Zb2_change" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="variable" refId="Zb1_decrease" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="expression" refId="Zb3_change" attribute="Zb1_decrease" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="variable" refId="Zb2_decrease" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="expression" refId="Zb3_change" attribute="Zb2_decrease" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="variable" refId="Zb3_decrease" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="expression" refId="Zb3_change" attribute="Zb3_decrease" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="expression" refId="Zb3_change" attribute="result" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="variable" refId="Zb3_change" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="variable" refId="Zb1_decrease" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="expression" refId="Zb12_decrease" attribute="Zb1_decrease" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="variable" refId="Zb2_decrease" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="expression" refId="Zb12_decrease" attribute="Zb2_decrease" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+			<Source xsi:type="expression" refId="Zb12_decrease" attribute="result" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+			<Target xsi:type="variable" refId="Zb12Decrease" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+</BindingDefinition>
