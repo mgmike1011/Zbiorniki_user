@@ -2,6 +2,10 @@
 <?AutomationStudio FileVersion="4.9"?>
 <Package SubType="TextsPackage" PackageType="TextsPackage" xmlns="http://br-automation.co.at/AS/Package">
   <Objects>
-    <Object Type="File">LocalizableTexts.tmx</Object>
+    <Object Type="File">TextsLeftArea.tmx</Object>
+    <Object Type="File">TextsTop.tmx</Object>
+    <Object Type="File">TextsMainPageControl.tmx</Object>
+    <Object Type="File">TextsAlarmPage.tmx</Object>
+    <Object Type="File">TextsServicePage.tmx</Object>
   </Objects>
 </Package>

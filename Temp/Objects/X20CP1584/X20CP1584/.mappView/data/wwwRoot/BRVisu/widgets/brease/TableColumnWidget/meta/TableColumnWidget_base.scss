@@ -1,0 +1,6 @@
+@import "mixins.scss";
+@mixin widgets_brease_TableColumnWidget_base {
+	@include elemWidth(200);
+
+}
+

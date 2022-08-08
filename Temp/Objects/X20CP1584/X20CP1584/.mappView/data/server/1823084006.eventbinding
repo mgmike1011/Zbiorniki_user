@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingDefinition xmlns="http://www.br-automation.com/iat2014/eventbinding/runtime/v2">
+  <Content id="ContentMainPageControl">
+    <EventBinding id="ContentMainPageControl.BtnStart.Click">
+      <Source type="widgets.brease.Button.Event" event="Click" refId="ContentMainPageControl_BtnStart" />
+      <EventHandler>
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target type="opcUa.NodeAction" refId="::AutomaticC:Start">
+                <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target type="opcUa.NodeAction" refId="::AutomaticC:Stop">
+                <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+              </Target>
+            </Action>
+          </Step>
+          <Step order="2">
+            <Action>
+              <Target type="widgets.brease.Button.Action" refId="ContentMainPageControl_BtnStart">
+                <Method type="widgets.brease.Button.Action.SetEnable"><Parameter name="value" xsi:type="BOOL" value="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+  <Content id="ContentMainPageControl">
+    <EventBinding id="ContentMainPageControl.BtnStop.Click">
+      <Source type="widgets.brease.Button.Event" event="Click" refId="ContentMainPageControl_BtnStop" />
+      <EventHandler>
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target type="opcUa.NodeAction" refId="::AutomaticC:Stop">
+                <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target type="opcUa.NodeAction" refId="::AutomaticC:Start">
+                <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+              </Target>
+            </Action>
+          </Step>
+          <Step order="2">
+            <Action>
+              <Target type="widgets.brease.Button.Action" refId="ContentMainPageControl_BtnStart">
+                <Method type="widgets.brease.Button.Action.SetEnable"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+</EventBindingDefinition>

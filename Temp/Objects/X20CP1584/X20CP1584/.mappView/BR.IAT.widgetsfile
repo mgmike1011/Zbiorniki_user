@@ -1,20 +1,46 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <widgets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.br-automation.com/iat2015/widgetListDefinition/v2">
+  <widget name="widgets.brease.AlarmList" />
+  <widget name="widgets.brease.AlarmListItem" />
+  <widget name="widgets.brease.AlarmListStyle" />
+  <widget name="widgets.brease.BarChart" />
+  <widget name="widgets.brease.BarChartItem" />
+  <widget name="widgets.brease.BusyIndicator" />
   <widget name="widgets.brease.Button" />
   <widget name="widgets.brease.ButtonBar" />
+  <widget name="widgets.brease.CheckBox" />
+  <widget name="widgets.brease.DataHandlerWidget" />
+  <widget name="widgets.brease.DateTimeInput" />
   <widget name="widgets.brease.DateTimePicker" />
   <widget name="widgets.brease.DialogWindow" />
+  <widget name="widgets.brease.DropDownBox" />
+  <widget name="widgets.brease.GenericDialog" />
+  <widget name="widgets.brease.GroupBox" />
+  <widget name="widgets.brease.Image" />
   <widget name="widgets.brease.KeyBoard" />
   <widget name="widgets.brease.Label" />
+  <widget name="widgets.brease.LanguageSelector" />
   <widget name="widgets.brease.Line" />
+  <widget name="widgets.brease.ListWidget" />
+  <widget name="widgets.brease.Login" />
+  <widget name="widgets.brease.LogoutButton" />
+  <widget name="widgets.brease.MeasurementSystemSelector" />
   <widget name="widgets.brease.MessageBox" />
+  <widget name="widgets.brease.NavigationBar" />
+  <widget name="widgets.brease.NavigationButton" />
   <widget name="widgets.brease.NumericInput" />
   <widget name="widgets.brease.NumericOutput" />
   <widget name="widgets.brease.NumPad" />
+  <widget name="widgets.brease.Password" />
   <widget name="widgets.brease.ProgressBar" />
   <widget name="widgets.brease.RadioButton" />
   <widget name="widgets.brease.RadioButtonGroup" />
   <widget name="widgets.brease.Rectangle" />
+  <widget name="widgets.brease.TableColumnWidget" />
+  <widget name="widgets.brease.TableWidget" />
+  <widget name="widgets.brease.TableWidgetStyle" />
+  <widget name="widgets.brease.TextInput" />
+  <widget name="widgets.brease.TextPicker" />
   <widget name="widgets.brease.ToggleButton" />
   <widget name="widgets.brease.Window" />
 </widgets>

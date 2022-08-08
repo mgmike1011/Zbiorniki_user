@@ -1,0 +1,84 @@
+﻿@import "mixins.scss";
+#ContentServicePageControl_Login1 {
+	@include elemTop(15);
+}
+#ContentServicePageControl_Login1 {
+	@include elemLeft(15);
+}
+#ContentServicePageControl_Login1 {
+	@include elemWidth(405);
+}
+#ContentServicePageControl_Login1 {
+	@include elemHeight(150);
+}
+#ContentServicePageControl_Login1 {
+		z-index: 0;
+}
+#ContentServicePageControl_GroupBox1 {
+	@include elemWidth(200);
+}
+#ContentServicePageControl_GroupBox1 {
+	@include elemHeight(150);
+}
+#ContentServicePageControl_GroupBox1 {
+	@include elemTop(15);
+}
+#ContentServicePageControl_GroupBox1 {
+	@include elemLeft(553);
+}
+#ContentServicePageControl_GroupBox1 {
+		z-index: 1;
+}
+#ContentServicePageControl_MeasurementSystemSelector1 {
+	@include elemTop(15);
+}
+#ContentServicePageControl_MeasurementSystemSelector1 {
+	@include elemLeft(18);
+}
+#ContentServicePageControl_MeasurementSystemSelector1 {
+	&.DropDownBoxView{
+	@include elemWidth(165);
+	}
+}
+#ContentServicePageControl_MeasurementSystemSelector1 {
+	&.DropDownBoxView{
+	@include elemHeight(75);
+	}
+}
+#ContentServicePageControl_MeasurementSystemSelector1 {
+		z-index: 0;
+}
+#ContentServicePageControl_GroupBox2 {
+	@include elemWidth(200);
+}
+#ContentServicePageControl_GroupBox2 {
+	@include elemHeight(150);
+}
+#ContentServicePageControl_GroupBox2 {
+	@include elemTop(15);
+}
+#ContentServicePageControl_GroupBox2 {
+	@include elemLeft(885);
+}
+#ContentServicePageControl_GroupBox2 {
+		z-index: 2;
+}
+#ContentServicePageControl_LanguageSelector1 {
+	@include elemTop(15);
+}
+#ContentServicePageControl_LanguageSelector1 {
+	@include elemLeft(25);
+}
+#ContentServicePageControl_LanguageSelector1 {
+	&.DropDownBoxView{
+	@include elemWidth(150);
+	}
+}
+#ContentServicePageControl_LanguageSelector1 {
+	&.DropDownBoxView{
+	@include elemHeight(75);
+	}
+}
+#ContentServicePageControl_LanguageSelector1 {
+		z-index: 0;
+}

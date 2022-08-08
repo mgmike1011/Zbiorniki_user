@@ -1,0 +1,18 @@
+@import "mixins.scss";
+@mixin widgets_brease_Login_base {
+	@include elemWidth(300);
+	@include elemHeight(160);
+	@include elemMinWidth(0);
+	@include elemMaxWidth(0);
+	border-style: none;
+	border-width: 2px;
+	@include border-radius(0px);
+	background-color: transparent;
+	@include backGroundGradient('');
+	border-color: #5B7C70;
+	opacity: 1;
+	margin: 0px;
+	@include box-shadow(none);
+
+}
+

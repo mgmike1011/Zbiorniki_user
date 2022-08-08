@@ -1,0 +1,83 @@
+@import '../../../../css/libs/variables.scss';
+@import '../../../../css/libs/mixins.scss';
+
+
+.breaseLogin {
+    padding: 5px;
+    @include box-sizing(border-box);
+    display:inline-block;
+
+    > div {
+        width: 100%;
+        @include displayFlexBox(true);
+        @include flex-direction(row);
+        @include align-items(center);
+        @include flex-wrap(nowrap);
+        @include justify-content(space-between);
+        text-align: center;
+    }
+
+    .userRow {
+        .breaseLabel.breaseLabel {
+			width: 140px;
+        }
+
+        .breaseTextInput {
+            flex: 1 0 auto;
+        }
+    }
+
+    .passRow {
+        label {
+			margin-top: 10px;
+			width: 140px;
+        }
+
+        .breasePassword {
+            flex: 1 0 auto;
+        }
+    }
+
+	.messageLabel {
+		width: 100%;
+	}
+
+    .btnRow {
+        @include justify-content(end);
+        margin-top: 10px;
+    }
+
+    
+
+    > .breaseLabel {
+        &.success {
+            color: #00AE02;
+        }
+
+        &.fail {
+            color: #FF0000;
+        }
+    }
+}
+
+.breaseLoginBusyWrapper {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+		@include align-items(center);
+        @include justify-content(center);
+        background-color: #fff;
+        opacity: 0.5;
+        display: none;
+
+		&.visible {
+			@include displayFlexBox(true);
+		}
+
+		.breaseBusyIndicator {
+			width: 50px;
+			height: 50px;
+		}
+    }

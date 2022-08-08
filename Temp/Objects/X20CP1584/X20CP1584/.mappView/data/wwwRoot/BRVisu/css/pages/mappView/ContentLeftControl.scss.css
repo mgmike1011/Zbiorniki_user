@@ -1,0 +1,99 @@
+#ContentLeftControl_NavigationBar {
+  width: 150px;
+}
+
+#ContentLeftControl_NavigationBar {
+  top: 0px;
+  position: absolute;
+}
+
+#ContentLeftControl_NavigationBar {
+  left: 0px;
+  position: absolute;
+}
+
+#ContentLeftControl_NavigationBar {
+  height: 300px;
+}
+
+#ContentLeftControl_NavigationBar {
+  z-index: 0;
+}
+
+#ContentLeftControl_NavBtnMainPgControl {
+  top: 0px;
+  position: absolute;
+}
+
+#ContentLeftControl_NavBtnMainPgControl {
+  left: 0px;
+  position: absolute;
+}
+
+#ContentLeftControl_NavBtnMainPgControl {
+  width: 140px;
+}
+
+#ContentLeftControl_NavBtnMainPgControl {
+  height: 60px;
+}
+
+#ContentLeftControl_NavBtnMainPgControl {
+  z-index: 0;
+}
+
+#ContentLeftControl_NavBtnMainPgControl {
+  margin: 5px;
+}
+
+#ContentLeftControl_NavBtnAlarmPgControl {
+  top: 0px;
+  position: absolute;
+}
+
+#ContentLeftControl_NavBtnAlarmPgControl {
+  left: 0px;
+  position: absolute;
+}
+
+#ContentLeftControl_NavBtnAlarmPgControl {
+  width: 140px;
+}
+
+#ContentLeftControl_NavBtnAlarmPgControl {
+  height: 60px;
+}
+
+#ContentLeftControl_NavBtnAlarmPgControl {
+  z-index: 1;
+}
+
+#ContentLeftControl_NavBtnAlarmPgControl {
+  margin: 5px;
+}
+
+#ContentLeftControl_NavBtnServicePgControl {
+  top: 0px;
+  position: absolute;
+}
+
+#ContentLeftControl_NavBtnServicePgControl {
+  left: 0px;
+  position: absolute;
+}
+
+#ContentLeftControl_NavBtnServicePgControl {
+  width: 140px;
+}
+
+#ContentLeftControl_NavBtnServicePgControl {
+  height: 60px;
+}
+
+#ContentLeftControl_NavBtnServicePgControl {
+  z-index: 2;
+}
+
+#ContentLeftControl_NavBtnServicePgControl {
+  margin: 5px;
+}

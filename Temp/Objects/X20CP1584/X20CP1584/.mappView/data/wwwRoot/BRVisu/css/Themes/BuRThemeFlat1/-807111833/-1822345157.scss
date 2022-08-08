@@ -1,0 +1,518 @@
+﻿@import "mixins.scss";
+@import "../../../../../types/Page_base";
+.system_brease_Page_style_default {
+@include system_brease_Page_base; 
+
+}
+@import "../../../../../types/Dialog_base";
+.system_brease_Dialog_style_default {
+@include system_brease_Dialog_base; 
+.breaseDialogWindowHeader .textDiv {
+	font-size: 20px;
+}
+.breaseDialogWindowHeader .textDiv {
+	color: #646464;
+}
+@include border-radius(0px 0px 0px 0px);
+.breaseDialogWindowContentBox {
+@include border-bottom-right-radius(0px 0px 0px 0px);
+}
+.breaseDialogWindowContentBox {
+@include border-bottom-left-radius(0px 0px 0px 0px);
+}
+.breaseDialogWindowHeader {
+@include border-radius(0px 0px 0px 0px);
+}
+.breaseDialogWindowHeader {
+	border-width: 0px;
+}
+.breaseDialogWindowContentBox {
+	border-width: 0px;
+}
+.breaseDialogWindowContentBox {
+	border-color: #A899A0 #5F5F5F #5F5F5F #A899A0;
+}
+
+}
+@import "../../../../../types/MessageBox_base";
+.system_brease_MessageBox_style_default {
+@include system_brease_MessageBox_base; 
+.breaseMessageBoxContentBox {
+	background-color: #fff;
+}
+.breaseMessageBoxHeader {
+	background-color: #d6d6d6;
+}
+.messageBoxFooter {
+	background-color: #d6d6d6;
+}
+&.breaseMessageBox.breaseWindow .breaseMessageBoxHeader div {
+@include font-weight-bold(false);
+}
+&.breaseMessageBox.breaseWindow .breaseMessageBoxHeader div {
+	font-size: 22px;
+}
+.breaseMessageBoxHeader {
+	border-style: none;
+}
+.breaseMessageBoxHeader {
+	border-color: #646464;
+}
+&.breaseMessageBox.breaseWindow header.breaseMessageBoxHeader > div {
+	color: #646464;
+}
+.breaseMessageBoxContentBox div.content {
+	font-size: 20px;
+}
+.breaseMessageBoxContentBox div.content {
+	color: #646464;
+}
+.breaseMessageBoxHeader {
+	border-radius: 0px;
+}
+.messageBoxFooter {
+	border-radius: 0px;
+}
+.breaseMessageBoxContentBox {
+	border-width: 0px;
+}
+.messageBoxButton {
+	border-style: none;
+}
+.messageBoxButton.active {
+	border-style: none;
+}
+.messageBoxButton:active {
+	border-style: none;
+}
+.messageBoxButton.checked {
+	border-style: none;
+}
+.messageBoxButton.disabled {
+	border-style: none;
+}
+.messageBoxButton {
+	border-color: #646464;
+}
+.messageBoxButton:not(.disabled):not(.editMode):active {
+	border-width: 0 6px 0 0;
+}
+.messageBoxButton:not(.disabled):not(.editMode).active {
+	border-width: 0 6px 0 0;
+}
+.messageBoxButton:not(.disabled):not(.editMode).checked {
+	border-width: 0 6px 0 0;
+}
+.messageBoxButton:not(.disabled):not(.editMode):active {
+	border-color: #646464;
+}
+.messageBoxButton:not(.disabled):not(.editMode).active {
+	border-color: #646464;
+}
+.messageBoxButton:not(.disabled):not(.editMode).checked {
+	border-color: #646464;
+}
+.messageBoxButton {
+	background-color: #ffffff;
+}
+.messageBoxButton:not(.disabled):not(.editMode):active {
+	background-color: #ff8800;
+}
+.messageBoxButton:not(.disabled):not(.editMode).active {
+	background-color: #ff8800;
+}
+.messageBoxButton:not(.disabled):not(.editMode).checked {
+	background-color: #ff8800;
+}
+.messageBoxButton span {
+	color: #646464;
+}
+.messageBoxButton:not(.disabled) span {
+	color: #646464;
+}
+.messageBoxButton.disabled span {
+	color: #646464;
+}
+.messageBoxButton span {
+	font-size: 14px;
+}
+.messageBoxButton:not(.disabled):not(.editMode):active span {
+	color: #ffffff;
+}
+.messageBoxButton:not(.disabled):not(.editMode).active span {
+	color: #ffffff;
+}
+.messageBoxButton:not(.disabled):not(.editMode).checked span {
+	color: #ffffff;
+}
+
+}
+@import "../../../../../types/Area_base";
+.system_brease_Area_style_default {
+@include system_brease_Area_base; 
+	background-color: #e6e6e6;
+
+}
+@import "../../../../../types/Scrollbar_base";
+.system_brease_Scrollbar_style_default {
+@include system_brease_Scrollbar_base; 
+.iScrollIndicator {
+	background-color: rgba(0,0,0,0.5);
+}
+.dataTables_scrollBody::-webkit-scrollbar-thumb {
+	background: rgba(0,0,0,0.5);
+}
+.iScrollIndicator {
+	border-color: rgba(255,255,255,0.9);
+}
+.dataTables_scrollBody::-webkit-scrollbar-thumb {
+	border-color: rgba(255,255,255,0.9);
+}
+
+}
+@import "../../../../../types/Tooltip_base";
+.system_brease_Tooltip_style_default {
+@include system_brease_Tooltip_base; 
+.tooltip-arrow {
+@include display(true);
+}
+.breaseTooltip .breaseTooltipText {
+	font-size: 14px;
+}
+.breaseTooltip {
+@include border-radius(0px);
+}
+.breaseTooltip {
+	border-style: none;
+}
+
+}
+@import "../../../../../types/TableConfigurationDialog_base";
+.system_brease_TableConfigurationDialog_style_default {
+@include system_brease_TableConfigurationDialog_base; 
+header {
+	background-color: #dbdbdb;
+}
+header div {
+	font-size: 20px;
+}
+header div {
+	color: #646464;
+}
+@include border-radius(0px 0px 0px 0px);
+header {
+@include border-radius(0px 0px 0px 0px);
+}
+.generic-dialog-content-footer-container {
+@include border-radius(0px 0px 0px 0px);
+}
+header {
+	border-width: 0px;
+}
+header {
+@include reverseMargin(0px);
+}
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+@include static-top-border(0px);
+.generic-dialog-content-footer-container {
+	background-color: #e6e6e6;
+}
+	background-color: #e6e6e6;
+	border-color: #A899A0 #5F5F5F #5F5F5F #A899A0;
+.arrowLeft .breaseWindowArrow {
+	border-right-color: #A899A0 #5F5F5F #5F5F5F #A899A0;
+}
+.arrowRight .breaseWindowArrow {
+	border-left-color: #A899A0 #5F5F5F #5F5F5F #A899A0;
+}
+&.breaseUserListGenericDialog .widgets_brease_Image_style_default.policy.fail svg {
+	fill: #FF0000;
+}
+
+}
+@import "../../../../../types/Area_base";
+.system_brease_Area_style_transparent {
+@include system_brease_Area_base; 
+	background-color: transparent;
+
+}
+@import "../../../../widgets/brease/Rectangle/meta/Rectangle_base";
+.widgets_brease_Rectangle_style_tableConfigurationDialogStyle {
+@include widgets_brease_Rectangle_base; 
+	border-color: #474747;
+
+}
+@import "../../../../widgets/brease/Image/meta/Image_base";
+.widgets_brease_Image_style_tableConfigurationDialogStyle {
+@include widgets_brease_Image_base; 
+& > .ImageView > svg {
+	fill: #474747;
+}
+
+}
+@import "../../../../widgets/brease/DropDownBox/meta/DropDownBox_base";
+.widgets_brease_DropDownBox_style_tableConfigurationDialogStyle {
+@include widgets_brease_DropDownBox_base; 
+& .TextView {
+	font-size: 16px;
+}
+& .TextView {
+	font-size: 16px;
+}
+& .TextView {
+@include font-weight-bold(false);
+}
+& .TextView {
+@include font-weight-bold(false);
+}
+& > .ItemView:not(.itemSelected):not(.itemDisabled) > .TextView:not(.textSelected) {
+	color: #646464;
+}
+& > .ItemView:not(.itemSelected):not(.itemDisabled) {
+	background-color: #FFF;
+}
+& > .ItemView.itemSelected:not(.itemDisabled) {
+	background-color: #646464;
+}
+& > .ItemView.itemDisabled {
+	background-color: #d1d1d1;
+}
+& > .ItemView.itemSelected:not(.itemDisabled) > .TextView.textSelected {
+	color: #FFFFFF;
+}
+&.DropDownBoxView {
+@include border-radius(0px);
+}
+& > .ItemView {
+@include border-radius(0px);
+}
+& > .ListView.Container {
+@include border-radius(0px);
+}
+& > .ListView.Container > .ListView.List > .ItemView:not(.itemSelected) {
+	background-color: #d6d6d6;
+}
+& > .ListView.Container > .ListView.List > .ItemView > .TextView:not(.textSelected) {
+	color: #646464;
+}
+& > .ItemView:not(.itemSelected) {
+	border-width: 0px 6px 0px 0px;
+}
+& > .ItemView.itemSelected {
+	border-width: 0px 3px 0px 0px;
+}
+& > .ItemView:not(.itemSelected):not(.itemDisabled) {
+	border-color: #ff8800;
+}
+& > .ListView.Container {
+	border-color: #ff8800;
+}
+& > .ItemView.itemSelected:not(.itemDisabled) {
+	border-color: #ff8800;
+}
+& > .ListView.Container > .ListView.List > .ItemView > .TextView.textSelected {
+	color: #FFFFFF;
+}
+& > .ListView.Container > .ListView.List > .ItemView.itemSelected {
+	background-color: #FF8500;
+}
+& > .ListView.Container {
+	border-width: 0px;
+}
+& .TextView {
+@include text-alignment(center);
+}
+& .TextView {
+@include text-alignment(center);
+}
+
+}
+@import "../../../../widgets/brease/NumericInput/meta/NumericInput_base";
+.widgets_brease_NumericInput_style_tableConfigurationDialogStyle {
+@include widgets_brease_NumericInput_base; 
+&:not(.disabled):not(.active) input {
+	color: #fff;
+}
+&:not(.disabled):not(.active) span.breaseNumericInput_unit {
+	color: #fff;
+}
+&:not(.active):not(.disabled) {
+	border-width: 0px 0px 0px 6px;
+}
+&:not(.disabled):not(.active) {
+	border-color: #ff8800;
+}
+&.active:not(.disabled) {
+	border-color: #d6d6d6;
+}
+input {
+	font-size: 16px;
+}
+&:not(.disabled):not(.active) {
+	background-color: #646464;
+}
+&.active:not(.disabled) {
+	background-color: #d6d6d6;
+}
+&.active:not(.disabled) input {
+	color: #ff8800;
+}
+&.active:not(.disabled) span.breaseNumericInput_unit {
+	color: #ff8800;
+}
+input {
+@include font-weight-bold(false);
+}
+
+}
+@import "../../../../widgets/brease/CheckBox/meta/CheckBox_base";
+.widgets_brease_CheckBox_style_tableConfigurationDialogStyle {
+@include widgets_brease_CheckBox_base; 
+	border-style: none;
+span {
+	font-size: 16px;
+}
+&:not(.disabled) span {
+	color: #474747;
+}
+&:not(.disabled):not(.active):not(.checked) {
+	background-color: transparent;
+}
+&.active:not(.disabled):not(.editMode) {
+	background-color: transparent;
+}
+&.checked:not(.disabled) {
+	background-color: transparent;
+}
+&.disabled {
+	background-color: transparent;
+}
+&.disabled span {
+	color: #CCCCCC;
+}
+&.disabled.checked span {
+	border-color: #CCCCCC;
+}
+&.disabled.active span {
+	border-color: #CCCCCC;
+}
+span {
+@include font-weight-bold(false);
+}
+
+}
+@import "../../../../widgets/brease/GroupBox/meta/GroupBox_base";
+.widgets_brease_GroupBox_style_tableConfigurationDialogStyle {
+@include widgets_brease_GroupBox_base; 
+> .header {
+	background-color: #FFF;
+}
+	background-color: #d6d6d6;
+> .header span {
+@include font-weight-bold(false);
+}
+> .header span {
+	font-size: 16px;
+}
+> .header {
+height: 16px + 20px;
+}
+> .header span {
+	color: #646464;
+}
+	border-width: 0px 0px 0px 0px;
+> .header {
+	border-width: 0px 0px 0px 0px;
+}
+	border-color: transparent;
+> .header {
+	border-color: transparent;
+}
+
+}
+@import "../../../../widgets/brease/TextInput/meta/TextInput_base";
+.widgets_brease_TextInput_style_tableConfigurationDialogStyle {
+@include widgets_brease_TextInput_base; 
+input {
+@include text-alignment(center);
+}
+&:not(.disabled):not(.active) input {
+	color: #fff;
+}
+&:not(.disabled):not(.active) {
+	border-width: 0px 0px 0px 6px;
+}
+&:not(.disabled):not(.active) {
+	border-color: #ff8800;
+}
+&:not(.disabled).active {
+	border-color: #d6d6d6;
+}
+input {
+	font-size: 16px;
+}
+&:not(.disabled):not(.active) {
+	background-color: #646464;
+}
+&:not(.disabled).active {
+	background-color: #d6d6d6;
+}
+&:not(.disabled).active input {
+	color: #ff8800;
+}
+input {
+@include font-weight-bold(false);
+}
+
+}
+@import "../../../../widgets/brease/DateTimeInput/meta/DateTimeInput_base";
+.widgets_brease_DateTimeInput_style_tableConfigurationDialogStyle {
+@include widgets_brease_DateTimeInput_base; 
+&:not(.active):not(.disabled) span {
+	color: #FFF;
+}
+&:not(.disabled):not(.active) {
+	border-width: 0px 0px 0px 6px;
+}
+&:not(.active):not(.disabled) {
+	border-color: #FF8800;
+}
+&.active:not(.disabled) {
+	border-color: #646464;
+}
+	font-size: 16px;
+&:not(.active):not(.disabled) {
+	background-color: #646464;
+}
+&.active:not(.disabled) {
+	background-color: #646464;
+}
+&.active:not(.disabled) span {
+	color: #FFF;
+}
+@include font-weight-bold(false);
+@include text-alignment(center);
+
+}
+@import "../../../../widgets/brease/Label/meta/Label_base";
+.widgets_brease_Label_style_tableConfigurationDialogStyle {
+@include widgets_brease_Label_base; 
+	font-size: 14px;
+& span {
+	color: #474747;
+}
+	background-color: transparent;
+	border-style: none;
+&:before {
+	border-style: none;
+}
+&:after {
+	border-style: none;
+}
+span {
+	padding: 2px;
+}
+
+}

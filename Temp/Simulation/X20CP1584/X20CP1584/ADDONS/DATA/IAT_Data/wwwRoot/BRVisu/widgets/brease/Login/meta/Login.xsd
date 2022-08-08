@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:iat="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2" elementFormDefault="qualified">
+<xs:complexType name="widgets.brease.LoginRestrict" abstract="true">
+	<xs:complexContent>
+		<xs:restriction base="iat:brease.core.BaseContentWidget">
+			<xs:attribute name="tabIndex" use="optional" type="types:Integer" default="0" />
+			<xs:attribute name="height" use="optional" type="types:Size" default="160" />
+			<xs:attribute name="width" use="optional" type="types:Size" default="300" />
+		</xs:restriction>
+	</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="widgets.brease.Login">
+	<xs:complexContent>
+		<xs:extension base="iat:widgets.brease.LoginRestrict">
+			<xs:attribute name="autFailMessage" use="optional" type="types:String" default="Authorisation failed" />
+			<xs:attribute name="buttonLabel" use="optional" type="types:String" default="Login" />
+			<xs:attribute name="buttonStyle" use="optional" type="types:StyleReference" default="default" />
+			<xs:attribute name="enableUserInput" use="optional" type="types:Boolean" default="true" />
+			<xs:attribute name="keyboard" use="optional" type="types:Boolean" default="true" />
+			<xs:attribute name="labelStyle" use="optional" type="types:StyleReference" default="default" />
+			<xs:attribute name="messageStyle" use="optional" type="types:StyleReference" default="default" />
+			<xs:attribute name="passwordInputStyle" use="optional" type="types:StyleReference" default="default" />
+			<xs:attribute name="passwordLabel" use="optional" type="types:String" default="Password" />
+			<xs:attribute name="setUserFailMessage" use="optional" type="types:String" default="Set User failed" />
+			<xs:attribute name="setUserSuccessMessage" use="optional" type="types:String" default="Login successful" />
+			<xs:attribute name="userChangedMessage" use="optional" type="types:String" default="User changed to: " />
+			<xs:attribute name="userInputStyle" use="optional" type="types:StyleReference" default="default" />
+			<xs:attribute name="userLabel" use="optional" type="types:String" default="Username" />
+			<xs:attribute name="userName" use="optional" type="types:String" default="" />
+			<xs:attribute name="maxWidth" use="optional" type="types:Size" default="0" />
+			<xs:attribute name="minWidth" use="optional" type="types:Size" default="0" />
+			<xs:attribute name="borderStyle" use="optional" type="types:BorderStyle" default="none" />
+			<xs:attribute name="borderWidth" use="optional" type="types:PixelValCollection" default="2px" />
+			<xs:attribute name="cornerRadius" use="optional" type="types:PixelValCollection" default="0px" />
+			<xs:attribute name="backColor" use="optional" type="types:Color" default="transparent" />
+			<xs:attribute name="backGroundGradient" use="optional" type="types:Gradient" default="" />
+			<xs:attribute name="borderColor" use="optional" type="types:ColorCollection" default="#5B7C70" />
+			<xs:attribute name="opacity" use="optional" type="types:Opacity" default="1" />
+			<xs:attribute name="margin" use="optional" type="types:Margin" default="0px" />
+			<xs:attribute name="shadow" use="optional" type="types:Shadow" default="none" />
+		</xs:extension>
+	</xs:complexContent>
+</xs:complexType>
+</xs:schema>

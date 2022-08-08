@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="ContentServicePageControl" height="600" width="1130" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Login" id="Login1" top="15" left="15" width="405" height="150" zIndex="0" />
+    <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox1" top="15" left="553" zIndex="1" text="$IAT/ServicePage/Metricsystemtxt">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.MeasurementSystemSelector" id="MeasurementSystemSelector1" top="15" left="18" width="165" height="75" zIndex="0" />
+      </Widgets>
+    </Widget>
+    <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox2" top="15" left="885" zIndex="2" text="$IAT/ServicePage/Langugagetxt">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.LanguageSelector" id="LanguageSelector1" top="15" left="25" width="150" height="75" zIndex="0" />
+      </Widgets>
+    </Widget>
+  </Widgets>
+</Content>

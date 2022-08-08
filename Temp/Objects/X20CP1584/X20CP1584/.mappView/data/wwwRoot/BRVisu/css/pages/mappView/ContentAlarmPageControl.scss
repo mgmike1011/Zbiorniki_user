@@ -1,0 +1,76 @@
+﻿@import "mixins.scss";
+#ContentAlarmPageControl_AlarmList1 {
+	@include elemTop(15);
+}
+#ContentAlarmPageControl_AlarmList1 {
+	@include elemLeft(15);
+}
+#ContentAlarmPageControl_AlarmList1 {
+	@include elemWidth(1095);
+}
+#ContentAlarmPageControl_AlarmList1 {
+	@include elemHeight(480);
+}
+#ContentAlarmPageControl_AlarmList1 {
+		z-index: 0;
+}
+#ContentAlarmPageControl_AlarmListItem1 {
+	@include elemWidth(200);
+}
+#ContentAlarmPageControl_AlarmListItem1 {
+		z-index: 0;
+}
+#ContentAlarmPageControl_AlarmListItem2 {
+	@include elemWidth(200);
+}
+#ContentAlarmPageControl_AlarmListItem2 {
+		z-index: 1;
+}
+#ContentAlarmPageControl_AlarmListItem3 {
+	@include elemWidth(345);
+}
+#ContentAlarmPageControl_AlarmListItem3 {
+		z-index: 2;
+}
+#ContentAlarmPageControl_AlarmListItem4 {
+	@include elemWidth(200);
+}
+#ContentAlarmPageControl_AlarmListItem4 {
+		z-index: 3;
+}
+#ContentAlarmPageControl_AlarmListItem5 {
+	@include elemWidth(200);
+}
+#ContentAlarmPageControl_AlarmListItem5 {
+		z-index: 4;
+}
+#ContentAlarmPageControl_Button1 {
+	@include elemAutoHeight(30);
+}
+#ContentAlarmPageControl_Button1 {
+	@include elemTop(525);
+}
+#ContentAlarmPageControl_Button1 {
+	@include elemLeft(720);
+}
+#ContentAlarmPageControl_Button1 {
+	@include elemAutoWidth(180);
+}
+#ContentAlarmPageControl_Button1 {
+		z-index: 1;
+}
+#ContentAlarmPageControl_Button2 {
+	@include elemAutoHeight(30);
+}
+#ContentAlarmPageControl_Button2 {
+	@include elemTop(525);
+}
+#ContentAlarmPageControl_Button2 {
+	@include elemLeft(930);
+}
+#ContentAlarmPageControl_Button2 {
+	@include elemAutoWidth(180);
+}
+#ContentAlarmPageControl_Button2 {
+		z-index: 2;
+}

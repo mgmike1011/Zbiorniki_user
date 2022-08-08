@@ -1,0 +1,8 @@
+VAR
+	AlarmsXCore : MpAlarmXCore;
+	LevelTooHigh : INT := 9000;
+END_VAR
+VAR CONSTANT
+	LevelCritical : INT := 10000;
+	LevelTooLow : INT := 500;
+END_VAR

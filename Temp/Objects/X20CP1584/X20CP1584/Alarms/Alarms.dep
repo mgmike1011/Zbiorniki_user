@@ -1,0 +1,7 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/MpAlarmX/MpAlarmX.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/MpBase/MpBase.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/MpAlarmX/MpAlarmXError.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/MpAlarmX/MpAlarmX.typ
+$(AS_PROJECT_PATH)/Logical/Sterowanie/Alarms/Variables.var
+$(AS_PROJECT_PATH)/Logical/Sterowanie/mappingVariables.var
+$(AS_PROJECT_PATH)/Physical/X20CP1584/X20CP1584/mappServices/Config.mpalarmxcore

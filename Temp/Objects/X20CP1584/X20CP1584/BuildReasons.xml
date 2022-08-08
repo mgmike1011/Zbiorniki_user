@@ -1,7 +1,68 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BuildReasons>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\iat_media.job._markerfile">
-    <BuildReason>Target "iat_media.job._markerfile" does not exist</BuildReason>
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\iat_media.job" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\wwwroot\brvisu\css\themes\grunt.themescsso._markerfile">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\wwwroot\brvisu\release\burthemeflat2.min.css" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\wwwroot\contents\mappview\contentalarmpagecontrol._markerfile">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\mappview\visualizationoperatorcontrol\pages\alarmpagecontrol\contentalarmpagecontrol.content" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\server\1823084006.eventbinding">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\mappview\visualizationoperatorcontrol\pages\mainpagecontrol\contentmainpagecontrol.content" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\server\2139907734.binding._markerfile">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\mappview\visualizationoperatorcontrol\pages\alarmpagecontrol\contentalarmpagecontrol.content" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\wwwroot\contents\mappview\contentmainpagecontrol._markerfile">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\mappview\visualizationoperatorcontrol\pages\mainpagecontrol\contentmainpagecontrol.content" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\wwwroot\transformations\eventbinding\parametertypemapping.xml">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\mappview\visualizationoperatorcontrol\pages\mainpagecontrol\contentmainpagecontrol.content" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\server\-683776460.binding._markerfile">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\mappview\visualizationoperatorcontrol\pages\mainpagecontrol\contentmainpagecontrol.content" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\server\861746268.eventbinding">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\mappview\visualizationoperatorcontrol\pages\alarmpagecontrol\contentalarmpagecontrol.content" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\wwwroot\alarmpagecontrol.page._markerfile">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\wwwroot\contents\mappview\contentalarmpagecontrol._markerfile" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\wwwroot\brvisu\css\pages\mappview\contentalarmpagecontrol.scss.css">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\wwwroot\contents\mappview\contentalarmpagecontrol._markerfile" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\wwwroot\mainpagecontrol.page._markerfile">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\wwwroot\contents\mappview\contentmainpagecontrol._markerfile" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\wwwroot\brvisu\css\pages\mappview\contentmainpagecontrol.scss.css">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\wwwroot\contents\mappview\contentmainpagecontrol._markerfile" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\wwwroot\visualizationoperatorcontrol.json">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\wwwroot\mainpagecontrol.page._markerfile" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\wwwroot\brvisu\css\brease_core.css">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\wwwroot\brvisu\css\pages\mappview\contentmainpagecontrol.scss.css" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\wwwroot\grunt.breasecsso._markerfile">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\wwwroot\brvisu\css\themes\grunt.themescsso._markerfile" differs.
+</BuildReason>
   </Rule>
   <Rule ID=".mappView_Build">
     <BuildReason>Rule contains a phony target. </BuildReason>

@@ -9,10 +9,28 @@
     Version="" />
   <Library
     Name="astime"
-    IsDeployed="false"
+    IsDeployed="true"
     IsStatic="false"
     UseAsStatic="false"
     Version="" />
+  <Library
+    Name="MpAlarmX"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="5.18.0" />
+  <Library
+    Name="MpBase"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="5.18.0" />
+  <Library
+    Name="MpServer"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="5.18.0" />
   <Library
     Name="operator"
     IsDeployed="false"
@@ -21,7 +39,7 @@
     Version="" />
   <Library
     Name="runtime"
-    IsDeployed="false"
+    IsDeployed="true"
     IsStatic="false"
     UseAsStatic="false"
     Version="" />

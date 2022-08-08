@@ -1,0 +1,18 @@
+@import '../../../../css/libs/variables.scss';
+@import '../../../../css/libs/mixins.scss';
+
+.breaseBarChartItem {
+    rect.bar {
+        @include SVGFactorBorder(2px, 2);
+        stroke: #000000;
+        fill: #FF8800;
+    }
+
+    text {
+        fill: #000000;
+        font-size: 12px;
+        font-family: Arial;
+        @include font-weight-bold(false);
+        @include font-style-italic(false);
+    }
+}

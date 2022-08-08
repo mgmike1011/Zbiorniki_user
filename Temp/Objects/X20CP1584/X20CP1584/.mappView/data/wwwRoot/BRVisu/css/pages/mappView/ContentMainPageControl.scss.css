@@ -1,0 +1,781 @@
+#ContentMainPageControl_BarChart1 {
+  width: 300px;
+}
+
+#ContentMainPageControl_BarChart1 {
+  height: 300px;
+}
+
+#ContentMainPageControl_BarChart1 {
+  top: 255px;
+  position: absolute;
+}
+
+#ContentMainPageControl_BarChart1 {
+  left: 20px;
+  position: absolute;
+}
+
+#ContentMainPageControl_BarChart1 {
+  z-index: 0;
+}
+
+#ContentMainPageControl_BarChart1 .xAxis text {
+  stroke: #404040;
+}
+
+#ContentMainPageControl_BarChart1 .yAxis text {
+  stroke: #404040;
+}
+
+#ContentMainPageControl_BarChart1 .xAxis text {
+  fill: #404040;
+}
+
+#ContentMainPageControl_BarChart1 .yAxis text {
+  fill: #404040;
+}
+
+#ContentMainPageControl_BarChartItem1 {
+  z-index: 0;
+}
+
+#ContentMainPageControl_BarChartItem1 text {
+  fill: #404040;
+}
+
+#ContentMainPageControl_BarChartItem1 text {
+  font-weight: normal;
+}
+
+#ContentMainPageControl_BarChart2 {
+  width: 300px;
+}
+
+#ContentMainPageControl_BarChart2 {
+  height: 300px;
+}
+
+#ContentMainPageControl_BarChart2 {
+  top: 255px;
+  position: absolute;
+}
+
+#ContentMainPageControl_BarChart2 {
+  left: 300px;
+  position: absolute;
+}
+
+#ContentMainPageControl_BarChart2 {
+  z-index: 1;
+}
+
+#ContentMainPageControl_BarChart2 .xAxis text {
+  stroke: #404040;
+}
+
+#ContentMainPageControl_BarChart2 .yAxis text {
+  stroke: #404040;
+}
+
+#ContentMainPageControl_BarChart2 .xAxis text {
+  fill: #404040;
+}
+
+#ContentMainPageControl_BarChart2 .yAxis text {
+  fill: #404040;
+}
+
+#ContentMainPageControl_BarChart2 .xAxis text {
+  font-weight: normal;
+}
+
+#ContentMainPageControl_BarChart2 .yAxis text {
+  font-weight: normal;
+}
+
+#ContentMainPageControl_BarChartItem2 {
+  z-index: 0;
+}
+
+#ContentMainPageControl_BarChartItem2 text {
+  fill: #404040;
+}
+
+#ContentMainPageControl_BarChartItem2 text {
+  font-weight: normal;
+}
+
+#ContentMainPageControl_BarChart3 {
+  width: 300px;
+}
+
+#ContentMainPageControl_BarChart3 {
+  height: 300px;
+}
+
+#ContentMainPageControl_BarChart3 {
+  top: 255px;
+  position: absolute;
+}
+
+#ContentMainPageControl_BarChart3 {
+  left: 580px;
+  position: absolute;
+}
+
+#ContentMainPageControl_BarChart3 {
+  z-index: 2;
+}
+
+#ContentMainPageControl_BarChart3 .xAxis text {
+  stroke: #404040;
+}
+
+#ContentMainPageControl_BarChart3 .yAxis text {
+  stroke: #404040;
+}
+
+#ContentMainPageControl_BarChart3 .xAxis text {
+  fill: #404040;
+}
+
+#ContentMainPageControl_BarChart3 .yAxis text {
+  fill: #404040;
+}
+
+#ContentMainPageControl_BarChartItem3 {
+  z-index: 0;
+}
+
+#ContentMainPageControl_BarChartItem3 text {
+  fill: #404040;
+}
+
+#ContentMainPageControl_BarChartItem3 text {
+  font-weight: normal;
+}
+
+#ContentMainPageControl_Label2 {
+  height: 30px;
+}
+
+#ContentMainPageControl_Label2 {
+  top: 240px;
+  position: absolute;
+}
+
+#ContentMainPageControl_Label2 {
+  left: 20px;
+  position: absolute;
+}
+
+#ContentMainPageControl_Label2 {
+  width: 220px;
+}
+
+#ContentMainPageControl_Label2 {
+  z-index: 3;
+}
+
+#ContentMainPageControl_Label2 span {
+  color: #404040;
+}
+
+#ContentMainPageControl_Label2 {
+  font-size: 22px;
+}
+
+#ContentMainPageControl_Label2 {
+  font-weight: bold;
+}
+
+#ContentMainPageControl_NumericOutput1 {
+  width: 100px;
+}
+
+#ContentMainPageControl_NumericOutput1 {
+  height: 30px;
+}
+
+#ContentMainPageControl_NumericOutput1 {
+  top: 555px;
+  position: absolute;
+}
+
+#ContentMainPageControl_NumericOutput1 {
+  left: 120px;
+  position: absolute;
+}
+
+#ContentMainPageControl_NumericOutput1 {
+  z-index: 4;
+}
+
+#ContentMainPageControl_NumericOutput1 input {
+  color: #404040;
+}
+
+#ContentMainPageControl_NumericOutput1 span.breaseNumericOutput_unit {
+  color: #404040;
+}
+
+#ContentMainPageControl_NumericOutput2 {
+  width: 100px;
+}
+
+#ContentMainPageControl_NumericOutput2 {
+  height: 30px;
+}
+
+#ContentMainPageControl_NumericOutput2 {
+  top: 555px;
+  position: absolute;
+}
+
+#ContentMainPageControl_NumericOutput2 {
+  left: 400px;
+  position: absolute;
+}
+
+#ContentMainPageControl_NumericOutput2 {
+  z-index: 5;
+}
+
+#ContentMainPageControl_NumericOutput2 input {
+  color: #404040;
+}
+
+#ContentMainPageControl_NumericOutput2 span.breaseNumericOutput_unit {
+  color: #404040;
+}
+
+#ContentMainPageControl_NumericOutput3 {
+  width: 100px;
+}
+
+#ContentMainPageControl_NumericOutput3 {
+  height: 30px;
+}
+
+#ContentMainPageControl_NumericOutput3 {
+  top: 555px;
+  position: absolute;
+}
+
+#ContentMainPageControl_NumericOutput3 {
+  left: 680px;
+  position: absolute;
+}
+
+#ContentMainPageControl_NumericOutput3 {
+  z-index: 6;
+}
+
+#ContentMainPageControl_NumericOutput3 input {
+  color: #404040;
+}
+
+#ContentMainPageControl_NumericOutput3 span.breaseNumericOutput_unit {
+  color: #404040;
+}
+
+#ContentMainPageControl_Label3 {
+  top: 225px;
+  position: absolute;
+}
+
+#ContentMainPageControl_Label3 {
+  left: 880px;
+  position: absolute;
+}
+
+#ContentMainPageControl_Label3 {
+  width: 200px;
+}
+
+#ContentMainPageControl_Label3 {
+  height: 60px;
+}
+
+#ContentMainPageControl_Label3 {
+  z-index: 7;
+}
+
+#ContentMainPageControl_Label3 span {
+  color: #404040;
+}
+
+#ContentMainPageControl_Label3 {
+  font-size: 20px;
+}
+
+#ContentMainPageControl_Label3 {
+  font-weight: bold;
+}
+
+#ContentMainPageControl_TextPicker1 {
+  top: 285px;
+  position: absolute;
+}
+
+#ContentMainPageControl_TextPicker1 {
+  left: 880px;
+  position: absolute;
+}
+
+#ContentMainPageControl_TextPicker1 {
+  width: 220px;
+}
+
+#ContentMainPageControl_TextPicker1 {
+  height: 220px;
+}
+
+#ContentMainPageControl_TextPicker1 {
+  z-index: 8;
+}
+
+#ContentMainPageControl_TextPicker1 #textWheel div.itemFragment div span {
+  font-weight: bold;
+}
+
+#ContentMainPageControl_TextPicker1.disabled #textWheel div.marker {
+  background-color: #ff8800;
+}
+
+#ContentMainPageControl_TextPicker1.disabled #textWheel div.itemFragment div:not(.selected) span {
+  color: #646464;
+}
+
+#ContentMainPageControl_TextPicker1.disabled #textWheel div.itemFragment div.selected span {
+  color: black;
+}
+
+#ContentMainPageControl_TextPicker1.disabled #textWheel div.itemFragment div:not(.selected) {
+  border-color: black;
+}
+
+#ContentMainPageControl_TextPicker1.disabled #textWheel div.itemFragment div.selected {
+  background-color: #cccccc;
+}
+
+#ContentMainPageControl_GrpBoxProcessControll {
+  top: 15px;
+  position: absolute;
+}
+
+#ContentMainPageControl_GrpBoxProcessControll {
+  left: 20px;
+  position: absolute;
+}
+
+#ContentMainPageControl_GrpBoxProcessControll {
+  width: 240px;
+}
+
+#ContentMainPageControl_GrpBoxProcessControll {
+  height: 205px;
+}
+
+#ContentMainPageControl_GrpBoxProcessControll {
+  z-index: 9;
+}
+
+#ContentMainPageControl_GrpBoxProcessControll > .header span {
+  color: #404040;
+}
+
+#ContentMainPageControl_GrpBoxProcessControll > .header span {
+  font-size: 20px;
+}
+
+#ContentMainPageControl_GrpBoxProcessControll > .header {
+  height: 40px;
+}
+
+#ContentMainPageControl_GrpBoxProcessControll > .header span {
+  font-weight: bold;
+}
+
+#ContentMainPageControl_BtnStart {
+  top: 20px;
+  position: absolute;
+}
+
+#ContentMainPageControl_BtnStart {
+  left: 50px;
+  position: absolute;
+}
+
+#ContentMainPageControl_BtnStart {
+  width: 140px;
+}
+
+#ContentMainPageControl_BtnStart {
+  height: 60px;
+}
+
+#ContentMainPageControl_BtnStart {
+  z-index: 0;
+}
+
+#ContentMainPageControl_BtnStart span {
+  font-size: 18px;
+}
+
+#ContentMainPageControl_BtnStop {
+  top: 95px;
+  position: absolute;
+}
+
+#ContentMainPageControl_BtnStop {
+  left: 50px;
+  position: absolute;
+}
+
+#ContentMainPageControl_BtnStop {
+  width: 140px;
+}
+
+#ContentMainPageControl_BtnStop {
+  height: 60px;
+}
+
+#ContentMainPageControl_BtnStop {
+  z-index: 1;
+}
+
+#ContentMainPageControl_BtnStop:not(.disabled):not(.active):not(.checked) span {
+  color: red;
+}
+
+#ContentMainPageControl_BtnStop.disabled span {
+  color: #989898;
+}
+
+#ContentMainPageControl_BtnStop.disabled.active span {
+  color: #989898;
+}
+
+#ContentMainPageControl_BtnStop.disabled:checked span {
+  color: #989898;
+}
+
+#ContentMainPageControl_BtnStop.active:not(.disabled):not(.editMode) span {
+  color: red;
+}
+
+#ContentMainPageControl_BtnStop.active.checked:not(.disabled) span {
+  color: red;
+}
+
+#ContentMainPageControl_BtnStop span {
+  font-size: 18px;
+}
+
+#ContentMainPageControl_GrpBoxMixing {
+  top: 15px;
+  position: absolute;
+}
+
+#ContentMainPageControl_GrpBoxMixing {
+  left: 300px;
+  position: absolute;
+}
+
+#ContentMainPageControl_GrpBoxMixing {
+  width: 240px;
+}
+
+#ContentMainPageControl_GrpBoxMixing {
+  height: 205px;
+}
+
+#ContentMainPageControl_GrpBoxMixing {
+  z-index: 10;
+}
+
+#ContentMainPageControl_GrpBoxMixing > .header span {
+  color: #404040;
+}
+
+#ContentMainPageControl_GrpBoxMixing > .header span {
+  font-size: 20px;
+}
+
+#ContentMainPageControl_GrpBoxMixing > .header {
+  height: 40px;
+}
+
+#ContentMainPageControl_GrpBoxMixing > .header span {
+  font-weight: bold;
+}
+
+#ContentMainPageControl_ToggleButtonMixing {
+  top: 20px;
+  position: absolute;
+}
+
+#ContentMainPageControl_ToggleButtonMixing {
+  left: 50px;
+  position: absolute;
+}
+
+#ContentMainPageControl_ToggleButtonMixing {
+  width: 140px;
+}
+
+#ContentMainPageControl_ToggleButtonMixing {
+  height: 60px;
+}
+
+#ContentMainPageControl_ToggleButtonMixing {
+  z-index: 0;
+}
+
+#ContentMainPageControl_ToggleButtonMixing span {
+  font-size: 18px;
+}
+
+#ContentMainPageControl_ToggleButtonMixing span {
+  font-weight: bold;
+}
+
+#ContentMainPageControl_ToggleButtonMixer {
+  top: 95px;
+  position: absolute;
+}
+
+#ContentMainPageControl_ToggleButtonMixer {
+  left: 90px;
+  position: absolute;
+}
+
+#ContentMainPageControl_ToggleButtonMixer {
+  width: 60px;
+}
+
+#ContentMainPageControl_ToggleButtonMixer {
+  height: 60px;
+}
+
+#ContentMainPageControl_ToggleButtonMixer {
+  z-index: 1;
+}
+
+#ContentMainPageControl_ToggleButtonMixer:not(.active):not(.checked) {
+  border-width: 3px;
+}
+
+#ContentMainPageControl_ToggleButtonMixer.disabled {
+  border-width: 3px;
+}
+
+#ContentMainPageControl_ToggleButtonMixer {
+  border-radius: 30px;
+}
+
+#ContentMainPageControl_ToggleButtonMixer:not(.disabled):not(.active):not(.checked) {
+  background-color: red;
+}
+
+#ContentMainPageControl_ToggleButtonMixer.disabled:not(.checked) {
+  background-color: red;
+}
+
+#ContentMainPageControl_ToggleButtonMixer:not(.disabled):not(.checked) {
+  border-color: black;
+}
+
+#ContentMainPageControl_ToggleButtonMixer.disabled:not(.active):not(.checked) {
+  border-color: black;
+}
+
+#ContentMainPageControl_ToggleButtonMixer.checked:not(.active):not(.disabled) {
+  background-color: lime;
+}
+
+#ContentMainPageControl_ToggleButtonMixer.checked:not(.active):not(.disabled) {
+  border-color: lightgray;
+}
+
+#ContentMainPageControl_ToggleButtonMixer.disabled.checked {
+  background-color: lime;
+}
+
+#ContentMainPageControl_ToggleButtonMixer.disabled.checked {
+  border-color: black;
+}
+
+#ContentMainPageControl_GrpBoxValveControl {
+  top: 15px;
+  position: absolute;
+}
+
+#ContentMainPageControl_GrpBoxValveControl {
+  left: 585px;
+  position: absolute;
+}
+
+#ContentMainPageControl_GrpBoxValveControl {
+  width: 240px;
+}
+
+#ContentMainPageControl_GrpBoxValveControl {
+  height: 205px;
+}
+
+#ContentMainPageControl_GrpBoxValveControl {
+  z-index: 11;
+}
+
+#ContentMainPageControl_GrpBoxValveControl > .header span {
+  color: #404040;
+}
+
+#ContentMainPageControl_GrpBoxValveControl > .header span {
+  font-size: 20px;
+}
+
+#ContentMainPageControl_GrpBoxValveControl > .header {
+  height: 40px;
+}
+
+#ContentMainPageControl_GrpBoxValveControl > .header span {
+  font-weight: bold;
+}
+
+#ContentMainPageControl_Label1 {
+  height: 30px;
+}
+
+#ContentMainPageControl_Label1 {
+  top: 5px;
+  position: absolute;
+}
+
+#ContentMainPageControl_Label1 {
+  left: 45px;
+  position: absolute;
+}
+
+#ContentMainPageControl_Label1 {
+  width: 150px;
+}
+
+#ContentMainPageControl_Label1 {
+  z-index: 0;
+}
+
+#ContentMainPageControl_Label1 span {
+  color: #404040;
+}
+
+#ContentMainPageControl_Label1 {
+  justify-content: center;
+  text-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+#ContentMainPageControl_Label1 {
+  font-size: 15px;
+}
+
+#ContentMainPageControl_Label1 {
+  font-weight: bold;
+}
+
+#ContentMainPageControl_Label4 {
+  height: 30px;
+}
+
+#ContentMainPageControl_Label4 {
+  top: 85px;
+  position: absolute;
+}
+
+#ContentMainPageControl_Label4 {
+  left: 53px;
+  position: absolute;
+}
+
+#ContentMainPageControl_Label4 {
+  width: 135px;
+}
+
+#ContentMainPageControl_Label4 {
+  z-index: 1;
+}
+
+#ContentMainPageControl_Label4 span {
+  color: #404040;
+}
+
+#ContentMainPageControl_Label4 {
+  justify-content: center;
+  text-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+#ContentMainPageControl_Label4 {
+  font-size: 15px;
+}
+
+#ContentMainPageControl_Label4 {
+  font-weight: bold;
+}
+
+#ContentMainPageControl_NumericInput1 {
+  height: 30px;
+}
+
+#ContentMainPageControl_NumericInput1 {
+  top: 45px;
+  position: absolute;
+}
+
+#ContentMainPageControl_NumericInput1 {
+  left: 45px;
+  position: absolute;
+}
+
+#ContentMainPageControl_NumericInput1 {
+  width: 150px;
+}
+
+#ContentMainPageControl_NumericInput1 {
+  z-index: 2;
+}
+
+#ContentMainPageControl_NumericInput1 input {
+  font-weight: bold;
+}
+
+#ContentMainPageControl_NumericInput2 {
+  height: 30px;
+}
+
+#ContentMainPageControl_NumericInput2 {
+  top: 125px;
+  position: absolute;
+}
+
+#ContentMainPageControl_NumericInput2 {
+  left: 45px;
+  position: absolute;
+}
+
+#ContentMainPageControl_NumericInput2 {
+  width: 150px;
+}
+
+#ContentMainPageControl_NumericInput2 {
+  z-index: 3;
+}
+
+#ContentMainPageControl_NumericInput2 input {
+  font-weight: bold;
+}

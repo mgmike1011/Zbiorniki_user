@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WidgetLibrary xmlns="http://www.br-automation.com/iat2014/widget">
+	<Widget name="widgets.brease.AlarmList">
+		<ASEngineeringInfo>
+			<IsProjectable>true</IsProjectable>
+			<LicenseInfo>unlicensed</LicenseInfo>
+		</ASEngineeringInfo>
+		<Dependencies>
+			<Files>
+				<File>widgets/brease/TableWidget/TableWidget.js</File>
+				<File>widgets/brease/AlarmList/libs/Model.js</File>
+				<File>widgets/brease/AlarmList/libs/Controller.js</File>
+				<File>widgets/brease/AlarmList/libs/Config.js</File>
+				<File>widgets/brease/AlarmList/libs/Renderer.js</File>
+				<File>widgets/brease/common/MpLinkHandler/libs/MpLinkHandler.js</File>
+				<File>brease/decorators/DragAndDropCapability.js</File>
+				<File>widgets/brease/common/DragDropProperties/libs/DroppablePropertiesEvents.js</File>
+				<File>widgets/brease/AlarmListStyle/AlarmListStyle.js</File>
+			</Files>
+			<Widgets>
+				<Widget>widgets/brease/AlarmList/AlarmList.js</Widget>
+				<Widget>widgets/brease/TableWidget/TableWidget.js</Widget>
+				<Widget>widgets/brease/AlarmListStyle/AlarmListStyle.js</Widget>
+			</Widgets>
+		</Dependencies>
+		<Categories>
+			<Category name="Category">Data</Category>
+			<Category name="Category">Alarm</Category>
+		</Categories>
+		<Descriptions>
+			<Description name="short">AlarmList widget that connects to the mpAlarmXCore to display alarms set in that function block</Description>
+			<Description name="de">Das AlarmList-Widget bietet die notwendige Schnittstelle zu mpAlarmXCore für die Auflistung der Systemalarme</Description>
+			<Description name="en">AlarmList widget that connects to the mpAlarmXCore to display alarms set in that function block</Description>
+		</Descriptions>
+		<Inheritance>
+			<Class level="0">widgets.brease.AlarmList</Class>
+			<Class level="1">widgets.brease.TableWidget</Class>
+			<Class level="2">widgets.brease.DataHandlerWidget</Class>
+			<Class level="3">brease.core.BaseWidget</Class>
+		</Inheritance>
+		<Parents>
+			<Parent>*</Parent>
+		</Parents>
+		<Children>
+			<Child>widgets.brease.AlarmListItem</Child>
+		</Children>
+		<Methods>
+			<Method name="Acknowledge" read="false">
+				<Description>Acknowledge currently selected alarm</Description>
+			</Method>
+			<Method name="AcknowledgeAll" read="false">
+				<Description>Acknowledges all alarms</Description>
+			</Method>
+			<Method name="Focus" read="false">
+				<Description>Sets focus on the search box or header element, if it can be focused and keyboardOperation=true</Description>
+			</Method>
+			<Method name="GoToFirstPage" read="false">
+				<Result type="Boolean"/>
+			</Method>
+			<Method name="GoToLastPage" read="false">
+				<Result type="Boolean"/>
+			</Method>
+			<Method name="GoToNextPage" read="false">
+				<Result type="Boolean"/>
+			</Method>
+			<Method name="GoToPage" read="false">
+				<Result type="Boolean"/>
+				<Arguments>
+					<Argument name="value" type="Integer" index="0" required="true"/>
+				</Arguments>
+			</Method>
+			<Method name="GoToPreviousPage" read="false">
+				<Result type="Boolean"/>
+			</Method>
+			<Method name="OpenConfiguration" read="false">
+				<Description>Open the filter part of the configuration dialogue</Description>
+				<Arguments>
+					<Argument name="type" type="MappTableConfigurationType" index="0" required="true">
+						<Description>(Supported types: Filtering, Sorting and Styling)</Description>
+					</Argument>
+				</Arguments>
+			</Method>
+			<Method name="SelectAlarmById" read="false">
+				<Arguments>
+					<Argument name="instanceID" type="UInteger" index="0" required="true">
+						<Description>Goes to a page where the alarm is and selects this row, does not trigger an itemClick event.</Description>
+					</Argument>
+				</Arguments>
+			</Method>
+			<Method name="SetEnable" read="false">
+				<Description>Sets the state of property «enable»</Description>
+				<Arguments>
+					<Argument name="value" type="Boolean" index="0" required="true"/>
+				</Arguments>
+			</Method>
+			<Method name="SetStyle" read="false">
+				<Arguments>
+					<Argument name="value" type="StyleReference" index="0" required="true"/>
+				</Arguments>
+			</Method>
+			<Method name="SetVisible" read="false">
+				<Description>Sets the state of property «visible»</Description>
+				<Arguments>
+					<Argument name="value" type="Boolean" index="0" required="true"/>
+				</Arguments>
+			</Method>
+			<Method name="ShowTooltip" read="false"/>
+		</Methods>
+		<Events>
+			<Event name="Click">
+				<Description>Fired when element is clicked on.</Description>
+				<Arguments>
+					<Argument name="origin" type="String" index="0" required="true">
+						<Description>id of widget that triggered this event</Description>
+					</Argument>
+					<Argument name="horizontalPos" type="String" index="1" required="true">
+						<Description>horizontal position of click in pixel i.e &apos;10px&apos;</Description>
+					</Argument>
+					<Argument name="verticalPos" type="String" index="2" required="true">
+						<Description>vertical position of click in pixel i.e &apos;10px&apos;</Description>
+					</Argument>
+				</Arguments>
+			</Event>
+			<Event name="CurrentPageNumber">
+				<Description>Fires every time there is a page change, updates the Current page, which is currently displayed.</Description>
+				<Arguments>
+					<Argument name="pageNumber" type="Integer" index="0" required="true"/>
+					<Argument name="pageText" type="String" index="1" required="true"/>
+					<Argument name="show" type="Boolean" index="2" required="true"/>
+					<Argument name="select" type="Integer" index="3" required="true"/>
+					<Argument name="pageAlternativeNumber" type="Integer" index="4" required="true"/>
+					<Argument name="pageAlternativeText" type="String" index="5" required="true"/>
+				</Arguments>
+			</Event>
+			<Event name="DisabledClick">
+				<Description>Fired when disabled element is clicked on.</Description>
+				<Arguments>
+					<Argument name="origin" type="String" index="0" required="true">
+						<Description>id of widget that triggered this event</Description>
+					</Argument>
+					<Argument name="hasPermission" type="Boolean" index="1" required="true">
+						<Description>defines if the state is caused due to missing roles of the current user</Description>
+					</Argument>
+					<Argument name="horizontalPos" type="String" index="2" required="true">
+						<Description>horizontal position of click in pixel i.e &apos;10px&apos;</Description>
+					</Argument>
+					<Argument name="verticalPos" type="String" index="3" required="true">
+						<Description>vertical position of click in pixel i.e &apos;10px&apos;</Description>
+					</Argument>
+				</Arguments>
+			</Event>
+			<Event name="EnableChanged">
+				<Description>Fired when operability of the widget changes.</Description>
+				<Arguments>
+					<Argument name="value" type="Boolean" index="0" required="true">
+						<Description>operability</Description>
+					</Argument>
+				</Arguments>
+			</Event>
+			<Event name="FirstPageNumber">
+				<Description>Fires every time there is a page change, updates the First page.</Description>
+				<Arguments>
+					<Argument name="pageNumber" type="Integer" index="0" required="true"/>
+					<Argument name="pageText" type="String" index="1" required="true"/>
+					<Argument name="show" type="Boolean" index="2" required="true"/>
+					<Argument name="select" type="Integer" index="3" required="true"/>
+				</Arguments>
+			</Event>
+			<Event name="ItemClick">
+				<Description>Fired when a row is clicked on.</Description>
+				<Arguments>
+					<Argument name="additionalInfo1" type="String" index="0" required="true"/>
+					<Argument name="additionalInfo2" type="String" index="1" required="true"/>
+					<Argument name="category" type="String" index="2" required="true"/>
+					<Argument name="code" type="Integer" index="3" required="true"/>
+					<Argument name="instanceID" type="Integer" index="4" required="true"/>
+					<Argument name="message" type="String" index="5" required="true"/>
+					<Argument name="name" type="String" index="6" required="true"/>
+					<Argument name="scope" type="String" index="7" required="true"/>
+					<Argument name="severity" type="Integer" index="8" required="true"/>
+					<Argument name="state" type="Integer" index="9" required="true"/>
+					<Argument name="timestamp" type="String" index="10" required="true"/>
+					<Argument name="horizontalPos" type="String" index="11" required="true">
+						<Description>horizontal position of click in pixel i.e &apos;10px&apos;</Description>
+					</Argument>
+					<Argument name="verticalPos" type="String" index="12" required="true">
+						<Description>vertical position of click in pixel i.e &apos;10px&apos;</Description>
+					</Argument>
+				</Arguments>
+			</Event>
+			<Event name="ItemDoubleClick">
+				<Description>Fired when a row is double clicked on.</Description>
+				<Arguments>
+					<Argument name="additionalInfo1" type="String" index="0" required="true"/>
+					<Argument name="additionalInfo2" type="String" index="1" required="true"/>
+					<Argument name="category" type="String" index="2" required="true"/>
+					<Argument name="code" type="Integer" index="3" required="true"/>
+					<Argument name="instanceID" type="Integer" index="4" required="true"/>
+					<Argument name="message" type="String" index="5" required="true"/>
+					<Argument name="name" type="String" index="6" required="true"/>
+					<Argument name="scope" type="String" index="7" required="true"/>
+					<Argument name="severity" type="Integer" index="8" required="true"/>
+					<Argument name="state" type="Integer" index="9" required="true"/>
+					<Argument name="timestamp" type="String" index="10" required="true"/>
+					<Argument name="horizontalPos" type="String" index="11" required="true">
+						<Description>horizontal position of click in pixel i.e &apos;10px&apos;</Description>
+					</Argument>
+					<Argument name="verticalPos" type="String" index="12" required="true">
+						<Description>vertical position of click in pixel i.e &apos;10px&apos;</Description>
+					</Argument>
+				</Arguments>
+			</Event>
+			<Event name="LastPageNumber">
+				<Description>Fires every time there is a page change, updates the Last page.</Description>
+				<Arguments>
+					<Argument name="pageNumber" type="Integer" index="0" required="true"/>
+					<Argument name="pageText" type="String" index="1" required="true"/>
+					<Argument name="show" type="Boolean" index="2" required="true"/>
+					<Argument name="select" type="Integer" index="3" required="true"/>
+				</Arguments>
+			</Event>
+			<Event name="NextPageNumber">
+				<Description>Fires every time there is a page change, updates the Next page after the current page.</Description>
+				<Arguments>
+					<Argument name="pageNumber" type="Integer" index="0" required="true"/>
+					<Argument name="pageText" type="String" index="1" required="true"/>
+					<Argument name="show" type="Boolean" index="2" required="true"/>
+					<Argument name="select" type="Integer" index="3" required="true"/>
+				</Arguments>
+			</Event>
+			<Event name="OnDragEnter">
+				<Description>Fired when element has onDragEnter.</Description>
+				<Arguments>
+					<Argument name="contentId" type="String" index="0" required="true">
+						<Description>content id of the widget that has been entering the droppable widget</Description>
+					</Argument>
+					<Argument name="widgetId" type="String" index="1" required="true">
+						<Description>id of the widget that has been entering the droppable widget</Description>
+					</Argument>
+				</Arguments>
+			</Event>
+			<Event name="OnDragLeave">
+				<Description>Fired when element has OnDragLeave.</Description>
+				<Arguments>
+					<Argument name="contentId" type="String" index="0" required="true">
+						<Description>content id of the widget that has been leaving the droppable widget</Description>
+					</Argument>
+					<Argument name="widgetId" type="String" index="1" required="true">
+						<Description>id of the widget that has been leaving the droppable widget</Description>
+					</Argument>
+				</Arguments>
+			</Event>
+			<Event name="OnDrop">
+				<Description>Fired when element has OnDrop.</Description>
+				<Arguments>
+					<Argument name="contentId" type="String" index="0" required="true">
+						<Description>content id of the widget that has been dropped on the droppable widget</Description>
+					</Argument>
+					<Argument name="widgetId" type="String" index="1" required="true">
+						<Description>id of the widget that has been dropped on the droppable widget</Description>
+					</Argument>
+				</Arguments>
+			</Event>
+			<Event name="OnError">
+				<Description>Fired when mapp Component sends an Error.</Description>
+				<Arguments>
+					<Argument name="result" type="Integer" index="0" required="true"/>
+				</Arguments>
+			</Event>
+			<Event name="PreviousPageNumber">
+				<Description>Fires every time there is a page change, updates the Next page before the current page.</Description>
+				<Arguments>
+					<Argument name="pageNumber" type="Integer" index="0" required="true"/>
+					<Argument name="pageText" type="String" index="1" required="true"/>
+					<Argument name="show" type="Boolean" index="2" required="true"/>
+					<Argument name="select" type="Integer" index="3" required="true"/>
+				</Arguments>
+			</Event>
+			<Event name="VisibleChanged">
+				<Description>Fired when the visibility of the widget changes.</Description>
+				<Arguments>
+					<Argument name="value" type="Boolean" index="0" required="true">
+						<Description>visibility</Description>
+					</Argument>
+				</Arguments>
+			</Event>
+		</Events>
+		<Properties>
+			<Property name="busyIndicatorDelay" type="Integer" initOnly="true" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Behavior" defaultValue="0">
+				<Description>delay time for busy indicator [ms]</Description>
+			</Property>
+			<Property name="enable" type="Boolean" initOnly="false" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Behavior" defaultValue="true">
+				<Description>Initial option to enable widget.</Description>
+			</Property>
+			<Property name="filterConfiguration" type="String" initOnly="false" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Data" defaultValue="">
+				<Description>configuration used to set the filter for the alarmlist, predefined structure. Use from the runtime.</Description>
+			</Property>
+			<Property name="format" type="String" initOnly="false" localizable="true" editableBinding="false" readOnly="false" required="false" projectable="true" category="Appearance" defaultValue="F">
+				<Description>Specifies the format of the time shown in the input field. This is either a format string (ee.g. &quot;HH:mm&quot;) or a pattern (&quot;F&quot;).</Description>
+			</Property>
+			<Property name="headerHeight" type="UInteger" initOnly="true" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Appearance" defaultValue="40">
+				<Description>Table header height</Description>
+			</Property>
+			<Property name="imageActive" type="ImagePath" initOnly="true" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" groupOrder="2" groupRefId="Icons" category="Appearance" defaultValue="">
+				<Description>Path to the image used for state &quot;Active / Not-Acknowledged&quot;. If no image is defined, a predefined image will be used.</Description>
+			</Property>
+			<Property name="imageActiveAcknowledged" type="ImagePath" initOnly="true" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" groupOrder="3" groupRefId="Icons" category="Appearance" defaultValue="">
+				<Description>Path to the image used for state &quot;Active / Acknowledged&quot;. If no image is defined, a predefined image will be used.</Description>
+			</Property>
+			<Property name="imageInactive" type="ImagePath" initOnly="true" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" groupOrder="4" groupRefId="Icons" category="Appearance" defaultValue="">
+				<Description>Path to the image used for state &quot;Inactive / Not-Acknowledged&quot;. If no image is defined, a predefined image will be used.</Description>
+			</Property>
+			<Property name="imagePrefix" type="DirectoryPath" initOnly="true" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" groupOrder="1" groupRefId="Icons" category="Appearance" defaultValue="">
+				<Description>Path to the image used for the images in the category. The image names have to specifed in the backend at the MpAlarmX. See help for more information.</Description>
+			</Property>
+			<Property name="imageSuffix" type="ImageType" initOnly="true" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" groupOrder="1" groupRefId="Icons" category="Appearance" defaultValue=".png">
+				<Description>File extension used for the images in the category. The image names have to specifed in the backend at the MpAlarmX. See help for more information.</Description>
+			</Property>
+			<Property name="itemsPerPage" type="Integer" initOnly="true" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Behavior" defaultValue="3">
+				<Description>Sets the number of items per page that will be displayed when paging is enabled</Description>
+			</Property>
+			<Property name="mpLink" type="MpComIdentType" initOnly="false" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="false" category="Data" defaultValue="">
+				<Description>Link to a MpAlarmX component</Description>
+			</Property>
+			<Property name="nextText" type="String" initOnly="true" localizable="true" editableBinding="false" readOnly="false" required="false" projectable="true" category="Appearance" defaultValue="Next">
+				<Description>Text for the &apos;Next&apos; button</Description>
+			</Property>
+			<Property name="paging" type="Boolean" initOnly="true" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Behavior" defaultValue="true">
+				<Description>If TRUE, predefined paging will be used</Description>
+			</Property>
+			<Property name="permissionOperate" type="RoleCollection" initOnly="true" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Accessibility">
+				<Description>restricts operability to users, which have given roles</Description>
+			</Property>
+			<Property name="permissionView" type="RoleCollection" initOnly="true" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Accessibility">
+				<Description>restricts visibility to users, which have given roles</Description>
+			</Property>
+			<Property name="previousText" type="String" initOnly="true" localizable="true" editableBinding="false" readOnly="false" required="false" projectable="true" category="Appearance" defaultValue="Previous">
+				<Description>Text for the &apos;Previous&apos; button</Description>
+			</Property>
+			<Property name="searchBox" type="Boolean" initOnly="true" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Behavior" defaultValue="true">
+				<Description>If TRUE, predefined search box will be used</Description>
+			</Property>
+			<Property name="showPagingButtons" type="Boolean" initOnly="true" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Behavior" defaultValue="true">
+				<Description>If TRUE, the paging buttons will be shown, else external paging has to be used.</Description>
+			</Property>
+			<Property name="sortConfiguration" type="String" initOnly="false" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Data" defaultValue="">
+				<Description>configuration used to set the filter for the alarmlist, predefined structure. Use from the runtime.</Description>
+			</Property>
+			<Property name="style" type="StyleReference" initOnly="false" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Appearance" defaultValue="default">
+				<Description>reference to a style for this widget type</Description>
+			</Property>
+			<Property name="styleConfiguration" type="String" initOnly="false" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Data" defaultValue="">
+				<Description>configuration used to set the filter for the alarmlist, predefined structure. Use from the runtime.</Description>
+			</Property>
+			<Property name="tabIndex" type="Integer" initOnly="true" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Behavior" defaultValue="-1">
+				<Description>sets if a widget should have autofocus enabled (0), the order of the focus (&gt;0),
+or if autofocus should be disabled (-1)				</Description>
+			</Property>
+			<Property name="tooltip" type="String" initOnly="true" localizable="true" editableBinding="false" readOnly="false" required="false" projectable="true" category="Appearance" defaultValue="">
+				<Description>reference to a tooltip for a widget</Description>
+			</Property>
+			<Property name="visible" type="Boolean" initOnly="false" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Behavior" defaultValue="true">
+				<Description>change visibility</Description>
+			</Property>
+		</Properties>
+		<StyleProperties>
+			<StyleProperty name="width" type="Size" not_styleable="true" owner="widgets.brease.AlarmList" category="Layout" groupRefId="Size" groupOrder="1" default="600">
+				<StyleElement attribute="@include elemWidth($value)"/>
+				<Description>outer width of widget</Description>
+			</StyleProperty>
+			<StyleProperty name="height" type="Size" not_styleable="true" owner="widgets.brease.AlarmList" category="Layout" groupRefId="Size" groupOrder="2" default="300">
+				<StyleElement attribute="@include elemHeight($value)"/>
+				<Description>outer height of widget</Description>
+			</StyleProperty>
+			<StyleProperty name="top" type="Integer" not_styleable="true" owner="brease.core.BaseWidget" category="Layout" groupRefId="Position" groupOrder="1">
+				<StyleElement attribute="@include elemTop($value)"/>
+				<Description>absolute position measured from top boundary of parent container</Description>
+			</StyleProperty>
+			<StyleProperty name="left" type="Integer" not_styleable="true" owner="brease.core.BaseWidget" category="Layout" groupRefId="Position" groupOrder="2">
+				<StyleElement attribute="@include elemLeft($value)"/>
+				<Description>absolute position measured from left boundary of parent container</Description>
+			</StyleProperty>
+			<StyleProperty name="zIndex" type="UInteger" not_styleable="true" owner="brease.core.BaseWidget" category="Layout" required="true">
+				<StyleElement attribute="z-index"/>
+				<Description>The zIndex property specifies the z-order of a widget and its childs.&lt;br/&gt;
+        When widgets overlap, z-order determines which one covers the other. A widget with a larger zIndex generally covers a widget with a lower one.&lt;br/&gt;
+        The zIndex must be unique within a content.&lt;br/&gt;				</Description>
+			</StyleProperty>
+			<StyleProperty name="rowHeight" type="Size" category="Appearance" not_styleable="true" default="0">
+				<StyleElement selector="&amp;.breaseTableWidget .tw_table table tbody tr" attribute="@include rowHeight($value)"/>
+				<StyleElement selector="&amp;.breaseTableWidget .tw_table table tbody tr img" attribute="@include rowHeight($value)"/>
+				<StyleElement selector="&amp;.breaseTableWidget #fakeRowHeight" attribute="@include rowHeight($value)"/>
+				<Description>Sets a uniform rowHeight of the widget.</Description>
+			</StyleProperty>
+			<StyleProperty name="borderStyle" type="BorderStyle" category="Appearance" default="none">
+				<StyleElement selector="&amp;.breaseTableWidget" attribute="border-style"/>
+				<Description>Widget border style</Description>
+			</StyleProperty>
+			<StyleProperty name="borderWidth" type="PixelValCollection" category="Appearance" default="1px">
+				<StyleElement selector="&amp;.breaseTableWidget" attribute="border-width"/>
+				<Description>Widget border width</Description>
+			</StyleProperty>
+			<StyleProperty name="borderColor" type="ColorCollection" category="Appearance" default="#ddd">
+				<StyleElement selector="&amp;.breaseTableWidget" attribute="border-color"/>
+				<Description>Widget border color</Description>
+			</StyleProperty>
+			<StyleProperty name="backColor" type="Color" category="Appearance" default="transparent">
+				<StyleElement selector="&amp;.breaseTableWidget" attribute="background-color"/>
+				<Description>Widget border color background color</Description>
+			</StyleProperty>
+			<StyleProperty name="headerBackColor" type="Color" category="Appearance" groupRefId="Header" groupOrder="1" default="#fff">
+				<StyleElement selector="&amp;.breaseTableWidget .breaseTableColumnWidget:not(.disabled)" attribute="background-color"/>
+				<Description>Sets the backColor of the header</Description>
+			</StyleProperty>
+			<StyleProperty name="headerBackGroundGradient" type="Gradient" category="Appearance" groupRefId="Header" groupOrder="1" default="">
+				<StyleElement selector="&amp;.breaseTableWidget .breaseTableColumnWidget:not(.disabled)" attribute="@include backGroundGradient(&apos;$value&apos;)"/>
+				<Description>Sets the background gradient of the header</Description>
+			</StyleProperty>
+			<StyleProperty name="headerTextColor" type="Color" category="Appearance" groupRefId="Header" groupOrder="2" default="#000">
+				<StyleElement selector="&amp;.breaseTableWidget .breaseTableColumnWidget:not(.disabled)" attribute="color"/>
+				<Description>Sets the header text color</Description>
+			</StyleProperty>
+			<StyleProperty name="headerFontSize" type="PixelVal" category="Font" groupRefId="Header" groupOrder="3" default="16px">
+				<StyleElement selector="&amp;.breaseTableWidget .breaseTableColumnWidget .headerText" attribute="font-size"/>
+				<Description>Fontsize of the header texts</Description>
+			</StyleProperty>
+			<StyleProperty name="backColorSelectedRow" type="Color" category="Appearance" groupRefId="Rows" groupOrder="3" default="#ff8800">
+				<StyleElement selector="&amp;.breaseTableWidget .dataTable tr.selected td" attribute="background-color"/>
+				<StyleElement selector="&amp;.breaseTableWidget .dataTable paginate_button current" attribute="border-color"/>
+				<Description>Backcolor of selected list entries</Description>
+			</StyleProperty>
+			<StyleProperty name="mouseDownBackColor" type="Color" category="Appearance" groupRefId="Rows" groupOrder="3" default="transparent">
+				<StyleElement selector="&amp;.breaseTableWidget .dataTable tr.mousedown:not(.selected) td" attribute="@include active-background-color-important($value)"/>
+				<Description>Backcolor of the mouse down triggered on an entry</Description>
+			</StyleProperty>
+			<StyleProperty name="backColorEvenRow" type="Color" category="Appearance" groupRefId="Rows" groupOrder="1" default="#fff">
+				<StyleElement selector="&amp;.breaseTableWidget .dataTable tr:not(.disabled):nth-of-type(even)" attribute="background-color"/>
+				<Description>Backcolor of even list entries</Description>
+			</StyleProperty>
+			<StyleProperty name="backColorOddRow" type="Color" category="Appearance" groupRefId="Rows" groupOrder="2" default="#f9f9f9">
+				<StyleElement selector="&amp;.breaseTableWidget .dataTable tr:not(.disabled):nth-of-type(odd)" attribute="background-color"/>
+				<Description>Backcolor of odd list entries</Description>
+			</StyleProperty>
+			<StyleProperty name="mouseDownTextColor" type="Color" category="Appearance" groupRefId="Rows" groupOrder="4" default="transparent">
+				<StyleElement selector="&amp;.breaseTableWidget .dataTable&gt;tbody&gt;tr.mousedown:not(.selected) td" attribute="@include active-color($value)"/>
+				<Description>Text color of an entry which the mouse down is triggered at</Description>
+			</StyleProperty>
+			<StyleProperty name="textColorSelectedRow" type="Color" category="Appearance" groupRefId="Rows" groupOrder="4" default="#fff">
+				<StyleElement selector="&amp;.breaseTableWidget .dataTable&gt;tbody&gt;tr.selected td" attribute="color"/>
+				<Description>Text color of selected list entries</Description>
+			</StyleProperty>
+			<StyleProperty name="textColor" type="Color" category="Appearance" groupRefId="Rows" groupOrder="5" default="#000">
+				<StyleElement selector="&amp;.breaseTableWidget .dataTable&gt;tbody&gt;tr:not(.selected):not(.disabled)&gt;td" attribute="color"/>
+				<Description>Text color of list entries</Description>
+			</StyleProperty>
+			<StyleProperty name="fontSize" type="PixelVal" category="Font" groupRefId="Rows" groupOrder="6" default="14px">
+				<StyleElement selector="&amp;.breaseTableWidget .dataTable&gt;tbody&gt;tr&gt;td" attribute="font-size"/>
+				<Description>Fontsize of list entries</Description>
+			</StyleProperty>
+			<StyleProperty name="fontName" category="Font" type="FontName" default="Arial">
+				<StyleElement selector="&amp;.breaseTableWidget .breaseTableColumnWidget" attribute="font-family"/>
+				<StyleElement selector="&amp;.breaseTableWidget .dataTable&gt;tbody&gt;tr&gt;td" attribute="font-family"/>
+				<Description>Fontname of the text</Description>
+			</StyleProperty>
+			<StyleProperty name="sortingButtonColor" category="Appearance" type="Color" default="#ececec">
+				<StyleElement selector="svg &gt; g &gt; path.unselected" attribute="fill"/>
+				<Description>Color of the arrow that is not the sorted way</Description>
+			</StyleProperty>
+			<StyleProperty name="sortingButtonActiveColor" category="Appearance" type="Color" default="#5f8dd3">
+				<StyleElement selector="svg &gt; g &gt; path.selected" attribute="fill"/>
+				<Description>Color of the arrow that is the sorted way</Description>
+			</StyleProperty>
+			<StyleProperty name="shadow" type="Shadow" category="Appearance" default="none">
+				<StyleElement attribute="@include box-shadow($value)"/>
+				<Description>Shadow of the Widget</Description>
+			</StyleProperty>
+			<StyleProperty name="cornerRadius" type="PixelValCollection" category="Appearance" default="0px">
+				<StyleElement attribute="@include border-radius($value)"/>
+				<Description>Sets the radius of the widget rounded corners. For further information, please see its type</Description>
+			</StyleProperty>
+			<StyleProperty name="headerBold" type="Boolean" default="true" category="Font">
+				<StyleElement selector="&amp;.breaseTableWidget .breaseTableColumnWidget" attribute="@include font-weight-bold($value)"/>
+				<Description>If true, the font style of the header is bold</Description>
+			</StyleProperty>
+			<StyleProperty name="headerItalic" type="Boolean" default="false" category="Font">
+				<StyleElement selector="&amp;.breaseTableWidget .breaseTableColumnWidget" attribute="@include font-style-italic($value)"/>
+				<Description>If true, the font style of the header is italic</Description>
+			</StyleProperty>
+			<StyleProperty name="headerTextAlign" type="brease.enum.TextAlign" default="left" category="Appearance">
+				<StyleElement selector="&amp;.breaseTableWidget .breaseTableColumnWidget &gt; .headerText" attribute="@include text-alignment($value)"/>
+				<Description>Alignment of the text in a cell</Description>
+			</StyleProperty>
+			<StyleProperty name="headerCellPadding" category="Appearance" type="Padding" default="0px 8px">
+				<StyleElement selector="&amp;.breaseTableWidget .breaseTableColumnWidget &gt; .headerText" attribute="padding"/>
+				<Description>Sets the padding of the header cell. For further information, please see its type</Description>
+			</StyleProperty>
+			<StyleProperty name="headerCellBorderColor" type="Color" category="Appearance" default="#DDDDDD">
+				<StyleElement selector="&amp;.breaseTableWidget .breaseTableColumnWidget" attribute="border-color"/>
+				<Description>Sets the border color of the header. For further information, please see its type</Description>
+			</StyleProperty>
+			<StyleProperty name="headerCellBorderWidth" type="PixelValCollection" category="Appearance" default="1px">
+				<StyleElement selector="&amp;.breaseTableWidget .breaseTableColumnWidget" attribute="border-width"/>
+				<Description>Sets the border width of each cell. For further information, please see its type</Description>
+			</StyleProperty>
+			<StyleProperty name="headerCellBorderStyle" type="BorderStyle" category="Appearance" default="none">
+				<StyleElement selector="&amp;.breaseTableWidget .breaseTableColumnWidget" attribute="border-bottom-style"/>
+				<StyleElement selector="&amp;.breaseTableWidget .breaseTableColumnWidget" attribute="border-right-style"/>
+				<StyleElement selector="&amp;.breaseTableWidget .breaseTableColumnWidget" attribute="border-top-style"/>
+				<StyleElement selector="&amp;.breaseTableWidget .breaseTableColumnWidget" attribute="border-left-style"/>
+				<Description>Sets the border style of the header. For further information, please see its type</Description>
+			</StyleProperty>
+			<StyleProperty name="bold" type="Boolean" default="false" category="Font">
+				<StyleElement selector="&amp;.breaseTableWidget .tw_table table tbody tr td" attribute="@include font-weight-bold($value)"/>
+				<Description>If true, the font style of the table is bold</Description>
+			</StyleProperty>
+			<StyleProperty name="italic" type="Boolean" default="false" category="Font">
+				<StyleElement selector="&amp;.breaseTableWidget .tw_table table tbody tr td" attribute="@include font-style-italic($value)"/>
+				<Description>If true, the font style of the table is italic</Description>
+			</StyleProperty>
+			<StyleProperty name="textAlign" type="brease.enum.TextAlign" default="left" category="Appearance">
+				<StyleElement selector="&amp;.breaseTableWidget .tw_table table tbody tr td" attribute="@include text-alignment($value)"/>
+				<Description>Alignment of the text in a cell</Description>
+			</StyleProperty>
+			<StyleProperty name="cellBorderColor" type="Color" category="Appearance" default="#DDDDDD">
+				<StyleElement selector="&amp;.breaseTableWidget .tw_table table tbody tr td" attribute="border-color"/>
+				<Description>Sets the border color of the header. For further information, please see its type</Description>
+			</StyleProperty>
+			<StyleProperty name="cellBorderWidth" type="PixelValCollection" category="Appearance" default="1px 0px 0px 0px">
+				<StyleElement selector="&amp;.breaseTableWidget .tw_table table tbody tr td" attribute="border-width"/>
+				<Description>Sets the border width of each cell. For further information, please see its type</Description>
+			</StyleProperty>
+			<StyleProperty name="cellBorderStyle" type="BorderStyle" category="Appearance" default="solid">
+				<StyleElement selector="&amp;.breaseTableWidget .tw_table table tbody tr td" attribute="border-bottom-style"/>
+				<StyleElement selector="&amp;.breaseTableWidget .tw_table table tbody tr td" attribute="border-right-style"/>
+				<StyleElement selector="&amp;.breaseTableWidget .tw_table table tbody tr td" attribute="border-top-style"/>
+				<StyleElement selector="&amp;.breaseTableWidget .tw_table table tbody tr td" attribute="border-left-style"/>
+				<Description>Sets the border style of the header. For further information, please see its type</Description>
+			</StyleProperty>
+			<StyleProperty name="cellPadding" category="Appearance" type="Padding" default="8px 14px">
+				<StyleElement selector="&amp;.breaseTableWidget .tw_table table tbody tr td" attribute="padding"/>
+				<Description>Sets the padding of the header cell. For further information, please see its type</Description>
+			</StyleProperty>
+			<StyleProperty name="backGroundGradient" type="Gradient" category="Appearance" default="">
+				<StyleElement selector="&amp;:not(.disabled)" attribute="@include backGroundGradient(&apos;$value&apos;)"/>
+				<Description>Background as a gradient</Description>
+			</StyleProperty>
+			<StyleProperty name="opacity" type="Opacity" category="Appearance" default="1">
+				<StyleElement attribute="opacity"/>
+				<Description>Opacity of the widget</Description>
+			</StyleProperty>
+			<StyleProperty name="disabledBackColorEvenRow" type="Color" category="Appearance" groupRefId="Rows" groupOrder="1" default="#EAEAEA">
+				<StyleElement selector="&amp;.breaseTableWidget .dataTable tr:nth-of-type(even).disabled" attribute="background-color"/>
+				<Description>Backcolor of even list entries</Description>
+			</StyleProperty>
+			<StyleProperty name="disabledBackColorOddRow" type="Color" category="Appearance" groupRefId="Rows" groupOrder="2" default="#FFFFFF">
+				<StyleElement selector="&amp;.breaseTableWidget .dataTable tr:nth-of-type(odd).disabled" attribute="background-color"/>
+				<Description>Backcolor of odd list entries</Description>
+			</StyleProperty>
+			<StyleProperty name="disabledHeaderBackColor" type="Color" category="Appearance" groupRefId="Header" groupOrder="1" default="#FCFCFC">
+				<StyleElement selector=".breaseTableColumnWidget.disabled" attribute="background-color"/>
+				<Description>Sets the backColor of the header</Description>
+			</StyleProperty>
+			<StyleProperty name="disabledHeaderTextColor" type="Color" category="Appearance" groupRefId="Header" groupOrder="2" default="#C8C8C8">
+				<StyleElement selector=".breaseTableColumnWidget.disabled &gt; .headerText" attribute="color"/>
+				<Description>Sets the header text color</Description>
+			</StyleProperty>
+			<StyleProperty name="disabledTextColor" type="Color" category="Appearance" groupRefId="Rows" groupOrder="5" default="#C8C8C8">
+				<StyleElement selector="&amp;.breaseTableWidget .dataTable&gt;tbody&gt;tr.disabled&gt;td" attribute="color"/>
+				<Description>Text color of list entries</Description>
+			</StyleProperty>
+		</StyleProperties>
+		<PropertyGroups>
+			<PropertyGroup name="Size" type="String" category="Layout">
+				<Description>outer height and width of widget</Description>
+			</PropertyGroup>
+			<PropertyGroup name="Position" type="String" category="Layout">
+				<Description>top and left of widget</Description>
+			</PropertyGroup>
+		</PropertyGroups>
+	<BindingTemplates>
+  
+</BindingTemplates>
+</Widget>
+</WidgetLibrary>

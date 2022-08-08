@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
-<CFG>
-  <PROJECT ID="CaseWeek_user_X20CP1584" OSVERSION="B4.92" INITIALTRANSFER="true" />
-  <FILESYSTEM>
-    <VOL ID="0" PARTITIONS="1">
-      <PARTITION ID="0" LABEL="SYSTEM" MINSIZE="251951276" />
-    </VOL>
-  </FILESYSTEM>
-</CFG>

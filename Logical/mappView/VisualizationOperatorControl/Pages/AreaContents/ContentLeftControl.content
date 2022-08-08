@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="ContentLeftControl" height="600" width="150" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.NavigationBar" id="NavigationBar" top="0" left="0" height="300" zIndex="0" childPositioning="relative">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.NavigationButton" id="NavBtnMainPgControl" top="0" left="0" width="140" height="60" zIndex="0" pageId="MainPageControl" text="$IAT/Left/MainPagetxt" margin="5px" />
+        <Widget xsi:type="widgets.brease.NavigationButton" id="NavBtnAlarmPgControl" top="0" left="0" width="140" height="60" zIndex="1" pageId="AlarmPageControl" text="$IAT/Left/AlarmPagetxt" margin="5px" />
+        <Widget xsi:type="widgets.brease.NavigationButton" id="NavBtnServicePgControl" top="0" left="0" width="140" height="60" zIndex="2" pageId="ServicePageControl" text="$IAT/Left/ServicePagetxt" margin="5px" />
+      </Widgets>
+    </Widget>
+  </Widgets>
+</Content>

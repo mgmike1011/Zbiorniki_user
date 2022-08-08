@@ -10,5 +10,9 @@
     <Object Type="File">EventBinding.eventbinding</Object>
     <Object Type="File">ExpressionBinding.binding</Object>
     <Object Type="File">VisOperCon.vis</Object>
+    <Object Type="File">ContentMainPageControl.binding</Object>
+    <Object Type="File">ContentMainPageControl.eventbinding</Object>
+    <Object Type="File">ContentAlarmPageControl.eventbinding</Object>
+    <Object Type="File">ContentAlarmPageControl.binding</Object>
   </Objects>
 </Package>

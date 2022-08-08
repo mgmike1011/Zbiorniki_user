@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?> 
+
+<StyleInformation name="widgets.brease.TableWidget" xmlns="http://www.br-automation.com/iat2014/widgetStyles" 
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <StyleProperties>
+      <StyleProperty name="width" type="Size" not_styleable="true" default="600">
+      <StyleElement attribute="@include elemWidth($value)"></StyleElement>
+      <Description>outer width of widget</Description>
+    </StyleProperty>
+    <StyleProperty name="height" type="Size" not_styleable="true" default="300">
+      <StyleElement attribute="@include elemHeight($value)"></StyleElement>
+      <Description>outer height of widget</Description>
+    </StyleProperty>
+    
+    <StyleProperty name="rowHeight" type="Size" category="Appearance" not_styleable="true" default="0">
+      <StyleElement selector="&amp;.breaseTableWidget .tw_table table tbody tr" attribute="@include rowHeight($value)"></StyleElement>
+      <StyleElement selector="&amp;.breaseTableWidget .tw_table table tbody tr img" attribute="@include rowHeight($value)"></StyleElement>
+      <StyleElement selector="&amp;.breaseTableWidget #fakeRowHeight" attribute="@include rowHeight($value)"></StyleElement>
+      <Description>
+        Sets a uniform rowHeight of the widget.
+      </Description>
+    </StyleProperty>
+
+    <StyleProperty name="borderStyle" type="BorderStyle" category="Appearance" default="none">
+			<StyleElement selector="&amp;.breaseTableWidget" attribute="border-style"></StyleElement>
+			<Description>
+				Widget border style
+			</Description>
+		</StyleProperty>
+
+		<StyleProperty name="borderWidth" type="PixelValCollection" category="Appearance" default="1px">
+			<StyleElement selector="&amp;.breaseTableWidget" attribute="border-width"></StyleElement>
+			<Description>
+        Widget border width
+			</Description>
+		</StyleProperty>
+
+    <StyleProperty name="borderColor" type="ColorCollection" category="Appearance" default="#ddd">
+      <StyleElement selector="&amp;.breaseTableWidget" attribute="border-color"></StyleElement>
+      <Description>
+        Widget border color
+      </Description>
+    </StyleProperty>
+
+		<StyleProperty name="backColor" type="Color" category="Appearance" default="transparent" >
+			<StyleElement selector="&amp;.breaseTableWidget" attribute="background-color"></StyleElement>
+			<Description>
+        Widget border color background color
+			</Description>
+		</StyleProperty>
+
+    <StyleProperty name="headerBackColor" type="Color" category="Appearance" groupRefId="Header" groupOrder="1" default="#fff">
+    <StyleElement selector="&amp;.breaseTableWidget .breaseTableColumnWidget:not(.disabled)" attribute="background-color"></StyleElement>
+      <Description>
+        Sets the backColor of the header
+      </Description>
+    </StyleProperty>
+
+    <StyleProperty name="headerBackGroundGradient" type="Gradient" category="Appearance" groupRefId="Header" groupOrder="1" default="">
+    <StyleElement selector="&amp;.breaseTableWidget .breaseTableColumnWidget:not(.disabled)" attribute="@include backGroundGradient('$value')"></StyleElement>
+      <Description>
+        Sets the background gradient of the header
+      </Description>
+    </StyleProperty>
+
+    <StyleProperty name="headerTextColor" type="Color" category="Appearance" groupRefId="Header" groupOrder="2" default="#000">
+      <StyleElement selector="&amp;.breaseTableWidget .breaseTableColumnWidget:not(.disabled)" attribute="color"></StyleElement>
+      <Description>
+        Sets the header text color
+      </Description>
+    </StyleProperty>
+
+    <StyleProperty name="headerFontSize" type="PixelVal" category="Font" groupRefId="Header" groupOrder="3" default="16px">
+      <StyleElement selector="&amp;.breaseTableWidget .breaseTableColumnWidget .headerText" attribute="font-size"></StyleElement>
+      <Description>
+        Fontsize of the header texts
+      </Description>
+    </StyleProperty>
+
+    <StyleProperty name="backColorSelectedRow" type="Color" category="Appearance" groupRefId="Rows" groupOrder="3" default="#ff8800" >
+    <StyleElement selector="&amp;.breaseTableWidget .dataTable tr.selected td" attribute="background-color"></StyleElement>
+    <StyleElement selector="&amp;.breaseTableWidget .dataTable paginate_button current" attribute="border-color"></StyleElement>
+      <Description>
+        Backcolor of selected list entries
+      </Description>
+    </StyleProperty>
+
+    <StyleProperty name="mouseDownBackColor" type="Color" category="Appearance" groupRefId="Rows" groupOrder="3" default="transparent" >
+    <StyleElement selector="&amp;.breaseTableWidget .dataTable tr.mousedown:not(.selected) td" attribute="@include active-background-color-important($value)"></StyleElement>
+      <Description>
+        Backcolor of the mouse down triggered on an entry
+      </Description>
+    </StyleProperty>
+
+    <StyleProperty name="backColorEvenRow" type="Color" category="Appearance" groupRefId="Rows" groupOrder="1" default="#fff" >
+    <StyleElement selector="&amp;.breaseTableWidget .dataTable tr:not(.disabled):nth-of-type(even)" attribute="background-color"></StyleElement>
+      <Description>
+        Backcolor of even list entries
+      </Description>
+    </StyleProperty>
+
+    <StyleProperty name="backColorOddRow" type="Color" category="Appearance" groupRefId="Rows" groupOrder="2" default="#f9f9f9" >
+    <StyleElement selector="&amp;.breaseTableWidget .dataTable tr:not(.disabled):nth-of-type(odd)" attribute="background-color"></StyleElement>
+      <Description>
+        Backcolor of odd list entries
+      </Description>
+    </StyleProperty>
+
+    <StyleProperty name="mouseDownTextColor" type="Color" category="Appearance" groupRefId="Rows" groupOrder="4" default="transparent">
+      <StyleElement selector="&amp;.breaseTableWidget .dataTable>tbody>tr.mousedown:not(.selected) td" attribute="@include active-color($value)"></StyleElement>
+      <Description>
+        Text color of an entry which the mouse down is triggered at
+      </Description>
+    </StyleProperty>
+
+    <StyleProperty name="textColorSelectedRow" type="Color" category="Appearance" groupRefId="Rows" groupOrder="4" default="#fff">
+      <StyleElement selector="&amp;.breaseTableWidget .dataTable>tbody>tr.selected td" attribute="color"></StyleElement>
+      <Description>
+        Text color of selected list entries
+      </Description>
+    </StyleProperty>
+
+    <StyleProperty name="textColor" type="Color" category="Appearance" groupRefId="Rows" groupOrder="5" default="#000">
+      <StyleElement selector="&amp;.breaseTableWidget .dataTable>tbody>tr:not(.selected):not(.disabled)>td" attribute="color"></StyleElement>
+      <Description>
+        Text color of list entries
+      </Description>
+    </StyleProperty>
+
+    <StyleProperty name="fontSize" type="PixelVal" category="Font" groupRefId="Rows" groupOrder="6" default="14px">
+      <StyleElement selector="&amp;.breaseTableWidget .dataTable>tbody>tr>td" attribute="font-size"></StyleElement>
+      <Description>
+        Fontsize of list entries
+      </Description>
+    </StyleProperty>
+
+    <StyleProperty name="fontName" category="Font" type="FontName" default="Arial">
+			<StyleElement selector="&amp;.breaseTableWidget .breaseTableColumnWidget" attribute="font-family"></StyleElement>
+      <StyleElement selector="&amp;.breaseTableWidget .dataTable>tbody>tr>td" attribute="font-family"></StyleElement>
+			<Description>
+				Fontname of the text
+			</Description>
+		</StyleProperty>
+
+    <StyleProperty name="sortingButtonColor" category="Appearance" type="Color" default="#ececec" >
+      <StyleElement selector="svg > g > path.unselected" attribute="fill"></StyleElement>
+      <Description>Color of the arrow that is not the sorted way</Description>
+    </StyleProperty>
+    <StyleProperty name="sortingButtonActiveColor" category="Appearance" type="Color" default="#5f8dd3" >
+      <StyleElement selector="svg > g > path.selected" attribute="fill"></StyleElement>
+      <Description>Color of the arrow that is the sorted way</Description>
+    </StyleProperty>
+
+    <StyleProperty name="shadow" type="Shadow" category="Appearance" default="none">
+      <StyleElement attribute="@include box-shadow($value)"></StyleElement>
+      <Description>
+        Shadow of the Widget
+      </Description>
+    </StyleProperty>
+
+
+    <!-- VERSION 2 styling properties -->
+    <StyleProperty name="cornerRadius" type="PixelValCollection" category="Appearance" default="0px">
+      <StyleElement attribute="@include border-radius($value)"></StyleElement>
+      <Description>
+        Sets the radius of the widget rounded corners. For further information, please see its type
+      </Description>
+    </StyleProperty>
+
+    <StyleProperty name="headerBold" type="Boolean" default="true" category="Font">
+      <StyleElement selector="&amp;.breaseTableWidget .breaseTableColumnWidget" attribute="@include font-weight-bold($value)"></StyleElement>
+      <Description>
+        If true, the font style of the header is bold
+      </Description>
+    </StyleProperty>
+    <StyleProperty name="headerItalic" type="Boolean" default="false" category="Font">
+      <StyleElement selector="&amp;.breaseTableWidget .breaseTableColumnWidget" attribute="@include font-style-italic($value)"></StyleElement>
+      <Description>
+        If true, the font style of the header is italic
+      </Description>
+    </StyleProperty>
+    <StyleProperty name="headerTextAlign" type="brease.enum.TextAlign" default="left" category="Appearance">
+      <StyleElement selector="&amp;.breaseTableWidget .breaseTableColumnWidget > .headerText" attribute="@include text-alignment($value)"></StyleElement>
+      <Description>
+        Alignment of the text in a cell
+      </Description>
+    </StyleProperty>
+
+    <StyleProperty name="headerCellPadding"  category="Appearance" type="Padding" default="0px 8px">
+      <StyleElement selector="&amp;.breaseTableWidget .breaseTableColumnWidget > .headerText" attribute="padding"></StyleElement>
+      <Description>
+        Sets the padding of the header cell. For further information, please see its type
+      </Description>
+    </StyleProperty>
+
+    <StyleProperty name="headerCellBorderColor" type="Color" category="Appearance" default="#DDDDDD">
+      <StyleElement selector="&amp;.breaseTableWidget .breaseTableColumnWidget" attribute="border-color"></StyleElement>
+      <Description>
+        Sets the border color of the header. For further information, please see its type
+      </Description>
+    </StyleProperty>
+    
+    <StyleProperty name="headerCellBorderWidth" type="PixelValCollection" category="Appearance" default="1px">
+      <StyleElement selector="&amp;.breaseTableWidget .breaseTableColumnWidget" attribute="border-width"></StyleElement>
+        <Description>
+          Sets the border width of each cell. For further information, please see its type
+        </Description>
+    </StyleProperty>
+
+    <StyleProperty name="headerCellBorderStyle" type="BorderStyle" category="Appearance" default="none">
+      <StyleElement selector="&amp;.breaseTableWidget .breaseTableColumnWidget" attribute="border-bottom-style"></StyleElement>
+      <StyleElement selector="&amp;.breaseTableWidget .breaseTableColumnWidget" attribute="border-right-style"></StyleElement>
+      <StyleElement selector="&amp;.breaseTableWidget .breaseTableColumnWidget" attribute="border-top-style"></StyleElement>
+      <StyleElement selector="&amp;.breaseTableWidget .breaseTableColumnWidget" attribute="border-left-style"></StyleElement>
+      <Description>
+        Sets the border style of the header. For further information, please see its type
+      </Description>
+    </StyleProperty>
+
+    <StyleProperty name="bold" type="Boolean" default="false" category="Font">
+      <StyleElement selector="&amp;.breaseTableWidget .tw_table table tbody tr td" attribute="@include font-weight-bold($value)"></StyleElement>
+      <Description>
+        If true, the font style of the table is bold
+      </Description>
+    </StyleProperty>
+    <StyleProperty name="italic" type="Boolean" default="false" category="Font">
+      <StyleElement selector="&amp;.breaseTableWidget .tw_table table tbody tr td" attribute="@include font-style-italic($value)"></StyleElement>
+      <Description>
+        If true, the font style of the table is italic
+      </Description>
+    </StyleProperty>
+
+    <StyleProperty name="textAlign" type="brease.enum.TextAlign" default="left" category="Appearance">
+      <StyleElement selector="&amp;.breaseTableWidget .tw_table table tbody tr td" attribute="@include text-alignment($value)"></StyleElement>
+      <Description>
+        Alignment of the text in a cell
+      </Description>
+    </StyleProperty>
+
+    <StyleProperty name="cellBorderColor" type="Color" category="Appearance" default="#DDDDDD">
+      <StyleElement selector="&amp;.breaseTableWidget .tw_table table tbody tr td" attribute="border-color"></StyleElement>
+      <Description>
+        Sets the border color of the header. For further information, please see its type
+      </Description>
+    </StyleProperty>
+    
+    <StyleProperty name="cellBorderWidth" type="PixelValCollection" category="Appearance" default="1px 0px 0px 0px">
+      <StyleElement selector="&amp;.breaseTableWidget .tw_table table tbody tr td" attribute="border-width"></StyleElement>
+        <Description>
+          Sets the border width of each cell. For further information, please see its type
+        </Description>
+    </StyleProperty>
+
+    <StyleProperty name="cellBorderStyle" type="BorderStyle" category="Appearance" default="solid">
+      <StyleElement selector="&amp;.breaseTableWidget .tw_table table tbody tr td" attribute="border-bottom-style"></StyleElement>
+      <StyleElement selector="&amp;.breaseTableWidget .tw_table table tbody tr td" attribute="border-right-style"></StyleElement>
+      <StyleElement selector="&amp;.breaseTableWidget .tw_table table tbody tr td" attribute="border-top-style"></StyleElement>
+      <StyleElement selector="&amp;.breaseTableWidget .tw_table table tbody tr td" attribute="border-left-style"></StyleElement>
+      <Description>
+        Sets the border style of the header. For further information, please see its type
+      </Description>
+    </StyleProperty>
+
+    <StyleProperty name="cellPadding"  category="Appearance" type="Padding" default="8px 14px">
+      <StyleElement selector="&amp;.breaseTableWidget .tw_table table tbody tr td" attribute="padding"></StyleElement>
+      <Description>
+        Sets the padding of the header cell. For further information, please see its type
+      </Description>
+    </StyleProperty>
+
+    <StyleProperty name="backGroundGradient" type="Gradient" category="Appearance" default="">
+      <StyleElement selector="&amp;:not(.disabled)" attribute="@include backGroundGradient('$value')"></StyleElement>
+      <Description>
+        Background as a gradient
+      </Description>
+    </StyleProperty>
+
+    <StyleProperty name="opacity" type="Opacity" category="Appearance" default="1">
+      <StyleElement attribute="opacity"></StyleElement>
+      <Description>
+        Opacity of the widget
+      </Description>
+    </StyleProperty>
+
+    <StyleProperty name="disabledBackColorEvenRow" type="Color" category="Appearance" groupRefId="Rows" groupOrder="1" default="#EAEAEA" >
+    <StyleElement selector="&amp;.breaseTableWidget .dataTable tr:nth-of-type(even).disabled" attribute="background-color"></StyleElement>
+      <Description>
+        Backcolor of even list entries
+      </Description>
+    </StyleProperty>
+
+    <StyleProperty name="disabledBackColorOddRow" type="Color" category="Appearance" groupRefId="Rows" groupOrder="2" default="#FFFFFF" >
+    <StyleElement selector="&amp;.breaseTableWidget .dataTable tr:nth-of-type(odd).disabled" attribute="background-color"></StyleElement>
+      <Description>
+        Backcolor of odd list entries
+      </Description>
+    </StyleProperty>
+
+    <StyleProperty name="disabledHeaderBackColor" type="Color" category="Appearance" groupRefId="Header" groupOrder="1" default="#FCFCFC">
+    <StyleElement selector=".breaseTableColumnWidget.disabled" attribute="background-color"></StyleElement>
+      <Description>
+        Sets the backColor of the header
+      </Description>
+    </StyleProperty>
+
+    <StyleProperty name="disabledHeaderTextColor" type="Color" category="Appearance" groupRefId="Header" groupOrder="2" default="#C8C8C8">
+      <StyleElement selector=".breaseTableColumnWidget.disabled > .headerText" attribute="color"></StyleElement>
+      <Description>
+        Sets the header text color
+      </Description>
+    </StyleProperty>
+
+    <StyleProperty name="disabledTextColor" type="Color" category="Appearance" groupRefId="Rows" groupOrder="5" default="#C8C8C8">
+      <StyleElement selector="&amp;.breaseTableWidget .dataTable>tbody>tr.disabled>td" attribute="color"></StyleElement>
+      <Description>
+        Text color of list entries
+      </Description>
+    </StyleProperty>
+
+  </StyleProperties>
+</StyleInformation>

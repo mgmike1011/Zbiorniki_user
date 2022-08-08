@@ -1,0 +1,8 @@
+VAR
+	ZB3Percentage : INT := 0;
+	ZB2Percentage : INT := 0;
+	ZB1Percentage : INT := 0;
+END_VAR
+VAR CONSTANT
+	TankCapacity : INT := 10000;
+END_VAR

@@ -1,0 +1,43 @@
+﻿@import "mixins.scss";
+@import "../../../../widgets/brease/BarChartItem/meta/BarChartItem_base";
+.widgets_brease_BarChartItem_style_Graph_Red {
+@include widgets_brease_BarChartItem_base; 
+rect.bar {
+@include SVGFactorBorder(0px, 2);
+}
+text {
+	font-size: 16px;
+}
+rect.bar {
+	fill: #FF0000;
+}
+
+}
+@import "../../../../widgets/brease/BarChartItem/meta/BarChartItem_base";
+.widgets_brease_BarChartItem_style_Graph_GrayBlu {
+@include widgets_brease_BarChartItem_base; 
+rect.bar {
+@include SVGFactorBorder(0px, 2);
+}
+text {
+	font-size: 16px;
+}
+rect.bar {
+	fill: #3399ff;
+}
+
+}
+@import "../../../../widgets/brease/BarChartItem/meta/BarChartItem_base";
+.widgets_brease_BarChartItem_style_Graph_Black {
+@include widgets_brease_BarChartItem_base; 
+rect.bar {
+@include SVGFactorBorder(0px, 2);
+}
+text {
+	font-size: 16px;
+}
+rect.bar {
+	fill: #000000;
+}
+
+}

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WidgetLibrary xmlns="http://www.br-automation.com/iat2014/widget">
+	<Widget name="widgets.brease.AlarmListItem">
+		<ASEngineeringInfo>
+			<IsProjectable>true</IsProjectable>
+			<LicenseInfo>unlicensed</LicenseInfo>
+		</ASEngineeringInfo>
+		<Dependencies>
+			<Files>
+				<File>widgets/brease/TableColumnWidget/TableColumnWidget.js</File>
+				<File>brease/events/BreaseEvent.js</File>
+				<File>brease/core/Types.js</File>
+				<File>brease/enum/Enum.js</File>
+			</Files>
+			<Widgets>
+				<Widget>widgets/brease/AlarmListItem/AlarmListItem.js</Widget>
+				<Widget>widgets/brease/TableColumnWidget/TableColumnWidget.js</Widget>
+			</Widgets>
+		</Dependencies>
+		<Categories>
+			<Category name="Category">Data</Category>
+		</Categories>
+		<Descriptions>
+			<Description name="short">AlarmListItem, widget used to set the columns wanted to be shown in the Alarmlist</Description>
+			<Description name="de">Das AlarmListItem-Widget stellt eine Spalte im AlarmList-Widget dar</Description>
+			<Description name="en">AlarmListItem, widget used to set the columns wanted to be shown in the Alarmlist</Description>
+		</Descriptions>
+		<Inheritance>
+			<Class level="0">widgets.brease.AlarmListItem</Class>
+			<Class level="1">widgets.brease.TableColumnWidget</Class>
+			<Class level="2">brease.core.BaseWidget</Class>
+		</Inheritance>
+		<Parents>
+			<Parent>widgets.brease.AlarmList</Parent>
+		</Parents>
+		<Children>
+		</Children>
+		<Methods>
+		</Methods>
+		<Properties>
+			<Property name="columnType" type="brease.enum.AlarmListItemType" initOnly="true" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Behavior" defaultValue="message">
+				<Description>Type the Alarmlist column will display</Description>
+			</Property>
+			<Property name="text" type="String" initOnly="true" localizable="true" editableBinding="false" readOnly="false" required="false" projectable="true" category="Appearance" defaultValue="">
+				<Description>text for the Label</Description>
+			</Property>
+		</Properties>
+		<StyleProperties>
+			<StyleProperty name="width" type="Size" not_styleable="true" owner="widgets.brease.AlarmListItem" category="Layout" groupRefId="Size" groupOrder="1" default="200">
+				<StyleElement attribute="@include elemWidth($value)"/>
+				<Description>outer width of widget</Description>
+			</StyleProperty>
+			<StyleProperty name="height" type="Size" not_styleable="true" owner="widgets.brease.AlarmListItem" category="Layout" groupRefId="Size" groupOrder="2" hide="true" default="0">
+				<Description>outer height of widget</Description>
+			</StyleProperty>
+			<StyleProperty name="top" type="Integer" not_styleable="true" owner="widgets.brease.AlarmListItem" category="Layout" groupRefId="Position" groupOrder="1" hide="true" default="0">
+				<Description>absolute position measured from top boundary of parent container</Description>
+			</StyleProperty>
+			<StyleProperty name="left" type="Integer" not_styleable="true" owner="widgets.brease.AlarmListItem" category="Layout" groupRefId="Position" groupOrder="2" hide="true" default="0">
+				<Description>absolute position measured from left boundary of parent container</Description>
+			</StyleProperty>
+			<StyleProperty name="zIndex" type="UInteger" not_styleable="true" owner="brease.core.BaseWidget" category="Layout" required="true">
+				<StyleElement attribute="z-index"/>
+				<Description>The zIndex property specifies the z-order of a widget and its childs.&lt;br/&gt;
+        When widgets overlap, z-order determines which one covers the other. A widget with a larger zIndex generally covers a widget with a lower one.&lt;br/&gt;
+        The zIndex must be unique within a content.&lt;br/&gt;				</Description>
+			</StyleProperty>
+		</StyleProperties>
+		<PropertyGroups>
+			<PropertyGroup name="Size" type="String" category="Layout">
+				<Description>outer height and width of widget</Description>
+			</PropertyGroup>
+			<PropertyGroup name="Position" type="String" category="Layout">
+				<Description>top and left of widget</Description>
+			</PropertyGroup>
+		</PropertyGroups>
+	<BindingTemplates>
+  
+</BindingTemplates>
+</Widget>
+</WidgetLibrary>

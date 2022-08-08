@@ -1,0 +1,8 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=AutomaticC 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=100 Type=0 Scope=0 Force=0 Index=4 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                                   Start                                     BOOL    0 "                                                           FALSE"    0    1    1    2    1    0         
+                               Mieszanie                                     BOOL    0 "                                                           FALSE"    0    1    1    2    1    0         
+                             gZb1_poziom                                      INT    0 "                                                            7700"    0    3    1   10    0    0         
+                             gZb2_poziom                                      INT    0 "                                                            7700"    0    3    1   10    0    0         
+                                    Stop                                     BOOL    0 "                                                           FALSE"    0    1    1    2    1    0         

@@ -4,5 +4,7 @@
   <Objects>
     <Object Type="Package" Description="AreaContents">AreaContents</Object>
     <Object Type="Package">MainPageControl</Object>
+    <Object Type="Package">AlarmPageControl</Object>
+    <Object Type="Package">ServicePageControl</Object>
   </Objects>
 </Package>

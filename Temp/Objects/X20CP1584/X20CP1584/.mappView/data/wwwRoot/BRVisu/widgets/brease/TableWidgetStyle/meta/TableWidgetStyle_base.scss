@@ -1,0 +1,22 @@
+@import "mixins.scss";
+@mixin widgets_brease_TableWidgetStyle_base {
+	@include elemWidth(100);
+	@include elemHeight(30);
+&:not(.disabled) {
+	@include importantBackColor(#DBDBDB);
+}
+&:not(.disabled) {
+	@include backGroundGradient('');
+}
+&:not(.disabled):not(.selected) > td {
+	@include importantTextColor(#000000);
+}
+&:not(.disabled) > td {
+	@include importantBoldText(false);
+}
+&:not(.disabled) > td {
+	@include importantItalicText(false);
+}
+
+}
+

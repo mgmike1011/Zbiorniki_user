@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="ContentAlarmPageControl" height="600" width="1130" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.AlarmList" id="AlarmList1" top="15" left="15" width="1095" height="480" zIndex="0">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.AlarmListItem" id="AlarmListItem1" zIndex="0" columnType="timestamp" text="$IAT/AlarmPage/Timetxt" />
+        <Widget xsi:type="widgets.brease.AlarmListItem" id="AlarmListItem2" zIndex="1" columnType="name" text="$IAT/AlarmPage/IDtxt" />
+        <Widget xsi:type="widgets.brease.AlarmListItem" id="AlarmListItem3" width="345" zIndex="2" text="$IAT/AlarmPage/Messagetxt" />
+        <Widget xsi:type="widgets.brease.AlarmListItem" id="AlarmListItem4" zIndex="3" columnType="state" text="$IAT/AlarmPage/Statetxt" />
+        <Widget xsi:type="widgets.brease.AlarmListItem" id="AlarmListItem5" zIndex="4" columnType="code" text="$IAT/AlarmPage/Codetxt" />
+      </Widgets>
+    </Widget>
+    <Widget xsi:type="widgets.brease.Button" id="Button1" top="525" left="720" width="180" zIndex="1" text="$IAT/AlarmPage/Acktxt" permissionOperate="['Administrators', 'Operator']" />
+    <Widget xsi:type="widgets.brease.Button" id="Button2" top="525" left="930" width="180" zIndex="2" text="$IAT/AlarmPage/Ackalltxt" permissionOperate="['Administrators', 'Operator']" />
+  </Widgets>
+</Content>

@@ -1,9 +1,9 @@
 WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=Tanks 
 Position X=0 Y=0 Width=0 Height=0 TabWidth Name=143 Type=0 Scope=0 Force=0 Index=8 ASCIIString=0
                                     name                                     type force                                                            value level type len format place expand specs
-                             gZb1_poziom                                      INT    0 "                                                               0"    0    3    1   10    0    0         
+                             gZb1_poziom                                      INT    0 "                                                            3900"    0    3    1   10    0    0         
                               gZb1_zawor                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
-                             gZb2_poziom                                      INT    0 "                                                               0"    0    3    1   10    0    0         
+                             gZb2_poziom                                      INT    0 "                                                            3900"    0    3    1   10    0    0         
                               gZb2_zawor                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
                              gZb3_poziom                                      INT    0 "                                                               0"    0    3    1   10    0    0         
                          gZb3_zawor_lewy                                      INT    0 "                                                               0"    0    3    1   10    0    0         

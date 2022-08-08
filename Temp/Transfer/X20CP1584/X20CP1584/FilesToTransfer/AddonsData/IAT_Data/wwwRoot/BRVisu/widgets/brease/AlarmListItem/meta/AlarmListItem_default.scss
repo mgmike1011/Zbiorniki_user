@@ -1,0 +1,9 @@
+@import "mixins.scss";
+@mixin widgets_brease_AlarmListItem_base {
+	@include elemWidth(200);
+
+}
+
+.widgets_brease_AlarmListItem_style_default {
+@include widgets_brease_AlarmListItem_base 
+}

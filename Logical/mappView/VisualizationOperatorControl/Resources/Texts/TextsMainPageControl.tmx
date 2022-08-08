@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT/MainPageControl</prop>
+  </header>
+  <body>
+    <tu tuid="Processcontrolltxt">
+      <tuv xml:lang="pl">
+        <seg>Kontrola procesu</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Process control</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ProcessStarttxt">
+      <tuv xml:lang="pl">
+        <seg>Start</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Start</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ProcessStoptxt">
+      <tuv xml:lang="pl">
+        <seg>Stop</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Stop</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Fillingtxt">
+      <tuv xml:lang="pl">
+        <seg>Wypełnienie zbiorników</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Tank level</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Tank1txt">
+      <tuv xml:lang="pl">
+        <seg>Zbiornik 1</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Tank 1</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Tank2txt">
+      <tuv xml:lang="pl">
+        <seg>Zbiornik 2</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Tank 2</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Tank3txt">
+      <tuv xml:lang="pl">
+        <seg>Zbiornik 3</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Tank3</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Statetxt">
+      <tuv xml:lang="pl">
+        <seg>Aktualny stan pracy</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Current working 
+status</seg>
+      </tuv>
+    </tu>
+    <tu tuid="State_STOPtxt">
+      <tuv xml:lang="pl">
+        <seg>STOP</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>STOP</seg>
+      </tuv>
+    </tu>
+    <tu tuid="State_FILLING_1_2txt">
+      <tuv xml:lang="pl">
+        <seg>Napełnianie zbiorników 1 i 2</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Filling tanks 1 and 2 </seg>
+      </tuv>
+    </tu>
+    <tu tuid="STATE_FILLING_3txt">
+      <tuv xml:lang="pl">
+        <seg>Napełnianie zbiornika 3</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Filling tank 3</seg>
+      </tuv>
+    </tu>
+    <tu tuid="STATE_MIXING_3txt">
+      <tuv xml:lang="pl">
+        <seg>Mieszanie zbiornika 3</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Mixing tank 3</seg>
+      </tuv>
+    </tu>
+    <tu tuid="STATE_EMPTYING_3txt">
+      <tuv xml:lang="pl">
+        <seg>Opróżnianie zbiornika 3</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Emptying tank 3</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Mixingtxt">
+      <tuv xml:lang="pl">
+        <seg>Mikser</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Mixing</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ValveControltxt">
+      <tuv xml:lang="pl">
+        <seg>Sterowanie zaworami</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Valve control</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Zb3_lefttxt">
+      <tuv xml:lang="pl">
+        <seg>Zawór ZB3 lewy</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>ZB3 left valve </seg>
+      </tuv>
+    </tu>
+    <tu tuid="Zb3_righttxt">
+      <tuv xml:lang="pl">
+        <seg>Zawór ZB3 prawy</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>ZB3 right valve</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

@@ -7,6 +7,12 @@
     Type="Package.ParentUnknown"
     LastWriteTime="131991956780000000" />
   <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Temp\Includes\AS_TempDecl\X20CP1584\GlobalComponents\MpComponents.var"
+    LogicalPath="MpComponents.var"
+    Type="File"
+    LastWriteTime="133044378549091725"
+    Private="false" />
+  <Object
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Global.typ"
     LogicalPath="Global.typ"
     Type="File"
@@ -22,7 +28,7 @@
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Libraries\Package.pkg"
     LogicalPath="Libraries"
     Type="Package"
-    LastWriteTime="131991958680000000" />
+    LastWriteTime="133044377433637856" />
   <Object
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Libraries\operator\Binary.lby"
     LogicalPath="Libraries.operator"
@@ -139,6 +145,87 @@
     LastWriteTime="131991958680000000"
     Private="false" />
   <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Libraries\MpServer\Binary.lby"
+    LogicalPath="Libraries.MpServer"
+    Type="Library"
+    LastWriteTime="133044377304764523" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Libraries\MpServer\Constants.var"
+    LogicalPath="Libraries.MpServer.Constants.var"
+    Type="File"
+    LastWriteTime="133044377304686448"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Libraries\MpServer\Types.typ"
+    LogicalPath="Libraries.MpServer.Types.typ"
+    Type="File"
+    LastWriteTime="133044377304725485"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Libraries\MpServer\MpServer.fun"
+    LogicalPath="Libraries.MpServer.MpServer.fun"
+    Type="File"
+    LastWriteTime="133044377304745004"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Libraries\MpServer\MpServer_EventLog.tmx"
+    LogicalPath="Libraries.MpServer.MpServer_EventLog.tmx"
+    Type="File"
+    LastWriteTime="133044377304764523"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Libraries\MpAlarmX\Binary.lby"
+    LogicalPath="Libraries.MpAlarmX"
+    Type="Library"
+    LastWriteTime="133044377433130322" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Libraries\MpAlarmX\MpAlarmX.typ"
+    LogicalPath="Libraries.MpAlarmX.MpAlarmX.typ"
+    Type="File"
+    LastWriteTime="133044377433091339"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Libraries\MpAlarmX\MpAlarmXError.typ"
+    LogicalPath="Libraries.MpAlarmX.MpAlarmXError.typ"
+    Type="File"
+    LastWriteTime="133044377433110801"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Libraries\MpAlarmX\MpAlarmX.fun"
+    LogicalPath="Libraries.MpAlarmX.MpAlarmX.fun"
+    Type="File"
+    LastWriteTime="133044377433120564"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Libraries\MpBase\Binary.lby"
+    LogicalPath="Libraries.MpBase"
+    Type="Library"
+    LastWriteTime="133044377433481681" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Libraries\MpBase\MpBase.var"
+    LogicalPath="Libraries.MpBase.MpBase.var"
+    Type="File"
+    LastWriteTime="133044377433393839"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Libraries\MpBase\MpBase.typ"
+    LogicalPath="Libraries.MpBase.MpBase.typ"
+    Type="File"
+    LastWriteTime="133044377433423121"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Libraries\MpBase\MpBase.fun"
+    LogicalPath="Libraries.MpBase.MpBase.fun"
+    Type="File"
+    LastWriteTime="133044377433452440"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Libraries\MpBase\Common_EventLog.tmx"
+    LogicalPath="Libraries.MpBase.Common_EventLog.tmx"
+    Type="File"
+    LastWriteTime="133044377433471924"
+    Private="false" />
+  <Object
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Wizualizacja\Package.pkg"
     LogicalPath="Wizualizacja"
     Type="Package"
@@ -170,7 +257,7 @@
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Package.pkg"
     LogicalPath="mappView"
     Type="Package"
-    LastWriteTime="133044189192078344" />
+    LastWriteTime="133044238642881697" />
   <Object
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Layouts\Package.pkg"
     LogicalPath="mappView.Layouts"
@@ -185,7 +272,7 @@
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Package.pkg"
     LogicalPath="mappView.Resources"
     Type="Package"
-    LastWriteTime="131945186280000000" />
+    LastWriteTime="133044238642744937" />
   <Object
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Texts\Package.pkg"
     LogicalPath="mappView.Resources.Texts"
@@ -200,17 +287,1102 @@
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Themes\Package.pkg"
     LogicalPath="mappView.Resources.Themes"
     Type="Package"
-    LastWriteTime="131945186280000000" />
+    LastWriteTime="133044258983981371" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Themes\BuRThemeFlat2\Package.pkg"
+    LogicalPath="mappView.Resources.Themes.BuRThemeFlat2"
+    Type="Package"
+    LastWriteTime="133044258864013546" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Themes\BuRThemeFlat2\BuRThemeFlat2.theme"
+    LogicalPath="mappView.Resources.Themes.BuRThemeFlat2.BuRThemeFlat2.theme"
+    Type="File"
+    LastWriteTime="133044258863769161"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Themes\BuRThemeFlat2\brease\Package.pkg"
+    LogicalPath="mappView.Resources.Themes.BuRThemeFlat2.brease"
+    Type="Package"
+    LastWriteTime="133044258864003778" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Themes\BuRThemeFlat2\brease\BuRThemeFlat2.stylesset"
+    LogicalPath="mappView.Resources.Themes.BuRThemeFlat2.brease.BuRThemeFlat2.stylesset"
+    Type="File"
+    LastWriteTime="133044258863817963"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Themes\BuRThemeFlat2\brease\Default.styles"
+    LogicalPath="mappView.Resources.Themes.BuRThemeFlat2.brease.Default.styles"
+    Type="File"
+    LastWriteTime="133044258863827722"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Themes\BuRThemeFlat2\brease\System.styles"
+    LogicalPath="mappView.Resources.Themes.BuRThemeFlat2.brease.System.styles"
+    Type="File"
+    LastWriteTime="133044258863847242"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Themes\BuRThemeFlat2\brease\Buttons.styles"
+    LogicalPath="mappView.Resources.Themes.BuRThemeFlat2.brease.Buttons.styles"
+    Type="File"
+    LastWriteTime="133044258863866770"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Themes\BuRThemeFlat2\brease\Common.styles"
+    LogicalPath="mappView.Resources.Themes.BuRThemeFlat2.brease.Common.styles"
+    Type="File"
+    LastWriteTime="133044258863876526"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Themes\BuRThemeFlat2\brease\Container.styles"
+    LogicalPath="mappView.Resources.Themes.BuRThemeFlat2.brease.Container.styles"
+    Type="File"
+    LastWriteTime="133044258863896403"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Themes\BuRThemeFlat2\brease\Numeric.styles"
+    LogicalPath="mappView.Resources.Themes.BuRThemeFlat2.brease.Numeric.styles"
+    Type="File"
+    LastWriteTime="133044258863906191"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Themes\BuRThemeFlat2\brease\LabelTexts.styles"
+    LogicalPath="mappView.Resources.Themes.BuRThemeFlat2.brease.LabelTexts.styles"
+    Type="File"
+    LastWriteTime="133044258863925710"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Themes\BuRThemeFlat2\brease\Graphic.styles"
+    LogicalPath="mappView.Resources.Themes.BuRThemeFlat2.brease.Graphic.styles"
+    Type="File"
+    LastWriteTime="133044258863945229"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Themes\BuRThemeFlat2\brease\Charts.styles"
+    LogicalPath="mappView.Resources.Themes.BuRThemeFlat2.brease.Charts.styles"
+    Type="File"
+    LastWriteTime="133044258863974507"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Themes\BuRThemeFlat2\brease\Sequencer.styles"
+    LogicalPath="mappView.Resources.Themes.BuRThemeFlat2.brease.Sequencer.styles"
+    Type="File"
+    LastWriteTime="133044258863984266"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Themes\BuRThemeFlat2\brease\Lists.styles"
+    LogicalPath="mappView.Resources.Themes.BuRThemeFlat2.brease.Lists.styles"
+    Type="File"
+    LastWriteTime="133044258864003778"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Themes\BuRThemeFlat1\Package.pkg"
+    LogicalPath="mappView.Resources.Themes.BuRThemeFlat1"
+    Type="Package"
+    LastWriteTime="133044258983952092" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Themes\BuRThemeFlat1\BuRThemeFlat1.theme"
+    LogicalPath="mappView.Resources.Themes.BuRThemeFlat1.BuRThemeFlat1.theme"
+    Type="File"
+    LastWriteTime="133044258983776407"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Themes\BuRThemeFlat1\brease\Package.pkg"
+    LogicalPath="mappView.Resources.Themes.BuRThemeFlat1.brease"
+    Type="Package"
+    LastWriteTime="133044258983952092" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Themes\BuRThemeFlat1\brease\BuRThemeFlat1.stylesset"
+    LogicalPath="mappView.Resources.Themes.BuRThemeFlat1.brease.BuRThemeFlat1.stylesset"
+    Type="File"
+    LastWriteTime="133044258983805689"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Themes\BuRThemeFlat1\brease\Default.styles"
+    LogicalPath="mappView.Resources.Themes.BuRThemeFlat1.brease.Default.styles"
+    Type="File"
+    LastWriteTime="133044258983825213"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Themes\BuRThemeFlat1\brease\System.styles"
+    LogicalPath="mappView.Resources.Themes.BuRThemeFlat1.brease.System.styles"
+    Type="File"
+    LastWriteTime="133044258983834971"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Themes\BuRThemeFlat1\brease\Buttons.styles"
+    LogicalPath="mappView.Resources.Themes.BuRThemeFlat1.brease.Buttons.styles"
+    Type="File"
+    LastWriteTime="133044258983844733"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Themes\BuRThemeFlat1\brease\Common.styles"
+    LogicalPath="mappView.Resources.Themes.BuRThemeFlat1.brease.Common.styles"
+    Type="File"
+    LastWriteTime="133044258983854493"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Themes\BuRThemeFlat1\brease\Container.styles"
+    LogicalPath="mappView.Resources.Themes.BuRThemeFlat1.brease.Container.styles"
+    Type="File"
+    LastWriteTime="133044258983864252"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Themes\BuRThemeFlat1\brease\Numeric.styles"
+    LogicalPath="mappView.Resources.Themes.BuRThemeFlat1.brease.Numeric.styles"
+    Type="File"
+    LastWriteTime="133044258983883765"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Themes\BuRThemeFlat1\brease\LabelTexts.styles"
+    LogicalPath="mappView.Resources.Themes.BuRThemeFlat1.brease.LabelTexts.styles"
+    Type="File"
+    LastWriteTime="133044258983893535"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Themes\BuRThemeFlat1\brease\Graphic.styles"
+    LogicalPath="mappView.Resources.Themes.BuRThemeFlat1.brease.Graphic.styles"
+    Type="File"
+    LastWriteTime="133044258983903292"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Themes\BuRThemeFlat1\brease\Charts.styles"
+    LogicalPath="mappView.Resources.Themes.BuRThemeFlat1.brease.Charts.styles"
+    Type="File"
+    LastWriteTime="133044258983922813"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Themes\BuRThemeFlat1\brease\Sequencer.styles"
+    LogicalPath="mappView.Resources.Themes.BuRThemeFlat1.brease.Sequencer.styles"
+    Type="File"
+    LastWriteTime="133044258983932566"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Themes\BuRThemeFlat1\brease\Lists.styles"
+    LogicalPath="mappView.Resources.Themes.BuRThemeFlat1.brease.Lists.styles"
+    Type="File"
+    LastWriteTime="133044258983942331"
+    Private="false" />
   <Object
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\Package.pkg"
     LogicalPath="mappView.Resources.Media"
     Type="Package"
-    LastWriteTime="131971275640000000" />
+    LastWriteTime="133044247903444836" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Package.pkg"
+    LogicalPath="mappView.Resources.Media.SymbolLib"
+    Type="Package"
+    LastWriteTime="133044238976876904" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Alarm\Package.pkg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Alarm"
+    Type="Package"
+    LastWriteTime="133044238971821234" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Alarm\Acknowledge.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Alarm.Acknowledge.svg"
+    Type="File"
+    LastWriteTime="133044238971723631"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Alarm\Alarm.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Alarm.Alarm.svg"
+    Type="File"
+    LastWriteTime="133044238971752911"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Alarm\AlarmHistory.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Alarm.AlarmHistory.svg"
+    Type="File"
+    LastWriteTime="133044238971782191"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Alarm\Error.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Alarm.Error.svg"
+    Type="File"
+    LastWriteTime="133044238971821234"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Arrow\Package.pkg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Arrow"
+    Type="Package"
+    LastWriteTime="133044238972328752" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Arrow\ArrowDown.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.ArrowDown.svg"
+    Type="File"
+    LastWriteTime="133044238971928592"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Arrow\ArrowLeft.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.ArrowLeft.svg"
+    Type="File"
+    LastWriteTime="133044238971957871"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Arrow\ArrowRight.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.ArrowRight.svg"
+    Type="File"
+    LastWriteTime="133044238971987152"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Arrow\ArrowUp.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.ArrowUp.svg"
+    Type="File"
+    LastWriteTime="133044238972016430"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Arrow\Back.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.Back.svg"
+    Type="File"
+    LastWriteTime="133044238972045713"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Arrow\Down2.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.Down2.svg"
+    Type="File"
+    LastWriteTime="133044238972094553"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Arrow\Down1.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.Down1.svg"
+    Type="File"
+    LastWriteTime="133044238972133553"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Arrow\Down3.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.Down3.svg"
+    Type="File"
+    LastWriteTime="133044238972162831"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Arrow\Forward.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.Forward.svg"
+    Type="File"
+    LastWriteTime="133044238972192115"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Arrow\Up1.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.Up1.svg"
+    Type="File"
+    LastWriteTime="133044238972231152"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Arrow\Up2.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.Up2.svg"
+    Type="File"
+    LastWriteTime="133044238972279992"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Arrow\Up3.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Arrow.Up3.svg"
+    Type="File"
+    LastWriteTime="133044238972328752"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Communication\Package.pkg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Communication"
+    Type="Package"
+    LastWriteTime="133044238972504423" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Communication\ConnectionFail.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Communication.ConnectionFail.svg"
+    Type="File"
+    LastWriteTime="133044238972436111"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Communication\ConnectionOK.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Communication.ConnectionOK.svg"
+    Type="File"
+    LastWriteTime="133044238972465391"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Communication\Network.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Communication.Network.svg"
+    Type="File"
+    LastWriteTime="133044238972494670"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\DateTime\Package.pkg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.DateTime"
+    Type="Package"
+    LastWriteTime="133044238972670351" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\DateTime\Calendar.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.DateTime.Calendar.svg"
+    Type="File"
+    LastWriteTime="133044238972611791"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\DateTime\Clock.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.DateTime.Clock.svg"
+    Type="File"
+    LastWriteTime="133044238972641070"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\DateTime\Date.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.DateTime.Date.svg"
+    Type="File"
+    LastWriteTime="133044238972670351"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Diagnostic\Package.pkg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Diagnostic"
+    Type="Package"
+    LastWriteTime="133044238972787470" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Diagnostic\Diagnostics.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Diagnostic.Diagnostics.svg"
+    Type="File"
+    LastWriteTime="133044238972777709"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\DisplayAndTouch\Package.pkg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.DisplayAndTouch"
+    Type="Package"
+    LastWriteTime="133044238972992432" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\DisplayAndTouch\Calibrate.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.DisplayAndTouch.Calibrate.svg"
+    Type="File"
+    LastWriteTime="133044238972894831"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\DisplayAndTouch\Contrast.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.DisplayAndTouch.Contrast.svg"
+    Type="File"
+    LastWriteTime="133044238972943628"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\DisplayAndTouch\Lightness.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.DisplayAndTouch.Lightness.svg"
+    Type="File"
+    LastWriteTime="133044238972982910"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Edit\Package.pkg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit"
+    Type="Package"
+    LastWriteTime="133044238973763470" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Edit\Add.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Add.svg"
+    Type="File"
+    LastWriteTime="133044238973070509"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Edit\Character.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Character.svg"
+    Type="File"
+    LastWriteTime="133044238973099787"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Edit\Close.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Close.svg"
+    Type="File"
+    LastWriteTime="133044238973129070"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Edit\Copy.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Copy.svg"
+    Type="File"
+    LastWriteTime="133044238973158353"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Edit\Cut.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Cut.svg"
+    Type="File"
+    LastWriteTime="133044238973197382"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Edit\Delete.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Delete.svg"
+    Type="File"
+    LastWriteTime="133044238973226669"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Edit\Edit.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Edit.svg"
+    Type="File"
+    LastWriteTime="133044238973255952"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Edit\Favorite.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Favorite.svg"
+    Type="File"
+    LastWriteTime="133044238973285232"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Edit\Help.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Help.svg"
+    Type="File"
+    LastWriteTime="133044238973314505"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Edit\Information.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Information.svg"
+    Type="File"
+    LastWriteTime="133044238973353550"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Edit\Insert.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Insert.svg"
+    Type="File"
+    LastWriteTime="133044238973382829"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Edit\Maximize.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Maximize.svg"
+    Type="File"
+    LastWriteTime="133044238973412109"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Edit\Minimize.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Minimize.svg"
+    Type="File"
+    LastWriteTime="133044238973441391"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Edit\New.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.New.svg"
+    Type="File"
+    LastWriteTime="133044238973470669"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Edit\Number.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Number.svg"
+    Type="File"
+    LastWriteTime="133044238973499949"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Edit\Open.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Open.svg"
+    Type="File"
+    LastWriteTime="133044238973529228"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Edit\Pin.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Pin.svg"
+    Type="File"
+    LastWriteTime="133044238973558509"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Edit\Pin2.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Pin2.svg"
+    Type="File"
+    LastWriteTime="133044238973587788"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Edit\Redo.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Redo.svg"
+    Type="File"
+    LastWriteTime="133044238973617068"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Edit\Save.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Save.svg"
+    Type="File"
+    LastWriteTime="133044238973665909"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Edit\Undo.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.Undo.svg"
+    Type="File"
+    LastWriteTime="133044238973704908"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Edit\ZoomIn.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.ZoomIn.svg"
+    Type="File"
+    LastWriteTime="133044238973724429"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Edit\ZoomOut.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Edit.ZoomOut.svg"
+    Type="File"
+    LastWriteTime="133044238973753708"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\File\Package.pkg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.File"
+    Type="Package"
+    LastWriteTime="133044238973958669" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\File\File.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.File.File.svg"
+    Type="File"
+    LastWriteTime="133044238973841548"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\File\Files.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.File.Files.svg"
+    Type="File"
+    LastWriteTime="133044238973870828"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\File\Package.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.File.Package.svg"
+    Type="File"
+    LastWriteTime="133044238973900109"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\File\Recipe.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.File.Recipe.svg"
+    Type="File"
+    LastWriteTime="133044238973929388"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\File\Search.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.File.Search.svg"
+    Type="File"
+    LastWriteTime="133044238973958669"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Localize\Package.pkg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Localize"
+    Type="Package"
+    LastWriteTime="133044238974388107" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Localize\Browser.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Localize.Browser.svg"
+    Type="File"
+    LastWriteTime="133044238974036748"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Localize\China.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Localize.China.svg"
+    Type="File"
+    LastWriteTime="133044238974066027"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Localize\Flag.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Localize.Flag.svg"
+    Type="File"
+    LastWriteTime="133044238974085547"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Localize\France.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Localize.France.svg"
+    Type="File"
+    LastWriteTime="133044238974114828"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Localize\Germany.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Localize.Germany.svg"
+    Type="File"
+    LastWriteTime="133044238974144107"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Localize\GreatBritain.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Localize.GreatBritain.svg"
+    Type="File"
+    LastWriteTime="133044238974173389"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Localize\Italy.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Localize.Italy.svg"
+    Type="File"
+    LastWriteTime="133044238974202667"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Localize\Language.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Localize.Language.svg"
+    Type="File"
+    LastWriteTime="133044238974231940"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Localize\Portugal.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Localize.Portugal.svg"
+    Type="File"
+    LastWriteTime="133044238974261227"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Localize\Russia.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Localize.Russia.svg"
+    Type="File"
+    LastWriteTime="133044238974290507"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Localize\Spain.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Localize.Spain.svg"
+    Type="File"
+    LastWriteTime="133044238974329547"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Localize\UK.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Localize.UK.svg"
+    Type="File"
+    LastWriteTime="133044238974358827"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Localize\USA.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Localize.USA.svg"
+    Type="File"
+    LastWriteTime="133044238974388107"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Media\Package.pkg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Media"
+    Type="Package"
+    LastWriteTime="133044238974817548" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Media\FastForward.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Media.FastForward.svg"
+    Type="File"
+    LastWriteTime="133044238974475949"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Media\FastForwardStop.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Media.FastForwardStop.svg"
+    Type="File"
+    LastWriteTime="133044238974505230"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Media\FastRewind.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Media.FastRewind.svg"
+    Type="File"
+    LastWriteTime="133044238974534508"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Media\FastRewindStop.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Media.FastRewindStop.svg"
+    Type="File"
+    LastWriteTime="133044238974563788"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Media\ForwardStop.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Media.ForwardStop.svg"
+    Type="File"
+    LastWriteTime="133044238974593068"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Media\Pause.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Media.Pause.svg"
+    Type="File"
+    LastWriteTime="133044238974632154"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Media\Play.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Media.Play.svg"
+    Type="File"
+    LastWriteTime="133044238974680955"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Media\RewindStop.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Media.RewindStop.svg"
+    Type="File"
+    LastWriteTime="133044238974710191"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Media\Stop.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Media.Stop.svg"
+    Type="File"
+    LastWriteTime="133044238974759029"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Media\Video.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Media.Video.svg"
+    Type="File"
+    LastWriteTime="133044238974807829"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Needle\Package.pkg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Needle"
+    Type="Package"
+    LastWriteTime="133044238975139627" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Needle\Needle1long.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Needle.Needle1long.svg"
+    Type="File"
+    LastWriteTime="133044238974934667"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Needle\Needle1short.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Needle.Needle1short.svg"
+    Type="File"
+    LastWriteTime="133044238974963946"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Needle\Needle2long.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Needle.Needle2long.svg"
+    Type="File"
+    LastWriteTime="133044238974993227"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Needle\Needle2short.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Needle.Needle2short.svg"
+    Type="File"
+    LastWriteTime="133044238975022506"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Needle\Needle3long.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Needle.Needle3long.svg"
+    Type="File"
+    LastWriteTime="133044238975051786"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Needle\Needle3short.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Needle.Needle3short.svg"
+    Type="File"
+    LastWriteTime="133044238975081066"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Needle\Needle4long.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Needle.Needle4long.svg"
+    Type="File"
+    LastWriteTime="133044238975110347"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Needle\Needle4short.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Needle.Needle4short.svg"
+    Type="File"
+    LastWriteTime="133044238975139627"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Symbols\Package.pkg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols"
+    Type="Package"
+    LastWriteTime="133044238976535305" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Symbols\Accept.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Accept.svg"
+    Type="File"
+    LastWriteTime="133044238975227466"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Symbols\Button.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Button.svg"
+    Type="File"
+    LastWriteTime="133044238975256747"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Symbols\Conveyor.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Conveyor.svg"
+    Type="File"
+    LastWriteTime="133044238975286027"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Symbols\Download.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Download.svg"
+    Type="File"
+    LastWriteTime="133044238975315313"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Symbols\Energy.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Energy.svg"
+    Type="File"
+    LastWriteTime="133044238975344585"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Symbols\Engine.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Engine.svg"
+    Type="File"
+    LastWriteTime="133044238975373867"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Symbols\EngineMove.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.EngineMove.svg"
+    Type="File"
+    LastWriteTime="133044238975403147"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Symbols\EngineReference.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.EngineReference.svg"
+    Type="File"
+    LastWriteTime="133044238975432426"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Symbols\Graph.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Graph.svg"
+    Type="File"
+    LastWriteTime="133044238975461707"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Symbols\Hide.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Hide.svg"
+    Type="File"
+    LastWriteTime="133044238975500748"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Symbols\Home.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Home.svg"
+    Type="File"
+    LastWriteTime="133044238975539787"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Symbols\InProgress.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.InProgress.svg"
+    Type="File"
+    LastWriteTime="133044238975578826"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Symbols\Mail.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Mail.svg"
+    Type="File"
+    LastWriteTime="133044238975617915"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Symbols\Max.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Max.svg"
+    Type="File"
+    LastWriteTime="133044238975647142"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Symbols\Min.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Min.svg"
+    Type="File"
+    LastWriteTime="133044238975676419"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Symbols\Mode.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Mode.svg"
+    Type="File"
+    LastWriteTime="133044238975705706"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Symbols\Off.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Off.svg"
+    Type="File"
+    LastWriteTime="133044238975734989"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Symbols\On.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.On.svg"
+    Type="File"
+    LastWriteTime="133044238975764267"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Symbols\PDF.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.PDF.svg"
+    Type="File"
+    LastWriteTime="133044238975793545"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Symbols\Remote1.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Remote1.svg"
+    Type="File"
+    LastWriteTime="133044238975822826"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Symbols\Remote2.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Remote2.svg"
+    Type="File"
+    LastWriteTime="133044238975852106"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Symbols\Remote3.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Remote3.svg"
+    Type="File"
+    LastWriteTime="133044238975881386"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Symbols\Remote4.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Remote4.svg"
+    Type="File"
+    LastWriteTime="133044238975910665"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Symbols\Reset.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Reset.svg"
+    Type="File"
+    LastWriteTime="133044238975939945"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Symbols\Restart.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Restart.svg"
+    Type="File"
+    LastWriteTime="133044238975969224"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Symbols\Robot.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Robot.svg"
+    Type="File"
+    LastWriteTime="133044238975988747"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Symbols\Safety.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Safety.svg"
+    Type="File"
+    LastWriteTime="133044238976018023"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Symbols\Server.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Server.svg"
+    Type="File"
+    LastWriteTime="133044238976047297"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Symbols\Service.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Service.svg"
+    Type="File"
+    LastWriteTime="133044238976076584"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Symbols\Settings.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Settings.svg"
+    Type="File"
+    LastWriteTime="133044238976105864"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Symbols\Slider_Symbol.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Slider_Symbol.svg"
+    Type="File"
+    LastWriteTime="133044238976135145"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Symbols\Start.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Start.svg"
+    Type="File"
+    LastWriteTime="133044238976183993"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Symbols\Stop.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Stop.svg"
+    Type="File"
+    LastWriteTime="133044238976242546"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Symbols\SystemSettings.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.SystemSettings.svg"
+    Type="File"
+    LastWriteTime="133044238976281545"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Symbols\Temperature.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Temperature.svg"
+    Type="File"
+    LastWriteTime="133044238976310824"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Symbols\Tool.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Tool.svg"
+    Type="File"
+    LastWriteTime="133044238976340104"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Symbols\TouchMe.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.TouchMe.svg"
+    Type="File"
+    LastWriteTime="133044238976369383"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Symbols\UnHide.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.UnHide.svg"
+    Type="File"
+    LastWriteTime="133044238976398666"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Symbols\Upload.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Upload.svg"
+    Type="File"
+    LastWriteTime="133044238976437704"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Symbols\USB.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.USB.svg"
+    Type="File"
+    LastWriteTime="133044238976466983"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Symbols\Wait.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Wait.svg"
+    Type="File"
+    LastWriteTime="133044238976506025"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\Symbols\Webcam.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.Symbols.Webcam.svg"
+    Type="File"
+    LastWriteTime="133044238976525543"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\User\Package.pkg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.User"
+    Type="Package"
+    LastWriteTime="133044238976857383" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\User\AddUser.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.User.AddUser.svg"
+    Type="File"
+    LastWriteTime="133044238976623207"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\User\DeleteUser.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.User.DeleteUser.svg"
+    Type="File"
+    LastWriteTime="133044238976652425"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\User\Lock.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.User.Lock.svg"
+    Type="File"
+    LastWriteTime="133044238976681704"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\User\Login.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.User.Login.svg"
+    Type="File"
+    LastWriteTime="133044238976710984"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\User\Logout.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.User.Logout.svg"
+    Type="File"
+    LastWriteTime="133044238976740264"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\User\NoAccessRights.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.User.NoAccessRights.svg"
+    Type="File"
+    LastWriteTime="133044238976769544"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\User\Unlock.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.User.Unlock.svg"
+    Type="File"
+    LastWriteTime="133044238976798824"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\User\User.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.User.User.svg"
+    Type="File"
+    LastWriteTime="133044238976818346"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\SymbolLib\User\UserGroup.svg"
+    LogicalPath="mappView.Resources.Media.SymbolLib.User.UserGroup.svg"
+    Type="File"
+    LastWriteTime="133044238976847624"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\Graphics\Package.pkg"
+    LogicalPath="mappView.Resources.Media.Graphics"
+    Type="Package"
+    LastWriteTime="133044301795253385" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\Graphics\BuR.png"
+    LogicalPath="mappView.Resources.Media.Graphics.BuR.png"
+    Type="File"
+    LastWriteTime="133044282599216268"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\Graphics\BuR_new.png"
+    LogicalPath="mappView.Resources.Media.Graphics.BuR_new.png"
+    Type="File"
+    LastWriteTime="133044300380811114"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Resources\Media\Graphics\BuR_new_2.jpg"
+    LogicalPath="mappView.Resources.Media.Graphics.BuR_new_2.jpg"
+    Type="File"
+    LastWriteTime="133044301795253385"
+    Private="false" />
   <Object
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Project.language"
     LogicalPath="mappView.Project.language"
     Type="File"
-    LastWriteTime="131945285100000000"
+    LastWriteTime="133044238642871817"
     Private="false" />
   <Object
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\Visualization\Package.pkg"
@@ -317,22 +1489,74 @@
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\VisualizationOperatorControl\Pages\Package.pkg"
     LogicalPath="mappView.VisualizationOperatorControl.Pages"
     Type="Package"
-    LastWriteTime="133044190696165498" />
+    LastWriteTime="133044289377936411" />
   <Object
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\VisualizationOperatorControl\Pages\AreaContents\Package.pkg"
     LogicalPath="mappView.VisualizationOperatorControl.Pages.AreaContents"
     Type="Package"
-    LastWriteTime="133044189006656838" />
+    LastWriteTime="133044253284431904" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\VisualizationOperatorControl\Pages\AreaContents\ContentTopControl.content"
+    LogicalPath="mappView.VisualizationOperatorControl.Pages.AreaContents.ContentTopControl.content"
+    Type="File"
+    LastWriteTime="133044515958110738"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\VisualizationOperatorControl\Pages\AreaContents\ContentLeftControl.content"
+    LogicalPath="mappView.VisualizationOperatorControl.Pages.AreaContents.ContentLeftControl.content"
+    Type="File"
+    LastWriteTime="133044291301923566"
+    Private="false" />
   <Object
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\VisualizationOperatorControl\Pages\MainPageControl\Package.pkg"
     LogicalPath="mappView.VisualizationOperatorControl.Pages.MainPageControl"
     Type="Package"
-    LastWriteTime="133044190165745305" />
+    LastWriteTime="133044254949340334" />
   <Object
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\VisualizationOperatorControl\Pages\MainPageControl\Page.page"
     LogicalPath="mappView.VisualizationOperatorControl.Pages.MainPageControl.Page.page"
     Type="File"
-    LastWriteTime="133044198059615260"
+    LastWriteTime="133044292894726189"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\VisualizationOperatorControl\Pages\MainPageControl\ContentMainPageControl.content"
+    LogicalPath="mappView.VisualizationOperatorControl.Pages.MainPageControl.ContentMainPageControl.content"
+    Type="File"
+    LastWriteTime="133044520815597651"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\VisualizationOperatorControl\Pages\AlarmPageControl\Package.pkg"
+    LogicalPath="mappView.VisualizationOperatorControl.Pages.AlarmPageControl"
+    Type="Package"
+    LastWriteTime="133044287258113597" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\VisualizationOperatorControl\Pages\AlarmPageControl\Page.page"
+    LogicalPath="mappView.VisualizationOperatorControl.Pages.AlarmPageControl.Page.page"
+    Type="File"
+    LastWriteTime="133044287666000020"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\VisualizationOperatorControl\Pages\AlarmPageControl\ContentAlarmPageControl.content"
+    LogicalPath="mappView.VisualizationOperatorControl.Pages.AlarmPageControl.ContentAlarmPageControl.content"
+    Type="File"
+    LastWriteTime="133044520816134454"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\VisualizationOperatorControl\Pages\ServicePageControl\Package.pkg"
+    LogicalPath="mappView.VisualizationOperatorControl.Pages.ServicePageControl"
+    Type="Package"
+    LastWriteTime="133044289522650915" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\VisualizationOperatorControl\Pages\ServicePageControl\Page.page"
+    LogicalPath="mappView.VisualizationOperatorControl.Pages.ServicePageControl.Page.page"
+    Type="File"
+    LastWriteTime="133044291099015271"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\VisualizationOperatorControl\Pages\ServicePageControl\ContentServicePageControl.content"
+    LogicalPath="mappView.VisualizationOperatorControl.Pages.ServicePageControl.ContentServicePageControl.content"
+    Type="File"
+    LastWriteTime="133044507475011871"
     Private="false" />
   <Object
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\VisualizationOperatorControl\Variables\Package.pkg"
@@ -374,12 +1598,36 @@
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\VisualizationOperatorControl\Resources\Texts\Package.pkg"
     LogicalPath="mappView.VisualizationOperatorControl.Resources.Texts"
     Type="Package"
-    LastWriteTime="133044198708165651" />
+    LastWriteTime="133044506122509535" />
   <Object
-    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\VisualizationOperatorControl\Resources\Texts\LocalizableTexts.tmx"
-    LogicalPath="mappView.VisualizationOperatorControl.Resources.Texts.LocalizableTexts.tmx"
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\VisualizationOperatorControl\Resources\Texts\TextsLeftArea.tmx"
+    LogicalPath="mappView.VisualizationOperatorControl.Resources.Texts.TextsLeftArea.tmx"
     Type="File"
-    LastWriteTime="133044198708155898"
+    LastWriteTime="133044288707079268"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\VisualizationOperatorControl\Resources\Texts\TextsTop.tmx"
+    LogicalPath="mappView.VisualizationOperatorControl.Resources.Texts.TextsTop.tmx"
+    Type="File"
+    LastWriteTime="133044245327440174"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\VisualizationOperatorControl\Resources\Texts\TextsMainPageControl.tmx"
+    LogicalPath="mappView.VisualizationOperatorControl.Resources.Texts.TextsMainPageControl.tmx"
+    Type="File"
+    LastWriteTime="133044370281928495"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\VisualizationOperatorControl\Resources\Texts\TextsAlarmPage.tmx"
+    LogicalPath="mappView.VisualizationOperatorControl.Resources.Texts.TextsAlarmPage.tmx"
+    Type="File"
+    LastWriteTime="133044493164056866"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\VisualizationOperatorControl\Resources\Texts\TextsServicePage.tmx"
+    LogicalPath="mappView.VisualizationOperatorControl.Resources.Texts.TextsServicePage.tmx"
+    Type="File"
+    LastWriteTime="133044506873315141"
     Private="false" />
   <Object
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\VisualizationOperatorControl\Resources\Snippets\Package.pkg"
@@ -390,7 +1638,7 @@
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Sterowanie\Package.pkg"
     LogicalPath="Sterowanie"
     Type="Package"
-    LastWriteTime="133044200004063319" />
+    LastWriteTime="133044378141933937" />
   <Object
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Sterowanie\mappingVariables.var"
     LogicalPath="Sterowanie.mappingVariables.var"
@@ -429,7 +1677,7 @@
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Sterowanie\AutomaticControl\Main.st"
     LogicalPath="Sterowanie.AutomaticControl.Main.st"
     Type="File"
-    LastWriteTime="133044226488191122"
+    LastWriteTime="133044349188352995"
     Private="false" />
   <Object
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Sterowanie\AutomaticControl\Types.typ"
@@ -441,7 +1689,53 @@
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Sterowanie\AutomaticControl\Variables.var"
     LogicalPath="Sterowanie.AutomaticControl.Variables.var"
     Type="File"
-    LastWriteTime="133044226920071641"
+    LastWriteTime="133044349283747906"
+    Private="true" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Sterowanie\LevelScaling\IEC.prg"
+    LogicalPath="Sterowanie.LevelScaling"
+    Type="Program"
+    LastWriteTime="133044319039396930" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Sterowanie\LevelScaling\Main.st"
+    LogicalPath="Sterowanie.LevelScaling.Main.st"
+    Type="File"
+    LastWriteTime="133044325275711617"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Sterowanie\LevelScaling\Types.typ"
+    LogicalPath="Sterowanie.LevelScaling.Types.typ"
+    Type="File"
+    LastWriteTime="133044319039357687"
+    Private="true" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Sterowanie\LevelScaling\Variables.var"
+    LogicalPath="Sterowanie.LevelScaling.Variables.var"
+    Type="File"
+    LastWriteTime="133044320396879129"
+    Private="true" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Sterowanie\Alarms\IEC.prg"
+    LogicalPath="Sterowanie.Alarms"
+    Type="Program"
+    LastWriteTime="133044378085511552" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Sterowanie\Alarms\Main.st"
+    LogicalPath="Sterowanie.Alarms.Main.st"
+    Type="File"
+    LastWriteTime="133044490812079399"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Sterowanie\Alarms\Types.typ"
+    LogicalPath="Sterowanie.Alarms.Types.typ"
+    Type="File"
+    LastWriteTime="133044378085462708"
+    Private="true" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Sterowanie\Alarms\Variables.var"
+    LogicalPath="Sterowanie.Alarms.Variables.var"
+    Type="File"
+    LastWriteTime="133044405148867861"
     Private="true" />
   <Object
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\Config.pkg"
@@ -452,7 +1746,7 @@
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\Hardware.hw"
     LogicalPath="X20CP1584.Hardware.hw"
     Type="File"
-    LastWriteTime="133044179889826618"
+    LastWriteTime="133044278062270792"
     Private="false" />
   <Object
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\Hardware.hwl"
@@ -464,12 +1758,12 @@
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\Cpu.pkg"
     LogicalPath="X20CP1584.X20CP1584"
     Type="Cpu"
-    LastWriteTime="133044227093029044" />
+    LastWriteTime="133044519750728777" />
   <Object
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\Cpu.sw"
     LogicalPath="X20CP1584.X20CP1584.Cpu.sw"
     Type="File"
-    LastWriteTime="133044200004228378"
+    LastWriteTime="133044378141989310"
     Private="false" />
   <Object
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\Cpu.per"
@@ -498,12 +1792,12 @@
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\Connectivity\OpcUA\Package.pkg"
     LogicalPath="X20CP1584.X20CP1584.Connectivity.OpcUA"
     Type="Package"
-    LastWriteTime="131991953540000000" />
+    LastWriteTime="133044280842728358" />
   <Object
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\Connectivity\OpcUA\OpcUaMap.uad"
     LogicalPath="X20CP1584.X20CP1584.Connectivity.OpcUA.OpcUaMap.uad"
     Type="File"
-    LastWriteTime="131991957580000000"
+    LastWriteTime="133044519564758271"
     Private="false" />
   <Object
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\TextSystem\Package.pkg"
@@ -514,7 +1808,7 @@
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\TextSystem\TC.textconfig"
     LogicalPath="X20CP1584.X20CP1584.TextSystem.TC.textconfig"
     Type="File"
-    LastWriteTime="133044199076025917"
+    LastWriteTime="133044506371252022"
     Private="false" />
   <Object
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\UnitSystem\Package.pkg"
@@ -535,13 +1829,13 @@
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\AccessAndSecurity\UserRoleSystem\Role.role"
     LogicalPath="X20CP1584.X20CP1584.AccessAndSecurity.UserRoleSystem.Role.role"
     Type="File"
-    LastWriteTime="131991949220000000"
+    LastWriteTime="133044501036861325"
     Private="false" />
   <Object
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\AccessAndSecurity\UserRoleSystem\User.user"
     LogicalPath="X20CP1584.X20CP1584.AccessAndSecurity.UserRoleSystem.User.user"
     Type="File"
-    LastWriteTime="131991949220000000"
+    LastWriteTime="133044501507117294"
     Private="false" />
   <Object
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\AccessAndSecurity\CertificateStore\Package.pkg"
@@ -602,12 +1896,18 @@
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\mappServices\Package.pkg"
     LogicalPath="X20CP1584.X20CP1584.mappServices"
     Type="Package"
-    LastWriteTime="131991949220000000" />
+    LastWriteTime="133044378548359732" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\mappServices\Config.mpalarmxcore"
+    LogicalPath="X20CP1584.X20CP1584.mappServices.Config.mpalarmxcore"
+    Type="File"
+    LastWriteTime="133044400083369404"
+    Private="false" />
   <Object
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\mappView\Package.pkg"
     LogicalPath="X20CP1584.X20CP1584.mappView"
     Type="Package"
-    LastWriteTime="133044189736134542" />
+    LastWriteTime="133044391755964848" />
   <Object
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\mappView\OpcUaServer.uaserver"
     LogicalPath="X20CP1584.X20CP1584.mappView.OpcUaServer.uaserver"
@@ -654,7 +1954,31 @@
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\mappView\VisOperCon.vis"
     LogicalPath="X20CP1584.X20CP1584.mappView.VisOperCon.vis"
     Type="File"
-    LastWriteTime="133044191586405483"
+    LastWriteTime="133044391756130456"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\mappView\ContentMainPageControl.binding"
+    LogicalPath="X20CP1584.X20CP1584.mappView.ContentMainPageControl.binding"
+    Type="File"
+    LastWriteTime="133044373027287412"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\mappView\ContentMainPageControl.eventbinding"
+    LogicalPath="X20CP1584.X20CP1584.mappView.ContentMainPageControl.eventbinding"
+    Type="File"
+    LastWriteTime="133044338804730646"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\mappView\ContentAlarmPageControl.eventbinding"
+    LogicalPath="X20CP1584.X20CP1584.mappView.ContentAlarmPageControl.eventbinding"
+    Type="File"
+    LastWriteTime="133044391107254086"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\mappView\ContentAlarmPageControl.binding"
+    LogicalPath="X20CP1584.X20CP1584.mappView.ContentAlarmPageControl.binding"
+    Type="File"
+    LastWriteTime="133044391782265232"
     Private="false" />
   <Object
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\mappCockpit\Package.pkg"

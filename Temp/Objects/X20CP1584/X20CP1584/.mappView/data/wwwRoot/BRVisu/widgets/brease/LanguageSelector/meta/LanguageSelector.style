@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StyleInformation name="widgets.brease.LanguageSelector" xmlns="http://www.br-automation.com/iat2014/widgetStyles"
+									xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <StyleProperties>
+   
+    <!-- Overwrite properties from DropDownBox -->
+    
+    <StyleProperty name="listPadding" category="Layout" type="Padding" default="0px 0px 0px 15px">
+      <StyleElement idsuffix="_listBoxWrapper" selector="&amp; > .ListView.Container > .ListView.List > .ItemView" attribute="padding"></StyleElement>
+      <Description>
+        Padding of the list
+      </Description>
+    </StyleProperty>       
+
+  </StyleProperties>
+  
+</StyleInformation>

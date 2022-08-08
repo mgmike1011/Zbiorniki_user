@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT/AlarmPage</prop>
+  </header>
+  <body>
+    <tu tuid="TooHightxt">
+      <tuv xml:lang="pl">
+        <seg>Zbyt wysoki poziom cieczy.</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Liquid level too high.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Criticaltxt">
+      <tuv xml:lang="pl">
+        <seg>Krytyczny poziom cieczy.</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Liquid level critical.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="TooLowtxt">
+      <tuv xml:lang="pl">
+        <seg>Zbyt niski poziom cieczy.</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Liquid level too low.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Timetxt">
+      <tuv xml:lang="pl">
+        <seg>Czas</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Time</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDtxt">
+      <tuv xml:lang="pl">
+        <seg>ID</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>ID</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Messagetxt">
+      <tuv xml:lang="pl">
+        <seg>Wiadomość</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Message</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Statetxt">
+      <tuv xml:lang="pl">
+        <seg>Status</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>State</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Acktxt">
+      <tuv xml:lang="pl">
+        <seg>Zatwierdź</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Ack</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Ackalltxt">
+      <tuv xml:lang="pl">
+        <seg>Zatwierdź wszytskie</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Ack all</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Codetxt">
+      <tuv xml:lang="pl">
+        <seg>Kod</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Code</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

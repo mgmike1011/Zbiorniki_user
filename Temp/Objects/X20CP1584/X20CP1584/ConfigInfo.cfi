@@ -46,6 +46,30 @@
       <File
         Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Sterowanie\AutomaticControl\Variables.var" />
     </Task>
+    <Task
+      Name="LevelScali"
+      Disable="false"
+      Source="Sterowanie.LevelScaling"
+      Language="IEC">
+      <InternalFile
+        Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Temp\Objects\X20CP1584\X20CP1584\LevelScali\Main.st.var" />
+      <File
+        Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Sterowanie\LevelScaling\Types.typ" />
+      <File
+        Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Sterowanie\LevelScaling\Variables.var" />
+    </Task>
+    <Task
+      Name="Alarms"
+      Disable="false"
+      Source="Sterowanie.Alarms"
+      Language="IEC">
+      <InternalFile
+        Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Temp\Objects\X20CP1584\X20CP1584\Alarms\Main.st.var" />
+      <File
+        Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Sterowanie\Alarms\Types.typ" />
+      <File
+        Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Sterowanie\Alarms\Variables.var" />
+    </Task>
   </TaskClass>
   <TaskClass
     Name="Cyclic#5" />

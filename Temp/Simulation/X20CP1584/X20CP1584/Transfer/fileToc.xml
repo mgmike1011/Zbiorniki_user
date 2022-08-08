@@ -42,20 +42,24 @@
 			<Folder Name="IAT_Data" ProjectDependent="1" IsGroup="1">
 				<Folder Name="server" ProjectDependent="1">
 					<File Name="-222062230.binding" Size="14403" HashValue="AF615BF7430CBCB9EA390965D202223C" ProjectDependent="1"/>
+					<File Name="-683776460.binding" Size="6624" HashValue="902BDD752ACDC92A6C91AC1318331CBF" ProjectDependent="1"/>
 					<File Name="1534101751.binding" Size="4207" HashValue="C693CF4D34275461B64AF0A88175BD53" ProjectDependent="1"/>
 					<File Name="1625532323.binding" Size="18985" HashValue="BC9E37C5DE8D3CAEE048716709859CEF" ProjectDependent="1"/>
+					<File Name="1823084006.eventbinding" Size="3132" HashValue="84E3E9DAC46AAED700693C6D141872D6" ProjectDependent="1"/>
+					<File Name="2139907734.binding" Size="510" HashValue="3AFB003A15E44D0CE0F59A613E155BF2" ProjectDependent="1"/>
 					<File Name="654233811.eventbinding" Size="34451" HashValue="E4DD359C1DCDF72B3EEF1782218C0FB0" ProjectDependent="1"/>
+					<File Name="861746268.eventbinding" Size="1220" HashValue="9CA85F2250962163CB4B6F74B590B405" ProjectDependent="1"/>
 					<File Name="__SystemVariables.sessionVar" Size="3679" HashValue="47F4015152DC77A4E81EB725C733FBD6" ProjectDependent="1"/>
 					<File Name="Config.mappviewcfg" Size="1815" HashValue="0D783EFE3B6004B6CBB7D0F6FD6D506D" ProjectDependent="1"/>
 					<File Name="svar_1.sessionVar" Size="5135" HashValue="3DD5FA269102CC26E083AFCBAF490FAD" ProjectDependent="1"/>
 					<File Name="Tanks_expressionsSet.expression" Size="6689" HashValue="5C8492414502DD6702B0E1CA5B9AE395" ProjectDependent="1"/>
-					<File Name="VisualizationOperatorControl.vis" Size="800" HashValue="A3C2CF67AB3F3B03B33C660704A16CBF" ProjectDependent="1"/>
+					<File Name="VisualizationOperatorControl.vis" Size="1479" HashValue="6C03EEC2DE46F2D045DFC8D0ADEBC4A6" ProjectDependent="1"/>
 					<File Name="Zbiorniki.vis" Size="1299" HashValue="74AD0C15CC0E07A33ECDBAB1D002DE3C" ProjectDependent="1"/>
 				</Folder>
 				<Folder Name="wwwRoot" ProjectDependent="1">
 					<File Name="favicon.ico" Size="1406" HashValue="B3D2122594565CE5AF565BE898EF539A" ProjectDependent="1"/>
 					<File Name="index.html" Size="4385" HashValue="BC3ED7AA954B2FBC318B1E291F29D2CE" ProjectDependent="1"/>
-					<File Name="VisualizationOperatorControl.json" Size="423" HashValue="79036C78CC8A255915082E7EE7D35586" ProjectDependent="1"/>
+					<File Name="VisualizationOperatorControl.json" Size="2251" HashValue="1F67C1266C3DAFD43D1F2ED1397470C9" ProjectDependent="1"/>
 					<File Name="Zbiorniki.json" Size="479" HashValue="B0D9D6E2455181DA5ED6318E4D6783B3" ProjectDependent="1"/>
 					<Folder Name="BRVisu" ProjectDependent="1">
 						<File Name="bootstrapper.min.js" Size="13375" HashValue="D970BA2261EFFBADA669B768E509AAF3" ProjectDependent="1"/>
@@ -536,9 +540,182 @@
 								<File Name="text.js" Size="15611" HashValue="B061E680DC483CAC81AD9EEDAFEB0171" ProjectDependent="1"/>
 							</Folder>
 						</Folder>
+						<Folder Name="Media" ProjectDependent="1">
+							<Folder Name="Graphics" ProjectDependent="1">
+								<File Name="BuR.png" Size="337750" HashValue="8208B09C75287559E4CBB2E1B070FBDD" ProjectDependent="1"/>
+								<File Name="BuR_new.png" Size="3970" HashValue="67C4AE889B2D41B71710542A4A5E6CBA" ProjectDependent="1"/>
+								<File Name="BuR_new_2.jpg" Size="34443" HashValue="9CA073DCD5750BDEE64793B740AE6CAE" ProjectDependent="1"/>
+							</Folder>
+							<Folder Name="SymbolLib" ProjectDependent="1">
+								<Folder Name="Alarm" ProjectDependent="1">
+									<File Name="Acknowledge.svg" Size="3909" HashValue="45779B2DD2079227D8A2AD60725216DB" ProjectDependent="1"/>
+									<File Name="Alarm.svg" Size="2160" HashValue="4CA3AE45ECFD0E566B81AB5BCB618707" ProjectDependent="1"/>
+									<File Name="AlarmHistory.svg" Size="2380" HashValue="016D94D50F3ACA8B1E54C08592CC44C6" ProjectDependent="1"/>
+									<File Name="Error.svg" Size="1060" HashValue="642E3041FD88413493DBE9691159DAE7" ProjectDependent="1"/>
+								</Folder>
+								<Folder Name="Arrow" ProjectDependent="1">
+									<File Name="ArrowDown.svg" Size="721" HashValue="265986E8793F3C56D9ECACB6C273364F" ProjectDependent="1"/>
+									<File Name="ArrowLeft.svg" Size="723" HashValue="5A2F25AF4C6417A5A6A40AAD8359CE3C" ProjectDependent="1"/>
+									<File Name="ArrowRight.svg" Size="725" HashValue="14CABF4F491BAD4003E92C866BC32AFF" ProjectDependent="1"/>
+									<File Name="ArrowUp.svg" Size="723" HashValue="5D345584386B597CD6B6B037A6062CF3" ProjectDependent="1"/>
+									<File Name="Back.svg" Size="800" HashValue="13980B6FDA83054989962F76865A7890" ProjectDependent="1"/>
+									<File Name="Down1.svg" Size="753" HashValue="72555A0A55BEDE9E07FE8E894F582CA3" ProjectDependent="1"/>
+									<File Name="Down2.svg" Size="619" HashValue="4BE320946EA08942FBD239C9B21DAD2C" ProjectDependent="1"/>
+									<File Name="Down3.svg" Size="808" HashValue="26B91DB75ADA02A101B0FCEDC5F3B7CC" ProjectDependent="1"/>
+									<File Name="Forward.svg" Size="817" HashValue="135DF79955E196405B182F09012650BB" ProjectDependent="1"/>
+									<File Name="Up1.svg" Size="807" HashValue="C2D525F05B4B34C69F0A6D1EFF119F7B" ProjectDependent="1"/>
+									<File Name="Up2.svg" Size="625" HashValue="161DB2471EBDC61588B7F8BEBF38521F" ProjectDependent="1"/>
+									<File Name="Up3.svg" Size="750" HashValue="6FE2327EF2B1907B5B928FA3C32F2A10" ProjectDependent="1"/>
+								</Folder>
+								<Folder Name="Communication" ProjectDependent="1">
+									<File Name="ConnectionFail.svg" Size="4734" HashValue="992E2D40E933DD1E527BB2DD4963A5F4" ProjectDependent="1"/>
+									<File Name="ConnectionOK.svg" Size="1496" HashValue="BAE0B6F00E86C8B3E0F3A6ED4F2F7FC7" ProjectDependent="1"/>
+									<File Name="Network.svg" Size="1684" HashValue="9D50F5DC99D2A9E1E4555FEDD3C3FF2C" ProjectDependent="1"/>
+								</Folder>
+								<Folder Name="DateTime" ProjectDependent="1">
+									<File Name="Calendar.svg" Size="1214" HashValue="E06F71674089D6D55190202B502AFA28" ProjectDependent="1"/>
+									<File Name="Clock.svg" Size="980" HashValue="E1ECA88548B26AE4AF69E2124D46B7A6" ProjectDependent="1"/>
+									<File Name="Date.svg" Size="933" HashValue="CB292A5B12CD48A46E2F50113FC81321" ProjectDependent="1"/>
+								</Folder>
+								<Folder Name="Diagnostic" ProjectDependent="1">
+									<File Name="Diagnostics.svg" Size="2245" HashValue="48FA31FEA3960641539F5A45152873BA" ProjectDependent="1"/>
+								</Folder>
+								<Folder Name="DisplayAndTouch" ProjectDependent="1">
+									<File Name="Calibrate.svg" Size="1271" HashValue="435360E2D1E9F6D065F5765733D84C35" ProjectDependent="1"/>
+									<File Name="Contrast.svg" Size="649" HashValue="8E51FBA27492A033CD4631444B43779B" ProjectDependent="1"/>
+									<File Name="Lightness.svg" Size="1128" HashValue="E0FA799E800C9A24275721F6D3A9E770" ProjectDependent="1"/>
+								</Folder>
+								<Folder Name="Edit" ProjectDependent="1">
+									<File Name="Add.svg" Size="928" HashValue="5CBC26775C588F00DFA5EB577B8B4764" ProjectDependent="1"/>
+									<File Name="Character.svg" Size="1144" HashValue="D1D912247BBCAD0BD94B7F520CEB95C3" ProjectDependent="1"/>
+									<File Name="Close.svg" Size="902" HashValue="5AC7555FFDE5BF2DF0AADE39E9D6B16B" ProjectDependent="1"/>
+									<File Name="Copy.svg" Size="2103" HashValue="63020247487CB0FFB30BCCECB94D25D7" ProjectDependent="1"/>
+									<File Name="Cut.svg" Size="5309" HashValue="37413A950E28D9B76B6F19A579B1FA49" ProjectDependent="1"/>
+									<File Name="Delete.svg" Size="4645" HashValue="B3F82F3CC34CF20EE0C7C6E068545B9E" ProjectDependent="1"/>
+									<File Name="Edit.svg" Size="1086" HashValue="D17988A180CD86B1DF6AB6FAD7549F82" ProjectDependent="1"/>
+									<File Name="Favorite.svg" Size="966" HashValue="9452E8FE35BB8B4A573A9A04DE3BD1A6" ProjectDependent="1"/>
+									<File Name="Help.svg" Size="1224" HashValue="A7BFA4C3506BC6947D1E93D3D0A392AE" ProjectDependent="1"/>
+									<File Name="Information.svg" Size="1043" HashValue="3D790DB1D25AD7B75C34E51A3633AB9D" ProjectDependent="1"/>
+									<File Name="Insert.svg" Size="1544" HashValue="077E252755298A2117EC6474E4EE4A2F" ProjectDependent="1"/>
+									<File Name="Maximize.svg" Size="1057" HashValue="9F86FCE90B6D50E8D4C18B6CF0C322A9" ProjectDependent="1"/>
+									<File Name="Minimize.svg" Size="1056" HashValue="0300ED7D09D1B4557F31909CEBC81424" ProjectDependent="1"/>
+									<File Name="New.svg" Size="1352" HashValue="882CF9D615C93561338AE1A75DB02A85" ProjectDependent="1"/>
+									<File Name="Number.svg" Size="765" HashValue="C15ABF3393176AB05BA427903D163112" ProjectDependent="1"/>
+									<File Name="Open.svg" Size="891" HashValue="4525913862309AF175ADE28D19178E2A" ProjectDependent="1"/>
+									<File Name="Pin.svg" Size="1984" HashValue="878E9D1254626167AD795010B4064068" ProjectDependent="1"/>
+									<File Name="Pin2.svg" Size="846" HashValue="94FEF8FACF2F13FBE27099B253A8A089" ProjectDependent="1"/>
+									<File Name="Redo.svg" Size="731" HashValue="B0C4825EEC251430A9BA3C8DF600314C" ProjectDependent="1"/>
+									<File Name="Save.svg" Size="655" HashValue="0FABCB9AE9DA819E191D24269F213AB9" ProjectDependent="1"/>
+									<File Name="Undo.svg" Size="724" HashValue="58ECE39532FAEBFE164016F2CDDEA765" ProjectDependent="1"/>
+									<File Name="ZoomIn.svg" Size="1231" HashValue="0ABFF311A51BE72218C795338CDBDB94" ProjectDependent="1"/>
+									<File Name="ZoomOut.svg" Size="1075" HashValue="6E76158DA7F563723173A3713264E8DA" ProjectDependent="1"/>
+								</Folder>
+								<Folder Name="File" ProjectDependent="1">
+									<File Name="File.svg" Size="729" HashValue="4E0981EDFB29253DD81D465C392F1713" ProjectDependent="1"/>
+									<File Name="Files.svg" Size="1091" HashValue="1A385197A825D1E18932CFFAFB6D5134" ProjectDependent="1"/>
+									<File Name="Package.svg" Size="862" HashValue="389551B091E3AA4E810802E475654C5E" ProjectDependent="1"/>
+									<File Name="Recipe.svg" Size="1416" HashValue="71FFA9FBC10267E5E2B453DFC860A53D" ProjectDependent="1"/>
+									<File Name="Search.svg" Size="901" HashValue="CBF14622CF210730FBD5B89CB7921ED3" ProjectDependent="1"/>
+								</Folder>
+								<Folder Name="Localize" ProjectDependent="1">
+									<File Name="Browser.svg" Size="1749" HashValue="62321FBA8618FEED46C73F6255E0C642" ProjectDependent="1"/>
+									<File Name="China.svg" Size="2232" HashValue="65EB02D88BFBD16462712D9502642EC1" ProjectDependent="1"/>
+									<File Name="Flag.svg" Size="822" HashValue="753D8B8F2973DD353966AD71A05FE7A8" ProjectDependent="1"/>
+									<File Name="France.svg" Size="1383" HashValue="3C5C9EA183E6027CF4580FC52F91EDAC" ProjectDependent="1"/>
+									<File Name="Germany.svg" Size="1260" HashValue="555ADF602E1DAA7DFE036FDE6CCFDB17" ProjectDependent="1"/>
+									<File Name="GreatBritain.svg" Size="2777" HashValue="FCBF344E27F8B366341A63F237333234" ProjectDependent="1"/>
+									<File Name="Italy.svg" Size="1157" HashValue="F0A881E7036E4C3D1FD88B907BEE2609" ProjectDependent="1"/>
+									<File Name="Language.svg" Size="2634" HashValue="BCE9E404C78491843F74DD9049A5B055" ProjectDependent="1"/>
+									<File Name="Portugal.svg" Size="84367" HashValue="47D66DB3DAFA3ECF0D663DC715B0B66F" ProjectDependent="1"/>
+									<File Name="Russia.svg" Size="1272" HashValue="BAFEC7C8F800D62D8C1A63907DDE2022" ProjectDependent="1"/>
+									<File Name="Spain.svg" Size="197998" HashValue="D713160A07780B79BF8B7F7B5DADB55F" ProjectDependent="1"/>
+									<File Name="UK.svg" Size="2767" HashValue="7F704AF5C358C716F000466B168A492C" ProjectDependent="1"/>
+									<File Name="USA.svg" Size="12843" HashValue="6CF848A667706289355D502F7831CC2E" ProjectDependent="1"/>
+								</Folder>
+								<Folder Name="Media" ProjectDependent="1">
+									<File Name="FastForward.svg" Size="653" HashValue="53D4EE252235DE2FDA2E8A04D64298D4" ProjectDependent="1"/>
+									<File Name="FastForwardStop.svg" Size="735" HashValue="35142DFC9F8D988DC98AB0C0658F046D" ProjectDependent="1"/>
+									<File Name="FastRewind.svg" Size="650" HashValue="D63BF61B18839BA26C17C99C63712704" ProjectDependent="1"/>
+									<File Name="FastRewindStop.svg" Size="744" HashValue="114E0CC59D18C59AA3D15BD04D77DFA2" ProjectDependent="1"/>
+									<File Name="ForwardStop.svg" Size="658" HashValue="D9A1757CEBDA3FFCF99ACB08AB50FAA9" ProjectDependent="1"/>
+									<File Name="Pause.svg" Size="693" HashValue="0F271EB7B88D02EEE739453864691A23" ProjectDependent="1"/>
+									<File Name="Play.svg" Size="573" HashValue="AA139602975FD83C04A566ED0290CD11" ProjectDependent="1"/>
+									<File Name="RewindStop.svg" Size="661" HashValue="995969DEA18F13CE57EED3392B22638C" ProjectDependent="1"/>
+									<File Name="Stop.svg" Size="583" HashValue="7BC1348DBB36AA8F2AE24B2B6185C9E5" ProjectDependent="1"/>
+									<File Name="Video.svg" Size="653" HashValue="2D37FA6E3B8447F524A54CC806F97E5B" ProjectDependent="1"/>
+								</Folder>
+								<Folder Name="Needle" ProjectDependent="1">
+									<File Name="Needle1long.svg" Size="807" HashValue="EF07586CA097DBE41D4B4FAEEBFA64C3" ProjectDependent="1"/>
+									<File Name="Needle1short.svg" Size="808" HashValue="293CBCCA7E8DCA3B1058994FF2166CA2" ProjectDependent="1"/>
+									<File Name="Needle2long.svg" Size="1315" HashValue="167A505AA8BB24E446BF594B53350068" ProjectDependent="1"/>
+									<File Name="Needle2short.svg" Size="1333" HashValue="5DA1105FF02EE79C0573B97F463B8C6E" ProjectDependent="1"/>
+									<File Name="Needle3long.svg" Size="963" HashValue="502CC51447C663A653237EA8E72A5AC5" ProjectDependent="1"/>
+									<File Name="Needle3short.svg" Size="2041" HashValue="984A9D6EC7B5B73959616ACF56B632DE" ProjectDependent="1"/>
+									<File Name="Needle4long.svg" Size="858" HashValue="1C5B419F3727089B3D70C3B56988F8C3" ProjectDependent="1"/>
+									<File Name="Needle4short.svg" Size="854" HashValue="DB3430FCA22921785EDF36FC50AB0BD4" ProjectDependent="1"/>
+								</Folder>
+								<Folder Name="Symbols" ProjectDependent="1">
+									<File Name="Accept.svg" Size="715" HashValue="4B29D221E9E41949CC6F979344E8878C" ProjectDependent="1"/>
+									<File Name="Button.svg" Size="1254" HashValue="7A439576CBD7FEC791621F5754D2F733" ProjectDependent="1"/>
+									<File Name="Conveyor.svg" Size="755" HashValue="89377A238CEB25CCAEE7A8C42F7F1E60" ProjectDependent="1"/>
+									<File Name="Download.svg" Size="758" HashValue="00CEB05E1E8B5847F9159571D6FDD937" ProjectDependent="1"/>
+									<File Name="Energy.svg" Size="747" HashValue="5A63E0EBB699580CB58954B340909C43" ProjectDependent="1"/>
+									<File Name="Engine.svg" Size="985" HashValue="4BE6294987C03CD3EBA9D6111C322B0C" ProjectDependent="1"/>
+									<File Name="EngineMove.svg" Size="1672" HashValue="AD07FFBF0C935E428BE1237029CAE26A" ProjectDependent="1"/>
+									<File Name="EngineReference.svg" Size="1713" HashValue="8DF41F661EB0C4BB1CA77B8A4787459B" ProjectDependent="1"/>
+									<File Name="Graph.svg" Size="2449" HashValue="040A55898CDAA8DDA7496D14EC11A899" ProjectDependent="1"/>
+									<File Name="Hide.svg" Size="1149" HashValue="8D47D58D300361E8907548B476A01C09" ProjectDependent="1"/>
+									<File Name="Home.svg" Size="607" HashValue="5DF99124C4DA3B841C171B114BFA2AC7" ProjectDependent="1"/>
+									<File Name="InProgress.svg" Size="3093" HashValue="6EA475CB9062A318D7A08A533FD960AD" ProjectDependent="1"/>
+									<File Name="Mail.svg" Size="525" HashValue="22FD1B921B906845F90B3B71DA6FF9ED" ProjectDependent="1"/>
+									<File Name="Max.svg" Size="1063" HashValue="CFFD48A6A2C319A33A93A9C645F30257" ProjectDependent="1"/>
+									<File Name="Min.svg" Size="1066" HashValue="906C69E5548957414BCE0CE43C60457F" ProjectDependent="1"/>
+									<File Name="Mode.svg" Size="755" HashValue="C17ED7BCAF2A535EB65D77AE70D61AA3" ProjectDependent="1"/>
+									<File Name="Off.svg" Size="885" HashValue="647E915304BE372320ECFE724869DA36" ProjectDependent="1"/>
+									<File Name="On.svg" Size="879" HashValue="2EC68F8DE45E5BE05F4049D51F674268" ProjectDependent="1"/>
+									<File Name="PDF.svg" Size="1798" HashValue="7452F2A038066A5BE355D3A9D8B1B04A" ProjectDependent="1"/>
+									<File Name="Remote1.svg" Size="967" HashValue="AA667CA83A153C202EB3E71F49E19B0F" ProjectDependent="1"/>
+									<File Name="Remote2.svg" Size="1708" HashValue="47EA1658F0063BA867CCE41D66FB19BA" ProjectDependent="1"/>
+									<File Name="Remote3.svg" Size="2648" HashValue="9A792F2A3EEC04BCA788045186FE9A99" ProjectDependent="1"/>
+									<File Name="Remote4.svg" Size="1924" HashValue="A2ADE40767A1F2289E13F1939D00716B" ProjectDependent="1"/>
+									<File Name="Reset.svg" Size="883" HashValue="3234B56398B6A8F37D87B79ED66C3BB6" ProjectDependent="1"/>
+									<File Name="Restart.svg" Size="1188" HashValue="ED9A5FDD89EE5BD259BAB0C80C1DAD3C" ProjectDependent="1"/>
+									<File Name="Robot.svg" Size="1821" HashValue="FA146D8CA948C87D9D76F8CB7FFF1060" ProjectDependent="1"/>
+									<File Name="Safety.svg" Size="891" HashValue="3A960CA0F265571772E19E80885CEC0D" ProjectDependent="1"/>
+									<File Name="Server.svg" Size="1253" HashValue="7B0E1E88799E08CFC45799874B6C37C7" ProjectDependent="1"/>
+									<File Name="Service.svg" Size="1310" HashValue="8841F8536224D0FD840A15A380BD105F" ProjectDependent="1"/>
+									<File Name="Settings.svg" Size="1442" HashValue="9BD100A3F4D8EE914C0B23FD99B6B472" ProjectDependent="1"/>
+									<File Name="Slider_Symbol.svg" Size="693" HashValue="5EBDFBC0027A9CB3F9B3F5B8FAD5F431" ProjectDependent="1"/>
+									<File Name="Start.svg" Size="591" HashValue="EB10FE520345BF5C0889140B10DEFCBD" ProjectDependent="1"/>
+									<File Name="Stop.svg" Size="578" HashValue="CC7B923404DAC4256A415997628FB208" ProjectDependent="1"/>
+									<File Name="SystemSettings.svg" Size="1002" HashValue="A126C7A2A388311EA1CC3E67809EC4A5" ProjectDependent="1"/>
+									<File Name="Temperature.svg" Size="962" HashValue="2FDD29AE764DEE59E3A07875F72ED575" ProjectDependent="1"/>
+									<File Name="Tool.svg" Size="974" HashValue="A828D44F035EE9C7B163AE19D3DC0C74" ProjectDependent="1"/>
+									<File Name="TouchMe.svg" Size="1518" HashValue="6257708ADC7FF425B91A460D0A63C300" ProjectDependent="1"/>
+									<File Name="UnHide.svg" Size="1083" HashValue="7057F80843A928FE9FA51FE8448F014E" ProjectDependent="1"/>
+									<File Name="Upload.svg" Size="713" HashValue="D09B086BA7E7F33050C62A0DE0E0D7F1" ProjectDependent="1"/>
+									<File Name="USB.svg" Size="1542" HashValue="EE3BB7D55F53B35911EF456A9A3F50AD" ProjectDependent="1"/>
+									<File Name="Wait.svg" Size="1170" HashValue="C78CD8CFEE9C1821E83FF6E38CEA8782" ProjectDependent="1"/>
+									<File Name="Webcam.svg" Size="966" HashValue="968E4C97401117186608BD9811CCD218" ProjectDependent="1"/>
+								</Folder>
+								<Folder Name="User" ProjectDependent="1">
+									<File Name="AddUser.svg" Size="1127" HashValue="67CDEE57C73AD9F0305E4EA6E045FB45" ProjectDependent="1"/>
+									<File Name="DeleteUser.svg" Size="989" HashValue="6408AA4B737A72D2DCDD207E8842C978" ProjectDependent="1"/>
+									<File Name="Lock.svg" Size="905" HashValue="31269EB7646204C812D4E617F99EB889" ProjectDependent="1"/>
+									<File Name="Login.svg" Size="1245" HashValue="3024AF8BDDA8F415D8098EA67B55DE9B" ProjectDependent="1"/>
+									<File Name="Logout.svg" Size="1209" HashValue="ECAA753436ABAC247B7E71EB05C9E834" ProjectDependent="1"/>
+									<File Name="NoAccessRights.svg" Size="1105" HashValue="DFD9B47E9AA6E287EC11205E1120C1BF" ProjectDependent="1"/>
+									<File Name="Unlock.svg" Size="895" HashValue="DE30036C3D86E6A9656D9B32AE15EB4F" ProjectDependent="1"/>
+									<File Name="User.svg" Size="785" HashValue="356AFFF1CAD95BDE37782F3966FC1562" ProjectDependent="1"/>
+									<File Name="UserGroup.svg" Size="1472" HashValue="27A652AAA9C07919E36C65407294A22C" ProjectDependent="1"/>
+								</Folder>
+							</Folder>
+						</Folder>
 						<Folder Name="release" ProjectDependent="1">
-							<File Name="brease.js" Size="945994" HashValue="5A2C9BABEDB7C607CEA0A029A3A69330" ProjectDependent="1"/>
-							<File Name="brease_core.min.css" Size="431964" HashValue="73583C6895A896E39213032A5F0BDEFF" ProjectDependent="1"/>
+							<File Name="brease.js" Size="1310224" HashValue="A81B661AD26BA49580863CA36E20F771" ProjectDependent="1"/>
+							<File Name="brease_core.min.css" Size="441129" HashValue="1145B0A44F7F6417E237843C1B14B1EA" ProjectDependent="1"/>
+							<File Name="BuRThemeFlat1.min.css" Size="267514" HashValue="BDFC3C01D034CC1C5E37FD4E9BF11AC7" ProjectDependent="1"/>
+							<File Name="BuRThemeFlat2.min.css" Size="270493" HashValue="8072FB623CC35E87C978FC14881FB19C" ProjectDependent="1"/>
 						</Folder>
 						<Folder Name="system" ProjectDependent="1">
 							<Folder Name="brease" ProjectDependent="1">
@@ -695,6 +872,164 @@
 						</Folder>
 						<Folder Name="widgets" ProjectDependent="1">
 							<Folder Name="brease" ProjectDependent="1">
+								<Folder Name="AlarmList" ProjectDependent="1">
+									<File Name="AlarmList.html" Size="78" HashValue="F2B41E65873F8324E30DADCA7584E38A" ProjectDependent="1"/>
+									<File Name="AlarmList.js" Size="8863" HashValue="58069268FBFD550B67B84231ED0CE22D" ProjectDependent="1"/>
+									<Folder Name="assets" ProjectDependent="1">
+										<File Name="act_ack.svg" Size="9853" HashValue="E2DB755CC0FD2D69503D6A02122FEDC7" ProjectDependent="1"/>
+										<File Name="act_nack.svg" Size="9845" HashValue="9F1326AA9C6F31EE4E0D4FBA05CF3167" ProjectDependent="1"/>
+										<File Name="cat0.svg" Size="1060" HashValue="642E3041FD88413493DBE9691159DAE7" ProjectDependent="1"/>
+										<File Name="cat1.svg" Size="962" HashValue="2FDD29AE764DEE59E3A07875F72ED575" ProjectDependent="1"/>
+										<File Name="cat2.svg" Size="1713" HashValue="8DF41F661EB0C4BB1CA77B8A4787459B" ProjectDependent="1"/>
+										<File Name="nact_ack.svg" Size="9833" HashValue="5266B00AF0C0663F6FCCDC2668DB597A" ProjectDependent="1"/>
+										<File Name="nact_nack.svg" Size="9835" HashValue="D670D53A249CA8809666E1B88A4F01C7" ProjectDependent="1"/>
+									</Folder>
+									<Folder Name="designer" ProjectDependent="1">
+										<File Name="ClassInfo.js" Size="4692" HashValue="B34E71A827A7DA0B88C9D9F93E60BA51" ProjectDependent="1"/>
+									</Folder>
+									<Folder Name="libs" ProjectDependent="1">
+										<File Name="Config.js" Size="2882" HashValue="CCE13ACD978B9B8F11C0CFC46445E169" ProjectDependent="1"/>
+										<File Name="Controller.js" Size="5571" HashValue="2DE088E3059C058F6B0BEC44CE4BC1D9" ProjectDependent="1"/>
+										<File Name="Dialogue.js" Size="2444" HashValue="1831E309243353969A2BB4EEF6349288" ProjectDependent="1"/>
+										<File Name="DialogueTexts.js" Size="3153" HashValue="BE9991CD7AF9F11EA4108DA741BD1446" ProjectDependent="1"/>
+										<File Name="FilterSettings.js" Size="11793" HashValue="C154BBFDF4B50BF92CFE0B84B8187C7C" ProjectDependent="1"/>
+										<File Name="Model.js" Size="10582" HashValue="36A15E91E9D356B4C748FF67317FBD12" ProjectDependent="1"/>
+										<File Name="Renderer.js" Size="9232" HashValue="DEA5BA8751CEC422AD74B0C22458BCC4" ProjectDependent="1"/>
+										<File Name="StylingSettings.js" Size="13637" HashValue="3D3CA1A694EA9BB93AE5C5BFCC43950A" ProjectDependent="1"/>
+									</Folder>
+									<Folder Name="meta" ProjectDependent="1">
+										<File Name="AlarmList.json" Size="42106" HashValue="3966575AADF79479B883A3C81E0F65A3" ProjectDependent="1"/>
+										<File Name="AlarmList.style" Size="766" HashValue="4ACCEB2B69782CEC9243682547D3BFC2" ProjectDependent="1"/>
+										<File Name="AlarmList.widget" Size="38672" HashValue="BE14CE8A5344C011A626EEEFD5CECBBF" ProjectDependent="1"/>
+										<File Name="AlarmList.xsd" Size="7048" HashValue="425FA64073C359434A4B9D50ABAF33A4" ProjectDependent="1"/>
+										<File Name="AlarmList_base.scss" Size="4025" HashValue="E0C16AC0D42B0709EAC615159677C233" ProjectDependent="1"/>
+										<File Name="AlarmList_Copied.markerFile" Size="0" HashValue="D41D8CD98F00B204E9800998ECF8427E" ProjectDependent="1"/>
+										<File Name="AlarmList_default.sass.css" Size="4644" HashValue="862178ECA0AA21026DA1BE14C85FDEEE" ProjectDependent="1"/>
+										<File Name="AlarmList_default.scss" Size="4109" HashValue="7C1F3C7D3E60E8C7119F9985F3B2F29F" ProjectDependent="1"/>
+										<File Name="AlarmList_doc.html" Size="46050" HashValue="389C2D68551523589F133465CC11A220" ProjectDependent="1"/>
+										<File Name="AlarmList_EventsActions.xsd" Size="5894" HashValue="11C97B2FED6B481183D44F329294FB7F" ProjectDependent="1"/>
+										<File Name="AlarmList_Styles.xsd" Size="4390" HashValue="52F704186234F80943D7A681DAED707D" ProjectDependent="1"/>
+									</Folder>
+								</Folder>
+								<Folder Name="AlarmListItem" ProjectDependent="1">
+									<File Name="AlarmListItem.html" Size="82" HashValue="FA75AC1ED94BA7ACB5C4725CE870232C" ProjectDependent="1"/>
+									<File Name="AlarmListItem.js" Size="2787" HashValue="476222E48F38CD1B0D3DB8EF5A63AC5C" ProjectDependent="1"/>
+									<Folder Name="designer" ProjectDependent="1">
+										<File Name="ClassInfo.js" Size="1177" HashValue="F16DB0EC4B0BCB0627BFCA37E1A575E4" ProjectDependent="1"/>
+									</Folder>
+									<Folder Name="meta" ProjectDependent="1">
+										<File Name="AlarmListItem.json" Size="4669" HashValue="B1B79746D6BEA6C733AD083027006ABC" ProjectDependent="1"/>
+										<File Name="AlarmListItem.style" Size="881" HashValue="E67AD3BFAC270E5EF2E8F167B0C50D76" ProjectDependent="1"/>
+										<File Name="AlarmListItem.widget" Size="4207" HashValue="A19F2B57137534A8BE0EB9D85C48B71C" ProjectDependent="1"/>
+										<File Name="AlarmListItem.xsd" Size="1267" HashValue="71D6D307285DAB1FEE41FD5C4786B9C0" ProjectDependent="1"/>
+										<File Name="AlarmListItem_base.scss" Size="96" HashValue="C4628D9A6BE4122CCD37431039AE606F" ProjectDependent="1"/>
+										<File Name="AlarmListItem_Copied.markerFile" Size="0" HashValue="D41D8CD98F00B204E9800998ECF8427E" ProjectDependent="1"/>
+										<File Name="AlarmListItem_default.sass.css" Size="57" HashValue="7A8D8DB1D244887F1E91D251EEE0C5D5" ProjectDependent="1"/>
+										<File Name="AlarmListItem_default.scss" Size="188" HashValue="55B5B22A4D08A747D7477A1D12C5A90E" ProjectDependent="1"/>
+										<File Name="AlarmListItem_doc.html" Size="5801" HashValue="B51537339716539262965D742019622E" ProjectDependent="1"/>
+										<File Name="AlarmListItem_EventsActions.xsd" Size="941" HashValue="590868E38BFA9E4CCD79C5DCC282252C" ProjectDependent="1"/>
+									</Folder>
+								</Folder>
+								<Folder Name="AlarmListStyle" ProjectDependent="1">
+									<File Name="AlarmListStyle.html" Size="85" HashValue="B3CA580657EB995999847E82417A4590" ProjectDependent="1"/>
+									<File Name="AlarmListStyle.js" Size="622" HashValue="A79EEF9F103DEAD510EACBCE3B31D461" ProjectDependent="1"/>
+									<Folder Name="designer" ProjectDependent="1">
+										<File Name="ClassInfo.js" Size="1197" HashValue="B7AB1A839095351AA8A055D711C5C525" ProjectDependent="1"/>
+									</Folder>
+									<Folder Name="meta" ProjectDependent="1">
+										<File Name="AlarmListStyle.json" Size="9795" HashValue="761C5C20FC25CC6EAD8306A829B1BB6C" ProjectDependent="1"/>
+										<File Name="AlarmListStyle.widget" Size="9964" HashValue="6AA5CF43B99045960263488D1DF18867" ProjectDependent="1"/>
+										<File Name="AlarmListStyle.xsd" Size="1472" HashValue="E1F032ADB582310B90E803F20C885035" ProjectDependent="1"/>
+										<File Name="AlarmListStyle_base.scss" Size="444" HashValue="71C25462DB57660B0F5496000638B78F" ProjectDependent="1"/>
+										<File Name="AlarmListStyle_Copied.markerFile" Size="0" HashValue="D41D8CD98F00B204E9800998ECF8427E" ProjectDependent="1"/>
+										<File Name="AlarmListStyle_default.sass.css" Size="451" HashValue="28F4C980B4D43F0B3CC625A3953BA3B9" ProjectDependent="1"/>
+										<File Name="AlarmListStyle_default.scss" Size="538" HashValue="BD69EABE1D5594237027205C33B21101" ProjectDependent="1"/>
+										<File Name="AlarmListStyle_doc.html" Size="15780" HashValue="4D136067FEA85A7A92F9EF94DA134D27" ProjectDependent="1"/>
+										<File Name="AlarmListStyle_EventsActions.xsd" Size="3127" HashValue="75DB588EFFB0B3648EDCB29404B64BEE" ProjectDependent="1"/>
+										<File Name="AlarmListStyle_Styles.xsd" Size="976" HashValue="87A9C2AFEE87B6218417DFABAFF2E767" ProjectDependent="1"/>
+									</Folder>
+								</Folder>
+								<Folder Name="BarChart" ProjectDependent="1">
+									<File Name="BarChart.html" Size="80" HashValue="47A9DD2BB6EED0AFC66A37A8F128D658" ProjectDependent="1"/>
+									<File Name="BarChart.js" Size="28958" HashValue="BAF9185ED0854DDA11644E91EC108F51" ProjectDependent="1"/>
+									<Folder Name="css" ProjectDependent="1">
+										<File Name="BarChart.sass.css" Size="854" HashValue="7B9E11CBC2F017B2610C24CFB8FC8F9F" ProjectDependent="1"/>
+										<File Name="BarChart.scss" Size="1214" HashValue="D729D7559B2CD7256CEF5441767298D9" ProjectDependent="1"/>
+									</Folder>
+									<Folder Name="designer" ProjectDependent="1">
+										<File Name="ClassInfo.js" Size="3319" HashValue="93201F8C33CC9C7B14AF5D6108F5E4C0" ProjectDependent="1"/>
+									</Folder>
+									<Folder Name="libs" ProjectDependent="1">
+										<File Name="EditorHandles.js" Size="1879" HashValue="04BA70E8C3C5DCACEB167DD955F62339" ProjectDependent="1"/>
+										<File Name="Renderer.js" Size="33345" HashValue="1E308B8041EA39E84DADF80CC4F2A3EC" ProjectDependent="1"/>
+									</Folder>
+									<Folder Name="meta" ProjectDependent="1">
+										<File Name="BarChart.json" Size="22583" HashValue="2D7B3E85EC22AC6A0D44E102EBB55997" ProjectDependent="1"/>
+										<File Name="BarChart.style" Size="5833" HashValue="22DD8D7EBC3F9B5A48849AB984824D0C" ProjectDependent="1"/>
+										<File Name="BarChart.widget" Size="20164" HashValue="AAE0A71D3A8F3EF4CEB7F024C21E5011" ProjectDependent="1"/>
+										<File Name="BarChart.xsd" Size="4333" HashValue="E711DC0840D84E2CE7E575F01F859FA0" ProjectDependent="1"/>
+										<File Name="BarChart_base.scss" Size="902" HashValue="28EB86E62F4F91327E74D19A2B552048" ProjectDependent="1"/>
+										<File Name="BarChart_Copied.markerFile" Size="0" HashValue="D41D8CD98F00B204E9800998ECF8427E" ProjectDependent="1"/>
+										<File Name="BarChart_default.sass.css" Size="1283" HashValue="5BE1928300E819A36FC6F4F5CBC24FDB" ProjectDependent="1"/>
+										<File Name="BarChart_default.scss" Size="984" HashValue="3B55A91F530E8D11CF9F2CD2B4F6B0CC" ProjectDependent="1"/>
+										<File Name="BarChart_doc.html" Size="31036" HashValue="47E5439A494F9CC7EFBE2366176F77B8" ProjectDependent="1"/>
+										<File Name="BarChart_EventsActions.xsd" Size="3524" HashValue="02563BC76C013524650AE3E6ECD4EB9F" ProjectDependent="1"/>
+										<File Name="BarChart_Styles.xsd" Size="1823" HashValue="646F42AB7145A60171196D478815F2EB" ProjectDependent="1"/>
+									</Folder>
+								</Folder>
+								<Folder Name="BarChartItem" ProjectDependent="1">
+									<File Name="BarChartItem.html" Size="245" HashValue="A063F89F703316C9E2F7C9F2611E766E" ProjectDependent="1"/>
+									<File Name="BarChartItem.js" Size="12603" HashValue="A10FB091A86269CDE4E2DDBEA5CD874F" ProjectDependent="1"/>
+									<Folder Name="css" ProjectDependent="1">
+										<File Name="BarChartItem.sass.css" Size="183" HashValue="648F3BF804E1E17797D0A4CCBB29E204" ProjectDependent="1"/>
+										<File Name="BarChartItem.scss" Size="424" HashValue="0A4209B8E02DA7CB1BA05F6052958ED6" ProjectDependent="1"/>
+									</Folder>
+									<Folder Name="designer" ProjectDependent="1">
+										<File Name="ClassInfo.js" Size="1642" HashValue="1C6CD119B134FE5DD7E694B76F5570FB" ProjectDependent="1"/>
+									</Folder>
+									<Folder Name="libs" ProjectDependent="1">
+										<File Name="EditorHandles.js" Size="584" HashValue="D5D3781E0DE7FB867075AB00817FDF45" ProjectDependent="1"/>
+									</Folder>
+									<Folder Name="meta" ProjectDependent="1">
+										<File Name="BarChartItem.json" Size="11340" HashValue="2ABAA12F48F62AAC533EA39FABA3E9F0" ProjectDependent="1"/>
+										<File Name="BarChartItem.style" Size="4173" HashValue="8F41B305B55619B81430E07404447D73" ProjectDependent="1"/>
+										<File Name="BarChartItem.widget" Size="11887" HashValue="E66D49188795CC12A84FAC1500526D32" ProjectDependent="1"/>
+										<File Name="BarChartItem.xsd" Size="2289" HashValue="CE13C7DB68FF1B2B19C4156A04A176E4" ProjectDependent="1"/>
+										<File Name="BarChartItem_base.scss" Size="361" HashValue="CA93D34BF7AC41D33ADB27989E7CFF29" ProjectDependent="1"/>
+										<File Name="BarChartItem_Copied.markerFile" Size="0" HashValue="D41D8CD98F00B204E9800998ECF8427E" ProjectDependent="1"/>
+										<File Name="BarChartItem_default.sass.css" Size="578" HashValue="54585E1E8C085E61502505187C15BFEE" ProjectDependent="1"/>
+										<File Name="BarChartItem_default.scss" Size="451" HashValue="040E1E13957434A6D3F1C6D23152B8CC" ProjectDependent="1"/>
+										<File Name="BarChartItem_doc.html" Size="16059" HashValue="E64AC95975EB41E3413E780990D8B594" ProjectDependent="1"/>
+										<File Name="BarChartItem_EventsActions.xsd" Size="2840" HashValue="557DEBACCBD02DCA44690DFB4A70E1E3" ProjectDependent="1"/>
+										<File Name="BarChartItem_Styles.xsd" Size="1321" HashValue="24C913D2C5AEB201B1C045F8EE6B40E0" ProjectDependent="1"/>
+									</Folder>
+								</Folder>
+								<Folder Name="BusyIndicator" ProjectDependent="1">
+									<File Name="BusyIndicator.html" Size="75" HashValue="6AED62A459E799C276FD4836A4682238" ProjectDependent="1"/>
+									<File Name="BusyIndicator.js" Size="2223" HashValue="ED0E0C42155C511E1B23AD807EC045D9" ProjectDependent="1"/>
+									<Folder Name="assets" ProjectDependent="1">
+										<File Name="busy-animated.gif" Size="115525" HashValue="00B4B40228D311A5457D5CC7282D295D" ProjectDependent="1"/>
+									</Folder>
+									<Folder Name="css" ProjectDependent="1">
+										<File Name="BusyIndicator.sass.css" Size="65" HashValue="1A6354DE7999AEBB171286BCC7D8B180" ProjectDependent="1"/>
+										<File Name="BusyIndicator.scss" Size="180" HashValue="AD562762EA8D44D7B304F26A9853D47E" ProjectDependent="1"/>
+									</Folder>
+									<Folder Name="designer" ProjectDependent="1">
+										<File Name="ClassInfo.js" Size="1152" HashValue="BB5EBD0C52D4A1597350332B1D6DF89F" ProjectDependent="1"/>
+									</Folder>
+									<Folder Name="meta" ProjectDependent="1">
+										<File Name="BusyIndicator.json" Size="7463" HashValue="AC70FD228F499833F59B62625D3E3918" ProjectDependent="1"/>
+										<File Name="BusyIndicator.style" Size="804" HashValue="04EA17912CEC2895FC4772554FFA47CE" ProjectDependent="1"/>
+										<File Name="BusyIndicator.widget" Size="6477" HashValue="DCCD0A07843C04D324DBA1E3868BFFF0" ProjectDependent="1"/>
+										<File Name="BusyIndicator.xsd" Size="1021" HashValue="01708D8BC2E187A0EE989F613C972E3B" ProjectDependent="1"/>
+										<File Name="BusyIndicator_base.scss" Size="121" HashValue="CD67AFA3AFF085F084078A43FC8C4C5B" ProjectDependent="1"/>
+										<File Name="BusyIndicator_Copied.markerFile" Size="0" HashValue="D41D8CD98F00B204E9800998ECF8427E" ProjectDependent="1"/>
+										<File Name="BusyIndicator_default.sass.css" Size="68" HashValue="638285E5A6ABA587829293207AE3F5EC" ProjectDependent="1"/>
+										<File Name="BusyIndicator_default.scss" Size="213" HashValue="7C9593B92AA56CC03B6C1E1B072DC1C8" ProjectDependent="1"/>
+										<File Name="BusyIndicator_doc.html" Size="12747" HashValue="94A731243416A3B87436612660903424" ProjectDependent="1"/>
+										<File Name="BusyIndicator_EventsActions.xsd" Size="1998" HashValue="B63C4DDDCA9878D70F4C552193D1534E" ProjectDependent="1"/>
+									</Folder>
+								</Folder>
 								<Folder Name="Button" ProjectDependent="1">
 									<File Name="Button.html" Size="77" HashValue="92F7FB66518A853A5AD3CDA8B6A2F658" ProjectDependent="1"/>
 									<File Name="Button.js" Size="26501" HashValue="517113293B16338DB1D7BD901D7FEAEE" ProjectDependent="1"/>
@@ -743,6 +1078,30 @@
 										<File Name="ButtonBar_default.scss" Size="312" HashValue="C137469F350AC0F471C3FE7E550C3E18" ProjectDependent="1"/>
 										<File Name="ButtonBar_doc.html" Size="22662" HashValue="2D9D96F8868681A05721D36DED1DEC02" ProjectDependent="1"/>
 										<File Name="ButtonBar_EventsActions.xsd" Size="4091" HashValue="8D95B8A693859A2BD4043B6E632C492F" ProjectDependent="1"/>
+									</Folder>
+								</Folder>
+								<Folder Name="CheckBox" ProjectDependent="1">
+									<File Name="CheckBox.html" Size="72" HashValue="17A779D161E5E242C0A538D51DB33048" ProjectDependent="1"/>
+									<File Name="CheckBox.js" Size="11306" HashValue="0667EAFBD5182DAB14FACBF93E6E035A" ProjectDependent="1"/>
+									<Folder Name="css" ProjectDependent="1">
+										<File Name="CheckBox.sass.css" Size="2156" HashValue="EABA272F8B6C6C6A1A5D07642AC35907" ProjectDependent="1"/>
+										<File Name="CheckBox.scss" Size="3136" HashValue="EBAD1B26F737B2D97D5502D1B17C5AE9" ProjectDependent="1"/>
+									</Folder>
+									<Folder Name="designer" ProjectDependent="1">
+										<File Name="ClassInfo.js" Size="3721" HashValue="34786BDDF1024044B32DB8E3FB19C9F5" ProjectDependent="1"/>
+									</Folder>
+									<Folder Name="meta" ProjectDependent="1">
+										<File Name="CheckBox.json" Size="34771" HashValue="12FF3EADA65D920BE4A887214316E9CF" ProjectDependent="1"/>
+										<File Name="CheckBox.style" Size="12837" HashValue="4409E3B19B15BFD92109E4B8D6446D80" ProjectDependent="1"/>
+										<File Name="CheckBox.widget" Size="37633" HashValue="6077818728177C3D6B4F1DC7950FA0AF" ProjectDependent="1"/>
+										<File Name="CheckBox.xsd" Size="6414" HashValue="943EFCD59DB51A3EE7036D861A5C464E" ProjectDependent="1"/>
+										<File Name="CheckBox_base.scss" Size="2930" HashValue="CAFBE7C8F4D2777985E4E9EAB734F1BF" ProjectDependent="1"/>
+										<File Name="CheckBox_Copied.markerFile" Size="0" HashValue="D41D8CD98F00B204E9800998ECF8427E" ProjectDependent="1"/>
+										<File Name="CheckBox_default.sass.css" Size="3675" HashValue="2CEC9E7EE5D9F47FF0D40326EB95BAE8" ProjectDependent="1"/>
+										<File Name="CheckBox_default.scss" Size="3012" HashValue="EB2E8494DBE2C8615A727C63EE551246" ProjectDependent="1"/>
+										<File Name="CheckBox_doc.html" Size="43496" HashValue="CAFF78ACC7F974FDDC1B6007F697C995" ProjectDependent="1"/>
+										<File Name="CheckBox_EventsActions.xsd" Size="6702" HashValue="5D0729D8680B2864987BACE246022F3B" ProjectDependent="1"/>
+										<File Name="CheckBox_Styles.xsd" Size="4024" HashValue="BAFBBE5D859E6C1D75AD35C374C55DC0" ProjectDependent="1"/>
 									</Folder>
 								</Folder>
 								<Folder Name="common" ProjectDependent="1">
@@ -982,6 +1341,52 @@
 										</Folder>
 									</Folder>
 								</Folder>
+								<Folder Name="DataHandlerWidget" ProjectDependent="1">
+									<File Name="DataHandlerWidget.html" Size="91" HashValue="036F2666250CB32421A70EE4CA8E901D" ProjectDependent="1"/>
+									<File Name="DataHandlerWidget.js" Size="7294" HashValue="AA167CB310F8C1C0C43832F0C5C11924" ProjectDependent="1"/>
+									<Folder Name="designer" ProjectDependent="1">
+										<File Name="ClassInfo.js" Size="1160" HashValue="84292A71667A8436292C0B608D68DC55" ProjectDependent="1"/>
+									</Folder>
+									<Folder Name="meta" ProjectDependent="1">
+										<File Name="DataHandlerWidget.json" Size="8433" HashValue="9506C9411E08DD0A438C306AF125023A" ProjectDependent="1"/>
+										<File Name="DataHandlerWidget.style" Size="762" HashValue="28F9B347E0E7DA3D2167018FAD03557D" ProjectDependent="1"/>
+										<File Name="DataHandlerWidget.widget" Size="8432" HashValue="279812E9A8CF06D0D3C933CD2096CC0B" ProjectDependent="1"/>
+										<File Name="DataHandlerWidget.xsd" Size="1031" HashValue="AC9F59F1000C9A3ACF7C0E2C2A2057E0" ProjectDependent="1"/>
+										<File Name="DataHandlerWidget_base.scss" Size="123" HashValue="6A8FD65AD722B87C3DCDE57D558703F0" ProjectDependent="1"/>
+										<File Name="DataHandlerWidget_Copied.markerFile" Size="0" HashValue="D41D8CD98F00B204E9800998ECF8427E" ProjectDependent="1"/>
+										<File Name="DataHandlerWidget_default.sass.css" Size="70" HashValue="B00431BCBE8C8172AED892B4B84126A4" ProjectDependent="1"/>
+										<File Name="DataHandlerWidget_default.scss" Size="223" HashValue="62FDE0DCDEEB75021AEE188E02CC8B31" ProjectDependent="1"/>
+										<File Name="DataHandlerWidget_doc.html" Size="14282" HashValue="D05E3741BC42C0C7D9BED8266A39E480" ProjectDependent="1"/>
+										<File Name="DataHandlerWidget_EventsActions.xsd" Size="3175" HashValue="67B33B961CE6418BAC2031882B119C05" ProjectDependent="1"/>
+									</Folder>
+								</Folder>
+								<Folder Name="DateTimeInput" ProjectDependent="1">
+									<File Name="DateTimeInput.html" Size="73" HashValue="924BDFF93C2D17EF883EEE296BA5A5E6" ProjectDependent="1"/>
+									<File Name="DateTimeInput.js" Size="14645" HashValue="51C5916F8790B8776253BDA44B84393F" ProjectDependent="1"/>
+									<Folder Name="css" ProjectDependent="1">
+										<File Name="DateTimeInput.sass.css" Size="1006" HashValue="844D40671069E2AD759A85BB32C58C08" ProjectDependent="1"/>
+										<File Name="DateTimeInput.scss" Size="1624" HashValue="97E8234678B0EAB7E7AA7F9CC6C9854B" ProjectDependent="1"/>
+									</Folder>
+									<Folder Name="designer" ProjectDependent="1">
+										<File Name="ClassInfo.js" Size="1670" HashValue="BC284B90800BD574E18523EF86B2752B" ProjectDependent="1"/>
+									</Folder>
+									<Folder Name="libs" ProjectDependent="1">
+										<File Name="FocusHandler.js" Size="14783" HashValue="2614C23563D8080DFD2CC2DFAA73BB9E" ProjectDependent="1"/>
+									</Folder>
+									<Folder Name="meta" ProjectDependent="1">
+										<File Name="DateTimeInput.json" Size="20892" HashValue="402EDF0AA71F128767AD87DB642C42E4" ProjectDependent="1"/>
+										<File Name="DateTimeInput.style" Size="9989" HashValue="5A154576553F923A9E2BAEC02DC9EF5D" ProjectDependent="1"/>
+										<File Name="DateTimeInput.widget" Size="21995" HashValue="4A9FA76064F594918708368AC91CD954" ProjectDependent="1"/>
+										<File Name="DateTimeInput.xsd" Size="4375" HashValue="7628D947BA3C2723CDB3981BA414F8BA" ProjectDependent="1"/>
+										<File Name="DateTimeInput_base.scss" Size="1303" HashValue="3965F8719F9CC8A1540F79AF557312C1" ProjectDependent="1"/>
+										<File Name="DateTimeInput_Copied.markerFile" Size="0" HashValue="D41D8CD98F00B204E9800998ECF8427E" ProjectDependent="1"/>
+										<File Name="DateTimeInput_default.sass.css" Size="1474" HashValue="B5B453AD2E4795B951A054C939EEB4B8" ProjectDependent="1"/>
+										<File Name="DateTimeInput_default.scss" Size="1395" HashValue="EAC22D2B2654E8F667A279F7A73386AE" ProjectDependent="1"/>
+										<File Name="DateTimeInput_doc.html" Size="29992" HashValue="A2C62BA2F54B7AC582AB6DA8B9B9D798" ProjectDependent="1"/>
+										<File Name="DateTimeInput_EventsActions.xsd" Size="4586" HashValue="09F822F63111BDF3282506C7A2EEF90E" ProjectDependent="1"/>
+										<File Name="DateTimeInput_Styles.xsd" Size="2896" HashValue="EFA49D67F7154488DFE7613B7A38F5BC" ProjectDependent="1"/>
+									</Folder>
+								</Folder>
 								<Folder Name="DateTimePicker" ProjectDependent="1">
 									<File Name="DateTimePicker.html" Size="871" HashValue="45A108A1C477834F3576761B26F842F0" ProjectDependent="1"/>
 									<File Name="DateTimePicker.js" Size="18448" HashValue="B5E510C821C538F82DADCF9A3E2F07E2" ProjectDependent="1"/>
@@ -1030,6 +1435,140 @@
 										<File Name="DialogWindow_default.scss" Size="159" HashValue="055AD95DA632AFACAF4878579F39058A" ProjectDependent="1"/>
 										<File Name="DialogWindow_doc.html" Size="14698" HashValue="D4C5D8CEA752B5C546004B702B693154" ProjectDependent="1"/>
 										<File Name="DialogWindow_EventsActions.xsd" Size="1988" HashValue="450289524C8C2C8D7DA48EC230A19942" ProjectDependent="1"/>
+									</Folder>
+								</Folder>
+								<Folder Name="DropDownBox" ProjectDependent="1">
+									<File Name="DropDownBox.html" Size="75" HashValue="A70465438FAA14E60624EC5724763992" ProjectDependent="1"/>
+									<File Name="DropDownBox.js" Size="29206" HashValue="9E207F7839154C94D8204E08686CA7B6" ProjectDependent="1"/>
+									<Folder Name="css" ProjectDependent="1">
+										<File Name="DropDownBox.sass.css" Size="2259" HashValue="C4FFF83B5FC0EA66B4FDD810BA0E488C" ProjectDependent="1"/>
+										<File Name="DropDownBox.scss" Size="347" HashValue="A7DB75A4D40EDC9D3BF0419A65B01DD6" ProjectDependent="1"/>
+									</Folder>
+									<Folder Name="designer" ProjectDependent="1">
+										<File Name="ClassInfo.js" Size="3425" HashValue="CFD2AA3572BCE5C6388FA1FB2DEC0E51" ProjectDependent="1"/>
+									</Folder>
+									<Folder Name="libs" ProjectDependent="1">
+										<File Name="FocusHandler.js" Size="13631" HashValue="4A6D05105B7817314994D8127901BB22" ProjectDependent="1"/>
+										<File Name="SubmitQueue.js" Size="887" HashValue="16FEF2BFF848B935CA20D1839D01DF56" ProjectDependent="1"/>
+										<Folder Name="config" ProjectDependent="1">
+											<File Name="Config.js" Size="4173" HashValue="383DBB53D81AE896133262084C7F6682" ProjectDependent="1"/>
+											<File Name="InitState.js" Size="3048" HashValue="A762CBC7BC0F081C5EA8FCCACBC4B242" ProjectDependent="1"/>
+										</Folder>
+										<Folder Name="reducer" ProjectDependent="1">
+											<File Name="DropDownBoxActions.js" Size="710" HashValue="485F2DEB91906FD23694A67B60F6ADC9" ProjectDependent="1"/>
+											<File Name="DropDownBoxReducer.js" Size="828" HashValue="FC0E32233B70FC256938D671E5DDB8A6" ProjectDependent="1"/>
+										</Folder>
+										<Folder Name="view" ProjectDependent="1">
+											<Folder Name="DropDownBoxView" ProjectDependent="1">
+												<File Name="DropDownBoxView.js" Size="18417" HashValue="77BAE555726048CEF4BE780B4CBAC447" ProjectDependent="1"/>
+												<File Name="DropDownBoxView.scss" Size="1301" HashValue="DEBAC6B6D06AA7898B36B7A2F49CFD09" ProjectDependent="1"/>
+											</Folder>
+										</Folder>
+									</Folder>
+									<Folder Name="meta" ProjectDependent="1">
+										<File Name="DropDownBox.json" Size="33238" HashValue="A176A28AC789D868E075FE278F6662F9" ProjectDependent="1"/>
+										<File Name="DropDownBox.style" Size="17026" HashValue="61878628F6608B374D0CBEA24EC900BB" ProjectDependent="1"/>
+										<File Name="DropDownBox.widget" Size="33061" HashValue="7297E598F2D3E2C0F15118ED422358DE" ProjectDependent="1"/>
+										<File Name="DropDownBox.xsd" Size="6516" HashValue="96CB5F44CF02F6B6A9C6BAF1540378D0" ProjectDependent="1"/>
+										<File Name="DropDownBox_base.scss" Size="3452" HashValue="05F15F75D070256968F0BEC9D602E36B" ProjectDependent="1"/>
+										<File Name="DropDownBox_Copied.markerFile" Size="0" HashValue="D41D8CD98F00B204E9800998ECF8427E" ProjectDependent="1"/>
+										<File Name="DropDownBox_default.sass.css" Size="4238" HashValue="CCB156C0A45150D1EF16C0DF8FEDD5E0" ProjectDependent="1"/>
+										<File Name="DropDownBox_default.scss" Size="3540" HashValue="4B0DA9E2BE31B8F55654922E7602048C" ProjectDependent="1"/>
+										<File Name="DropDownBox_doc.html" Size="42354" HashValue="F5A1BE75384A5898592A3EAAE8EBAB7E" ProjectDependent="1"/>
+										<File Name="DropDownBox_EventsActions.xsd" Size="6313" HashValue="B0D465858FDFED0232FE4689A8B37429" ProjectDependent="1"/>
+										<File Name="DropDownBox_Styles.xsd" Size="4026" HashValue="3B84D521EAC861838B46D8E5E3228AC3" ProjectDependent="1"/>
+									</Folder>
+								</Folder>
+								<Folder Name="GenericDialog" ProjectDependent="1">
+									<File Name="GenericDialog.html" Size="79" HashValue="A9E561798E0CDCE6CBF3ED0DA1B04D56" ProjectDependent="1"/>
+									<File Name="GenericDialog.js" Size="17969" HashValue="36A22684B9D3B0FEF094CEABA60245F4" ProjectDependent="1"/>
+									<Folder Name="css" ProjectDependent="1">
+										<File Name="GenericDialog.sass.css" Size="1075" HashValue="6E8D3B87BE704AF6D4B1F4CE73EFC225" ProjectDependent="1"/>
+										<File Name="GenericDialog.scss" Size="1248" HashValue="0B396F7E8426E5A989F6969384261103" ProjectDependent="1"/>
+									</Folder>
+									<Folder Name="designer" ProjectDependent="1">
+										<File Name="ClassInfo.js" Size="1136" HashValue="71EC0EAF25A1EEB2524DF167E8A4E498" ProjectDependent="1"/>
+									</Folder>
+									<Folder Name="libs" ProjectDependent="1">
+										<File Name="config.js" Size="2783" HashValue="3939B22D27E8F2EDBAA424A110FAC4EE" ProjectDependent="1"/>
+										<File Name="constants.js" Size="705" HashValue="DFF77287110CAEE4FBF9D09752104B72" ProjectDependent="1"/>
+										<File Name="renderer.js" Size="3963" HashValue="054EFFF4249881D567FD4938520610FA" ProjectDependent="1"/>
+										<Folder Name="enum" ProjectDependent="1">
+											<File Name="dialogResultEnum.js" Size="249" HashValue="7F36DC0E11A9111ECF28E933F1C30232" ProjectDependent="1"/>
+										</Folder>
+										<Folder Name="models" ProjectDependent="1">
+											<File Name="dialogWidgetModel.js" Size="728" HashValue="1BCCE84DE4C31DAC077E038E234F62C7" ProjectDependent="1"/>
+										</Folder>
+									</Folder>
+									<Folder Name="meta" ProjectDependent="1">
+										<File Name="GenericDialog.json" Size="10906" HashValue="71931C44FC964B3280EA99CF13FDA2CD" ProjectDependent="1"/>
+										<File Name="GenericDialog.style" Size="2820" HashValue="D34123318B23DCFEFEBAE37C339D8F25" ProjectDependent="1"/>
+										<File Name="GenericDialog.widget" Size="10525" HashValue="9663874E78820B1770E3A86ADC56BE4E" ProjectDependent="1"/>
+										<File Name="GenericDialog.xsd" Size="2030" HashValue="7E3F3E31773A4C0156DBD103B9ECB87D" ProjectDependent="1"/>
+										<File Name="GenericDialog_base.scss" Size="762" HashValue="D4DDFEDD1ABFDE083E3F676468DD92C3" ProjectDependent="1"/>
+										<File Name="GenericDialog_Copied.markerFile" Size="0" HashValue="D41D8CD98F00B204E9800998ECF8427E" ProjectDependent="1"/>
+										<File Name="GenericDialog_default.sass.css" Size="718" HashValue="54D17139443A886DED63FAB922794BAE" ProjectDependent="1"/>
+										<File Name="GenericDialog_default.scss" Size="854" HashValue="5514950BB8C619467C65C909846D483B" ProjectDependent="1"/>
+										<File Name="GenericDialog_doc.html" Size="16759" HashValue="2D8CA2FF967613D8C810047905416F1C" ProjectDependent="1"/>
+										<File Name="GenericDialog_EventsActions.xsd" Size="1765" HashValue="43BADD053ED958394816648B8AA7431B" ProjectDependent="1"/>
+										<File Name="GenericDialog_Styles.xsd" Size="1177" HashValue="07247FD9E3B3280D9CF6F1F2FBDCA9EC" ProjectDependent="1"/>
+									</Folder>
+								</Folder>
+								<Folder Name="GroupBox" ProjectDependent="1">
+									<File Name="GroupBox.html" Size="77" HashValue="C203E3FBBBC6B928B39F0EDD6C434FC8" ProjectDependent="1"/>
+									<File Name="GroupBox.js" Size="31753" HashValue="9B58F8F5A1F54EBA307986140F3404F6" ProjectDependent="1"/>
+									<Folder Name="css" ProjectDependent="1">
+										<File Name="GroupBox.sass.css" Size="2231" HashValue="2C5ED35CC59AEE301BE5CFDEF96DECC7" ProjectDependent="1"/>
+										<File Name="GroupBox.scss" Size="2976" HashValue="BDFF45B88E796F0C2686AB600C609B00" ProjectDependent="1"/>
+									</Folder>
+									<Folder Name="designer" ProjectDependent="1">
+										<File Name="ClassInfo.js" Size="2274" HashValue="7415F3BA9BB394E9E42E6264055AA396" ProjectDependent="1"/>
+									</Folder>
+									<Folder Name="libs" ProjectDependent="1">
+										<File Name="EditorHandles.js" Size="3260" HashValue="D99173CA961ED15E6DB0525218E59684" ProjectDependent="1"/>
+									</Folder>
+									<Folder Name="meta" ProjectDependent="1">
+										<File Name="GroupBox.json" Size="20948" HashValue="FCF2A202FE6256693DD84334DB1843C0" ProjectDependent="1"/>
+										<File Name="GroupBox.style" Size="7442" HashValue="99DAA54A2EA4EB33D10803C62CD6C81A" ProjectDependent="1"/>
+										<File Name="GroupBox.widget" Size="20763" HashValue="77155C7B40AA8448FD9B6CA687AAACB5" ProjectDependent="1"/>
+										<File Name="GroupBox.xsd" Size="4103" HashValue="9E6CC34C2E4D064C04C43E295CB1F19A" ProjectDependent="1"/>
+										<File Name="GroupBox_base.scss" Size="1186" HashValue="921C4B9850E752370783D6C6E45B2AA5" ProjectDependent="1"/>
+										<File Name="GroupBox_Copied.markerFile" Size="0" HashValue="D41D8CD98F00B204E9800998ECF8427E" ProjectDependent="1"/>
+										<File Name="GroupBox_default.sass.css" Size="1200" HashValue="4EC5BA5494F4E3939AFB42020F6CC00A" ProjectDependent="1"/>
+										<File Name="GroupBox_default.scss" Size="1268" HashValue="5E866F501FC3766D2DCDAF5159A35D63" ProjectDependent="1"/>
+										<File Name="GroupBox_doc.html" Size="29765" HashValue="F5D1EE226F4BAFBCF61DBA40248EAC8B" ProjectDependent="1"/>
+										<File Name="GroupBox_EventsActions.xsd" Size="3305" HashValue="C54F9F1F503F4FED7EEEAE49FBA9DED8" ProjectDependent="1"/>
+										<File Name="GroupBox_Styles.xsd" Size="2197" HashValue="CA79E6DD9469318997F475D8961ABCDA" ProjectDependent="1"/>
+									</Folder>
+								</Folder>
+								<Folder Name="Image" ProjectDependent="1">
+									<File Name="Image.html" Size="69" HashValue="3B70DFE890613C44412FCD9C0B31A91E" ProjectDependent="1"/>
+									<File Name="Image.js" Size="5834" HashValue="AE89808327C22198F4955CA5D9FE2DE5" ProjectDependent="1"/>
+									<Folder Name="css" ProjectDependent="1">
+										<File Name="Image.sass.css" Size="156" HashValue="C7D56D1B9248C66B67F998879441570F" ProjectDependent="1"/>
+										<File Name="Image.scss" Size="139" HashValue="B330D6BCF303F2593F7B0CC2E5A6C40D" ProjectDependent="1"/>
+									</Folder>
+									<Folder Name="designer" ProjectDependent="1">
+										<File Name="ClassInfo.js" Size="1492" HashValue="5B15F4F3470E5B1A3B0AE35C0FFD45A2" ProjectDependent="1"/>
+									</Folder>
+									<Folder Name="libs" ProjectDependent="1">
+										<File Name="EditorHandles.js" Size="1447" HashValue="927B5C8C023C2F46EC281C9222347DC3" ProjectDependent="1"/>
+										<Folder Name="config" ProjectDependent="1">
+											<File Name="Config.js" Size="1028" HashValue="1CD9D1D7798F4139178B684C118BA974" ProjectDependent="1"/>
+										</Folder>
+									</Folder>
+									<Folder Name="meta" ProjectDependent="1">
+										<File Name="Image.json" Size="15615" HashValue="05E9ADEF1D30FABC362AB17442935EB0" ProjectDependent="1"/>
+										<File Name="Image.style" Size="4685" HashValue="D049E675E98E9279A798F1171F62DDBE" ProjectDependent="1"/>
+										<File Name="Image.widget" Size="16462" HashValue="5ADE3D07792D597F43C9A9C8C6995BC7" ProjectDependent="1"/>
+										<File Name="Image.xsd" Size="2638" HashValue="58E1D7FA64B39B2C9D7C37E093D2E42E" ProjectDependent="1"/>
+										<File Name="Image_base.scss" Size="477" HashValue="BB15635945EF3C24E5C2E075FF743D7E" ProjectDependent="1"/>
+										<File Name="Image_Copied.markerFile" Size="0" HashValue="D41D8CD98F00B204E9800998ECF8427E" ProjectDependent="1"/>
+										<File Name="Image_default.sass.css" Size="346" HashValue="0D2321313DAA59463CAF4BF29249FF43" ProjectDependent="1"/>
+										<File Name="Image_default.scss" Size="553" HashValue="59959D3D8B812E07D8A25233756E47DD" ProjectDependent="1"/>
+										<File Name="Image_doc.html" Size="24888" HashValue="FCE811567EC9AA03E4645FD3B1C37A74" ProjectDependent="1"/>
+										<File Name="Image_EventsActions.xsd" Size="3558" HashValue="FDF307D371E6C81A86553D738293557D" ProjectDependent="1"/>
+										<File Name="Image_Styles.xsd" Size="1419" HashValue="4FF39AD65EA69794A39A261641ADBBC1" ProjectDependent="1"/>
 									</Folder>
 								</Folder>
 								<Folder Name="KeyBoard" ProjectDependent="1">
@@ -1151,6 +1690,68 @@
 										<File Name="Label_Styles.xsd" Size="2111" HashValue="6C6FAA70681F8AD3BE554FDE04B63F20" ProjectDependent="1"/>
 									</Folder>
 								</Folder>
+								<Folder Name="LanguageSelector" ProjectDependent="1">
+									<File Name="LanguageSelector.html" Size="83" HashValue="3C9BC4BFF2A6857FD7414869B9FF7EAD" ProjectDependent="1"/>
+									<File Name="LanguageSelector.js" Size="2934" HashValue="EB2D5986E6EDC46F18993AF4E724A5A5" ProjectDependent="1"/>
+									<Folder Name="assets" ProjectDependent="1">
+										<Folder Name="img" ProjectDependent="1">
+											<File Name="ar.png" Size="1063" HashValue="BAE1BE427353978BA86959C408ECC673" ProjectDependent="1"/>
+											<File Name="bg.png" Size="2857" HashValue="8AC42F47E08B84194FA68D7F272D2E32" ProjectDependent="1"/>
+											<File Name="ca.png" Size="233" HashValue="BBE6E241A434CF4CC9657C99AF02E0BC" ProjectDependent="1"/>
+											<File Name="cs.png" Size="689" HashValue="6FD8B2D7B67A1008CE5FBBBA8DA6EEBD" ProjectDependent="1"/>
+											<File Name="da.png" Size="239" HashValue="029CFDF7BC1376EA9031A655F432374F" ProjectDependent="1"/>
+											<File Name="de.png" Size="971" HashValue="E3D751CA781E76597B81B26B11B36D9C" ProjectDependent="1"/>
+											<File Name="en.png" Size="2703" HashValue="4D613A230E32AD6BAFB6908E0179C1EE" ProjectDependent="1"/>
+											<File Name="es.png" Size="1473" HashValue="4B725545F8ECDFF82BEE834AEC539E01" ProjectDependent="1"/>
+											<File Name="fi.png" Size="420" HashValue="DBC039CEA8F328A153624384E1F816A4" ProjectDependent="1"/>
+											<File Name="fr.png" Size="964" HashValue="C7086091C49538D19C056AFDCD9A82FF" ProjectDependent="1"/>
+											<File Name="he.png" Size="442" HashValue="26FF7E19C0B68074F14E54B3C3EB6874" ProjectDependent="1"/>
+											<File Name="hr.png" Size="686" HashValue="76CF0AC476E87F6EC6CDEBD06E4CF4A8" ProjectDependent="1"/>
+											<File Name="hu.png" Size="1060" HashValue="B3BF81469417FF824A2728BBB9F9E2E5" ProjectDependent="1"/>
+											<File Name="is.png" Size="286" HashValue="0BD90C03288F6744B3B2EB98B29CDC9C" ProjectDependent="1"/>
+											<File Name="it.png" Size="979" HashValue="A4DA89FAEB5661EBA6531F1A950910FC" ProjectDependent="1"/>
+											<File Name="ja.png" Size="1266" HashValue="619238924FB7D4EC8B7788AE4BB54377" ProjectDependent="1"/>
+											<File Name="ko.png" Size="1838" HashValue="FCB7E5D761F2E6B972800D2BB198BA0C" ProjectDependent="1"/>
+											<File Name="lv.png" Size="246" HashValue="2F0B6DE8B6E443E17DF81BC8EE80334C" ProjectDependent="1"/>
+											<File Name="nl.png" Size="1060" HashValue="BBAFD34E431BAFB9967116A907336AD0" ProjectDependent="1"/>
+											<File Name="no.png" Size="279" HashValue="A608F05122CDC979D0BAB57B0BA806EA" ProjectDependent="1"/>
+											<File Name="pl.png" Size="182" HashValue="17E7AFEFD7C4B43EC511C02FA1FE4EE0" ProjectDependent="1"/>
+											<File Name="pt.png" Size="1644" HashValue="2A0C4284B9699292CAC4620651495F98" ProjectDependent="1"/>
+											<File Name="ro.png" Size="171" HashValue="82072747C661929A917DBD9C42866AA9" ProjectDependent="1"/>
+											<File Name="ru.png" Size="2857" HashValue="14D181473F3B4596227E619CA8860989" ProjectDependent="1"/>
+											<File Name="sk.png" Size="3558" HashValue="988998CAA25C028F626F508A956D6527" ProjectDependent="1"/>
+											<File Name="sl.png" Size="3195" HashValue="F8B44CE115D021F9502DF836C18C56A7" ProjectDependent="1"/>
+											<File Name="sr.png" Size="777" HashValue="F4D1D451DE104534CCF9A398C4B2B9E2" ProjectDependent="1"/>
+											<File Name="sv.png" Size="492" HashValue="FE2082DC9D9ADBD1D304BC03CBB264FA" ProjectDependent="1"/>
+											<File Name="tr.png" Size="3528" HashValue="7D2A04038BE76F5D613C1EB64B72E44B" ProjectDependent="1"/>
+											<File Name="vi.png" Size="467" HashValue="34C22C6E563EC0B604C28E022CC8FD93" ProjectDependent="1"/>
+											<File Name="zh-CHS.png" Size="1458" HashValue="547797F5FD9767F9090E453A315F86D7" ProjectDependent="1"/>
+											<File Name="zh-CN.png" Size="1458" HashValue="547797F5FD9767F9090E453A315F86D7" ProjectDependent="1"/>
+											<File Name="zh.png" Size="1458" HashValue="547797F5FD9767F9090E453A315F86D7" ProjectDependent="1"/>
+										</Folder>
+									</Folder>
+									<Folder Name="designer" ProjectDependent="1">
+										<File Name="ClassInfo.js" Size="3286" HashValue="E04BBC9CF40F7622254DC44820A3EFA0" ProjectDependent="1"/>
+									</Folder>
+									<Folder Name="libs" ProjectDependent="1">
+										<Folder Name="config" ProjectDependent="1">
+											<File Name="Config.js" Size="1931" HashValue="7D4835A7A0C1009D180FA477ADE05282" ProjectDependent="1"/>
+										</Folder>
+									</Folder>
+									<Folder Name="meta" ProjectDependent="1">
+										<File Name="LanguageSelector.json" Size="32046" HashValue="80AB4BBEA85F1E8BAE2F86C7B89E6AFF" ProjectDependent="1"/>
+										<File Name="LanguageSelector.style" Size="707" HashValue="41AB7C034893FA0586B262F8E8D38315" ProjectDependent="1"/>
+										<File Name="LanguageSelector.widget" Size="31986" HashValue="6EA1916E78F302113B5A769BC2B8495D" ProjectDependent="1"/>
+										<File Name="LanguageSelector.xsd" Size="6310" HashValue="F9198BEA815373B0E9F97A51552FAC95" ProjectDependent="1"/>
+										<File Name="LanguageSelector_base.scss" Size="3467" HashValue="1446FBE3D4A3E018D2E9F906C50E9154" ProjectDependent="1"/>
+										<File Name="LanguageSelector_Copied.markerFile" Size="0" HashValue="D41D8CD98F00B204E9800998ECF8427E" ProjectDependent="1"/>
+										<File Name="LanguageSelector_default.sass.css" Size="4483" HashValue="406C7050983D28CC442816A4CEE18FFA" ProjectDependent="1"/>
+										<File Name="LanguageSelector_default.scss" Size="3565" HashValue="5879602E976AE6FD0A6D85E0CA0BDD07" ProjectDependent="1"/>
+										<File Name="LanguageSelector_doc.html" Size="41699" HashValue="EEE344020B52E7A0C69A5E4D3FE72A4A" ProjectDependent="1"/>
+										<File Name="LanguageSelector_EventsActions.xsd" Size="6407" HashValue="8E1602DD1FA90CFFFA189C6F01892441" ProjectDependent="1"/>
+										<File Name="LanguageSelector_Styles.xsd" Size="4031" HashValue="9FC475F17B9233A4FEC60BCC086C784A" ProjectDependent="1"/>
+									</Folder>
+								</Folder>
 								<Folder Name="Line" ProjectDependent="1">
 									<File Name="Line.html" Size="68" HashValue="E4E5971C0DE346DB93E5900F3FF9DA84" ProjectDependent="1"/>
 									<File Name="Line.js" Size="6097" HashValue="7BA4627F1CA96F23BA9A209C9715EB4E" ProjectDependent="1"/>
@@ -1177,6 +1778,97 @@
 										<File Name="Line_doc.html" Size="15147" HashValue="D13079F8CBA5B7BDA289FB8A5C3CEE4A" ProjectDependent="1"/>
 										<File Name="Line_EventsActions.xsd" Size="2752" HashValue="A867C0A1DE680ED7679A7A0EA5E21430" ProjectDependent="1"/>
 										<File Name="Line_Styles.xsd" Size="959" HashValue="E4AA5566AF6DEDB1D7EFA7F229BAB8CA" ProjectDependent="1"/>
+									</Folder>
+								</Folder>
+								<Folder Name="ListWidget" ProjectDependent="1">
+									<File Name="ListWidget.html" Size="81" HashValue="5AFB7599E5BCB36FCB8E4ED29778A22F" ProjectDependent="1"/>
+									<File Name="ListWidget.js" Size="11745" HashValue="2A208A1680627AF329DB539152C7952F" ProjectDependent="1"/>
+									<Folder Name="css" ProjectDependent="1">
+										<File Name="ListWidget.sass.css" Size="1660" HashValue="87B2139D6D6AD1D053F9810A34661235" ProjectDependent="1"/>
+										<File Name="ListWidget.scss" Size="2756" HashValue="6A44D7828A604B51B58F77755AFF00B9" ProjectDependent="1"/>
+									</Folder>
+									<Folder Name="designer" ProjectDependent="1">
+										<File Name="ClassInfo.js" Size="2368" HashValue="18BE2074EAED92CBC01DA35C137BE7A5" ProjectDependent="1"/>
+									</Folder>
+									<Folder Name="meta" ProjectDependent="1">
+										<File Name="ListWidget.json" Size="17488" HashValue="D4F3F23D2C666592692418C2A57DA151" ProjectDependent="1"/>
+										<File Name="ListWidget.style" Size="4240" HashValue="272086841A598360F8915E10A9C414B8" ProjectDependent="1"/>
+										<File Name="ListWidget.widget" Size="16555" HashValue="BE693F09DB17C84269FCCFC0168B7CF7" ProjectDependent="1"/>
+										<File Name="ListWidget.xsd" Size="2952" HashValue="D79825A18FB411BC31552FC2A1C8E35C" ProjectDependent="1"/>
+										<File Name="ListWidget_base.scss" Size="491" HashValue="B2CE6B1E05EA1BC96B8C2CEB1A3913BE" ProjectDependent="1"/>
+										<File Name="ListWidget_Copied.markerFile" Size="0" HashValue="D41D8CD98F00B204E9800998ECF8427E" ProjectDependent="1"/>
+										<File Name="ListWidget_default.sass.css" Size="508" HashValue="C09401623FD7B04BF3B5F09A89CD718E" ProjectDependent="1"/>
+										<File Name="ListWidget_default.scss" Size="577" HashValue="EE6B8D2CDF34CE70B1339EA23C64547E" ProjectDependent="1"/>
+										<File Name="ListWidget_doc.html" Size="26393" HashValue="27D7FD182F435DB4CF63A589AA080A4D" ProjectDependent="1"/>
+										<File Name="ListWidget_EventsActions.xsd" Size="5358" HashValue="A2D037F2CE9EC40243B388E6415CA1D6" ProjectDependent="1"/>
+										<File Name="ListWidget_Styles.xsd" Size="1599" HashValue="8B7907B7DCA8C185A838A6484EE9F874" ProjectDependent="1"/>
+									</Folder>
+								</Folder>
+								<Folder Name="Login" ProjectDependent="1">
+									<File Name="Login.html" Size="1019" HashValue="704737497F2139419D1E8E3C71DB64D9" ProjectDependent="1"/>
+									<File Name="Login.js" Size="26533" HashValue="C74336FE87DE3DF1B34710608FC0EA1F" ProjectDependent="1"/>
+									<Folder Name="css" ProjectDependent="1">
+										<File Name="Login.sass.css" Size="1172" HashValue="CAC9919F73E2AA6753C5582E71C37681" ProjectDependent="1"/>
+										<File Name="Login.scss" Size="1521" HashValue="611D8D0EA51BF1B84AA82F23C43603FF" ProjectDependent="1"/>
+									</Folder>
+									<Folder Name="designer" ProjectDependent="1">
+										<File Name="ClassInfo.js" Size="3148" HashValue="B27CE95FD06D779E53C4BB10A3C45CF1" ProjectDependent="1"/>
+									</Folder>
+									<Folder Name="meta" ProjectDependent="1">
+										<File Name="Login.json" Size="21483" HashValue="28256BE44454FB18CCF350D2DCC01479" ProjectDependent="1"/>
+										<File Name="Login.style" Size="3772" HashValue="60159589FE13C02928EF7192008DD1F8" ProjectDependent="1"/>
+										<File Name="Login.widget" Size="18995" HashValue="AF865F6698C2DF856FE146C8FCFDBB23" ProjectDependent="1"/>
+										<File Name="Login.xsd" Size="3510" HashValue="7F28440BA3D297344038811E464CF424" ProjectDependent="1"/>
+										<File Name="Login_base.scss" Size="385" HashValue="49CE23D01BCFE6D17BD2E5BDDAA04D48" ProjectDependent="1"/>
+										<File Name="Login_Copied.markerFile" Size="0" HashValue="D41D8CD98F00B204E9800998ECF8427E" ProjectDependent="1"/>
+										<File Name="Login_default.sass.css" Size="231" HashValue="B48E6E5DE72395DFCE95C355CEA43012" ProjectDependent="1"/>
+										<File Name="Login_default.scss" Size="461" HashValue="D84441BAF46B57AEC4FA24706EDCE3C5" ProjectDependent="1"/>
+										<File Name="Login_doc.html" Size="31180" HashValue="83BD2E28A0ABFB055BECE96177EBEA68" ProjectDependent="1"/>
+										<File Name="Login_EventsActions.xsd" Size="3264" HashValue="ABB5993A64AC6BBFC8795ABBC5F0BCC9" ProjectDependent="1"/>
+										<File Name="Login_Styles.xsd" Size="1346" HashValue="42BF6AC9881FC1AEB8D963CFA1BE12FE" ProjectDependent="1"/>
+									</Folder>
+								</Folder>
+								<Folder Name="LogoutButton" ProjectDependent="1">
+									<File Name="LogoutButton.html" Size="83" HashValue="8D0F1BC77D30D572B81F15537C3C1C28" ProjectDependent="1"/>
+									<File Name="LogoutButton.js" Size="1449" HashValue="57CCD01AFEC20BAF312C1FCB477ADF9A" ProjectDependent="1"/>
+									<Folder Name="designer" ProjectDependent="1">
+										<File Name="ClassInfo.js" Size="2791" HashValue="71B8A1059F33C132E69BDD1B19B0F3C9" ProjectDependent="1"/>
+									</Folder>
+									<Folder Name="meta" ProjectDependent="1">
+										<File Name="LogoutButton.json" Size="28675" HashValue="EC281ED9B89006D993AE737162B6DD97" ProjectDependent="1"/>
+										<File Name="LogoutButton.widget" Size="29863" HashValue="15FC0F4163AF5D4E5AD57D3FF3629BA4" ProjectDependent="1"/>
+										<File Name="LogoutButton.xsd" Size="5523" HashValue="3A4F06BDEAB6D2BE130D9E7002CD88D8" ProjectDependent="1"/>
+										<File Name="LogoutButton_base.scss" Size="2901" HashValue="70B1ACB1F116BE25F5B4C24FE07DBA61" ProjectDependent="1"/>
+										<File Name="LogoutButton_Copied.markerFile" Size="0" HashValue="D41D8CD98F00B204E9800998ECF8427E" ProjectDependent="1"/>
+										<File Name="LogoutButton_default.sass.css" Size="3403" HashValue="ED863DD47BF333FD4839CF4E16312CDF" ProjectDependent="1"/>
+										<File Name="LogoutButton_default.scss" Size="2991" HashValue="93883474EBEB4150EE42836A22D68227" ProjectDependent="1"/>
+										<File Name="LogoutButton_doc.html" Size="38996" HashValue="3964A1453BCC9BD39BC5739A0F484135" ProjectDependent="1"/>
+										<File Name="LogoutButton_EventsActions.xsd" Size="5665" HashValue="A5FE86B73444214B527B7DD7D04E321E" ProjectDependent="1"/>
+										<File Name="LogoutButton_Styles.xsd" Size="3347" HashValue="EF5DB09A4DDDBDDDACFA6D90695BF513" ProjectDependent="1"/>
+									</Folder>
+								</Folder>
+								<Folder Name="MeasurementSystemSelector" ProjectDependent="1">
+									<File Name="MeasurementSystemSelector.html" Size="92" HashValue="A4C4544501FE2FE816664D72832AAE3F" ProjectDependent="1"/>
+									<File Name="MeasurementSystemSelector.js" Size="4102" HashValue="270D4442D233D6C201E0DA6947CDB76D" ProjectDependent="1"/>
+									<Folder Name="designer" ProjectDependent="1">
+										<File Name="ClassInfo.js" Size="3304" HashValue="48609DFA0BA57226132DE12B193F0485" ProjectDependent="1"/>
+									</Folder>
+									<Folder Name="libs" ProjectDependent="1">
+										<Folder Name="config" ProjectDependent="1">
+											<File Name="Config.js" Size="1575" HashValue="713C2809E591FC25A1D9CF1B0736E5C7" ProjectDependent="1"/>
+										</Folder>
+									</Folder>
+									<Folder Name="meta" ProjectDependent="1">
+										<File Name="MeasurementSystemSelector.json" Size="32106" HashValue="9B579EE80C6F6C53AF7EA802944C9286" ProjectDependent="1"/>
+										<File Name="MeasurementSystemSelector.widget" Size="32028" HashValue="E50289C400474BEAA9A8C5297B829ED0" ProjectDependent="1"/>
+										<File Name="MeasurementSystemSelector.xsd" Size="6283" HashValue="92E55DC687084E9966188F59FF3B38BE" ProjectDependent="1"/>
+										<File Name="MeasurementSystemSelector_base.scss" Size="3466" HashValue="8331CF75331A665DEB4C533C83D8FF23" ProjectDependent="1"/>
+										<File Name="MeasurementSystemSelector_Copied.markerFile" Size="0" HashValue="D41D8CD98F00B204E9800998ECF8427E" ProjectDependent="1"/>
+										<File Name="MeasurementSystemSelector_default.sass.css" Size="4896" HashValue="8981DA7F31936BD08AE0FD368C71EFF1" ProjectDependent="1"/>
+										<File Name="MeasurementSystemSelector_default.scss" Size="3582" HashValue="C6D4FC5354FE14E2DF1B0186E0BF8F1F" ProjectDependent="1"/>
+										<File Name="MeasurementSystemSelector_doc.html" Size="41699" HashValue="4394B2458AECA03E7AAA36362199AFFB" ProjectDependent="1"/>
+										<File Name="MeasurementSystemSelector_EventsActions.xsd" Size="6731" HashValue="52CE886817D1EAD3E9E41B53C790D798" ProjectDependent="1"/>
+										<File Name="MeasurementSystemSelector_Styles.xsd" Size="4040" HashValue="7237BB574292F8F38896E4C765E877C4" ProjectDependent="1"/>
 									</Folder>
 								</Folder>
 								<Folder Name="MessageBox" ProjectDependent="1">
@@ -1224,6 +1916,44 @@
 										<File Name="MessageBox_default.scss" Size="153" HashValue="CB35A0E1BFD8ADEA44CB23DCA111EAC1" ProjectDependent="1"/>
 										<File Name="MessageBox_doc.html" Size="14694" HashValue="3D3247DD71499C74F020D7FCE56FE437" ProjectDependent="1"/>
 										<File Name="MessageBox_EventsActions.xsd" Size="1968" HashValue="11472ACE8806E85A37BC3C1BF14F9DF5" ProjectDependent="1"/>
+									</Folder>
+								</Folder>
+								<Folder Name="NavigationBar" ProjectDependent="1">
+									<File Name="NavigationBar.html" Size="87" HashValue="4FC41A56E0E6ECD8E26343E6B0325F10" ProjectDependent="1"/>
+									<File Name="NavigationBar.js" Size="4093" HashValue="9DB5B734BFBEB4CBA234FA8B98313BE9" ProjectDependent="1"/>
+									<Folder Name="designer" ProjectDependent="1">
+										<File Name="ClassInfo.js" Size="1713" HashValue="CAD3CB9121ACD1C5AEE61DD33CEFE4EE" ProjectDependent="1"/>
+									</Folder>
+									<Folder Name="meta" ProjectDependent="1">
+										<File Name="NavigationBar.json" Size="13604" HashValue="067BCBD86871FB5298C0C61E619042B5" ProjectDependent="1"/>
+										<File Name="NavigationBar.style" Size="769" HashValue="78A802B443E388CD0A4A02BA2236DD13" ProjectDependent="1"/>
+										<File Name="NavigationBar.widget" Size="13512" HashValue="58000EAC2BC1E7FCC2ED63F6B1C56FAD" ProjectDependent="1"/>
+										<File Name="NavigationBar.xsd" Size="2052" HashValue="D7F5821630E3809D0A337ED766DEBA5F" ProjectDependent="1"/>
+										<File Name="NavigationBar_base.scss" Size="232" HashValue="517EBFB240B973E02644D14A8450CEFB" ProjectDependent="1"/>
+										<File Name="NavigationBar_Copied.markerFile" Size="0" HashValue="D41D8CD98F00B204E9800998ECF8427E" ProjectDependent="1"/>
+										<File Name="NavigationBar_default.sass.css" Size="129" HashValue="4C353D45FE91CAB79C1D396EA8E00B2C" ProjectDependent="1"/>
+										<File Name="NavigationBar_default.scss" Size="324" HashValue="0854957ABC8FEBB597DEEF83C3FA7D7C" ProjectDependent="1"/>
+										<File Name="NavigationBar_doc.html" Size="22317" HashValue="165A45E266CD084639D71CE89021F78A" ProjectDependent="1"/>
+										<File Name="NavigationBar_EventsActions.xsd" Size="3860" HashValue="0DA80B9565AA0F998C1C5875341C1A23" ProjectDependent="1"/>
+									</Folder>
+								</Folder>
+								<Folder Name="NavigationButton" ProjectDependent="1">
+									<File Name="NavigationButton.html" Size="90" HashValue="E9AEF1E1B20BDB01624B44AAD299FBD8" ProjectDependent="1"/>
+									<File Name="NavigationButton.js" Size="7356" HashValue="8D3CDF01ECB8AB79B945E1F5D78FCEDE" ProjectDependent="1"/>
+									<Folder Name="designer" ProjectDependent="1">
+										<File Name="ClassInfo.js" Size="3154" HashValue="01265C807E23C9F5FA2103F5331A515D" ProjectDependent="1"/>
+									</Folder>
+									<Folder Name="meta" ProjectDependent="1">
+										<File Name="NavigationButton.json" Size="32497" HashValue="7C7DDC97E2E8342809F635F63DD3A1B0" ProjectDependent="1"/>
+										<File Name="NavigationButton.widget" Size="33192" HashValue="F2E1DD147484A97AEE1311B38F80A49C" ProjectDependent="1"/>
+										<File Name="NavigationButton.xsd" Size="6766" HashValue="C29407CF21F11AD39DC2CB755ED7D4CD" ProjectDependent="1"/>
+										<File Name="NavigationButton_base.scss" Size="3231" HashValue="580E40401F29356391CFC4D2931E2C61" ProjectDependent="1"/>
+										<File Name="NavigationButton_Copied.markerFile" Size="0" HashValue="D41D8CD98F00B204E9800998ECF8427E" ProjectDependent="1"/>
+										<File Name="NavigationButton_default.sass.css" Size="3815" HashValue="BE66A969F59E148B235BDE73414E09FC" ProjectDependent="1"/>
+										<File Name="NavigationButton_default.scss" Size="3329" HashValue="4629E9847F1018293DB851113CE3E85F" ProjectDependent="1"/>
+										<File Name="NavigationButton_doc.html" Size="43141" HashValue="4F140EB9F8A5FC5FCCE94F0DA9C191A6" ProjectDependent="1"/>
+										<File Name="NavigationButton_EventsActions.xsd" Size="6048" HashValue="23C832308251C9EEFE9F7184FABA2A5C" ProjectDependent="1"/>
+										<File Name="NavigationButton_Styles.xsd" Size="4331" HashValue="AEFEB0ED31258DDA4F6F88C99CD14FD4" ProjectDependent="1"/>
 									</Folder>
 								</Folder>
 								<Folder Name="NumericInput" ProjectDependent="1">
@@ -1308,6 +2038,26 @@
 										<File Name="NumPad_doc.html" Size="24542" HashValue="E1F75E5099C4C7EC2453316C3776F235" ProjectDependent="1"/>
 										<File Name="NumPad_EventsActions.xsd" Size="1928" HashValue="6331B41828D2A3199A72CD82785BA96D" ProjectDependent="1"/>
 										<File Name="NumPad_Styles.xsd" Size="4227" HashValue="498F5A47E4AC02460BA846EBD1EDC1BA" ProjectDependent="1"/>
+									</Folder>
+								</Folder>
+								<Folder Name="Password" ProjectDependent="1">
+									<File Name="Password.html" Size="72" HashValue="273D6F009694BF7748B70AA86F9181D3" ProjectDependent="1"/>
+									<File Name="Password.js" Size="1478" HashValue="7B374E75E2474E1BB60F5EE149221D3D" ProjectDependent="1"/>
+									<Folder Name="designer" ProjectDependent="1">
+										<File Name="ClassInfo.js" Size="2031" HashValue="30C74A1081329365DD1D246044E4CC49" ProjectDependent="1"/>
+									</Folder>
+									<Folder Name="meta" ProjectDependent="1">
+										<File Name="Password.json" Size="24247" HashValue="49E1CE77321303CCB567377F6EBC6E54" ProjectDependent="1"/>
+										<File Name="Password.style" Size="4592" HashValue="EBD1B0458C64356AB69DC358A04B0844" ProjectDependent="1"/>
+										<File Name="Password.widget" Size="24605" HashValue="24E8FC73E93DA79E8D6D9B8F391161DA" ProjectDependent="1"/>
+										<File Name="Password.xsd" Size="4649" HashValue="A6F16F39225E86933D12751A75B29FB5" ProjectDependent="1"/>
+										<File Name="Password_base.scss" Size="1435" HashValue="3F420E2BA7503820A292E660321A633D" ProjectDependent="1"/>
+										<File Name="Password_Copied.markerFile" Size="0" HashValue="D41D8CD98F00B204E9800998ECF8427E" ProjectDependent="1"/>
+										<File Name="Password_default.sass.css" Size="1780" HashValue="F3DFF1B2B1D12FF82110BA402F9D0B8D" ProjectDependent="1"/>
+										<File Name="Password_default.scss" Size="1517" HashValue="B359342DF5A438C49349B580A2083B22" ProjectDependent="1"/>
+										<File Name="Password_doc.html" Size="33532" HashValue="C9453A3BC9738BE51CC888604D41E397" ProjectDependent="1"/>
+										<File Name="Password_EventsActions.xsd" Size="4688" HashValue="4B1C3759EA3188A0986CB182C3C0C8D9" ProjectDependent="1"/>
+										<File Name="Password_Styles.xsd" Size="2984" HashValue="5686E73513215C5A71B4F1AE8C0BA08B" ProjectDependent="1"/>
 									</Folder>
 								</Folder>
 								<Folder Name="ProgressBar" ProjectDependent="1">
@@ -1408,6 +2158,176 @@
 										<File Name="Rectangle_Styles.xsd" Size="1520" HashValue="AC0FF65CECC61BDC6E21F39A5B8E30F4" ProjectDependent="1"/>
 									</Folder>
 								</Folder>
+								<Folder Name="TableColumnWidget" ProjectDependent="1">
+									<File Name="TableColumnWidget.html" Size="89" HashValue="3C2BAE8AF52BE1FC326C304587000011" ProjectDependent="1"/>
+									<File Name="TableColumnWidget.js" Size="11967" HashValue="633703A2E883D5E6DBF15077D1E824C7" ProjectDependent="1"/>
+									<Folder Name="assets" ProjectDependent="1">
+										<File Name="sort_arrow.svg" Size="3283" HashValue="5EA8BE22E64196525E8D19CA9A2C55B2" ProjectDependent="1"/>
+									</Folder>
+									<Folder Name="css" ProjectDependent="1">
+										<File Name="TableColumnWidget.sass.css" Size="485" HashValue="C20BD33931A0BFC48543C0D727CD95E4" ProjectDependent="1"/>
+										<File Name="TableColumnWidget.scss" Size="557" HashValue="CED0AE9E39E48D320EA77FEF49F6EC9B" ProjectDependent="1"/>
+									</Folder>
+									<Folder Name="designer" ProjectDependent="1">
+										<File Name="ClassInfo.js" Size="1119" HashValue="F3DCF881D6FEEDD5A67D20FB94DD07C3" ProjectDependent="1"/>
+									</Folder>
+									<Folder Name="libs" ProjectDependent="1">
+										<File Name="EditorHandles.js" Size="2814" HashValue="831D0D6EB7050995C9192235EEAF366F" ProjectDependent="1"/>
+									</Folder>
+									<Folder Name="meta" ProjectDependent="1">
+										<File Name="TableColumnWidget.json" Size="4578" HashValue="9D313064F70DA0361234D8B8FE2BFF00" ProjectDependent="1"/>
+										<File Name="TableColumnWidget.style" Size="836" HashValue="9E24A936046A46D4F64CDC96FD836310" ProjectDependent="1"/>
+										<File Name="TableColumnWidget.widget" Size="4108" HashValue="B538D8E04FF64FA0E07EC4275A0EB04A" ProjectDependent="1"/>
+										<File Name="TableColumnWidget.xsd" Size="1251" HashValue="62D76A812461152CD4B2CBB7737464CB" ProjectDependent="1"/>
+										<File Name="TableColumnWidget_base.scss" Size="100" HashValue="E11543EB3D3F1DF8711A7AEB5C001F58" ProjectDependent="1"/>
+										<File Name="TableColumnWidget_Copied.markerFile" Size="0" HashValue="D41D8CD98F00B204E9800998ECF8427E" ProjectDependent="1"/>
+										<File Name="TableColumnWidget_default.sass.css" Size="61" HashValue="D06A6FC6EAFC3A45D32F5A02FA0B95BB" ProjectDependent="1"/>
+										<File Name="TableColumnWidget_default.scss" Size="200" HashValue="35EC05CAC7AC7A3B6F451EB2F24BBA02" ProjectDependent="1"/>
+										<File Name="TableColumnWidget_doc.html" Size="5643" HashValue="299E278FCDB768E08819FFAE46E62392" ProjectDependent="1"/>
+										<File Name="TableColumnWidget_EventsActions.xsd" Size="953" HashValue="7BB8FE2E2BAEBAAB4CB19AFEB6E91933" ProjectDependent="1"/>
+									</Folder>
+								</Folder>
+								<Folder Name="TableWidget" ProjectDependent="1">
+									<File Name="TableWidget.html" Size="83" HashValue="095A10DF9580107BA267C515B377D11C" ProjectDependent="1"/>
+									<File Name="TableWidget.js" Size="27175" HashValue="34E97A176FD842FCAA0AF635C729454B" ProjectDependent="1"/>
+									<Folder Name="assets" ProjectDependent="1">
+										<File Name="Add.svg" Size="928" HashValue="5CBC26775C588F00DFA5EB577B8B4764" ProjectDependent="1"/>
+										<File Name="ArrowDown.svg" Size="721" HashValue="265986E8793F3C56D9ECACB6C273364F" ProjectDependent="1"/>
+										<File Name="ArrowLeft.svg" Size="723" HashValue="5A2F25AF4C6417A5A6A40AAD8359CE3C" ProjectDependent="1"/>
+										<File Name="ArrowRight.svg" Size="725" HashValue="14CABF4F491BAD4003E92C866BC32AFF" ProjectDependent="1"/>
+										<File Name="ArrowUp.svg" Size="723" HashValue="5D345584386B597CD6B6B037A6062CF3" ProjectDependent="1"/>
+										<File Name="Delete.svg" Size="4645" HashValue="B3F82F3CC34CF20EE0C7C6E068545B9E" ProjectDependent="1"/>
+									</Folder>
+									<Folder Name="css" ProjectDependent="1">
+										<File Name="TableWidget.sass.css" Size="1860" HashValue="05D56C99BE7E1660CE8B423CB12A69D6" ProjectDependent="1"/>
+										<File Name="TableWidget.scss" Size="3669" HashValue="F3D89A8C3D29E6BB583529572CF0D100" ProjectDependent="1"/>
+									</Folder>
+									<Folder Name="designer" ProjectDependent="1">
+										<File Name="ClassInfo.js" Size="3539" HashValue="902778725151097D57CB7329AB48770D" ProjectDependent="1"/>
+									</Folder>
+									<Folder Name="libs" ProjectDependent="1">
+										<File Name="ConfigBuilder.js" Size="12268" HashValue="B314077983116CEF286B219647B54CF9" ProjectDependent="1"/>
+										<File Name="Controller.js" Size="23557" HashValue="97CA113369B9900A6686133C50BCF220" ProjectDependent="1"/>
+										<File Name="DataTable.js" Size="10218" HashValue="AB9FF1FA68C9C47B58BFE31D4680C486" ProjectDependent="1"/>
+										<File Name="Dialogue.js" Size="6416" HashValue="2E152049B3841BB4FBE114B5A07AD45C" ProjectDependent="1"/>
+										<File Name="DialogueTexts.js" Size="2537" HashValue="9F2A3CF6F6AA56814C3EFA0E692828AB" ProjectDependent="1"/>
+										<File Name="EditorBehavior.js" Size="2245" HashValue="7178C6E2EAAD5CC7A8508437EBF5A00F" ProjectDependent="1"/>
+										<File Name="EditorHandles.js" Size="1968" HashValue="163CB2A0553B4B6DC511526205FF1A39" ProjectDependent="1"/>
+										<File Name="FilterSettings.js" Size="48877" HashValue="997AF8892FF4B5702102ADD0078ECC9D" ProjectDependent="1"/>
+										<File Name="FocusHandler.js" Size="22710" HashValue="1175F203A760ACBAE3ADF23A3D2F6E48" ProjectDependent="1"/>
+										<File Name="Model.js" Size="8279" HashValue="E30BA7E62956BA1E066C8AC9F9849802" ProjectDependent="1"/>
+										<File Name="PageEventDispatcher.js" Size="5504" HashValue="D4CE795B9E5A03D5DD4E8C0DA0961DEB" ProjectDependent="1"/>
+										<File Name="Renderer.js" Size="56756" HashValue="09D9E1F81A952FAA387D718865B72472" ProjectDependent="1"/>
+										<File Name="SortingSettings.js" Size="32671" HashValue="28ABDDBD044A5902F5F1799B37E67350" ProjectDependent="1"/>
+										<File Name="StylingSettings.js" Size="25294" HashValue="43087AC7ED62A33C86EB525F3E4AA384" ProjectDependent="1"/>
+										<File Name="TextRetriever.js" Size="1789" HashValue="3FB1D49F4FDCFF5493501D47E14742C6" ProjectDependent="1"/>
+									</Folder>
+									<Folder Name="meta" ProjectDependent="1">
+										<File Name="TableWidget.json" Size="34887" HashValue="B5648852F102C965FB9612864C0D7C2C" ProjectDependent="1"/>
+										<File Name="TableWidget.style" Size="17342" HashValue="A2C43BCA53CE30A4EBC45E92773D0718" ProjectDependent="1"/>
+										<File Name="TableWidget.widget" Size="32770" HashValue="0BCFBCC31A7F5A15B57368B655067CFD" ProjectDependent="1"/>
+										<File Name="TableWidget.xsd" Size="6582" HashValue="68289558819603678A4E03C45DC02A72" ProjectDependent="1"/>
+										<File Name="TableWidget_base.scss" Size="4027" HashValue="E2ABA9F274A34C44EE42186DDBF2E09F" ProjectDependent="1"/>
+										<File Name="TableWidget_Copied.markerFile" Size="0" HashValue="D41D8CD98F00B204E9800998ECF8427E" ProjectDependent="1"/>
+										<File Name="TableWidget_default.sass.css" Size="4732" HashValue="D974F6E514D4168A3782FFBCCD263127" ProjectDependent="1"/>
+										<File Name="TableWidget_default.scss" Size="4115" HashValue="BC6889BD4BAB1E09C1CF963ACA41DBFA" ProjectDependent="1"/>
+										<File Name="TableWidget_doc.html" Size="38008" HashValue="BDB561AF8233A752D85E720ED65D7325" ProjectDependent="1"/>
+										<File Name="TableWidget_EventsActions.xsd" Size="4899" HashValue="93DCAC161AACC6A8E42910ED756897D3" ProjectDependent="1"/>
+										<File Name="TableWidget_Styles.xsd" Size="4392" HashValue="7F201F27ADDD6348A54538F46F46382D" ProjectDependent="1"/>
+									</Folder>
+								</Folder>
+								<Folder Name="TableWidgetStyle" ProjectDependent="1">
+									<File Name="TableWidgetStyle.html" Size="87" HashValue="E3AC5C45FEAA46C66D9267FFB539A183" ProjectDependent="1"/>
+									<File Name="TableWidgetStyle.js" Size="637" HashValue="534820676C67886BD10C87FB2855D455" ProjectDependent="1"/>
+									<Folder Name="designer" ProjectDependent="1">
+										<File Name="ClassInfo.js" Size="1158" HashValue="4FF3D11DA6D847690237936EE4CB0041" ProjectDependent="1"/>
+									</Folder>
+									<Folder Name="meta" ProjectDependent="1">
+										<File Name="TableWidgetStyle.json" Size="9684" HashValue="C2A9177FA385C2E6628D64CEEF376439" ProjectDependent="1"/>
+										<File Name="TableWidgetStyle.style" Size="2698" HashValue="5E16ACAFB85C30C8A05C80DBB120DF74" ProjectDependent="1"/>
+										<File Name="TableWidgetStyle.widget" Size="9813" HashValue="FDFCA4957F4D0AAF884CBA56461B02F6" ProjectDependent="1"/>
+										<File Name="TableWidgetStyle.xsd" Size="1478" HashValue="EB939214E4CC2BE90CABE63DD943C73B" ProjectDependent="1"/>
+										<File Name="TableWidgetStyle_base.scss" Size="446" HashValue="6194D77A9ECFF1E745F3D0FD96E6738B" ProjectDependent="1"/>
+										<File Name="TableWidgetStyle_Copied.markerFile" Size="0" HashValue="D41D8CD98F00B204E9800998ECF8427E" ProjectDependent="1"/>
+										<File Name="TableWidgetStyle_default.sass.css" Size="461" HashValue="41F68C8BFD97536EB6390E1999735640" ProjectDependent="1"/>
+										<File Name="TableWidgetStyle_default.scss" Size="544" HashValue="29BB558FF1B93AE32ADD552F01B0E7BF" ProjectDependent="1"/>
+										<File Name="TableWidgetStyle_doc.html" Size="15784" HashValue="9BFF7E9C65DEAC9D76C2D5B8A53CB18E" ProjectDependent="1"/>
+										<File Name="TableWidgetStyle_EventsActions.xsd" Size="3159" HashValue="269F582A8FFC0919AAA5CBA76E7DAEB7" ProjectDependent="1"/>
+										<File Name="TableWidgetStyle_Styles.xsd" Size="978" HashValue="863EE80106DD0E3EFFD1AA5265B4EC00" ProjectDependent="1"/>
+									</Folder>
+								</Folder>
+								<Folder Name="TextInput" ProjectDependent="1">
+									<File Name="TextInput.html" Size="73" HashValue="3714F627DB3590D715C9ACAD2B01582A" ProjectDependent="1"/>
+									<File Name="TextInput.js" Size="29786" HashValue="02121D68968BE15914557CDD5E7BF258" ProjectDependent="1"/>
+									<Folder Name="css" ProjectDependent="1">
+										<File Name="TextInput.sass.css" Size="1329" HashValue="EAA3879EFF1285BA6D0B99778D405467" ProjectDependent="1"/>
+										<File Name="TextInput.scss" Size="2152" HashValue="BA84B8CF7349486C33997BC8E100CC11" ProjectDependent="1"/>
+									</Folder>
+									<Folder Name="designer" ProjectDependent="1">
+										<File Name="ClassInfo.js" Size="2004" HashValue="D318CCD1E22D035F52C546B2849032C2" ProjectDependent="1"/>
+									</Folder>
+									<Folder Name="meta" ProjectDependent="1">
+										<File Name="TextInput.json" Size="24129" HashValue="B5A3117EAB33A27E32D62C685EB40A69" ProjectDependent="1"/>
+										<File Name="TextInput.style" Size="11524" HashValue="536B8A1B34A9E04BCBC6DCDCCAC8C454" ProjectDependent="1"/>
+										<File Name="TextInput.widget" Size="24422" HashValue="EA89EA992C2AE258A603F95D63CAFBED" ProjectDependent="1"/>
+										<File Name="TextInput.xsd" Size="4689" HashValue="06DF52B7507143A1C3EDEA2569E7BACA" ProjectDependent="1"/>
+										<File Name="TextInput_base.scss" Size="1473" HashValue="E090DA75CC835BF7856AFA980D354D2F" ProjectDependent="1"/>
+										<File Name="TextInput_Copied.markerFile" Size="0" HashValue="D41D8CD98F00B204E9800998ECF8427E" ProjectDependent="1"/>
+										<File Name="TextInput_default.sass.css" Size="1839" HashValue="B2C570938E582458E54A579574E77A0E" ProjectDependent="1"/>
+										<File Name="TextInput_default.scss" Size="1557" HashValue="67FF61A4F83AF3059C30E2645D11A6DE" ProjectDependent="1"/>
+										<File Name="TextInput_doc.html" Size="33498" HashValue="BD1C5569CA2939603D69B04C50BF5F97" ProjectDependent="1"/>
+										<File Name="TextInput_EventsActions.xsd" Size="4714" HashValue="C85D09C7070A39965ECC1D243E1CE3E0" ProjectDependent="1"/>
+										<File Name="TextInput_Styles.xsd" Size="2985" HashValue="4EEC566CF1EFD9BCCABE06923E3A61C9" ProjectDependent="1"/>
+									</Folder>
+								</Folder>
+								<Folder Name="TextOutput" ProjectDependent="1">
+									<File Name="TextOutput.html" Size="85" HashValue="93AD9D8CF16759B4EF20ED0D8576D023" ProjectDependent="1"/>
+									<File Name="TextOutput.js" Size="2442" HashValue="008EBE9CD5809D96D7A322456344C9F9" ProjectDependent="1"/>
+									<Folder Name="designer" ProjectDependent="1">
+										<File Name="ClassInfo.js" Size="2018" HashValue="FAB4DD4B66CE158853AEA6444EF589B1" ProjectDependent="1"/>
+									</Folder>
+									<Folder Name="meta" ProjectDependent="1">
+										<File Name="TextOutput.json" Size="19227" HashValue="FCAF8E99B7B9736470E2D37E2EA823BF" ProjectDependent="1"/>
+										<File Name="TextOutput.style" Size="1976" HashValue="7ED8F3A260A1D92E8C555B7902390C1E" ProjectDependent="1"/>
+										<File Name="TextOutput.widget" Size="19325" HashValue="824DF6777C24157504E803612E1A1349" ProjectDependent="1"/>
+										<File Name="TextOutput.xsd" Size="3656" HashValue="6C1EBFC43B363DCA9BEA1B4478919974" ProjectDependent="1"/>
+										<File Name="TextOutput_base.scss" Size="893" HashValue="BE844FF992798425C89BCE61201EA5E1" ProjectDependent="1"/>
+										<File Name="TextOutput_Copied.markerFile" Size="0" HashValue="D41D8CD98F00B204E9800998ECF8427E" ProjectDependent="1"/>
+										<File Name="TextOutput_default.sass.css" Size="889" HashValue="5248882C3567AAF19C0D0CF0E8CAA718" ProjectDependent="1"/>
+										<File Name="TextOutput_default.scss" Size="979" HashValue="5C1DB8FBE70166462CF0794585D4C3B9" ProjectDependent="1"/>
+										<File Name="TextOutput_doc.html" Size="28736" HashValue="779A2B8EE9892C24B1078AF71596270F" ProjectDependent="1"/>
+										<File Name="TextOutput_EventsActions.xsd" Size="3645" HashValue="076E928F1FB53351E9BFA48E351B4D27" ProjectDependent="1"/>
+										<File Name="TextOutput_Styles.xsd" Size="2116" HashValue="79B7546ADEB78B26DD28ED07B447D1E8" ProjectDependent="1"/>
+									</Folder>
+								</Folder>
+								<Folder Name="TextPicker" ProjectDependent="1">
+									<File Name="TextPicker.html" Size="81" HashValue="F603A462321FEA83B3DC957B99406958" ProjectDependent="1"/>
+									<File Name="TextPicker.js" Size="18048" HashValue="70B6B2118A0BCE44526F8D64373266A0" ProjectDependent="1"/>
+									<Folder Name="css" ProjectDependent="1">
+										<File Name="TextPicker.sass.css" Size="1817" HashValue="F66EFAD7C50EB9913383DA3104EED2F5" ProjectDependent="1"/>
+										<File Name="TextPicker.scss" Size="4169" HashValue="5D6721908C863EC8C4F95C24257F18C3" ProjectDependent="1"/>
+									</Folder>
+									<Folder Name="designer" ProjectDependent="1">
+										<File Name="ClassInfo.js" Size="3266" HashValue="D3FD2C7BCF2EF921445BDF43368F1055" ProjectDependent="1"/>
+									</Folder>
+									<Folder Name="libs" ProjectDependent="1">
+										<File Name="EditorHandles.js" Size="1833" HashValue="5AA85204077DEDD2A196AA37420A7EEF" ProjectDependent="1"/>
+										<File Name="TextWheel.js" Size="12939" HashValue="C0801B236872E4F53621184BEE25067B" ProjectDependent="1"/>
+									</Folder>
+									<Folder Name="meta" ProjectDependent="1">
+										<File Name="TextPicker.json" Size="31102" HashValue="9A3CAC9DCF72ABA5673E9D662C3E4E01" ProjectDependent="1"/>
+										<File Name="TextPicker.style" Size="14367" HashValue="2092049E5C71DFBB0EBBE6E5D5A0D09E" ProjectDependent="1"/>
+										<File Name="TextPicker.widget" Size="29757" HashValue="EC528620B0B6A84EB310F962B4CFC4C5" ProjectDependent="1"/>
+										<File Name="TextPicker.xsd" Size="6404" HashValue="C4BFC575235036D10BE42C1FF16B86DF" ProjectDependent="1"/>
+										<File Name="TextPicker_base.scss" Size="2676" HashValue="A23FF5DA88ADDA4FB937C93F02B36EC7" ProjectDependent="1"/>
+										<File Name="TextPicker_Copied.markerFile" Size="0" HashValue="D41D8CD98F00B204E9800998ECF8427E" ProjectDependent="1"/>
+										<File Name="TextPicker_default.sass.css" Size="2981" HashValue="3A80D18948F72FC6F6085D0E46FA5671" ProjectDependent="1"/>
+										<File Name="TextPicker_default.scss" Size="2762" HashValue="44F55AADEF8A65EDF97F0045C9E84C4D" ProjectDependent="1"/>
+										<File Name="TextPicker_doc.html" Size="39759" HashValue="07A05B02638E37FAD49CA94E1AC1DFF0" ProjectDependent="1"/>
+										<File Name="TextPicker_EventsActions.xsd" Size="5524" HashValue="185A7A441F9BC1CA33AC185C12B31FDE" ProjectDependent="1"/>
+										<File Name="TextPicker_Styles.xsd" Size="4229" HashValue="CAE09F80AA14E0EFC9A08F7DBFF95528" ProjectDependent="1"/>
+									</Folder>
+								</Folder>
 								<Folder Name="ToggleButton" ProjectDependent="1">
 									<File Name="ToggleButton.html" Size="83" HashValue="737327F7F29AFAF805DC0738D7030A8F" ProjectDependent="1"/>
 									<File Name="ToggleButton.js" Size="9268" HashValue="6647153E3A1366E644A25DDC71BDF71F" ProjectDependent="1"/>
@@ -1464,6 +2384,11 @@
 					</Folder>
 					<Folder Name="contents" ProjectDependent="1">
 						<Folder Name="mappView" ProjectDependent="1">
+							<File Name="ContentAlarmPageControl.html" Size="2792" HashValue="9170F148E77B590EB5857CD41ABD4EC4" ProjectDependent="1"/>
+							<File Name="ContentLeftControl.html" Size="1534" HashValue="FE8B5790E0481FED401F3F497AF5A62C" ProjectDependent="1"/>
+							<File Name="ContentMainPageControl.html" Size="10822" HashValue="45079C328EAB9CACDE099499BBAEB02A" ProjectDependent="1"/>
+							<File Name="ContentServicePageControl.html" Size="2675" HashValue="4B0A7AA3BAF3633830840AA3ADC8F3BC" ProjectDependent="1"/>
+							<File Name="ContentTopControl.html" Size="659" HashValue="D4EA1924176ABDD9CBFA81582E50F65F" ProjectDependent="1"/>
 							<File Name="MainPageContent.html" Size="49239" HashValue="119AC7CF8C2A2FC35E44E17D90EB7707" ProjectDependent="1"/>
 						</Folder>
 					</Folder>
@@ -1538,12 +2463,12 @@
 					</Folder>
 				</Folder>
 			</Folder>
-			<Folder Name="OPCUA" ProjectDependent="1">
-				<Folder Name="NodeSet" ProjectDependent="1" IsGroup="1">
-					<Folder Name="Generated" ProjectDependent="1" IsGroup="1">
-						<File Name="OpcUaMap.uar.gz" Size="622" HashValue="2C2CDC78269994EF07CB32CE52A81E3A" ProjectDependent="1"/>
+			<Folder Name="OPCUA" ProjectDependent="1" IsGroup="1">
+				<Folder Name="NodeSet" ProjectDependent="1">
+					<Folder Name="Generated" ProjectDependent="1">
+						<File Name="OpcUaMap.uar.gz" Size="818" HashValue="C22EBDA44F7055771345B1CF1AC073EA" ProjectDependent="1"/>
 					</Folder>
-					<Folder Name="Vendor" ProjectDependent="1" IsGroup="1">
+					<Folder Name="Vendor" ProjectDependent="1">
 						<File Name="plc.aprol.uanodeset" Size="6712" HashValue="08ADF5B15D3AF0566E164F0E4D4FB418" ProjectDependent="1"/>
 						<File Name="plc.br.pv.uanodeset" Size="7103" HashValue="682E7CDF6F09940F70D6CA1CC158D516" ProjectDependent="1"/>
 						<File Name="plc.plcopen.pv.uanodeset" Size="19824" HashValue="0ACC12204AA326E4FC509E697ACBB201" ProjectDependent="1"/>

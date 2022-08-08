@@ -1,18 +1,21 @@
-Mon Aug  8 09:45:18 2022
+Mon Aug  8 18:52:09 2022
 COPYRIGHT (C) B&R Industrial Automation GmbH
 
-Mon Aug  8 09:45:18 2022
+Mon Aug  8 18:52:09 2022
 No ARsim registration found!
 
-Mon Aug  8 09:45:18 2022
-InstanceName: 000003b2b9e5e57d
+Mon Aug  8 18:52:09 2022
+InstanceName: 000003ff1f351747
 
-Mon Aug  8 09:45:18 2022
+Mon Aug  8 18:52:09 2022
 WorkingDirectory: D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Temp\Simulation\X20CP1584\X20CP1584\
 
-Mon Aug  8 09:45:18 2022
+Mon Aug  8 18:52:10 2022
 COMMAND_COLDSTART
 
-Mon Aug  8 09:45:20 2022
+Mon Aug  8 18:52:12 2022
 Version: B4.92
+
+Mon Aug  8 19:03:08 2022
+COMMAND_TERMINATE
 

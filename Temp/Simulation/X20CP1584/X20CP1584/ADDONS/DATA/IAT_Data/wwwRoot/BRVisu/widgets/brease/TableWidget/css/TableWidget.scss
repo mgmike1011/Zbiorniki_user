@@ -1,0 +1,150 @@
+@import '../../../../css/libs/variables.scss';
+@import '../../../../css/libs/mixins.scss';
+
+$border-color: #ddd;
+$background-color-even: #fff;
+$background-color-odd: #f9f9f9;
+$background-color-header: #fff;
+$background-color-selected: #ff8800;
+
+$default-border-outer: #5B7C70;
+$default-text-color: #333;
+$default-background: #FFF;
+
+$active-border-outer: $active-color;
+$active-border-inner: #CB6000;
+$active-text-color: #333;
+$active-background: #FFF;
+
+$disabled-border-outer: #C8C8C8;
+$disabled-border-inner: #FFF;
+$disabled-text-color: #C8C8C8;
+$disbled-background: #F1F1F1;
+
+.breaseTableWidget {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #a3a3a3;
+    box-sizing: border-box;
+    overflow: hidden;
+
+    .top-bar-table {
+        .breaseTextInput {
+            width: 200px,
+        }
+        .breaseLabel {
+            width: 200px,
+        }
+    }
+
+    table {
+        table-layout: fixed;
+        border-spacing: 0;
+    }
+
+    .dataTables_empty {
+        display: none;
+    }
+
+    .tw_paging{
+        float:right;
+    }
+
+    .tw_table {
+        position: relative; //Needed for iScroll
+        overflow: hidden;
+
+        &.fixed-row-height td{
+            white-space: nowrap;
+        }
+    }
+
+    .tw_header {
+        width: 100%;
+        background-color: transparent;
+        position: relative;
+        box-sizing: border-box;
+        overflow: hidden;
+
+        .header-flex-container {
+            height: 100%;
+            box-sizing: border-box;
+            background-color: transparent;
+            position: absolute;
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: flex-start;
+            flex-direction: row;
+
+            > div {
+                top: 0px;
+                left: 0px;
+                position: relative !important;
+            }
+        }
+    }
+
+    .dataTables_wrapper {
+        max-height: 100%;
+    }
+
+    //This is the label that pops up when scrolling with native scrollbars in DT
+    .dts_label {
+        visibility: hidden;
+    }
+
+    table {
+        width: 100%;
+        max-width: 100%;
+        >thead {
+            display: none;
+        }
+        >tbody {
+            >tr {
+                
+                &:nth-of-type(odd) {
+                    background-color: $background-color-odd;
+                }
+                
+                &:nth-of-type(even) {
+                    background-color: $background-color-even;
+                }
+                
+                &.selected {
+                    background-color: $background-color-selected;
+                    
+                    td {
+                        color: #fff;
+                    }
+                }
+
+                >td {
+                    padding: 8px 14px;
+                    border-bottom: 1px solid $border-color;
+                    vertical-align: middle;
+                    text-align: left;
+                    // border-top: 1px solid $border-color;
+                    font-weight: normal;
+                    font-size: 14px;
+                    overflow: hidden;
+
+                    >img {
+                        margin:-4px 0px;
+                        max-height:50px;
+                    }
+                    >.stateIdent {
+                        font-size:0px;
+                    }
+                    
+                    >.catIdent {
+                        font-size:0px;
+                    }
+                }
+            }
+        }
+    }
+
+    .paginate_button.current{
+        border-color: #F80;
+    }
+}

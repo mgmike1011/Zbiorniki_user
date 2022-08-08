@@ -1,0 +1,30 @@
+﻿.breaseTableColumnWidget {
+    height:100%;
+	box-sizing:border-box;
+	max-height:100%;
+	background:transparent;
+	padding:8px 0px 8px 0px;
+	border-bottom:1px solid #ddd;
+	overflow:hidden;
+	display:flex;
+	vertical-align:middle;
+
+    .headerText {
+		height:100%;
+		width:100%;
+		background:transparent;
+		padding:0px 2px 0px 14px;
+		padding-right: 0.0em;
+		overflow:hidden;
+		text-overflow:ellipsis;
+		text-align:left;
+		display:inline-block;
+    }
+
+
+    .ordering {
+		max-height: 15px;
+		max-width: 15px;
+		float: right;
+    }
+}

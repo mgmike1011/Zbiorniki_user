@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StyleInformation name="widgets.brease.TableWidgetStyle" xmlns="http://www.br-automation.com/iat2014/widgetStyles"
+									xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  
+	<StyleProperties>
+
+	    <StyleProperty name="width" type="Size" not_styleable="true" default="100" category="Layout">
+	      <StyleElement attribute="@include elemWidth($value)"></StyleElement>
+	      <Description>outer width of widget</Description>
+	    </StyleProperty>
+	    <StyleProperty name="height" type="Size" not_styleable="true" default="30" category="Layout">
+	      <StyleElement attribute="@include elemHeight($value)"></StyleElement>
+	      <Description>outer height of widget</Description>
+	    </StyleProperty>
+		<StyleProperty name="backColor" category="Appearance" type="Color" default="#DBDBDB" >
+			<StyleElement selector="&amp;:not(.disabled)" attribute="@include importantBackColor($value)"></StyleElement>
+			<Description> Background color of one row in list</Description>
+		</StyleProperty>
+		<StyleProperty name="backGroundGradient" category="Appearance" type="Gradient" default="">
+			<StyleElement selector="&amp;:not(.disabled)" attribute="@include backGroundGradient('$value')"></StyleElement>
+			<Description>
+				Background gradient of one row in list
+			</Description>
+		</StyleProperty>
+		<StyleProperty name="textColor" category="Appearance" type="Color" default="#000000" >
+			<StyleElement selector="&amp;:not(.disabled):not(.selected) > td" attribute="@include importantTextColor($value)"></StyleElement>
+			<Description>
+	    		Text color of one row in list
+			</Description>
+		</StyleProperty>
+		<StyleProperty name="bold" category="Appearance" type="Boolean" default="false">
+			<StyleElement selector="&amp;:not(.disabled) > td" attribute="@include importantBoldText($value)"></StyleElement>
+			<Description>
+				If true, the font style of this particular row is bold
+			</Description>
+		</StyleProperty>
+		<StyleProperty name="italic" category="Appearance" type="Boolean" default="false">
+			<StyleElement selector="&amp;:not(.disabled) > td" attribute="@include importantItalicText($value)"></StyleElement>
+			<Description>
+				If true, the font style of this particular row is italic
+			</Description>
+		</StyleProperty>
+		<StyleProperty name="italic" category="Appearance" type="Boolean" default="false">
+			<StyleElement selector="&amp;:not(.disabled) > td" attribute="@include importantItalicText($value)"></StyleElement>
+			<Description>
+				If true, the font style of this particular row is italic
+			</Description>
+		</StyleProperty>    
+	</StyleProperties>
+</StyleInformation>

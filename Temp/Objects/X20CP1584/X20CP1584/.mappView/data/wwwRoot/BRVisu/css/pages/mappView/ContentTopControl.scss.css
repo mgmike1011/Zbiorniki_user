@@ -1,0 +1,47 @@
+#ContentTopControl_Image1 {
+  top: 0px;
+  position: absolute;
+}
+
+#ContentTopControl_Image1 {
+  left: 0px;
+  position: absolute;
+}
+
+#ContentTopControl_Image1 {
+  width: 260px;
+}
+
+#ContentTopControl_Image1 {
+  height: 110px;
+}
+
+#ContentTopControl_Image1 {
+  z-index: 0;
+}
+
+#ContentTopControl_Image1 {
+  margin: 5px;
+}
+
+#ContentTopControl_LogoutButton1 {
+  height: 30px;
+}
+
+#ContentTopControl_LogoutButton1 {
+  top: 60px;
+  position: absolute;
+}
+
+#ContentTopControl_LogoutButton1 {
+  left: 1050px;
+  position: absolute;
+}
+
+#ContentTopControl_LogoutButton1 {
+  width: 175px;
+}
+
+#ContentTopControl_LogoutButton1 {
+  z-index: 1;
+}

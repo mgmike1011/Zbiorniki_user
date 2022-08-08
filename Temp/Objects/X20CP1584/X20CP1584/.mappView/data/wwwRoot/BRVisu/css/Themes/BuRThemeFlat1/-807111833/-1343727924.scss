@@ -1,0 +1,92 @@
+﻿@import "mixins.scss";
+@import "../../../../widgets/brease/AlarmListStyle/meta/AlarmListStyle_base";
+.widgets_brease_AlarmListStyle_style_style1 {
+@include widgets_brease_AlarmListStyle_base; 
+&:not(.disabled):not(.selected) > td {
+@include importantTextColor(#474747);
+}
+&:not(.disabled) {
+@include importantBackColor(rgba(255,255,255,0));
+}
+
+}
+@import "../../../../widgets/brease/AlarmListStyle/meta/AlarmListStyle_base";
+.widgets_brease_AlarmListStyle_style_style2 {
+@include widgets_brease_AlarmListStyle_base; 
+&:not(.disabled):not(.selected) > td {
+@include importantTextColor(#FFFFFF);
+}
+&:not(.disabled) {
+@include importantBackColor(rgba(255,0,0,0.8));
+}
+&:not(.disabled) > td {
+@include importantBoldText(true);
+}
+
+}
+@import "../../../../widgets/brease/AlarmListStyle/meta/AlarmListStyle_base";
+.widgets_brease_AlarmListStyle_style_style3 {
+@include widgets_brease_AlarmListStyle_base; 
+&:not(.disabled):not(.selected) > td {
+@include importantTextColor(#FFFFFF);
+}
+&:not(.disabled) {
+@include importantBackColor(rgba(0,153,0,0.8));
+}
+
+}
+@import "../../../../widgets/brease/AlarmListStyle/meta/AlarmListStyle_base";
+.widgets_brease_AlarmListStyle_style_style4 {
+@include widgets_brease_AlarmListStyle_base; 
+&:not(.disabled):not(.selected) > td {
+@include importantTextColor(#474747);
+}
+&:not(.disabled) {
+@include importantBackColor(rgba(255,255,255,0));
+}
+
+}
+@import "../../../../widgets/brease/AlarmListStyle/meta/AlarmListStyle_base";
+.widgets_brease_AlarmListStyle_style_style5 {
+@include widgets_brease_AlarmListStyle_base; 
+&:not(.disabled):not(.selected) > td {
+@include importantTextColor(#474747);
+}
+&:not(.disabled) {
+@include importantBackColor(rgba(255,255,255,0));
+}
+
+}
+@import "../../../../widgets/brease/AlarmListStyle/meta/AlarmListStyle_base";
+.widgets_brease_AlarmListStyle_style_style6 {
+@include widgets_brease_AlarmListStyle_base; 
+&:not(.disabled):not(.selected) > td {
+@include importantTextColor(#474747);
+}
+&:not(.disabled) {
+@include importantBackColor(rgba(255,255,255,0));
+}
+
+}
+@import "../../../../widgets/brease/AlarmListStyle/meta/AlarmListStyle_base";
+.widgets_brease_AlarmListStyle_style_style7 {
+@include widgets_brease_AlarmListStyle_base; 
+&:not(.disabled):not(.selected) > td {
+@include importantTextColor(#474747);
+}
+&:not(.disabled) {
+@include importantBackColor(rgba(255,255,255,0));
+}
+
+}
+@import "../../../../widgets/brease/AlarmListStyle/meta/AlarmListStyle_base";
+.widgets_brease_AlarmListStyle_style_style8 {
+@include widgets_brease_AlarmListStyle_base; 
+&:not(.disabled):not(.selected) > td {
+@include importantTextColor(#474747);
+}
+&:not(.disabled) {
+@include importantBackColor(rgba(255,255,255,0));
+}
+
+}

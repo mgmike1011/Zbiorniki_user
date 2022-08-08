@@ -1,0 +1,109 @@
+#ContentServicePageControl_Login1 {
+  top: 15px;
+  position: absolute;
+}
+
+#ContentServicePageControl_Login1 {
+  left: 15px;
+  position: absolute;
+}
+
+#ContentServicePageControl_Login1 {
+  width: 405px;
+}
+
+#ContentServicePageControl_Login1 {
+  height: 150px;
+}
+
+#ContentServicePageControl_Login1 {
+  z-index: 0;
+}
+
+#ContentServicePageControl_GroupBox1 {
+  width: 200px;
+}
+
+#ContentServicePageControl_GroupBox1 {
+  height: 150px;
+}
+
+#ContentServicePageControl_GroupBox1 {
+  top: 15px;
+  position: absolute;
+}
+
+#ContentServicePageControl_GroupBox1 {
+  left: 553px;
+  position: absolute;
+}
+
+#ContentServicePageControl_GroupBox1 {
+  z-index: 1;
+}
+
+#ContentServicePageControl_MeasurementSystemSelector1 {
+  top: 15px;
+  position: absolute;
+}
+
+#ContentServicePageControl_MeasurementSystemSelector1 {
+  left: 18px;
+  position: absolute;
+}
+
+#ContentServicePageControl_MeasurementSystemSelector1.DropDownBoxView {
+  width: 165px;
+}
+
+#ContentServicePageControl_MeasurementSystemSelector1.DropDownBoxView {
+  height: 75px;
+}
+
+#ContentServicePageControl_MeasurementSystemSelector1 {
+  z-index: 0;
+}
+
+#ContentServicePageControl_GroupBox2 {
+  width: 200px;
+}
+
+#ContentServicePageControl_GroupBox2 {
+  height: 150px;
+}
+
+#ContentServicePageControl_GroupBox2 {
+  top: 15px;
+  position: absolute;
+}
+
+#ContentServicePageControl_GroupBox2 {
+  left: 885px;
+  position: absolute;
+}
+
+#ContentServicePageControl_GroupBox2 {
+  z-index: 2;
+}
+
+#ContentServicePageControl_LanguageSelector1 {
+  top: 15px;
+  position: absolute;
+}
+
+#ContentServicePageControl_LanguageSelector1 {
+  left: 25px;
+  position: absolute;
+}
+
+#ContentServicePageControl_LanguageSelector1.DropDownBoxView {
+  width: 150px;
+}
+
+#ContentServicePageControl_LanguageSelector1.DropDownBoxView {
+  height: 75px;
+}
+
+#ContentServicePageControl_LanguageSelector1 {
+  z-index: 0;
+}

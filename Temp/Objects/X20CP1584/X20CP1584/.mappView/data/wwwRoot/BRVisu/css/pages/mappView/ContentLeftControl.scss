@@ -1,0 +1,70 @@
+﻿@import "mixins.scss";
+#ContentLeftControl_NavigationBar {
+	@include elemWidth(150);
+}
+#ContentLeftControl_NavigationBar {
+	@include elemTop(0);
+}
+#ContentLeftControl_NavigationBar {
+	@include elemLeft(0);
+}
+#ContentLeftControl_NavigationBar {
+	@include elemHeight(300);
+}
+#ContentLeftControl_NavigationBar {
+		z-index: 0;
+}
+#ContentLeftControl_NavBtnMainPgControl {
+	@include elemTop(0);
+}
+#ContentLeftControl_NavBtnMainPgControl {
+	@include elemLeft(0);
+}
+#ContentLeftControl_NavBtnMainPgControl {
+	@include elemAutoWidth(140);
+}
+#ContentLeftControl_NavBtnMainPgControl {
+	@include elemAutoHeight(60);
+}
+#ContentLeftControl_NavBtnMainPgControl {
+		z-index: 0;
+}
+#ContentLeftControl_NavBtnMainPgControl {
+		margin: 5px;
+}
+#ContentLeftControl_NavBtnAlarmPgControl {
+	@include elemTop(0);
+}
+#ContentLeftControl_NavBtnAlarmPgControl {
+	@include elemLeft(0);
+}
+#ContentLeftControl_NavBtnAlarmPgControl {
+	@include elemAutoWidth(140);
+}
+#ContentLeftControl_NavBtnAlarmPgControl {
+	@include elemAutoHeight(60);
+}
+#ContentLeftControl_NavBtnAlarmPgControl {
+		z-index: 1;
+}
+#ContentLeftControl_NavBtnAlarmPgControl {
+		margin: 5px;
+}
+#ContentLeftControl_NavBtnServicePgControl {
+	@include elemTop(0);
+}
+#ContentLeftControl_NavBtnServicePgControl {
+	@include elemLeft(0);
+}
+#ContentLeftControl_NavBtnServicePgControl {
+	@include elemAutoWidth(140);
+}
+#ContentLeftControl_NavBtnServicePgControl {
+	@include elemAutoHeight(60);
+}
+#ContentLeftControl_NavBtnServicePgControl {
+		z-index: 2;
+}
+#ContentLeftControl_NavBtnServicePgControl {
+		margin: 5px;
+}

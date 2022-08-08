@@ -1,0 +1,11 @@
+@import "mixins.scss";
+@mixin widgets_brease_NavigationBar_base {
+	@include elemWidth(150);
+	@include elemHeight(30);
+	@include elemMinWidth(0);
+	@include elemMaxWidth(0);
+	@include elemMinHeight(0);
+	@include elemMaxHeight(0);
+
+}
+

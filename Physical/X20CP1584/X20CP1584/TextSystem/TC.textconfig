@@ -10,5 +10,12 @@
         <Property ID="TargetLanguage[2]" Value="pl" />
       </Group>
     </Group>
+    <Group ID="TargetFiles">
+      <Property ID="TargetFile[1]" Value="mappView.VisualizationOperatorControl.Resources.Texts.TextsLeftArea.tmx" />
+      <Property ID="TargetFile[2]" Value="mappView.VisualizationOperatorControl.Resources.Texts.TextsTop.tmx" />
+      <Property ID="TargetFile[3]" Value="mappView.VisualizationOperatorControl.Resources.Texts.TextsMainPageControl.tmx" />
+      <Property ID="TargetFile[4]" Value="mappView.VisualizationOperatorControl.Resources.Texts.TextsAlarmPage.tmx" />
+      <Property ID="TargetFile[5]" Value="mappView.VisualizationOperatorControl.Resources.Texts.TextsServicePage.tmx" />
+    </Group>
   </Element>
 </Configuration>

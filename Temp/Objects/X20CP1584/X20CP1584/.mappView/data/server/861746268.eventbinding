@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingDefinition xmlns="http://www.br-automation.com/iat2014/eventbinding/runtime/v2">
+  <Content id="ContentAlarmPageControl">
+    <EventBinding id="ContentAlarmPageControl.Button1.Click">
+      <Source type="widgets.brease.Button.Event" event="Click" refId="ContentAlarmPageControl_Button1" />
+      <EventHandler>
+        <Action>
+          <Target type="widgets.brease.AlarmList.Action" refId="ContentAlarmPageControl_AlarmList1">
+            <Method type="widgets.brease.AlarmList.Action.Acknowledge" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+  <Content id="ContentAlarmPageControl">
+    <EventBinding id="ContentAlarmPageControl.Button2.Click">
+      <Source type="widgets.brease.Button.Event" event="Click" refId="ContentAlarmPageControl_Button2" />
+      <EventHandler>
+        <Action>
+          <Target type="widgets.brease.AlarmList.Action" refId="ContentAlarmPageControl_AlarmList1">
+            <Method type="widgets.brease.AlarmList.Action.AcknowledgeAll" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Content>
+</EventBindingDefinition>

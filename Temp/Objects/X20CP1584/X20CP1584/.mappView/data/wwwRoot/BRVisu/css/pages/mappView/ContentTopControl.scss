@@ -1,0 +1,34 @@
+﻿@import "mixins.scss";
+#ContentTopControl_Image1 {
+	@include elemTop(0);
+}
+#ContentTopControl_Image1 {
+	@include elemLeft(0);
+}
+#ContentTopControl_Image1 {
+	@include elemAutoWidth(260);
+}
+#ContentTopControl_Image1 {
+	@include elemAutoHeight(110);
+}
+#ContentTopControl_Image1 {
+		z-index: 0;
+}
+#ContentTopControl_Image1 {
+		margin: 5px;
+}
+#ContentTopControl_LogoutButton1 {
+	@include elemAutoHeight(30);
+}
+#ContentTopControl_LogoutButton1 {
+	@include elemTop(60);
+}
+#ContentTopControl_LogoutButton1 {
+	@include elemLeft(1050);
+}
+#ContentTopControl_LogoutButton1 {
+	@include elemAutoWidth(175);
+}
+#ContentTopControl_LogoutButton1 {
+		z-index: 1;
+}

@@ -1,0 +1,693 @@
+﻿@import "mixins.scss";
+#ContentMainPageControl_BarChart1 {
+	@include elemWidth(300);
+}
+#ContentMainPageControl_BarChart1 {
+	@include elemHeight(300);
+}
+#ContentMainPageControl_BarChart1 {
+	@include elemTop(255);
+}
+#ContentMainPageControl_BarChart1 {
+	@include elemLeft(20);
+}
+#ContentMainPageControl_BarChart1 {
+		z-index: 0;
+}
+#ContentMainPageControl_BarChart1 {
+	.xAxis text{
+		stroke: rgba(64, 64, 64, 1);
+	}
+}
+#ContentMainPageControl_BarChart1 {
+	.yAxis text{
+		stroke: rgba(64, 64, 64, 1);
+	}
+}
+#ContentMainPageControl_BarChart1 {
+	.xAxis text{
+		fill: rgba(64, 64, 64, 1);
+	}
+}
+#ContentMainPageControl_BarChart1 {
+	.yAxis text{
+		fill: rgba(64, 64, 64, 1);
+	}
+}
+#ContentMainPageControl_BarChartItem1 {
+		z-index: 0;
+}
+#ContentMainPageControl_BarChartItem1 {
+	text{
+		fill: rgba(64, 64, 64, 1);
+	}
+}
+#ContentMainPageControl_BarChartItem1 {
+	text{
+	@include font-weight-bold(false);
+	}
+}
+#ContentMainPageControl_BarChart2 {
+	@include elemWidth(300);
+}
+#ContentMainPageControl_BarChart2 {
+	@include elemHeight(300);
+}
+#ContentMainPageControl_BarChart2 {
+	@include elemTop(255);
+}
+#ContentMainPageControl_BarChart2 {
+	@include elemLeft(300);
+}
+#ContentMainPageControl_BarChart2 {
+		z-index: 1;
+}
+#ContentMainPageControl_BarChart2 {
+	.xAxis text{
+		stroke: rgba(64, 64, 64, 1);
+	}
+}
+#ContentMainPageControl_BarChart2 {
+	.yAxis text{
+		stroke: rgba(64, 64, 64, 1);
+	}
+}
+#ContentMainPageControl_BarChart2 {
+	.xAxis text{
+		fill: rgba(64, 64, 64, 1);
+	}
+}
+#ContentMainPageControl_BarChart2 {
+	.yAxis text{
+		fill: rgba(64, 64, 64, 1);
+	}
+}
+#ContentMainPageControl_BarChart2 {
+	.xAxis text{
+	@include font-weight-bold(false);
+	}
+}
+#ContentMainPageControl_BarChart2 {
+	.yAxis text{
+	@include font-weight-bold(false);
+	}
+}
+#ContentMainPageControl_BarChartItem2 {
+		z-index: 0;
+}
+#ContentMainPageControl_BarChartItem2 {
+	text{
+		fill: rgba(64, 64, 64, 1);
+	}
+}
+#ContentMainPageControl_BarChartItem2 {
+	text{
+	@include font-weight-bold(false);
+	}
+}
+#ContentMainPageControl_BarChart3 {
+	@include elemWidth(300);
+}
+#ContentMainPageControl_BarChart3 {
+	@include elemHeight(300);
+}
+#ContentMainPageControl_BarChart3 {
+	@include elemTop(255);
+}
+#ContentMainPageControl_BarChart3 {
+	@include elemLeft(580);
+}
+#ContentMainPageControl_BarChart3 {
+		z-index: 2;
+}
+#ContentMainPageControl_BarChart3 {
+	.xAxis text{
+		stroke: rgba(64, 64, 64, 1);
+	}
+}
+#ContentMainPageControl_BarChart3 {
+	.yAxis text{
+		stroke: rgba(64, 64, 64, 1);
+	}
+}
+#ContentMainPageControl_BarChart3 {
+	.xAxis text{
+		fill: rgba(64, 64, 64, 1);
+	}
+}
+#ContentMainPageControl_BarChart3 {
+	.yAxis text{
+		fill: rgba(64, 64, 64, 1);
+	}
+}
+#ContentMainPageControl_BarChartItem3 {
+		z-index: 0;
+}
+#ContentMainPageControl_BarChartItem3 {
+	text{
+		fill: rgba(64, 64, 64, 1);
+	}
+}
+#ContentMainPageControl_BarChartItem3 {
+	text{
+	@include font-weight-bold(false);
+	}
+}
+#ContentMainPageControl_Label2 {
+	@include elemAutoHeight(30);
+}
+#ContentMainPageControl_Label2 {
+	@include elemTop(240);
+}
+#ContentMainPageControl_Label2 {
+	@include elemLeft(20);
+}
+#ContentMainPageControl_Label2 {
+	@include elemAutoWidth(220);
+}
+#ContentMainPageControl_Label2 {
+		z-index: 3;
+}
+#ContentMainPageControl_Label2 {
+	& span{
+		color: rgba(64, 64, 64, 1);
+	}
+}
+#ContentMainPageControl_Label2 {
+		font-size: 22px;
+}
+#ContentMainPageControl_Label2 {
+	@include font-weight-bold(true);
+}
+#ContentMainPageControl_NumericOutput1 {
+	@include elemAutoWidth(100);
+}
+#ContentMainPageControl_NumericOutput1 {
+	@include elemAutoHeight(30);
+}
+#ContentMainPageControl_NumericOutput1 {
+	@include elemTop(555);
+}
+#ContentMainPageControl_NumericOutput1 {
+	@include elemLeft(120);
+}
+#ContentMainPageControl_NumericOutput1 {
+		z-index: 4;
+}
+#ContentMainPageControl_NumericOutput1 {
+	input{
+		color: rgba(64, 64, 64, 1);
+	}
+}
+#ContentMainPageControl_NumericOutput1 {
+	span.breaseNumericOutput_unit{
+		color: rgba(64, 64, 64, 1);
+	}
+}
+#ContentMainPageControl_NumericOutput2 {
+	@include elemAutoWidth(100);
+}
+#ContentMainPageControl_NumericOutput2 {
+	@include elemAutoHeight(30);
+}
+#ContentMainPageControl_NumericOutput2 {
+	@include elemTop(555);
+}
+#ContentMainPageControl_NumericOutput2 {
+	@include elemLeft(400);
+}
+#ContentMainPageControl_NumericOutput2 {
+		z-index: 5;
+}
+#ContentMainPageControl_NumericOutput2 {
+	input{
+		color: rgba(64, 64, 64, 1);
+	}
+}
+#ContentMainPageControl_NumericOutput2 {
+	span.breaseNumericOutput_unit{
+		color: rgba(64, 64, 64, 1);
+	}
+}
+#ContentMainPageControl_NumericOutput3 {
+	@include elemAutoWidth(100);
+}
+#ContentMainPageControl_NumericOutput3 {
+	@include elemAutoHeight(30);
+}
+#ContentMainPageControl_NumericOutput3 {
+	@include elemTop(555);
+}
+#ContentMainPageControl_NumericOutput3 {
+	@include elemLeft(680);
+}
+#ContentMainPageControl_NumericOutput3 {
+		z-index: 6;
+}
+#ContentMainPageControl_NumericOutput3 {
+	input{
+		color: rgba(64, 64, 64, 1);
+	}
+}
+#ContentMainPageControl_NumericOutput3 {
+	span.breaseNumericOutput_unit{
+		color: rgba(64, 64, 64, 1);
+	}
+}
+#ContentMainPageControl_Label3 {
+	@include elemTop(225);
+}
+#ContentMainPageControl_Label3 {
+	@include elemLeft(880);
+}
+#ContentMainPageControl_Label3 {
+	@include elemAutoWidth(200);
+}
+#ContentMainPageControl_Label3 {
+	@include elemAutoHeight(60);
+}
+#ContentMainPageControl_Label3 {
+		z-index: 7;
+}
+#ContentMainPageControl_Label3 {
+	& span{
+		color: rgba(64, 64, 64, 1);
+	}
+}
+#ContentMainPageControl_Label3 {
+		font-size: 20px;
+}
+#ContentMainPageControl_Label3 {
+	@include font-weight-bold(true);
+}
+#ContentMainPageControl_TextPicker1 {
+	@include elemTop(285);
+}
+#ContentMainPageControl_TextPicker1 {
+	@include elemLeft(880);
+}
+#ContentMainPageControl_TextPicker1 {
+	@include elemWidth(220);
+}
+#ContentMainPageControl_TextPicker1 {
+	@include elemHeight(220);
+}
+#ContentMainPageControl_TextPicker1 {
+		z-index: 8;
+}
+#ContentMainPageControl_TextPicker1 {
+	#textWheel div.itemFragment div span{
+	@include font-weight-bold(true);
+	}
+}
+#ContentMainPageControl_TextPicker1 {
+	&.disabled #textWheel div.marker{
+		background-color: rgba(255, 136, 0, 1);
+	}
+}
+#ContentMainPageControl_TextPicker1 {
+	&.disabled #textWheel div.itemFragment div:not(.selected) span{
+		color: rgba(100, 100, 100, 1);
+	}
+}
+#ContentMainPageControl_TextPicker1 {
+	&.disabled #textWheel div.itemFragment div.selected span{
+		color: rgba(0, 0, 0, 1);
+	}
+}
+#ContentMainPageControl_TextPicker1 {
+	&.disabled #textWheel div.itemFragment div:not(.selected){
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#ContentMainPageControl_TextPicker1 {
+	&.disabled #textWheel div.itemFragment div.selected{
+		background-color: rgba(204, 204, 204, 1);
+	}
+}
+#ContentMainPageControl_GrpBoxProcessControll {
+	@include elemTop(15);
+}
+#ContentMainPageControl_GrpBoxProcessControll {
+	@include elemLeft(20);
+}
+#ContentMainPageControl_GrpBoxProcessControll {
+	@include elemWidth(240);
+}
+#ContentMainPageControl_GrpBoxProcessControll {
+	@include elemHeight(205);
+}
+#ContentMainPageControl_GrpBoxProcessControll {
+		z-index: 9;
+}
+#ContentMainPageControl_GrpBoxProcessControll {
+	> .header span{
+		color: rgba(64, 64, 64, 1);
+	}
+}
+#ContentMainPageControl_GrpBoxProcessControll {
+	> .header span{
+		font-size: 20px;
+	}
+}
+#ContentMainPageControl_GrpBoxProcessControll {
+	> .header{
+	height: 20px + 20px;
+	}
+}
+#ContentMainPageControl_GrpBoxProcessControll {
+	> .header span{
+	@include font-weight-bold(true);
+	}
+}
+#ContentMainPageControl_BtnStart {
+	@include elemTop(20);
+}
+#ContentMainPageControl_BtnStart {
+	@include elemLeft(50);
+}
+#ContentMainPageControl_BtnStart {
+	@include elemAutoWidth(140);
+}
+#ContentMainPageControl_BtnStart {
+	@include elemAutoHeight(60);
+}
+#ContentMainPageControl_BtnStart {
+		z-index: 0;
+}
+#ContentMainPageControl_BtnStart {
+	span{
+		font-size: 18px;
+	}
+}
+#ContentMainPageControl_BtnStop {
+	@include elemTop(95);
+}
+#ContentMainPageControl_BtnStop {
+	@include elemLeft(50);
+}
+#ContentMainPageControl_BtnStop {
+	@include elemAutoWidth(140);
+}
+#ContentMainPageControl_BtnStop {
+	@include elemAutoHeight(60);
+}
+#ContentMainPageControl_BtnStop {
+		z-index: 1;
+}
+#ContentMainPageControl_BtnStop {
+	&:not(.disabled):not(.active):not(.checked) span{
+		color: rgba(255, 0, 0, 1);
+	}
+}
+#ContentMainPageControl_BtnStop {
+	&.disabled span{
+		color: rgba(152, 152, 152, 1);
+	}
+}
+#ContentMainPageControl_BtnStop {
+	&.disabled.active span{
+		color: rgba(152, 152, 152, 1);
+	}
+}
+#ContentMainPageControl_BtnStop {
+	&.disabled:checked span{
+		color: rgba(152, 152, 152, 1);
+	}
+}
+#ContentMainPageControl_BtnStop {
+	&.active:not(.disabled):not(.editMode) span{
+		color: rgba(255, 0, 0, 1);
+	}
+}
+#ContentMainPageControl_BtnStop {
+	&.active.checked:not(.disabled) span{
+		color: rgba(255, 0, 0, 1);
+	}
+}
+#ContentMainPageControl_BtnStop {
+	span{
+		font-size: 18px;
+	}
+}
+#ContentMainPageControl_GrpBoxMixing {
+	@include elemTop(15);
+}
+#ContentMainPageControl_GrpBoxMixing {
+	@include elemLeft(300);
+}
+#ContentMainPageControl_GrpBoxMixing {
+	@include elemWidth(240);
+}
+#ContentMainPageControl_GrpBoxMixing {
+	@include elemHeight(205);
+}
+#ContentMainPageControl_GrpBoxMixing {
+		z-index: 10;
+}
+#ContentMainPageControl_GrpBoxMixing {
+	> .header span{
+		color: rgba(64, 64, 64, 1);
+	}
+}
+#ContentMainPageControl_GrpBoxMixing {
+	> .header span{
+		font-size: 20px;
+	}
+}
+#ContentMainPageControl_GrpBoxMixing {
+	> .header{
+	height: 20px + 20px;
+	}
+}
+#ContentMainPageControl_GrpBoxMixing {
+	> .header span{
+	@include font-weight-bold(true);
+	}
+}
+#ContentMainPageControl_ToggleButtonMixing {
+	@include elemTop(20);
+}
+#ContentMainPageControl_ToggleButtonMixing {
+	@include elemLeft(50);
+}
+#ContentMainPageControl_ToggleButtonMixing {
+	@include elemAutoWidth(140);
+}
+#ContentMainPageControl_ToggleButtonMixing {
+	@include elemAutoHeight(60);
+}
+#ContentMainPageControl_ToggleButtonMixing {
+		z-index: 0;
+}
+#ContentMainPageControl_ToggleButtonMixing {
+	span{
+		font-size: 18px;
+	}
+}
+#ContentMainPageControl_ToggleButtonMixing {
+	span{
+	@include font-weight-bold(true);
+	}
+}
+#ContentMainPageControl_ToggleButtonMixer {
+	@include elemTop(95);
+}
+#ContentMainPageControl_ToggleButtonMixer {
+	@include elemLeft(90);
+}
+#ContentMainPageControl_ToggleButtonMixer {
+	@include elemAutoWidth(60);
+}
+#ContentMainPageControl_ToggleButtonMixer {
+	@include elemAutoHeight(60);
+}
+#ContentMainPageControl_ToggleButtonMixer {
+		z-index: 1;
+}
+#ContentMainPageControl_ToggleButtonMixer {
+	&:not(.active):not(.checked){
+		border-width: 3px;
+	}
+}
+#ContentMainPageControl_ToggleButtonMixer {
+	&.disabled{
+		border-width: 3px;
+	}
+}
+#ContentMainPageControl_ToggleButtonMixer {
+	@include border-radius(30px);
+}
+#ContentMainPageControl_ToggleButtonMixer {
+	&:not(.disabled):not(.active):not(.checked){
+		background-color: rgba(255, 0, 0, 1);
+	}
+}
+#ContentMainPageControl_ToggleButtonMixer {
+	&.disabled:not(.checked){
+		background-color: rgba(255, 0, 0, 1);
+	}
+}
+#ContentMainPageControl_ToggleButtonMixer {
+	&:not(.disabled):not(.checked){
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#ContentMainPageControl_ToggleButtonMixer {
+	&.disabled:not(.active):not(.checked){
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#ContentMainPageControl_ToggleButtonMixer {
+	&.checked:not(.active):not(.disabled){
+		background-color: rgba(0, 255, 0, 1);
+	}
+}
+#ContentMainPageControl_ToggleButtonMixer {
+	&.checked:not(.active):not(.disabled){
+		border-color: rgba(211, 211, 211, 1);
+	}
+}
+#ContentMainPageControl_ToggleButtonMixer {
+	&.disabled.checked{
+		background-color: rgba(0, 255, 0, 1);
+	}
+}
+#ContentMainPageControl_ToggleButtonMixer {
+	&.disabled.checked{
+		border-color: rgba(0, 0, 0, 1);
+	}
+}
+#ContentMainPageControl_GrpBoxValveControl {
+	@include elemTop(15);
+}
+#ContentMainPageControl_GrpBoxValveControl {
+	@include elemLeft(585);
+}
+#ContentMainPageControl_GrpBoxValveControl {
+	@include elemWidth(240);
+}
+#ContentMainPageControl_GrpBoxValveControl {
+	@include elemHeight(205);
+}
+#ContentMainPageControl_GrpBoxValveControl {
+		z-index: 11;
+}
+#ContentMainPageControl_GrpBoxValveControl {
+	> .header span{
+		color: rgba(64, 64, 64, 1);
+	}
+}
+#ContentMainPageControl_GrpBoxValveControl {
+	> .header span{
+		font-size: 20px;
+	}
+}
+#ContentMainPageControl_GrpBoxValveControl {
+	> .header{
+	height: 20px + 20px;
+	}
+}
+#ContentMainPageControl_GrpBoxValveControl {
+	> .header span{
+	@include font-weight-bold(true);
+	}
+}
+#ContentMainPageControl_Label1 {
+	@include elemAutoHeight(30);
+}
+#ContentMainPageControl_Label1 {
+	@include elemTop(5);
+}
+#ContentMainPageControl_Label1 {
+	@include elemLeft(45);
+}
+#ContentMainPageControl_Label1 {
+	@include elemAutoWidth(150);
+}
+#ContentMainPageControl_Label1 {
+		z-index: 0;
+}
+#ContentMainPageControl_Label1 {
+	& span{
+		color: rgba(64, 64, 64, 1);
+	}
+}
+#ContentMainPageControl_Label1 {
+	@include text-alignment-all('center');
+}
+#ContentMainPageControl_Label1 {
+		font-size: 15px;
+}
+#ContentMainPageControl_Label1 {
+	@include font-weight-bold(true);
+}
+#ContentMainPageControl_Label4 {
+	@include elemAutoHeight(30);
+}
+#ContentMainPageControl_Label4 {
+	@include elemTop(85);
+}
+#ContentMainPageControl_Label4 {
+	@include elemLeft(53);
+}
+#ContentMainPageControl_Label4 {
+	@include elemAutoWidth(135);
+}
+#ContentMainPageControl_Label4 {
+		z-index: 1;
+}
+#ContentMainPageControl_Label4 {
+	& span{
+		color: rgba(64, 64, 64, 1);
+	}
+}
+#ContentMainPageControl_Label4 {
+	@include text-alignment-all('center');
+}
+#ContentMainPageControl_Label4 {
+		font-size: 15px;
+}
+#ContentMainPageControl_Label4 {
+	@include font-weight-bold(true);
+}
+#ContentMainPageControl_NumericInput1 {
+	@include elemAutoHeight(30);
+}
+#ContentMainPageControl_NumericInput1 {
+	@include elemTop(45);
+}
+#ContentMainPageControl_NumericInput1 {
+	@include elemLeft(45);
+}
+#ContentMainPageControl_NumericInput1 {
+	@include elemAutoWidth(150);
+}
+#ContentMainPageControl_NumericInput1 {
+		z-index: 2;
+}
+#ContentMainPageControl_NumericInput1 {
+	input{
+	@include font-weight-bold(true);
+	}
+}
+#ContentMainPageControl_NumericInput2 {
+	@include elemAutoHeight(30);
+}
+#ContentMainPageControl_NumericInput2 {
+	@include elemTop(125);
+}
+#ContentMainPageControl_NumericInput2 {
+	@include elemLeft(45);
+}
+#ContentMainPageControl_NumericInput2 {
+	@include elemAutoWidth(150);
+}
+#ContentMainPageControl_NumericInput2 {
+		z-index: 3;
+}
+#ContentMainPageControl_NumericInput2 {
+	input{
+	@include font-weight-bold(true);
+	}
+}

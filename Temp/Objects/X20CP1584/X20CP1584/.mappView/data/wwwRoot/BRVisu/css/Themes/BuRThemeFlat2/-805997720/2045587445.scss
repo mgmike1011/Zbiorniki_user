@@ -1,0 +1,249 @@
+﻿@import "mixins.scss";
+@import "../../../../widgets/brease/Label/meta/Label_base";
+.widgets_brease_Label_style_Caption {
+@include widgets_brease_Label_base; 
+	font-size: 16px;
+& span {
+	color: #b4b4b4;
+}
+	background-color: transparent;
+	border-style: none;
+&:before {
+	border-style: none;
+}
+&:after {
+	border-style: none;
+}
+span {
+	padding: 5px;
+}
+@include font-weight-bold(true);
+
+}
+@import "../../../../widgets/brease/Label/meta/Label_base";
+.widgets_brease_Label_style_Title1 {
+@include widgets_brease_Label_base; 
+	font-size: 22px;
+& span {
+	color: #FF9900;
+}
+@include font-weight-bold(false);
+	background-color: transparent;
+	border-style: none;
+&:before {
+	border-style: none;
+}
+&:after {
+	border-style: none;
+}
+span {
+	padding: 5px;
+}
+
+}
+@import "../../../../widgets/brease/Label/meta/Label_base";
+.widgets_brease_Label_style_Title2 {
+@include widgets_brease_Label_base; 
+	font-size: 18px;
+& span {
+	color: #FF9900;
+}
+@include font-weight-bold(false);
+	background-color: transparent;
+	border-style: none;
+&:before {
+	border-style: none;
+}
+&:after {
+	border-style: none;
+}
+span {
+	padding: 5px;
+}
+
+}
+@import "../../../../widgets/brease/Label/meta/Label_base";
+.widgets_brease_Label_style_Title3 {
+@include widgets_brease_Label_base; 
+	font-size: 16px;
+& span {
+	color: #FF9900;
+}
+@include font-weight-bold(false);
+@include font-style-italic(true);
+	background-color: transparent;
+	border-style: none;
+&:before {
+	border-style: none;
+}
+&:after {
+	border-style: none;
+}
+span {
+	padding: 5px;
+}
+
+}
+@import "../../../../widgets/brease/Label/meta/Label_base";
+.widgets_brease_Label_style_Description {
+@include widgets_brease_Label_base; 
+	font-size: 16px;
+& span {
+	color: #b4b4b4;
+}
+	background-color: transparent;
+	border-color: #b4b4b4;
+&:before {
+	border-color: #b4b4b4;
+}
+&:after {
+	border-color: #b4b4b4;
+}
+	border-width: 3px;
+	border-style: solid;
+&:before {
+	border-style: solid;
+}
+&:after {
+	border-style: solid;
+}
+span {
+	padding: 5px;
+}
+@include font-weight-bold(false);
+
+}
+@import "../../../../widgets/brease/Label/meta/Label_base";
+.widgets_brease_Label_style_Information {
+@include widgets_brease_Label_base; 
+	font-size: 16px;
+& span {
+	color: #b4b4b4;
+}
+	background-color: transparent;
+	border-color: #FF9900;
+&:before {
+	border-color: #FF9900;
+}
+&:after {
+	border-color: #FF9900;
+}
+	border-width: 3px;
+	border-style: solid;
+&:before {
+	border-style: solid;
+}
+&:after {
+	border-style: solid;
+}
+span {
+	padding: 5px;
+}
+@include font-weight-bold(false);
+
+}
+@import "../../../../widgets/brease/TextInput/meta/TextInput_base";
+.widgets_brease_TextInput_style_Input {
+@include widgets_brease_TextInput_base; 
+input {
+	font-size: 20px;
+}
+&:not(.disabled):not(.active) input {
+	color: #d6d6d6;
+}
+&:not(.disabled):not(.active) {
+	border-width: 0px 0px 0px 6px;
+}
+&:not(.disabled):not(.active) {
+	border-color: #ff9900;
+}
+input {
+@include text-alignment(center);
+}
+&:not(.disabled).active {
+	border-color: #d6d6d6;
+}
+&:not(.disabled):not(.active) {
+	background-color: #808080;
+}
+&:not(.disabled).active {
+	background-color: #d6d6d6;
+}
+&:not(.disabled).active input {
+	color: #ff9900;
+}
+input {
+@include font-weight-bold(false);
+}
+
+}
+@import "../../../../widgets/brease/TextInput/meta/TextInput_base";
+.widgets_brease_TextInput_style_InputLarge {
+@include widgets_brease_TextInput_base; 
+input {
+	font-size: 32px;
+}
+&:not(.disabled):not(.active) input {
+	color: #d6d6d6;
+}
+&:not(.disabled):not(.active) {
+	border-width: 0px 0px 0px 6px;
+}
+&:not(.disabled):not(.active) {
+	border-color: #ff9900;
+}
+input {
+@include text-alignment(center);
+}
+&:not(.disabled).active {
+	border-color: #d6d6d6;
+}
+&:not(.disabled):not(.active) {
+	background-color: #808080;
+}
+&:not(.disabled).active {
+	background-color: #d6d6d6;
+}
+&:not(.disabled).active input {
+	color: #ff9900;
+}
+input {
+@include font-weight-bold(false);
+}
+
+}
+@import "../../../../widgets/brease/TextInput/meta/TextInput_base";
+.widgets_brease_TextInput_style_InputCommand {
+@include widgets_brease_TextInput_base; 
+input {
+	font-size: 20px;
+}
+&:not(.disabled):not(.active) input {
+	color: #222;
+}
+&:not(.disabled):not(.active) {
+	border-width: 0px 0px 0px 6px;
+}
+&:not(.disabled):not(.active) {
+	border-color: #808080;
+}
+input {
+@include text-alignment(center);
+}
+&:not(.disabled).active {
+	border-color: #222;
+}
+&:not(.disabled):not(.active) {
+	background-color: #ccc;
+}
+&:not(.disabled).active {
+	background-color: #646464;
+}
+&:not(.disabled).active input {
+	color: #FFF;
+}
+input {
+@include font-weight-bold(false);
+}
+
+}

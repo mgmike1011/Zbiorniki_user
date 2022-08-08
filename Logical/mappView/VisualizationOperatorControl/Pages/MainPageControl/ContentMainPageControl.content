@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="ContentMainPageControl" height="600" width="1130" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.BarChart" id="BarChart1" top="255" left="20" zIndex="0" unit="{'metric':'P1','imperial':'P1','imperial-us':'P1'}" textColor="rgba(64, 64, 64, 1)">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.BarChartItem" id="BarChartItem1" zIndex="0" text="$IAT/MainPageControl/Tank1txt" value="0" textColor="rgba(64, 64, 64, 1)" bold="false" />
+      </Widgets>
+    </Widget>
+    <Widget xsi:type="widgets.brease.BarChart" id="BarChart2" top="255" left="300" zIndex="1" unit="{'metric':'P1','imperial':'P1','imperial-us':'P1'}" textColor="rgba(64, 64, 64, 1)" bold="false">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.BarChartItem" id="BarChartItem2" zIndex="0" text="$IAT/MainPageControl/Tank2txt" textColor="rgba(64, 64, 64, 1)" bold="false" />
+      </Widgets>
+    </Widget>
+    <Widget xsi:type="widgets.brease.BarChart" id="BarChart3" top="255" left="580" zIndex="2" unit="{'metric':'P1','imperial':'P1','imperial-us':'P1'}" textColor="rgba(64, 64, 64, 1)">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.BarChartItem" id="BarChartItem3" zIndex="0" text="$IAT/MainPageControl/Tank3txt" textColor="rgba(64, 64, 64, 1)" bold="false" />
+      </Widgets>
+    </Widget>
+    <Widget xsi:type="widgets.brease.Label" id="Label2" top="240" left="20" width="220" zIndex="3" text="$IAT/MainPageControl/Fillingtxt" textColor="rgba(64, 64, 64, 1)" fontSize="22px" bold="true" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput1" top="555" left="120" zIndex="4" unit="{'metric':'LTR','imperial':'GLI','imperial-us':'GLL'}" unitAlign="right" textColor="rgba(64, 64, 64, 1)" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput2" top="555" left="400" zIndex="5" unit="{'metric':'LTR','imperial':'GLI','imperial-us':'GLL'}" unitAlign="right" textColor="rgba(64, 64, 64, 1)" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput3" top="555" left="680" zIndex="6" unit="{'metric':'LTR','imperial':'GLI','imperial-us':'GLL'}" unitAlign="right" textColor="rgba(64, 64, 64, 1)" />
+    <Widget xsi:type="widgets.brease.Label" id="Label3" top="225" left="880" width="200" height="60" zIndex="7" breakWord="true" multiLine="true" text="$IAT/MainPageControl/Statetxt" wordWrap="true" textColor="rgba(64, 64, 64, 1)" fontSize="20px" bold="true" />
+    <Widget xsi:type="widgets.brease.TextPicker" id="TextPicker1" top="285" left="880" width="220" height="220" zIndex="8" dataProvider="[{'value':'0','text':'$IAT/MainPageControl/State_STOPtxt'},{'value':'1','text':'$IAT/MainPageControl/State_FILLING_1_2txt'},{'value':'2','text':'$IAT/MainPageControl/STATE_FILLING_3txt'},{'value':'3','text':'$IAT/MainPageControl/STATE_MIXING_3txt'},{'value':'4','text':'$IAT/MainPageControl/STATE_EMPTYING_3txt'}]" multiLine="true" submitOnChange="false" wordWrap="true" bold="true" disabledMarkerColor="rgba(255, 136, 0, 1)" disabledItemTextColor="rgba(100, 100, 100, 1)" disabledItemActiveTextColor="rgba(0, 0, 0, 1)" disabledItemBorderColor="rgba(0, 0, 0, 1)" disabledItemActiveBackColor="rgba(204, 204, 204, 1)" enable="false" />
+    <Widget xsi:type="widgets.brease.GroupBox" id="GrpBoxProcessControll" top="15" left="20" width="240" height="205" zIndex="9" text="$IAT/MainPageControl/Processcontrolltxt" textColor="rgba(64, 64, 64, 1)" fontSize="20px" bold="true">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.Button" id="BtnStart" top="20" left="50" width="140" height="60" zIndex="0" text="$IAT/MainPageControl/ProcessStarttxt" fontSize="18px" permissionOperate="['Administrators', 'Operator']" />
+        <Widget xsi:type="widgets.brease.Button" id="BtnStop" top="95" left="50" width="140" height="60" zIndex="1" text="$IAT/MainPageControl/ProcessStoptxt" textColor="rgba(255, 0, 0, 1)" disabledTextColor="rgba(152, 152, 152, 1)" mouseDownTextColor="rgba(255, 0, 0, 1)" fontSize="18px" permissionOperate="['Administrators', 'Everyone', 'Operator']" />
+      </Widgets>
+    </Widget>
+    <Widget xsi:type="widgets.brease.GroupBox" id="GrpBoxMixing" top="15" left="300" width="240" height="205" zIndex="10" text="$IAT/MainPageControl/Mixingtxt" textColor="rgba(64, 64, 64, 1)" fontSize="20px" bold="true">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.ToggleButton" id="ToggleButtonMixing" top="20" left="50" width="140" height="60" zIndex="0" text="$IAT/MainPageControl/Mixingtxt" fontSize="18px" bold="true" permissionOperate="['Administrators', 'Operator']" />
+        <Widget xsi:type="widgets.brease.ToggleButton" id="ToggleButtonMixer" top="95" left="90" width="60" height="60" zIndex="1" borderWidth="3px" cornerRadius="30px" backColor="rgba(255, 0, 0, 1)" disabledBackColor="rgba(255, 0, 0, 1)" borderColor="rgba(0, 0, 0, 1)" disabledBorderColor="rgba(0, 0, 0, 1)" checkedBackColor="rgba(0, 255, 0, 1)" checkedBorderColor="rgba(211, 211, 211, 1)" disabledCheckedBackColor="rgba(0, 255, 0, 1)" disabledCheckedBorderColor="rgba(0, 0, 0, 1)" enable="false" />
+      </Widgets>
+    </Widget>
+    <Widget xsi:type="widgets.brease.GroupBox" id="GrpBoxValveControl" top="15" left="585" width="240" height="205" zIndex="11" text="$IAT/MainPageControl/ValveControltxt" textColor="rgba(64, 64, 64, 1)" fontSize="20px" bold="true">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.Label" id="Label1" top="5" left="45" width="150" zIndex="0" text="$IAT/MainPageControl/Zb3_lefttxt" textColor="rgba(64, 64, 64, 1)" textAlign="center" fontSize="15px" bold="true" />
+        <Widget xsi:type="widgets.brease.Label" id="Label4" top="85" left="53" width="135" zIndex="1" text="$IAT/MainPageControl/Zb3_righttxt" textColor="rgba(64, 64, 64, 1)" textAlign="center" fontSize="15px" bold="true" />
+        <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput1" top="45" left="45" width="150" zIndex="2" unit="{'metric':'P1','imperial':'P1','imperial-us':'P1'}" unitAlign="right" bold="true" permissionOperate="['Administrators', 'Operator']" />
+        <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput2" top="125" left="45" width="150" zIndex="3" unit="{'metric':'P1','imperial':'P1','imperial-us':'P1'}" unitAlign="right" bold="true" permissionOperate="['Administrators', 'Operator']" />
+      </Widgets>
+    </Widget>
+  </Widgets>
+</Content>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:iat="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2" elementFormDefault="qualified">
+<xs:complexType name="widgets.brease.AlarmListRestrict" abstract="true">
+	<xs:complexContent>
+		<xs:restriction base="iat:brease.core.BaseContentWidget">
+			<xs:attribute name="tabIndex" use="optional" type="types:Integer" default="-1" />
+			<xs:attribute name="height" use="optional" type="types:Size" default="300" />
+			<xs:attribute name="width" use="optional" type="types:Size" default="600" />
+		</xs:restriction>
+	</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="widgets.brease.AlarmList">
+	<xs:complexContent>
+		<xs:extension base="iat:widgets.brease.AlarmListRestrict">
+			<xs:all>
+				<xs:element name="Widgets" type="iat:Widgets" minOccurs="1" maxOccurs="1">
+					<xs:unique name="widgets.brease.AlarmList.zIndex">
+						<xs:selector xpath="./iat:Widget"/>
+						<xs:field xpath="@zIndex"/>
+					</xs:unique>
+				</xs:element>
+			</xs:all>
+			<xs:attribute name="busyIndicatorDelay" use="optional" type="types:Integer" default="0" />
+			<xs:attribute name="filterConfiguration" use="optional" type="types:String" default="" />
+			<xs:attribute name="format" use="optional" type="types:String" default="F" />
+			<xs:attribute name="headerHeight" use="optional" type="types:UInteger" default="40" />
+			<xs:attribute name="imageActive" use="optional" type="types:ImagePath" default="" />
+			<xs:attribute name="imageActiveAcknowledged" use="optional" type="types:ImagePath" default="" />
+			<xs:attribute name="imageInactive" use="optional" type="types:ImagePath" default="" />
+			<xs:attribute name="imagePrefix" use="optional" type="types:DirectoryPath" default="" />
+			<xs:attribute name="imageSuffix" use="optional" type="types:ImageType" default=".png" />
+			<xs:attribute name="itemsPerPage" use="optional" type="types:Integer" default="3" />
+			<xs:attribute name="nextText" use="optional" type="types:String" default="Next" />
+			<xs:attribute name="paging" use="optional" type="types:Boolean" default="true" />
+			<xs:attribute name="previousText" use="optional" type="types:String" default="Previous" />
+			<xs:attribute name="searchBox" use="optional" type="types:Boolean" default="true" />
+			<xs:attribute name="showPagingButtons" use="optional" type="types:Boolean" default="true" />
+			<xs:attribute name="sortConfiguration" use="optional" type="types:String" default="" />
+			<xs:attribute name="styleConfiguration" use="optional" type="types:String" default="" />
+			<xs:attribute name="rowHeight" use="optional" type="types:Size" default="0" />
+			<xs:attribute name="borderStyle" use="optional" type="types:BorderStyle" default="none" />
+			<xs:attribute name="borderWidth" use="optional" type="types:PixelValCollection" default="1px" />
+			<xs:attribute name="borderColor" use="optional" type="types:ColorCollection" default="#ddd" />
+			<xs:attribute name="backColor" use="optional" type="types:Color" default="transparent" />
+			<xs:attribute name="headerBackColor" use="optional" type="types:Color" default="#fff" />
+			<xs:attribute name="headerBackGroundGradient" use="optional" type="types:Gradient" default="" />
+			<xs:attribute name="headerTextColor" use="optional" type="types:Color" default="#000" />
+			<xs:attribute name="headerFontSize" use="optional" type="types:PixelVal" default="16px" />
+			<xs:attribute name="backColorSelectedRow" use="optional" type="types:Color" default="#ff8800" />
+			<xs:attribute name="mouseDownBackColor" use="optional" type="types:Color" default="transparent" />
+			<xs:attribute name="backColorEvenRow" use="optional" type="types:Color" default="#fff" />
+			<xs:attribute name="backColorOddRow" use="optional" type="types:Color" default="#f9f9f9" />
+			<xs:attribute name="mouseDownTextColor" use="optional" type="types:Color" default="transparent" />
+			<xs:attribute name="textColorSelectedRow" use="optional" type="types:Color" default="#fff" />
+			<xs:attribute name="textColor" use="optional" type="types:Color" default="#000" />
+			<xs:attribute name="fontSize" use="optional" type="types:PixelVal" default="14px" />
+			<xs:attribute name="fontName" use="optional" type="types:FontName" default="Arial" />
+			<xs:attribute name="sortingButtonColor" use="optional" type="types:Color" default="#ececec" />
+			<xs:attribute name="sortingButtonActiveColor" use="optional" type="types:Color" default="#5f8dd3" />
+			<xs:attribute name="shadow" use="optional" type="types:Shadow" default="none" />
+			<xs:attribute name="cornerRadius" use="optional" type="types:PixelValCollection" default="0px" />
+			<xs:attribute name="headerBold" use="optional" type="types:Boolean" default="true" />
+			<xs:attribute name="headerItalic" use="optional" type="types:Boolean" default="false" />
+			<xs:attribute name="headerTextAlign" use="optional" type="types:brease.enum.TextAlign" default="left" />
+			<xs:attribute name="headerCellPadding" use="optional" type="types:Padding" default="0px 8px" />
+			<xs:attribute name="headerCellBorderColor" use="optional" type="types:Color" default="#DDDDDD" />
+			<xs:attribute name="headerCellBorderWidth" use="optional" type="types:PixelValCollection" default="1px" />
+			<xs:attribute name="headerCellBorderStyle" use="optional" type="types:BorderStyle" default="none" />
+			<xs:attribute name="bold" use="optional" type="types:Boolean" default="false" />
+			<xs:attribute name="italic" use="optional" type="types:Boolean" default="false" />
+			<xs:attribute name="textAlign" use="optional" type="types:brease.enum.TextAlign" default="left" />
+			<xs:attribute name="cellBorderColor" use="optional" type="types:Color" default="#DDDDDD" />
+			<xs:attribute name="cellBorderWidth" use="optional" type="types:PixelValCollection" default="1px 0px 0px 0px" />
+			<xs:attribute name="cellBorderStyle" use="optional" type="types:BorderStyle" default="solid" />
+			<xs:attribute name="cellPadding" use="optional" type="types:Padding" default="8px 14px" />
+			<xs:attribute name="backGroundGradient" use="optional" type="types:Gradient" default="" />
+			<xs:attribute name="opacity" use="optional" type="types:Opacity" default="1" />
+			<xs:attribute name="disabledBackColorEvenRow" use="optional" type="types:Color" default="#EAEAEA" />
+			<xs:attribute name="disabledBackColorOddRow" use="optional" type="types:Color" default="#FFFFFF" />
+			<xs:attribute name="disabledHeaderBackColor" use="optional" type="types:Color" default="#FCFCFC" />
+			<xs:attribute name="disabledHeaderTextColor" use="optional" type="types:Color" default="#C8C8C8" />
+			<xs:attribute name="disabledTextColor" use="optional" type="types:Color" default="#C8C8C8" />
+		</xs:extension>
+	</xs:complexContent>
+</xs:complexType>
+</xs:schema>
