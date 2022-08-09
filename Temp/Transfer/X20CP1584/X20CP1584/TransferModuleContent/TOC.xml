@@ -6,6 +6,7 @@
 				<Folder Name="server" ProjectDependent="1" IgnoreDifference="0">
 					<File Name="-2125524779.binding" Size="4364" HashValue="A229A71E02BE2E9AC9F7CAB835A35767" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="-222062230.binding" Size="14403" HashValue="0B8CEA000E429B299A661C456359EFC8" ProjectDependent="1" IgnoreDifference="0" />
+					<File Name="-673496860.binding" Size="1343" HashValue="9A3E545DD3E6899E79E46F6036285D29" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="-683776460.binding" Size="8419" HashValue="3678A9DBFF7F265DF1ACA315FF292677" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="-774815643.eventbinding" Size="686" HashValue="15FBBD7CB7B693CFC156D2C9D7C002E7" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="1247878736.eventbinding" Size="727" HashValue="B4EB6E51CAAD7F8873AA5CD207C6F372" ProjectDependent="1" IgnoreDifference="0" />
@@ -18,7 +19,7 @@
 					<File Name="861746268.eventbinding" Size="1220" HashValue="9CA85F2250962163CB4B6F74B590B405" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="Config.mappviewcfg" Size="1815" HashValue="0EA491C6210CC67CF6BBF744242C9BE9" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="Tanks_expressionsSet.expression" Size="6689" HashValue="5C8492414502DD6702B0E1CA5B9AE395" ProjectDependent="1" IgnoreDifference="0" />
-					<File Name="VisualizationOperatorControl.vis" Size="1829" HashValue="DA82E55619FBF2B00D8C198DA235AEEC" ProjectDependent="1" IgnoreDifference="0" />
+					<File Name="VisualizationOperatorControl.vis" Size="1869" HashValue="581D2E279DFB716049323137F58F1BF9" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="Zbiorniki.vis" Size="1299" HashValue="74AD0C15CC0E07A33ECDBAB1D002DE3C" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="__SystemVariables.sessionVar" Size="3679" HashValue="47F4015152DC77A4E81EB725C733FBD6" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="svar_1.sessionVar" Size="5135" HashValue="3DD5FA269102CC26E083AFCBAF490FAD" ProjectDependent="1" IgnoreDifference="0" />
@@ -671,10 +672,10 @@
 							<File Name="require.js" Size="17695" HashValue="1565AF44B896BC4C641F238FD800FC83" ProjectDependent="1" IgnoreDifference="0" />
 						</Folder>
 						<Folder Name="release" ProjectDependent="1" IgnoreDifference="0">
-							<File Name="BuRThemeFlat1.min.css" Size="278723" HashValue="A60C7D40CC8F8AFA7C7F120D506D0D13" ProjectDependent="1" IgnoreDifference="0" />
-							<File Name="BuRThemeFlat2.min.css" Size="281683" HashValue="38E48926F6B22D3B66E42E17256A42E3" ProjectDependent="1" IgnoreDifference="0" />
-							<File Name="brease.js" Size="1322616" HashValue="879EC169D8D474D75CEBEA3EFD6C3418" ProjectDependent="1" IgnoreDifference="0" />
-							<File Name="brease_core.min.css" Size="445631" HashValue="13BA3117D1B872BFCE294CD68A9E70D2" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="BuRThemeFlat1.min.css" Size="282246" HashValue="AD9D00C5FD81DF1CD5B1E29811922375" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="BuRThemeFlat2.min.css" Size="285262" HashValue="F1D3241A6090653F042ABB548F9B9FE5" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="brease.js" Size="1409603" HashValue="76C78EB12C5AFB4D3F995AFDA287D7AF" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="brease_core.min.css" Size="446547" HashValue="688D9E795AFA89A60A1DA921BA97AB42" ProjectDependent="1" IgnoreDifference="0" />
 						</Folder>
 						<Folder Name="system" ProjectDependent="1" IgnoreDifference="0">
 							<Folder Name="brease" ProjectDependent="1" IgnoreDifference="0">
@@ -1782,6 +1783,78 @@
 									<File Name="NumericOutput.html" Size="77" HashValue="81E8174788ED113209C1FC3E6285E3B4" ProjectDependent="1" IgnoreDifference="0" />
 									<File Name="NumericOutput.js" Size="1924" HashValue="8BC36A97931AF8B37A1134D36CE5FA1D" ProjectDependent="1" IgnoreDifference="0" />
 								</Folder>
+								<Folder Name="OnlineChartHDA" ProjectDependent="1" IgnoreDifference="0">
+									<Folder Name="css" ProjectDependent="1" IgnoreDifference="0">
+										<File Name="OnlineChartHDA.sass.css" Size="3261" HashValue="610949E6612BFC6224CAA482BA1BCB6C" ProjectDependent="1" IgnoreDifference="0" />
+										<File Name="OnlineChartHDA.scss" Size="4039" HashValue="741148A89140F8CAFA67B10F9F76C8D7" ProjectDependent="1" IgnoreDifference="0" />
+									</Folder>
+									<Folder Name="designer" ProjectDependent="1" IgnoreDifference="0">
+										<File Name="ClassInfo.js" Size="4412" HashValue="08E9935137C9429AD62CDE161627AE5A" ProjectDependent="1" IgnoreDifference="0" />
+									</Folder>
+									<Folder Name="libs" ProjectDependent="1" IgnoreDifference="0">
+										<Folder Name="StructProperties" ProjectDependent="1" IgnoreDifference="0">
+											<File Name="Cursor.js" Size="17531" HashValue="60C924682E6311AD3D7C94B2D1EEF240" ProjectDependent="1" IgnoreDifference="0" />
+											<File Name="Graph.js" Size="16340" HashValue="6FFC7CB11E16478D0FE2FCCBF52C220B" ProjectDependent="1" IgnoreDifference="0" />
+											<File Name="XAxis.js" Size="11781" HashValue="FA232C5023D4AEBA7980ADBC3F443C65" ProjectDependent="1" IgnoreDifference="0" />
+											<File Name="YAxis.js" Size="20398" HashValue="4DCDA84EE791C0CBBF29844C1BA0DA03" ProjectDependent="1" IgnoreDifference="0" />
+										</Folder>
+										<Folder Name="config" ProjectDependent="1" IgnoreDifference="0">
+											<File Name="Config.js" Size="2492" HashValue="96B501C5A12E121DAE6EE0E06EC2ED31" ProjectDependent="1" IgnoreDifference="0" />
+										</Folder>
+										<File Name="DataAdapter.js" Size="22306" HashValue="0451EA8F9F996491EBE5A52D7288D1B3" ProjectDependent="1" IgnoreDifference="0" />
+										<File Name="EjChartCache.js" Size="2071" HashValue="35A017DED6F12393F57A744958A20237" ProjectDependent="1" IgnoreDifference="0" />
+										<File Name="MsgOverlay.js" Size="2461" HashValue="62ED92EB4639081964F5B5898250CACF" ProjectDependent="1" IgnoreDifference="0" />
+										<File Name="Renderer.js" Size="7157" HashValue="E32C668D2A458BDD5C1DECB7D207A3D9" ProjectDependent="1" IgnoreDifference="0" />
+										<File Name="StyleElemsUtils.js" Size="7636" HashValue="A2DB4EC0C39F5692951E8B7A5354A60D" ProjectDependent="1" IgnoreDifference="0" />
+									</Folder>
+									<Folder Name="meta" ProjectDependent="1" IgnoreDifference="0">
+										<Folder Name="Cursor" ProjectDependent="1" IgnoreDifference="0">
+											<File Name="Cursor.type" Size="765" HashValue="89910826CBD406A1718B08EAE3C02472" ProjectDependent="1" IgnoreDifference="0" />
+											<File Name="Cursor_Styles.xsd" Size="733" HashValue="9B3982CECE9F11CE5F3A7816189725FF" ProjectDependent="1" IgnoreDifference="0" />
+											<File Name="Cursor_base.scss" Size="157" HashValue="21C77A5D26DFC304634DE6BA8831306C" ProjectDependent="1" IgnoreDifference="0" />
+											<File Name="Cursor_default.sass.css" Size="170" HashValue="69BCEA07212428D3691C2254674830BD" ProjectDependent="1" IgnoreDifference="0" />
+											<File Name="Cursor_default.scss" Size="265" HashValue="A39F6B29F898F9AB6D550000A9270BD1" ProjectDependent="1" IgnoreDifference="0" />
+											<File Name="Cursor_doc.html" Size="4035" HashValue="0CEC51DF6E06B4823810348C62A1DC10" ProjectDependent="1" IgnoreDifference="0" />
+										</Folder>
+										<Folder Name="Graph" ProjectDependent="1" IgnoreDifference="0">
+											<File Name="Graph.type" Size="1066" HashValue="FC97C5A26CD59520CCF14F23F5CDF5F6" ProjectDependent="1" IgnoreDifference="0" />
+											<File Name="Graph_Styles.xsd" Size="821" HashValue="35F1D0D7BB91685773846870085C5CE3" ProjectDependent="1" IgnoreDifference="0" />
+											<File Name="Graph_base.scss" Size="183" HashValue="29A5E650EDB3B39743DF87CAE6AD534D" ProjectDependent="1" IgnoreDifference="0" />
+											<File Name="Graph_default.sass.css" Size="233" HashValue="B54DFD884B194F74AC4983985ECC78A4" ProjectDependent="1" IgnoreDifference="0" />
+											<File Name="Graph_default.scss" Size="289" HashValue="C4FFC383CBFAC5B68DD1C3ABA4F34743" ProjectDependent="1" IgnoreDifference="0" />
+											<File Name="Graph_doc.html" Size="9386" HashValue="46EBCDAC94928CFDAB04435CAD5DCCE8" ProjectDependent="1" IgnoreDifference="0" />
+										</Folder>
+										<Folder Name="XAxis" ProjectDependent="1" IgnoreDifference="0">
+											<File Name="XAxis.type" Size="2276" HashValue="07F923C2E58EB069A7B7F5BFED21CDEB" ProjectDependent="1" IgnoreDifference="0" />
+											<File Name="XAxis_Styles.xsd" Size="1157" HashValue="02B1274846D4557517B0FB03EAF5572E" ProjectDependent="1" IgnoreDifference="0" />
+											<File Name="XAxis_base.scss" Size="376" HashValue="6CBF671F538CC9168E2A71CB28C53D9C" ProjectDependent="1" IgnoreDifference="0" />
+											<File Name="XAxis_default.sass.css" Size="596" HashValue="F82BE7AC0856D7AD1F7A55F2D3572E0F" ProjectDependent="1" IgnoreDifference="0" />
+											<File Name="XAxis_default.scss" Size="482" HashValue="9A3B7BE60F950504574906391FC33C42" ProjectDependent="1" IgnoreDifference="0" />
+											<File Name="XAxis_doc.html" Size="8480" HashValue="4F3E841F701033A82DBAB0B5A238962C" ProjectDependent="1" IgnoreDifference="0" />
+										</Folder>
+										<Folder Name="YAxis" ProjectDependent="1" IgnoreDifference="0">
+											<File Name="YAxis.type" Size="2746" HashValue="CBB3DD4C2F98BB35265E0D2102520046" ProjectDependent="1" IgnoreDifference="0" />
+											<File Name="YAxis_Styles.xsd" Size="1329" HashValue="7D94326EA96894882012C6309E9D3C83" ProjectDependent="1" IgnoreDifference="0" />
+											<File Name="YAxis_base.scss" Size="438" HashValue="38A789D95AB6325A66B4AFAB8F4785B5" ProjectDependent="1" IgnoreDifference="0" />
+											<File Name="YAxis_default.sass.css" Size="740" HashValue="A4B849E2E909D5E308B7E151E8153D0E" ProjectDependent="1" IgnoreDifference="0" />
+											<File Name="YAxis_default.scss" Size="544" HashValue="A2CBC2C00DA004B4EF3E4E0AE554DCD5" ProjectDependent="1" IgnoreDifference="0" />
+											<File Name="YAxis_doc.html" Size="12516" HashValue="D06258B39084CA40DD265BEFD562AECB" ProjectDependent="1" IgnoreDifference="0" />
+										</Folder>
+										<File Name="OnlineChartHDA.json" Size="36357" HashValue="1029D72EDEFB50B83458D560587AC995" ProjectDependent="1" IgnoreDifference="0" />
+										<File Name="OnlineChartHDA.style" Size="9121" HashValue="F368BAFC84BFF445C5482F624F5DA336" ProjectDependent="1" IgnoreDifference="0" />
+										<File Name="OnlineChartHDA.widget" Size="35868" HashValue="DA4A38164AD326ED410EBA05C6535348" ProjectDependent="1" IgnoreDifference="0" />
+										<File Name="OnlineChartHDA.xsd" Size="9653" HashValue="50940572E3FA828F8061D7ADBAB8D151" ProjectDependent="1" IgnoreDifference="0" />
+										<File Name="OnlineChartHDA_Copied.markerFile" Size="0" HashValue="D41D8CD98F00B204E9800998ECF8427E" ProjectDependent="1" IgnoreDifference="0" />
+										<File Name="OnlineChartHDA_EventsActions.xsd" Size="10885" HashValue="73930CE2ADDB02FFBEAB19C51870B323" ProjectDependent="1" IgnoreDifference="0" />
+										<File Name="OnlineChartHDA_Styles.xsd" Size="1095" HashValue="27DDE950FC23E72EB3152EDB693EAF28" ProjectDependent="1" IgnoreDifference="0" />
+										<File Name="OnlineChartHDA_base.scss" Size="342" HashValue="2DCAF2713EED23923F5D435904FCF19D" ProjectDependent="1" IgnoreDifference="0" />
+										<File Name="OnlineChartHDA_default.sass.css" Size="385" HashValue="9FB9E6E4A169055B154BA2EEB26DE40C" ProjectDependent="1" IgnoreDifference="0" />
+										<File Name="OnlineChartHDA_default.scss" Size="436" HashValue="345AFE13F1CD546C6183C2C1821A7A51" ProjectDependent="1" IgnoreDifference="0" />
+										<File Name="OnlineChartHDA_doc.html" Size="28245" HashValue="C1BCC0895047C9C671B86539FF583C2B" ProjectDependent="1" IgnoreDifference="0" />
+									</Folder>
+									<File Name="OnlineChartHDA.html" Size="81" HashValue="AF2804299925890D3142BB0F77109962" ProjectDependent="1" IgnoreDifference="0" />
+									<File Name="OnlineChartHDA.js" Size="63442" HashValue="552A22ADCE6A74D7C6B8B112757DA7BC" ProjectDependent="1" IgnoreDifference="0" />
+								</Folder>
 								<Folder Name="Password" ProjectDependent="1" IgnoreDifference="0">
 									<Folder Name="designer" ProjectDependent="1" IgnoreDifference="0">
 										<File Name="ClassInfo.js" Size="2031" HashValue="30C74A1081329365DD1D246044E4CC49" ProjectDependent="1" IgnoreDifference="0" />
@@ -2391,12 +2464,12 @@
 					</Folder>
 					<Folder Name="contents" ProjectDependent="1" IgnoreDifference="0">
 						<Folder Name="mappView" ProjectDependent="1" IgnoreDifference="0">
-							<File Name="ContentAlarmPageControl.html" Size="2792" HashValue="9170F148E77B590EB5857CD41ABD4EC4" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="ContentAlarmPageControl.html" Size="2792" HashValue="6D63DC4FB30C75C4F8F3B9D8559F40DB" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="ContentLeftControl.html" Size="1534" HashValue="FE8B5790E0481FED401F3F497AF5A62C" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="ContentLoginDialog.html" Size="1349" HashValue="2A76D5DB856E52F6743C4AC04F5031E0" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="ContentMainPageControl.html" Size="13314" HashValue="17B717A024917DEAC5F5B1F7AE1FDC0C" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="ContentManualDialog.html" Size="5503" HashValue="57B6F37B3D7DD66A424A1178C5818D61" ProjectDependent="1" IgnoreDifference="0" />
-							<File Name="ContentServicePageControl.html" Size="2907" HashValue="FCE1AE70FBAF690EB47FC0CBE6315EEA" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="ContentServicePageControl.html" Size="4242" HashValue="126C834679347A311C7E653262CB656D" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="ContentTopControl.html" Size="1764" HashValue="ADC2FD4B3A8EFB3F0848A580AE255447" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="MainPageContent.html" Size="49239" HashValue="119AC7CF8C2A2FC35E44E17D90EB7707" ProjectDependent="1" IgnoreDifference="0" />
 						</Folder>

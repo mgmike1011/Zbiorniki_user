@@ -1,0 +1,200 @@
+@import '../../../../css/libs/variables.scss';
+@import '../../../../css/libs/mixins.scss';
+
+.breaseOnlineChartHDA {
+    box-sizing: border-box;
+    width: 720px;
+    height: 440px;
+    border-width: 0px;
+    border-color: #000000;
+    border-style: solid;
+    background-color: #DBDBDB;
+
+    .breaseBusyWrapper {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+		@include align-items(center);
+        @include justify-content(center);
+        background-color: #fff;
+        opacity: 0.5;
+        display: none;
+
+		&.visible {
+			@include displayFlexBox(true);
+		}
+
+		.breaseBusyIndicator {
+			width: 50px;
+			height: 50px;
+		}
+    }
+
+    .chartColor {
+        color: #FFFFFF;
+    }
+
+    .disabledChartColor {
+        color: #F0F0F0;
+    }
+
+    .trackballLabel {
+        font-family: Arial;
+        font-size: 12px;
+    }
+
+    .lineColor {
+        color: #FF0000;
+    }
+
+    .disabledLineColor {
+        color: #DBDBDB;
+    }
+
+    .lineWidth {
+        width: 3px;
+    }
+
+    .gridXAxisColor {
+        color: #DBDBDB;
+    }
+
+    .xAxisTickColor {
+        color: #000000;
+    }
+
+    .xAxisTextColor {
+        color: #000000;
+    }
+
+    .disabledxAxisTextColor {
+        color: #808080;
+    }
+
+    .xAxisFontName {
+        font-family: Arial;
+    }
+
+    .xAxisFontSize {
+        font-size: 12px;
+    }
+
+    .xAxisTickLabelRotation {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    .yAxisTextColor {
+        color: #000000;
+    }
+
+    .disabledyAxisTextColor {
+        color: #808080;
+    }
+
+    .yAxisColor {
+        color: #000000;
+    }
+
+    .gridYAxisColor {
+        color: #DBDBDB;
+    }
+
+    .yAxisFontSize {
+        font-size: 12px;
+    }
+
+    .yAxisFontName {
+        font-family: Arial;
+    }
+
+    .titleTextColor {
+        color: #000000;
+    }
+
+    .titleFontSize {
+        font-size: 12px;
+    }
+
+    .titleFontName {
+        font-family: Arial;
+    }
+
+    .breaseOnlineChartHDAErrorOverlay {
+        background-color: rgba(0,0,0,0.5);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: 999;
+    }
+
+    .breaseOnlineChartHDAErrorOverlayMsg {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        left: 10px;
+        background-color: #ff0000;
+        border-radius: 5px;
+        text-align: left;
+        z-index: 1000;
+        font-size: large;
+        color: #fff;
+        padding: 10px;
+    }
+
+    .breaseOnlineChartHDAOverlayCloseBtn {
+        position: absolute;
+        display: inline-block; 
+        right: 0px;
+        top: 0px;
+        padding: 5px 10px;
+    }
+
+    img {
+        width: 75px;
+        height: 75px;
+        position: absolute;
+    }
+
+    &.disabled, &.unfreeze {
+        canvas {
+            pointer-events: none
+        }
+    }
+
+    .trackball {
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        -webkit-box-direction: normal;
+        user-select: none;
+        position: absolute;
+        z-index: inherit;
+        width: 10px;
+        height: 10px;
+        border-style: solid;
+        background-color: #fff;
+        border-width: 3px;
+        border-radius: 100%;
+    }
+
+    .trackballLabel {
+        position: absolute;
+        z-index: inherit;
+        color: #fff;
+        border-radius: 6px;
+        padding: 1px 5px 1px 5px;
+    }
+
+    /* A&P 683955 & 714955 : OnlineChart HDA: with content zoom, 
+     cursor and value trackball are hidden behind the graph area (chromium bug 1068474) */
+    .trackball, .trackballLabel, 
+    div[id$="_ResetZoom"], div[id$="_PanBtn"], div[id$="_ZoomBtn"],
+    div[id$="_CrosshairVertical"], div[id$="_CrosshairHorizontal"], div[id$="_ZoomArea"] {
+        will-change: top;
+    }
+}

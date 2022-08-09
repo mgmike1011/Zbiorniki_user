@@ -1,0 +1,14 @@
+@import "mixins.scss";
+@mixin widgets_brease_OnlineChartHDA_Graph_base {
+& .lineColor {
+	color: #FF0000;
+}
+& .disabledLineColor {
+	color: #DBDBDB;
+}
+& .lineWidth {
+	width: 3px;
+}
+
+}
+

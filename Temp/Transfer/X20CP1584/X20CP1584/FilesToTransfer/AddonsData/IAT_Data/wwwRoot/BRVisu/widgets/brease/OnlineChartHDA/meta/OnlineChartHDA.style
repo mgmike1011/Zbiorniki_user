@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StyleInformation name="widgets.brease.OnlineChartHDA" xmlns="http://www.br-automation.com/iat2014/widgetStyles"
+									xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+									>
+
+
+  <PropertyGroups>
+  </PropertyGroups>
+
+  <StyleProperties >
+
+    <StyleProperty name="width" type="Size" not_styleable="true" default="720">
+      <StyleElement attribute="@include elemWidth($value)"></StyleElement>
+      <Description>outer width of widget</Description>
+    </StyleProperty>
+
+    <StyleProperty name="height" type="Size" not_styleable="true" default="440">
+      <StyleElement attribute="@include elemHeight($value)"></StyleElement>
+      <Description>outer height of widget</Description>
+    </StyleProperty>
+
+    <StyleProperty name="borderWidth" type="PixelValCollection" category="Appearance" default="0px">
+      <StyleElement attribute="border-width"></StyleElement>
+      <Description>
+        Sets the width of the border. For further information, please check its type.
+      </Description>
+    </StyleProperty>
+
+    <StyleProperty name="borderColor" type="ColorCollection" category="Appearance" default="#000000" >
+      <StyleElement attribute="border-color"></StyleElement>
+      <Description>
+        Sets the border color
+      </Description>
+    </StyleProperty>
+
+    <StyleProperty name="borderStyle" type="BorderStyle" category="Appearance" default="solid">
+      <StyleElement attribute="border-style"></StyleElement>
+      <Description>
+        Style of the Border of the widget
+      </Description>
+    </StyleProperty>
+
+    <StyleProperty name="backColor" category="Appearance" type="Color" default="#DBDBDB" >
+      <StyleElement attribute="background-color"></StyleElement>
+      <StyleElement selector='&amp; .chartColor' attribute="background-color"></StyleElement>
+      <Description>
+        Sets the background color
+      </Description>
+    </StyleProperty>
+
+    <StyleProperty name="chartColor" category="Appearance" type="Color" default="#FFFFFF" >
+      <StyleElement selector='&amp; .chartColor' attribute="color"></StyleElement>
+      <Description>
+        Sets the color for the chart area
+      </Description>
+    </StyleProperty>
+
+    <StyleProperty name="disabledChartColor" category="Appearance" type="Color" default="#F0F0F0" >
+      <StyleElement selector='&amp; .disabledChartColor' attribute="color"></StyleElement>
+      <Description>
+        Sets the color for the chart area when widget is disabled
+      </Description>
+    </StyleProperty>
+
+  </StyleProperties>
+
+  <StructuredProperties>
+    <StructuredProperty name="graph">
+      <StyleProperty name="lineColor" category="Appearance" type="Color" default="#FF0000">
+        <StyleElement selector="&amp; .lineColor" attribute="color"/>
+        <Description>
+          Color of the line graph
+        </Description>
+      </StyleProperty>
+      <StyleProperty name="disabledLineColor" category="Appearance" type="Color" default="#DBDBDB">
+        <StyleElement selector="&amp; .disabledLineColor" attribute="color"/>
+        <Description>
+          Color of the line graph when widget is disabled
+        </Description>
+      </StyleProperty>
+      <StyleProperty name="lineWidth" category="Appearance" type="PixelVal" default="3px">
+        <StyleElement selector="&amp; .lineWidth" attribute="width"/>
+        <Description>
+          Width of the line graph
+        </Description>
+      </StyleProperty>
+    </StructuredProperty>
+
+    <StructuredProperty name="xAxis">
+      <StyleProperty name="gridColor" category="Appearance" type="Color" default="#DBDBDB" >
+        <StyleElement selector='&amp; .gridXAxisColor' attribute="color"></StyleElement>
+        <Description>
+          Sets the color for the chart grid
+        </Description>
+      </StyleProperty>
+
+      <StyleProperty name="color" category="Appearance" type="Color" default="#000000" >
+        <StyleElement selector='&amp; .xAxisTickColor' attribute="color"></StyleElement>
+        <Description>
+          Sets the color for the x Axis line and tick
+        </Description>
+      </StyleProperty>
+
+      <StyleProperty name="textColor" category="Appearance" type="Color" default="#000000" >
+        <StyleElement selector='&amp; .xAxisTextColor' attribute="color"></StyleElement>
+        <Description>
+          Sets the color for the x Axis labels
+        </Description>
+      </StyleProperty>
+
+      <StyleProperty name="disabledTextColor" category="Appearance" type="Color" default="#808080" >
+        <StyleElement selector='&amp; .disabledxAxisTextColor' attribute="color"></StyleElement>
+        <Description>
+          Sets the color for the x Axis labels
+        </Description>
+      </StyleProperty>
+
+      <StyleProperty name="fontName" category="Font" type="FontName" default="Arial" >
+        <StyleElement selector='&amp; .xAxisFontName' attribute="font-family"></StyleElement>
+        <Description>
+          Font for the x axis labels
+        </Description>
+      </StyleProperty>
+
+      <StyleProperty name="fontSize" category="Font" type="PixelVal" default="12px" >
+        <StyleElement selector='&amp; .xAxisFontSize' attribute="font-size"></StyleElement>
+        <Description>
+          Size for the x axis labels
+        </Description>
+      </StyleProperty>
+
+      <StyleProperty name="tickLabelRotation" category="Appearance" type="Rotation" default="0deg" >
+        <StyleElement selector='&amp; .xAxisTickLabelRotation' attribute="@include rotate($value)"></StyleElement>
+        <Description>
+          Defines rotation for time axis tick labels
+        </Description>
+      </StyleProperty>
+    </StructuredProperty>
+
+    <StructuredProperty name="yAxis">
+      <StyleProperty name="textColor" category="Appearance" type="Color" default="#000000">
+        <StyleElement selector="&amp; .yAxisTextColor" attribute="color"/>
+        <Description>
+          Color of y axis labels
+        </Description>
+      </StyleProperty>
+      <StyleProperty name="disabledTextColor" category="Appearance" type="Color" default="#808080">
+        <StyleElement selector="&amp; .disabledyAxisTextColor" attribute="color"/>
+        <Description>
+          Color of y axis labels when widget is disabled
+        </Description>
+      </StyleProperty>
+      <StyleProperty name="color" category="Appearance" type="Color" default="#000000">
+        <StyleElement selector="&amp; .yAxisColor" attribute="color"/>
+        <Description>
+          Color of y axis
+        </Description>
+      </StyleProperty>
+      <StyleProperty name="gridColor" category="Appearance" type="Color" default="#DBDBDB">
+        <StyleElement selector="&amp; .gridYAxisColor" attribute="color"/>
+        <Description>
+          Color of y axis grid
+        </Description>
+      </StyleProperty>
+      <StyleProperty name="fontSize" category="Font" type="PixelVal" default="12px">
+        <StyleElement selector='&amp; .yAxisFontSize' attribute="font-size"></StyleElement>
+        <Description>
+          Font size for the y axis labels
+        </Description>
+      </StyleProperty>
+      <StyleProperty name="fontName" category="Font" type="FontName" default="Arial">
+        <StyleElement selector='&amp; .yAxisFontName' attribute="font-family"></StyleElement>
+        <Description>
+          Font name for the y axis labels
+        </Description>
+      </StyleProperty>
+      <StyleProperty name="titleTextColor" category="Appearance" type="Color" default="#000000">
+        <StyleElement selector="&amp; .titleTextColor" attribute="color"/>
+        <Description>
+          Color of title for y axis
+        </Description>
+      </StyleProperty>
+      <StyleProperty name="titleFontSize"  category="Font" type="PixelVal" default="12px">
+        <StyleElement selector="&amp; .titleFontSize" attribute="font-size"/>
+        <Description>
+          Font size of title for y axis
+        </Description>
+      </StyleProperty>
+      <StyleProperty name="titleFontName" category="Font" type="FontName" default="Arial">
+        <StyleElement selector="&amp; .titleFontName" attribute="font-family"/>
+        <Description>
+          Font size of title for y axis
+        </Description>
+      </StyleProperty>
+    </StructuredProperty>
+
+    <StructuredProperty name="cursor">
+
+      <StyleProperty name="fontName" category="Font" type="FontName" default="Arial" >
+        <StyleElement selector='.trackballLabel' attribute="font-family"></StyleElement>
+        <Description>
+          Font for the cursor labels
+        </Description>
+      </StyleProperty>
+
+      <StyleProperty name="fontSize" category="Font" type="PixelVal" default="12px" >
+        <StyleElement selector='.trackballLabel' attribute="font-size"></StyleElement>
+        <Description>
+          Size for the cursor labels
+        </Description>
+      </StyleProperty>
+
+    </StructuredProperty>
+  </StructuredProperties>
+
+</StyleInformation>
+
+

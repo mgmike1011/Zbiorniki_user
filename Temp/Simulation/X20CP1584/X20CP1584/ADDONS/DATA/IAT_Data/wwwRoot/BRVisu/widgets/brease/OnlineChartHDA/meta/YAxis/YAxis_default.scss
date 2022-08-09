@@ -1,0 +1,35 @@
+@import "mixins.scss";
+@mixin widgets_brease_OnlineChartHDA_YAxis_base {
+& .yAxisTextColor {
+	color: #000000;
+}
+& .disabledyAxisTextColor {
+	color: #808080;
+}
+& .yAxisColor {
+	color: #000000;
+}
+& .gridYAxisColor {
+	color: #DBDBDB;
+}
+& .yAxisFontSize {
+	font-size: 12px;
+}
+& .yAxisFontName {
+	font-family: Arial;
+}
+& .titleTextColor {
+	color: #000000;
+}
+& .titleFontSize {
+	font-size: 12px;
+}
+& .titleFontName {
+	font-family: Arial;
+}
+
+}
+
+.widgets_brease_OnlineChartHDA_YAxis_style_default {
+@include widgets_brease_OnlineChartHDA_YAxis_base 
+}

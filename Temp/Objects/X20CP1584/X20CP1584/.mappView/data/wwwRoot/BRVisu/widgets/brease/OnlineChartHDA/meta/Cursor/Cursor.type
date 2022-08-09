@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructuredProperty type="widgets.brease.OnlineChartHDA.Cursor" xmlns="http://www.br-automation.com/iat2014/widget" ><StyleProperties>
+
+      <StyleProperty name="fontName" category="Font" type="FontName" default="Arial">
+        <StyleElement selector=".trackballLabel" attribute="font-family"/>
+        <Description>
+          Font for the cursor labels
+        </Description>
+      </StyleProperty>
+
+      <StyleProperty name="fontSize" category="Font" type="PixelVal" default="12px">
+        <StyleElement selector=".trackballLabel" attribute="font-size"/>
+        <Description>
+          Size for the cursor labels
+        </Description>
+      </StyleProperty>
+
+    </StyleProperties></StructuredProperty>

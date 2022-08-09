@@ -1,0 +1,986 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>widgets.brease.OnlineChartHDA Documentation</title>
+    <link href="../../../../assets/css/bootstrap.min.css" rel="stylesheet">
+    <style>.true {color:#00aa00;font-weight:bold;}.false {color:#aaa;font-weight:normal;}</style>
+  </head>
+  <body>
+<div class="panel-heading"><h3>widgets.brease.OnlineChartHDA</h3></div>
+<div class="panel panel-default">
+ <div class="panel-heading"><h3>Widget Description</h3></div>
+<table class="table table-bordered parameter_tab">
+<tbody>
+<tr>
+<td class="parameter_tab"><strong>short: </strong>Display historical + online data</td>
+</tr>
+<tr>
+<td class="parameter_tab"><strong>de: </strong>Widget zur Anzeige von historischen und online Daten in einem Diagramm</td>
+</tr>
+<tr>
+<td class="parameter_tab"><strong>en: </strong>Widget to display historical and online data in a chart</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="panel panel-default">
+ <div class="panel-heading"><h3>Properties</h3></div>
+<table class="table table-bordered parameter_tab">
+<thead>
+<tr>
+<th class="parameter_tab">name</th>
+<th class="parameter_tab">description</th>
+<th class="parameter_tab">category</th>
+<th class="parameter_tab">type</th>
+<th class="parameter_tab">defaultValue</th>
+<th class="parameter_tab">bindable</th>
+<th class="parameter_tab">readOnly</th>
+<th class="parameter_tab">required</th>
+<th class="parameter_tab">localizable</th>
+<th class="parameter_tab">editableBinding</th>
+<th class="parameter_tab">projectable</th>
+<th class="parameter_tab">cssProp (<small>has no setter and getter in JS</small>)</th>
+<th class="parameter_tab">groupRefId</th>
+<th class="parameter_tab">groupOrder</th>
+<th class="parameter_tab">nodeRefId (<small>for linking node and value</small>)</th>
+<th class="parameter_tab">deprecated</th>
+<th class="parameter_tab">typeRefId (<small>for StyleReference</small>)</th>
+<th class="parameter_tab">subtype (<small>for MpComIdentReference</small>)</th>
+</tr>
+ </thead>
+<tbody>
+<tr>
+<td class="parameter_tab">enable</td>
+<td class="parameter_tab">Initial option to enable widget.
+</td>
+<td class="parameter_tab">Behavior</td>
+<td class="parameter_tab">Boolean</td>
+<td class="parameter_tab">true</td>
+<td class="true parameter_tab">true</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="true parameter_tab">true</td>
+<td class="false parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+</tr>
+<tr>
+<td class="parameter_tab">maxTimeDeviation</td>
+<td class="parameter_tab">Maximal time deviation in seconds between server and client before error message is displayed in chart.</td>
+<td class="parameter_tab">Behavior</td>
+<td class="parameter_tab">UInteger</td>
+<td class="parameter_tab">10</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="true parameter_tab">true</td>
+<td class="false parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+</tr>
+<tr>
+<td class="parameter_tab">permissionOperate</td>
+<td class="parameter_tab">restricts operability to users, which have given roles
+</td>
+<td class="parameter_tab">Accessibility</td>
+<td class="parameter_tab">RoleCollection</td>
+<td class="parameter_tab">no defaultValue<br/>defined</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="true parameter_tab">true</td>
+<td class="false parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+</tr>
+<tr>
+<td class="parameter_tab">permissionView</td>
+<td class="parameter_tab">restricts visibility to users, which have given roles
+</td>
+<td class="parameter_tab">Accessibility</td>
+<td class="parameter_tab">RoleCollection</td>
+<td class="parameter_tab">no defaultValue<br/>defined</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="true parameter_tab">true</td>
+<td class="false parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+</tr>
+<tr>
+<td class="parameter_tab">style</td>
+<td class="parameter_tab">reference to a style for this widget type
+</td>
+<td class="parameter_tab">Appearance</td>
+<td class="parameter_tab">StyleReference</td>
+<td class="parameter_tab">default</td>
+<td class="true parameter_tab">true</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="true parameter_tab">true</td>
+<td class="false parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+</tr>
+<tr>
+<td class="parameter_tab">tabIndex</td>
+<td class="parameter_tab">sets if a widget should have autofocus enabled (0), the order of the focus (>0),
+or if autofocus should be disabled (-1)
+</td>
+<td class="parameter_tab">Behavior</td>
+<td class="parameter_tab">Integer</td>
+<td class="parameter_tab">-1</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="true parameter_tab">true</td>
+<td class="false parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+</tr>
+<tr>
+<td class="parameter_tab">tooltip</td>
+<td class="parameter_tab">reference to a tooltip for a widget
+</td>
+<td class="parameter_tab">Appearance</td>
+<td class="parameter_tab">String</td>
+<td class="parameter_tab"></td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="true parameter_tab">true</td>
+<td class="false parameter_tab">false</td>
+<td class="true parameter_tab">true</td>
+<td class="false parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+</tr>
+<tr>
+<td class="parameter_tab">updateBufferTime</td>
+<td class="parameter_tab">Interval in ms in which the historical data is updated.
+If set to 0 historical data will be used only once (initial).
+After that only online data will be used.</td>
+<td class="parameter_tab">Behavior</td>
+<td class="parameter_tab">UInteger</td>
+<td class="parameter_tab">2000</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="true parameter_tab">true</td>
+<td class="false parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+</tr>
+<tr>
+<td class="parameter_tab">updateChartTime</td>
+<td class="parameter_tab">Interval in ms in which the chart is redrawn.</td>
+<td class="parameter_tab">Behavior</td>
+<td class="parameter_tab">UInteger</td>
+<td class="parameter_tab">200</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="true parameter_tab">true</td>
+<td class="false parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+</tr>
+<tr>
+<td class="parameter_tab">visible</td>
+<td class="parameter_tab">change visibility
+</td>
+<td class="parameter_tab">Behavior</td>
+<td class="parameter_tab">Boolean</td>
+<td class="parameter_tab">true</td>
+<td class="true parameter_tab">true</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="true parameter_tab">true</td>
+<td class="false parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+</tr>
+<tr>
+<td class="parameter_tab">zoomType</td>
+<td class="parameter_tab">Defines for which axes zooming should be possible.</td>
+<td class="parameter_tab">Behavior</td>
+<td class="parameter_tab"><a target="_blank" href="../../../../../breaseDoku/out/template.html#!/api/brease.enum.ChartZoomType">brease.enum.ChartZoomType</a></td>
+<td class="parameter_tab">xy</td>
+<td class="true parameter_tab">true</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="true parameter_tab">true</td>
+<td class="false parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+</tr>
+<tr>
+<td class="parameter_tab">zIndex</td>
+<td class="parameter_tab">The zIndex property specifies the z-order of a widget and its childs.<br/>
+        When widgets overlap, z-order determines which one covers the other. A widget with a larger zIndex generally covers a widget with a lower one.<br/>
+        The zIndex must be unique within a content.<br/></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab">UInteger</td>
+<td class="parameter_tab">no defaultValue<br/>defined</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="true parameter_tab">true</td>
+<td class="false parameter_tab"></td>
+<td class="false parameter_tab"></td>
+<td class="true parameter_tab">true</td>
+<td class="true parameter_tab">true</td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+</tr>
+<tr>
+<td class="parameter_tab">left</td>
+<td class="parameter_tab">absolute position measured from left boundary of parent container</td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab">Integer</td>
+<td class="parameter_tab">no defaultValue<br/>defined</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab"></td>
+<td class="false parameter_tab"></td>
+<td class="true parameter_tab">true</td>
+<td class="true parameter_tab">true</td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+</tr>
+<tr>
+<td class="parameter_tab">top</td>
+<td class="parameter_tab">absolute position measured from top boundary of parent container</td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab">Integer</td>
+<td class="parameter_tab">no defaultValue<br/>defined</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab"></td>
+<td class="false parameter_tab"></td>
+<td class="true parameter_tab">true</td>
+<td class="true parameter_tab">true</td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+</tr>
+<tr>
+<td class="parameter_tab">height</td>
+<td class="parameter_tab">outer height of widget</td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab">Size</td>
+<td class="parameter_tab">440</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab"></td>
+<td class="false parameter_tab"></td>
+<td class="true parameter_tab">true</td>
+<td class="true parameter_tab">true</td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+</tr>
+<tr>
+<td class="parameter_tab">width</td>
+<td class="parameter_tab">outer width of widget</td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab">Size</td>
+<td class="parameter_tab">720</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab"></td>
+<td class="false parameter_tab"></td>
+<td class="true parameter_tab">true</td>
+<td class="true parameter_tab">true</td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="panel panel-default">
+ <div class="panel-heading"><h3>Property Collections</h3></div>
+<table class="table table-bordered parameter_tab">
+<thead>
+<tr>
+<th class="parameter_tab">name</th>
+<th class="parameter_tab">description</th>
+<th class="parameter_tab">category</th>
+<th class="parameter_tab">type</th>
+<th class="parameter_tab">minSize</th>
+<th class="parameter_tab">maxSize</th>
+</tr>
+ </thead>
+<tbody>
+<tr>
+<td class="parameter_tab">cursor</td>
+<td class="parameter_tab">Defines appearance and behaviour of the cursor for data analysis</td>
+<td class="parameter_tab">Collections</td>
+<td class="parameter_tab"><a target="_blank" href="./Cursor/Cursor_doc.html">widgets.brease.OnlineChartHDA.Cursor</a></td>
+<td class="parameter_tab">1</td>
+<td class="parameter_tab">1</td>
+</tr>
+<tr>
+<td class="parameter_tab">graph</td>
+<td class="parameter_tab">Defines appearance and behaviour of the graph instances</td>
+<td class="parameter_tab">Collections</td>
+<td class="parameter_tab"><a target="_blank" href="./Graph/Graph_doc.html">widgets.brease.OnlineChartHDA.Graph</a></td>
+<td class="parameter_tab">1</td>
+<td class="parameter_tab">8</td>
+</tr>
+<tr>
+<td class="parameter_tab">xAxis</td>
+<td class="parameter_tab">Defines appearance and behaviour of the xAxis instances</td>
+<td class="parameter_tab">Collections</td>
+<td class="parameter_tab"><a target="_blank" href="./XAxis/XAxis_doc.html">widgets.brease.OnlineChartHDA.XAxis</a></td>
+<td class="parameter_tab">1</td>
+<td class="parameter_tab">1</td>
+</tr>
+<tr>
+<td class="parameter_tab">yAxis</td>
+<td class="parameter_tab">Defines appearance and behaviour of the yAxis instances</td>
+<td class="parameter_tab">Collections</td>
+<td class="parameter_tab"><a target="_blank" href="./YAxis/YAxis_doc.html">widgets.brease.OnlineChartHDA.YAxis</a></td>
+<td class="parameter_tab">1</td>
+<td class="parameter_tab">5</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="panel panel-default">
+ <div class="panel-heading"><h3>Styleable Properties</h3></div>
+<table class="table table-bordered">
+<thead>
+<tr>
+<th class="parameter_tab">name</th>
+<th class="parameter_tab">type</th>
+<th class="parameter_tab">description</th>
+<th class="parameter_tab">defaultValue</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="parameter_tab">borderWidth</td>
+<td class="parameter_tab">PixelValCollection</td>
+<td class="parameter_tab"><p>Sets the width of the border. For further information, please check its type.</p>
+</td>
+<td class="parameter_tab" >0px</td>
+</tr>
+<tr>
+<td class="parameter_tab">borderColor</td>
+<td class="parameter_tab">ColorCollection</td>
+<td class="parameter_tab"><p>Sets the border color</p>
+</td>
+<td class="parameter_tab" >#000000</td>
+</tr>
+<tr>
+<td class="parameter_tab">borderStyle</td>
+<td class="parameter_tab">BorderStyle</td>
+<td class="parameter_tab"><p>Style of the Border of the widget</p>
+</td>
+<td class="parameter_tab" >solid</td>
+</tr>
+<tr>
+<td class="parameter_tab">backColor</td>
+<td class="parameter_tab">Color</td>
+<td class="parameter_tab"><p>Sets the background color</p>
+</td>
+<td class="parameter_tab"  style="background-color:#DBDBDB;color:black;">#DBDBDB</td>
+</tr>
+<tr>
+<td class="parameter_tab">chartColor</td>
+<td class="parameter_tab">Color</td>
+<td class="parameter_tab"><p>Sets the color for the chart area</p>
+</td>
+<td class="parameter_tab"  style="background-color:#FFFFFF;color:black;">#FFFFFF</td>
+</tr>
+<tr>
+<td class="parameter_tab">disabledChartColor</td>
+<td class="parameter_tab">Color</td>
+<td class="parameter_tab"><p>Sets the color for the chart area when widget is disabled</p>
+</td>
+<td class="parameter_tab"  style="background-color:#F0F0F0;color:black;">#F0F0F0</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="panel panel-default">
+ <div class="panel-heading"><h3>Events</h3></div>
+<table class="table table-bordered">
+<thead>
+<tr>
+<th class="parameter_tab">name</th>
+<th class="parameter_tab">description</th>
+<th class="parameter_tab">arguments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="parameter_tab">Click</td>
+<td class="parameter_tab">Fired when element is clicked on.
+</td>
+<td class="parameter_tab"><ul>
+<li>origin: String
+<p>id of widget that triggered this event
+
+
+
+</p>
+</li>
+<li>horizontalPos: String
+<p>horizontal position of click in pixel i.e '10px'
+
+
+
+</p>
+</li>
+<li>verticalPos: String
+<p>vertical position of click in pixel i.e '10px'
+
+
+
+</p>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="parameter_tab">DisabledClick</td>
+<td class="parameter_tab">Fired when disabled element is clicked on.
+</td>
+<td class="parameter_tab"><ul>
+<li>origin: String
+<p>id of widget that triggered this event
+
+</p>
+</li>
+<li>hasPermission: Boolean
+<p>defines if the state is caused due to missing roles of the current user
+
+</p>
+</li>
+<li>horizontalPos: String
+<p>horizontal position of click in pixel i.e '10px'
+
+</p>
+</li>
+<li>verticalPos: String
+<p>vertical position of click in pixel i.e '10px'
+
+</p>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="parameter_tab">EnableChanged</td>
+<td class="parameter_tab">Fired when operability of the widget changes.
+</td>
+<td class="parameter_tab"><ul>
+<li>value: Boolean
+<p>operability
+
+
+
+</p>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="parameter_tab">FocusIn</td>
+<td class="parameter_tab">Fired when the widgets gets focus
+</td>
+<td class="parameter_tab"></td>
+</tr>
+<tr>
+<td class="parameter_tab">FocusOut</td>
+<td class="parameter_tab">Fired when the widgets lost focus
+</td>
+<td class="parameter_tab"></td>
+</tr>
+<tr>
+<td class="parameter_tab">OnDragEnter</td>
+<td class="parameter_tab">Fired when element has onDragEnter.
+</td>
+<td class="parameter_tab"><ul>
+<li>contentId: String
+<p>content id of the widget that has been entering the droppable widget
+</p>
+</li>
+<li>widgetId: String
+<p>id of the widget that has been entering the droppable widget
+</p>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="parameter_tab">OnDragLeave</td>
+<td class="parameter_tab">Fired when element has OnDragLeave.
+</td>
+<td class="parameter_tab"><ul>
+<li>contentId: String
+<p>content id of the widget that has been leaving the droppable widget
+</p>
+</li>
+<li>widgetId: String
+<p>id of the widget that has been leaving the droppable widget
+</p>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="parameter_tab">OnDrop</td>
+<td class="parameter_tab">Fired when element has OnDrop.
+</td>
+<td class="parameter_tab"><ul>
+<li>contentId: String
+<p>content id of the widget that has been dropped on the droppable widget
+</p>
+</li>
+<li>widgetId: String
+<p>id of the widget that has been dropped on the droppable widget
+</p>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="parameter_tab">VisibleChanged</td>
+<td class="parameter_tab">Fired when the visibility of the widget changes.
+</td>
+<td class="parameter_tab"><ul>
+<li>value: Boolean
+<p>visibility
+
+
+
+</p>
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="panel panel-default">
+ <div class="panel-heading"><h3>Actions</h3></div>
+<table class="table table-bordered">
+<thead>
+<tr>
+<th class="parameter_tab">name</th>
+<th class="parameter_tab">description</th>
+<th class="parameter_tab">arguments</th>
+<th class="parameter_tab">result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="parameter_tab">Focus</td>
+<td class="parameter_tab">Sets focus on the widget element, if it can be focused and keyboardOperation=true
+</td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+</tr>
+<tr>
+<td class="parameter_tab">Freeze</td>
+<td class="parameter_tab">Stops the update of the chart data and allows to use zoom and scrolling functions.
+</td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+</tr>
+<tr>
+<td class="parameter_tab">GetStatus</td>
+<td class="parameter_tab">Returns true if the graph is not in freeze mode.
+</td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab">
+</td>
+</tr>
+<tr>
+<td class="parameter_tab">ScrollDown</td>
+<td class="parameter_tab">Scrolls down 25% (only in freeze mode)
+</td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+</tr>
+<tr>
+<td class="parameter_tab">ScrollLeft</td>
+<td class="parameter_tab">Scrolls left 25% (only in freeze mode)
+</td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+</tr>
+<tr>
+<td class="parameter_tab">ScrollRight</td>
+<td class="parameter_tab">Scrolls right 25% (only in freeze mode)
+</td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+</tr>
+<tr>
+<td class="parameter_tab">ScrollUp</td>
+<td class="parameter_tab">Scrolls up 25% (only in freeze mode)
+</td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+</tr>
+<tr>
+<td class="parameter_tab">ScrollXAxis</td>
+<td class="parameter_tab">Scroll xAxis in any directon in seconds. Use negative number to scroll back in history. Prevents scrolling beyond limits (start: first datapoint timestamp, end: freeze time))
+</td>
+<td class="parameter_tab"><ul>
+<li>xAxisId: PropertyCollectionReference
+<p>
+</p>
+</li>
+<li>offset: Number
+<p>
+</p>
+</li>
+</ul>
+</td>
+<td class="parameter_tab">status 1 = start is before first data point timestamp, 2 = end time is after freeze time
+</td>
+</tr>
+<tr>
+<td class="parameter_tab">SetCursorStyle</td>
+<td class="parameter_tab">Sets style of cursor
+</td>
+<td class="parameter_tab"><ul>
+<li>cursorId: PropertyCollectionReference
+<p>
+</p>
+</li>
+<li>value: StyleReference
+<p>
+</p>
+</li>
+</ul>
+</td>
+<td class="parameter_tab"></td>
+</tr>
+<tr>
+<td class="parameter_tab">SetEnable</td>
+<td class="parameter_tab">Sets the state of property «enable»
+</td>
+<td class="parameter_tab"><ul>
+<li>value: Boolean
+<p>
+</p>
+</li>
+</ul>
+</td>
+<td class="parameter_tab"></td>
+</tr>
+<tr>
+<td class="parameter_tab">SetGraphStyle</td>
+<td class="parameter_tab">Sets style of graph
+</td>
+<td class="parameter_tab"><ul>
+<li>graphId: PropertyCollectionReference
+<p>
+</p>
+</li>
+<li>value: StyleReference
+<p>
+</p>
+</li>
+</ul>
+</td>
+<td class="parameter_tab"></td>
+</tr>
+<tr>
+<td class="parameter_tab">SetGraphVisible</td>
+<td class="parameter_tab">Sets visibility of graph
+</td>
+<td class="parameter_tab"><ul>
+<li>graphId: PropertyCollectionReference
+<p>
+</p>
+</li>
+<li>value: Boolean
+<p>
+</p>
+</li>
+</ul>
+</td>
+<td class="parameter_tab"></td>
+</tr>
+<tr>
+<td class="parameter_tab">SetStyle</td>
+<td class="parameter_tab">Sets new style to the widget.
+</td>
+<td class="parameter_tab"><ul>
+<li>value: StyleReference
+<p>
+</p>
+</li>
+</ul>
+</td>
+<td class="parameter_tab"></td>
+</tr>
+<tr>
+<td class="parameter_tab">SetVisible</td>
+<td class="parameter_tab">Sets the state of property «visible»
+</td>
+<td class="parameter_tab"><ul>
+<li>value: Boolean
+<p>
+</p>
+</li>
+</ul>
+</td>
+<td class="parameter_tab"></td>
+</tr>
+<tr>
+<td class="parameter_tab">SetXAxisStyle</td>
+<td class="parameter_tab">Sets style of xAxis
+</td>
+<td class="parameter_tab"><ul>
+<li>xAxisId: PropertyCollectionReference
+<p>
+</p>
+</li>
+<li>value: StyleReference
+<p>
+</p>
+</li>
+</ul>
+</td>
+<td class="parameter_tab"></td>
+</tr>
+<tr>
+<td class="parameter_tab">SetXAxisTime</td>
+<td class="parameter_tab">Sets start and end time of XAxis in freeze mode. Time is in UTC. Prevents setting times beyond limits by setting range automatically (start: first datapoint timestamp, end: freeze time).
+</td>
+<td class="parameter_tab"><ul>
+<li>xAxisId: PropertyCollectionReference
+<p>
+</p>
+</li>
+<li>start: DateTime
+<p>
+</p>
+</li>
+<li>end: DateTime
+<p>
+</p>
+</li>
+</ul>
+</td>
+<td class="parameter_tab">status 1 = start is before first data point timestamp, 2 = end time is after freeze time, 3 = 1+2, -1 = end is before start
+</td>
+</tr>
+<tr>
+<td class="parameter_tab">SetXAxisTimeSpan</td>
+<td class="parameter_tab">Sets timeSpan of XAxis
+</td>
+<td class="parameter_tab"><ul>
+<li>xAxisId: PropertyCollectionReference
+<p>
+</p>
+</li>
+<li>timeSpan: UNumber
+<p>
+</p>
+</li>
+</ul>
+</td>
+<td class="parameter_tab"></td>
+</tr>
+<tr>
+<td class="parameter_tab">SetXAxisVisible</td>
+<td class="parameter_tab">Sets visibility of xAxis
+</td>
+<td class="parameter_tab"><ul>
+<li>xAxisId: PropertyCollectionReference
+<p>
+</p>
+</li>
+<li>value: Boolean
+<p>
+</p>
+</li>
+</ul>
+</td>
+<td class="parameter_tab"></td>
+</tr>
+<tr>
+<td class="parameter_tab">SetYAxisStyle</td>
+<td class="parameter_tab">Sets style of yAxis
+</td>
+<td class="parameter_tab"><ul>
+<li>yAxisId: PropertyCollectionReference
+<p>
+</p>
+</li>
+<li>value: StyleReference
+<p>
+</p>
+</li>
+</ul>
+</td>
+<td class="parameter_tab"></td>
+</tr>
+<tr>
+<td class="parameter_tab">SetYAxisVisible</td>
+<td class="parameter_tab">Sets visibility of yAxis
+</td>
+<td class="parameter_tab"><ul>
+<li>yAxisId: PropertyCollectionReference
+<p>
+</p>
+</li>
+<li>value: Boolean
+<p>
+</p>
+</li>
+</ul>
+</td>
+<td class="parameter_tab"></td>
+</tr>
+<tr>
+<td class="parameter_tab">SetZoomType</td>
+<td class="parameter_tab">Defines on which Axis zomming is enabled
+</td>
+<td class="parameter_tab"><ul>
+<li>zoomType: brease.enum.ChartZoomType
+<p>
+</p>
+</li>
+</ul>
+</td>
+<td class="parameter_tab"></td>
+</tr>
+<tr>
+<td class="parameter_tab">ShowTooltip</td>
+<td class="parameter_tab">
+</td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+</tr>
+<tr>
+<td class="parameter_tab">Unfreeze</td>
+<td class="parameter_tab">Restarts the update of the chart data and prevents to use zoom and scrolling functions.
+</td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+</tr>
+<tr>
+<td class="parameter_tab">ZoomIn</td>
+<td class="parameter_tab">Zooms in 20%
+</td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+</tr>
+<tr>
+<td class="parameter_tab">ZoomOut</td>
+<td class="parameter_tab">Zooms out 20% (only in freeze mode)
+</td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+</tr>
+<tr>
+<td class="parameter_tab">ZoomReset</td>
+<td class="parameter_tab">Resets zoom to 0% (only in freeze mode)
+</td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</body>
+</html>

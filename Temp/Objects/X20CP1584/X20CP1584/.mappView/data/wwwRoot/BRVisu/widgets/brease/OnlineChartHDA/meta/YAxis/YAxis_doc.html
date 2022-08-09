@@ -1,0 +1,332 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>widgets.brease.OnlineChartHDA.YAxis Documentation</title>
+    <link href="../../../../../assets/css/bootstrap.min.css" rel="stylesheet">
+    <style>.true {color:#00aa00;font-weight:bold;}.false {color:#aaa;font-weight:normal;}</style>
+  </head>
+  <body>
+<div class="panel-heading"><h3>widgets.brease.OnlineChartHDA.YAxis</h3><p style="font-size:1.2em">Defines appearance and behaviour of the yAxis instances</p></div>
+<div class="panel panel-default">
+ <div class="panel-heading"><h3>Properties</h3></div>
+<table class="table table-bordered parameter_tab">
+<thead>
+<tr>
+<th class="parameter_tab">name</th>
+<th class="parameter_tab">description</th>
+<th class="parameter_tab">category</th>
+<th class="parameter_tab">type</th>
+<th class="parameter_tab">defaultValue</th>
+<th class="parameter_tab">bindable</th>
+<th class="parameter_tab">readOnly</th>
+<th class="parameter_tab">required</th>
+<th class="parameter_tab">localizable</th>
+<th class="parameter_tab">editableBinding</th>
+<th class="parameter_tab">projectable</th>
+<th class="parameter_tab">cssProp (<small>has no setter and getter in JS</small>)</th>
+<th class="parameter_tab">groupRefId</th>
+<th class="parameter_tab">groupOrder</th>
+<th class="parameter_tab">nodeRefId (<small>for linking node and value</small>)</th>
+<th class="parameter_tab">deprecated</th>
+<th class="parameter_tab">typeRefId (<small>for StyleReference</small>)</th>
+<th class="parameter_tab">subtype (<small>for MpComIdentReference</small>)</th>
+</tr>
+ </thead>
+<tbody>
+<tr>
+<td class="parameter_tab">format</td>
+<td class="parameter_tab">NumberFormat for every measurement system.
+Defines the number format of the labels.
+</td>
+<td class="parameter_tab">Appearance</td>
+<td class="parameter_tab"><a target="_blank" href="../../../../../breaseDoku/out/template.html#!/api/brease.config.MeasurementSystemFormat">brease.config.MeasurementSystemFormat</a></td>
+<td class="parameter_tab">{&apos;metric&apos;:{ &apos;decimalPlaces&apos; : 1, &apos;minimumIntegerDigits&apos; : 1 }, &apos;imperial&apos; :{ &apos;decimalPlaces&apos; : 1, &apos;minimumIntegerDigits&apos; : 1 }, &apos;imperial-us&apos; :{ &apos;decimalPlaces&apos; : 1, &apos;minimumIntegerDigits&apos; : 1 }}</td>
+<td class="true parameter_tab">true</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="true parameter_tab">true</td>
+<td class="false parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+</tr>
+<tr>
+<td class="parameter_tab">max</td>
+<td class="parameter_tab">Defines the maximum range if rangeMode is set to fromConfiguration. This value has no unit and will not be converted!
+</td>
+<td class="parameter_tab">Behavior</td>
+<td class="parameter_tab">Number</td>
+<td class="parameter_tab">100</td>
+<td class="true parameter_tab">true</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="true parameter_tab">true</td>
+<td class="false parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+</tr>
+<tr>
+<td class="parameter_tab">min</td>
+<td class="parameter_tab">Defines the minimum range if rangeMode is set to fromConfiguration. This value has no unit and will not be converted!
+</td>
+<td class="parameter_tab">Behavior</td>
+<td class="parameter_tab">Number</td>
+<td class="parameter_tab">0</td>
+<td class="true parameter_tab">true</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="true parameter_tab">true</td>
+<td class="false parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+</tr>
+<tr>
+<td class="parameter_tab">position</td>
+<td class="parameter_tab">Defines weather the axis is positioned left or right in the chart.
+</td>
+<td class="parameter_tab">Appearance</td>
+<td class="parameter_tab"><a target="_blank" href="../../../../../breaseDoku/out/template.html#!/api/brease.enum.HorizontalAlign">brease.enum.HorizontalAlign</a></td>
+<td class="parameter_tab">left</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="true parameter_tab">true</td>
+<td class="false parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+</tr>
+<tr>
+<td class="parameter_tab">rangeMode</td>
+<td class="parameter_tab">Defines how the range is drawn. If rangeMode fromConfiguration is used the range is static and will not be converted!
+</td>
+<td class="parameter_tab">Behavior</td>
+<td class="parameter_tab"><a target="_blank" href="../../../../../breaseDoku/out/template.html#!/api/brease.enum.RangeMode">brease.enum.RangeMode</a></td>
+<td class="parameter_tab">autoscale</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="true parameter_tab">true</td>
+<td class="false parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+</tr>
+<tr>
+<td class="parameter_tab">showUnit</td>
+<td class="parameter_tab">Defines whether the unit should be displayed.
+</td>
+<td class="parameter_tab">Appearance</td>
+<td class="parameter_tab">Boolean</td>
+<td class="parameter_tab">true</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="true parameter_tab">true</td>
+<td class="false parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+</tr>
+<tr>
+<td class="parameter_tab">style</td>
+<td class="parameter_tab">Reference to a style that can be created by the user.
+</td>
+<td class="parameter_tab">Appearance</td>
+<td class="parameter_tab">StyleReference</td>
+<td class="parameter_tab">default</td>
+<td class="true parameter_tab">true</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="true parameter_tab">true</td>
+<td class="false parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab">widgets.brease.OnlineChartHDA.YAxis</td>
+<td class="parameter_tab"></td>
+</tr>
+<tr>
+<td class="parameter_tab">title</td>
+<td class="parameter_tab">Title of axis.
+</td>
+<td class="parameter_tab">Appearance</td>
+<td class="parameter_tab">String</td>
+<td class="parameter_tab"></td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="true parameter_tab">true</td>
+<td class="false parameter_tab">false</td>
+<td class="true parameter_tab">true</td>
+<td class="false parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+</tr>
+<tr>
+<td class="parameter_tab">unit</td>
+<td class="parameter_tab">Unit code for every measurement system.
+</td>
+<td class="parameter_tab">Appearance</td>
+<td class="parameter_tab"><a target="_blank" href="../../../../../breaseDoku/out/template.html#!/api/brease.config.MeasurementSystemUnit">brease.config.MeasurementSystemUnit</a></td>
+<td class="parameter_tab"></td>
+<td class="true parameter_tab">true</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="true parameter_tab">true</td>
+<td class="false parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+</tr>
+<tr>
+<td class="parameter_tab">visible</td>
+<td class="parameter_tab">Defines the visibility of the graph. (Visible = true, invisible = false)
+</td>
+<td class="parameter_tab">Behavior</td>
+<td class="parameter_tab">Boolean</td>
+<td class="parameter_tab">true</td>
+<td class="true parameter_tab">true</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="false parameter_tab">false</td>
+<td class="true parameter_tab">true</td>
+<td class="false parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+<td class="parameter_tab"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="panel panel-default">
+ <div class="panel-heading"><h3>Styleable Properties</h3></div>
+<table class="table table-bordered">
+<thead>
+<tr>
+<th class="parameter_tab">name</th>
+<th class="parameter_tab">type</th>
+<th class="parameter_tab">description</th>
+<th class="parameter_tab">defaultValue</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="parameter_tab">textColor</td>
+<td class="parameter_tab">Color</td>
+<td class="parameter_tab"><p>Color of y axis labels</p>
+</td>
+<td class="parameter_tab"  style="background-color:#000000;color:white;">#000000</td>
+</tr>
+<tr>
+<td class="parameter_tab">disabledTextColor</td>
+<td class="parameter_tab">Color</td>
+<td class="parameter_tab"><p>Color of y axis labels when widget is disabled</p>
+</td>
+<td class="parameter_tab"  style="background-color:#808080;color:black;">#808080</td>
+</tr>
+<tr>
+<td class="parameter_tab">color</td>
+<td class="parameter_tab">Color</td>
+<td class="parameter_tab"><p>Color of y axis</p>
+</td>
+<td class="parameter_tab"  style="background-color:#000000;color:white;">#000000</td>
+</tr>
+<tr>
+<td class="parameter_tab">gridColor</td>
+<td class="parameter_tab">Color</td>
+<td class="parameter_tab"><p>Color of y axis grid</p>
+</td>
+<td class="parameter_tab"  style="background-color:#DBDBDB;color:black;">#DBDBDB</td>
+</tr>
+<tr>
+<td class="parameter_tab">fontSize</td>
+<td class="parameter_tab">PixelVal</td>
+<td class="parameter_tab"><p>Font size for the y axis labels</p>
+</td>
+<td class="parameter_tab" >12px</td>
+</tr>
+<tr>
+<td class="parameter_tab">fontName</td>
+<td class="parameter_tab">FontName</td>
+<td class="parameter_tab"><p>Font name for the y axis labels</p>
+</td>
+<td class="parameter_tab" >Arial</td>
+</tr>
+<tr>
+<td class="parameter_tab">titleTextColor</td>
+<td class="parameter_tab">Color</td>
+<td class="parameter_tab"><p>Color of title for y axis</p>
+</td>
+<td class="parameter_tab"  style="background-color:#000000;color:white;">#000000</td>
+</tr>
+<tr>
+<td class="parameter_tab">titleFontSize</td>
+<td class="parameter_tab">PixelVal</td>
+<td class="parameter_tab"><p>Font size of title for y axis</p>
+</td>
+<td class="parameter_tab" >12px</td>
+</tr>
+<tr>
+<td class="parameter_tab">titleFontName</td>
+<td class="parameter_tab">FontName</td>
+<td class="parameter_tab"><p>Font size of title for y axis</p>
+</td>
+<td class="parameter_tab" >Arial</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</body>
+</html>

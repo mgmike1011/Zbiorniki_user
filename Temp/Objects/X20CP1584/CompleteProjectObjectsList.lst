@@ -1643,7 +1643,7 @@
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\VisualizationOperatorControl\Pages\AlarmPageControl\ContentAlarmPageControl.content"
     LogicalPath="mappView.VisualizationOperatorControl.Pages.AlarmPageControl.ContentAlarmPageControl.content"
     Type="File"
-    LastWriteTime="133044520816134454"
+    LastWriteTime="133045223548549135"
     Private="false" />
   <Object
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\VisualizationOperatorControl\Pages\ServicePageControl\Package.pkg"
@@ -1660,7 +1660,7 @@
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\VisualizationOperatorControl\Pages\ServicePageControl\ContentServicePageControl.content"
     LogicalPath="mappView.VisualizationOperatorControl.Pages.ServicePageControl.ContentServicePageControl.content"
     Type="File"
-    LastWriteTime="133044548968611681"
+    LastWriteTime="133045218606740008"
     Private="false" />
   <Object
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\VisualizationOperatorControl\Variables\Package.pkg"
@@ -1937,7 +1937,7 @@
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\Cpu.pkg"
     LogicalPath="X20CP1584.X20CP1584"
     Type="Cpu"
-    LastWriteTime="133045192688024523" />
+    LastWriteTime="133045218781065142" />
   <Object
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\Cpu.sw"
     LogicalPath="X20CP1584.X20CP1584.Cpu.sw"
@@ -2092,7 +2092,7 @@
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\mappView\Package.pkg"
     LogicalPath="X20CP1584.X20CP1584.mappView"
     Type="Package"
-    LastWriteTime="133045059756610290" />
+    LastWriteTime="133045212960264847" />
   <Object
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\mappView\OpcUaServer.uaserver"
     LogicalPath="X20CP1584.X20CP1584.mappView.OpcUaServer.uaserver"
@@ -2139,7 +2139,7 @@
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\mappView\VisOperCon.vis"
     LogicalPath="X20CP1584.X20CP1584.mappView.VisOperCon.vis"
     Type="File"
-    LastWriteTime="133045059756746946"
+    LastWriteTime="133045212960381970"
     Private="false" />
   <Object
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\mappView\ContentMainPageControl.binding"
@@ -2188,6 +2188,12 @@
     LogicalPath="X20CP1584.X20CP1584.mappView.ContentManualDialog.eventbinding"
     Type="File"
     LastWriteTime="133045153133962635"
+    Private="false" />
+  <Object
+    Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\mappView\ContentServicePageControl.binding"
+    LogicalPath="X20CP1584.X20CP1584.mappView.ContentServicePageControl.binding"
+    Type="File"
+    LastWriteTime="133045217995545035"
     Private="false" />
   <Object
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\mappCockpit\Package.pkg"

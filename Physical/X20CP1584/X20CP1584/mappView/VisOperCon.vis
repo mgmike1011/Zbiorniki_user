@@ -11,6 +11,7 @@
     <BindingsSet refId="ContentMainPageControl_binding" />
     <BindingsSet refId="ContentAlarmPageControl_binding" />
     <BindingsSet refId="ContentManualDialog_binding" />
+    <BindingsSet refId="ContentServicePageControl_binding" />
   </BindingsSets>
   <EventBindingsSets>
     <EventBindingsSet refId="ContentMainPageControl_eventbinding" />

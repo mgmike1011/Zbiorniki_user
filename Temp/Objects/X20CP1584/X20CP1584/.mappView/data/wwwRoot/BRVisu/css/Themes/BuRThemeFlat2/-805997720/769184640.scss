@@ -41,3 +41,27 @@ rect.bar {
 }
 
 }
+@import "../../../../widgets/brease/OnlineChartHDA/meta/Graph/Graph_base";
+.widgets_brease_OnlineChartHDA_Graph_style_Graph_Red {
+@include widgets_brease_OnlineChartHDA_Graph_base; 
+& .lineColor {
+	color: #FF0000;
+}
+
+}
+@import "../../../../widgets/brease/OnlineChartHDA/meta/Graph/Graph_base";
+.widgets_brease_OnlineChartHDA_Graph_style_Graph_GrayBlu {
+@include widgets_brease_OnlineChartHDA_Graph_base; 
+& .lineColor {
+	color: #39f;
+}
+
+}
+@import "../../../../widgets/brease/OnlineChartHDA/meta/Graph/Graph_base";
+.widgets_brease_OnlineChartHDA_Graph_style_Graph_Black {
+@include widgets_brease_OnlineChartHDA_Graph_base; 
+& .lineColor {
+	color: #000000;
+}
+
+}

@@ -1,0 +1,29 @@
+@import "mixins.scss";
+@mixin widgets_brease_OnlineChartHDA_XAxis_base {
+& .gridXAxisColor {
+	color: #DBDBDB;
+}
+& .xAxisTickColor {
+	color: #000000;
+}
+& .xAxisTextColor {
+	color: #000000;
+}
+& .disabledxAxisTextColor {
+	color: #808080;
+}
+& .xAxisFontName {
+	font-family: Arial;
+}
+& .xAxisFontSize {
+	font-size: 12px;
+}
+& .xAxisTickLabelRotation {
+	@include rotate(0deg);
+}
+
+}
+
+.widgets_brease_OnlineChartHDA_XAxis_style_default {
+@include widgets_brease_OnlineChartHDA_XAxis_base 
+}

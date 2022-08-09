@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructuredProperty type="widgets.brease.OnlineChartHDA.Graph" xmlns="http://www.br-automation.com/iat2014/widget" ><StyleProperties>
+      <StyleProperty name="lineColor" category="Appearance" type="Color" default="#FF0000">
+        <StyleElement selector="&amp; .lineColor" attribute="color"/>
+        <Description>
+          Color of the line graph
+        </Description>
+      </StyleProperty>
+      <StyleProperty name="disabledLineColor" category="Appearance" type="Color" default="#DBDBDB">
+        <StyleElement selector="&amp; .disabledLineColor" attribute="color"/>
+        <Description>
+          Color of the line graph when widget is disabled
+        </Description>
+      </StyleProperty>
+      <StyleProperty name="lineWidth" category="Appearance" type="PixelVal" default="3px">
+        <StyleElement selector="&amp; .lineWidth" attribute="width"/>
+        <Description>
+          Width of the line graph
+        </Description>
+      </StyleProperty>
+    </StyleProperties></StructuredProperty>

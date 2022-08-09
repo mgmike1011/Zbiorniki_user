@@ -18,5 +18,6 @@
     <Object Type="File">ContentTopControl.eventbinding</Object>
     <Object Type="File">ContentManualDialog.binding</Object>
     <Object Type="File">ContentManualDialog.eventbinding</Object>
+    <Object Type="File">ContentServicePageControl.binding</Object>
   </Objects>
 </Package>

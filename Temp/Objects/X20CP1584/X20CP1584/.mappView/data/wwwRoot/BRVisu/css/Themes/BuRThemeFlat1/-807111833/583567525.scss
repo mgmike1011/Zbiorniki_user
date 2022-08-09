@@ -1007,6 +1007,56 @@ text {
 }
 
 }
+@import "../../../../widgets/brease/OnlineChartHDA/meta/OnlineChartHDA_base";
+.widgets_brease_OnlineChartHDA_style_default {
+@include widgets_brease_OnlineChartHDA_base; 
+	background-color: rgba(0,0,0,0);
+& .chartColor {
+	background-color: rgba(0,0,0,0);
+}
+	border-color: #A899A0 #5F5F5F #5F5F5F #A899A0;
+	border-width: 1px;
+& .disabledChartColor {
+	color: rgba(240, 240, 240, 1);
+}
+
+}
+@import "../../../../widgets/brease/OnlineChartHDA/meta/Graph/Graph_base";
+.widgets_brease_OnlineChartHDA_Graph_style_default {
+@include widgets_brease_OnlineChartHDA_Graph_base; 
+& .lineColor {
+	color: #FF8500;
+}
+
+}
+@import "../../../../widgets/brease/OnlineChartHDA/meta/XAxis/XAxis_base";
+.widgets_brease_OnlineChartHDA_XAxis_style_default {
+@include widgets_brease_OnlineChartHDA_XAxis_base; 
+& .xAxisTickColor {
+	color: rgba(100,100,100,1);
+}
+& .xAxisFontSize {
+	font-size: 14px;
+}
+& .disabledxAxisTextColor {
+	color: #cccccc;
+}
+
+}
+@import "../../../../widgets/brease/OnlineChartHDA/meta/YAxis/YAxis_base";
+.widgets_brease_OnlineChartHDA_YAxis_style_default {
+@include widgets_brease_OnlineChartHDA_YAxis_base; 
+& .yAxisColor {
+	color: rgba(100,100,100,1);
+}
+& .yAxisFontSize {
+	font-size: 14px;
+}
+& .disabledyAxisTextColor {
+	color: #cccccc;
+}
+
+}
 @import "../../../../widgets/brease/Button/meta/Button_base";
 .widgets_brease_Button_style_defaultSmall {
 @include widgets_brease_Button_base; 

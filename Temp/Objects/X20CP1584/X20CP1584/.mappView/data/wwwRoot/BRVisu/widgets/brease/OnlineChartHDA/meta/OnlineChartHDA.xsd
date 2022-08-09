@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:iat="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2" elementFormDefault="qualified">
+<xs:complexType name="widgets.brease.OnlineChartHDARestrict" abstract="true">
+	<xs:complexContent>
+		<xs:restriction base="iat:brease.core.BaseContentWidget">
+			<xs:attribute name="tabIndex" use="optional" type="types:Integer" default="-1" />
+			<xs:attribute name="height" use="optional" type="types:Size" default="440" />
+			<xs:attribute name="width" use="optional" type="types:Size" default="720" />
+		</xs:restriction>
+	</xs:complexContent>
+</xs:complexType>
+<xs:complexType name="widgets.brease.OnlineChartHDA">
+	<xs:complexContent>
+		<xs:extension base="iat:widgets.brease.OnlineChartHDARestrict">
+			<xs:all>
+				<xs:element name="Properties" minOccurs="1" maxOccurs="1">
+					<xs:complexType>
+						<xs:all>
+							<xs:element name="cursor" minOccurs="1" maxOccurs="1">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="Element" minOccurs="1" maxOccurs="1">
+											<xs:complexType>
+												<xs:complexContent>
+													<xs:extension base="types:StructuredPropertyElement">
+														<xs:attribute name="style" use="optional" type="types:StyleReference" default="default" />
+														<xs:attribute name="visible" use="optional" type="types:Boolean" default="true" />
+														<xs:attribute name="fontName" use="optional" type="types:FontName" default="Arial" />
+														<xs:attribute name="fontSize" use="optional" type="types:PixelVal" default="12px" />
+													</xs:extension >
+												</xs:complexContent>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+								<xs:unique name="widgets.brease.OnlineChartHDA.uniquecursorId">
+									<xs:selector xpath="iat:Element"/>
+									<xs:field xpath="@id"/>
+								</xs:unique>
+							</xs:element>
+							<xs:element name="graph" minOccurs="1" maxOccurs="1">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="Element" minOccurs="1" maxOccurs="8">
+											<xs:complexType>
+												<xs:complexContent>
+													<xs:extension base="types:StructuredPropertyElement">
+														<xs:attribute name="style" use="optional" type="types:StyleReference" default="default" />
+														<xs:attribute name="type" use="optional" type="types:brease.enum.GraphType" default="stepLine" />
+														<xs:attribute name="visible" use="optional" type="types:Boolean" default="true" />
+														<xs:attribute name="yAxisReference" use="required" type="types:PropertyCollectionReference"  />
+														<xs:attribute name="lineColor" use="optional" type="types:Color" default="#FF0000" />
+														<xs:attribute name="disabledLineColor" use="optional" type="types:Color" default="#DBDBDB" />
+														<xs:attribute name="lineWidth" use="optional" type="types:PixelVal" default="3px" />
+													</xs:extension >
+												</xs:complexContent>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+								<xs:unique name="widgets.brease.OnlineChartHDA.uniquegraphId">
+									<xs:selector xpath="iat:Element"/>
+									<xs:field xpath="@id"/>
+								</xs:unique>
+							</xs:element>
+							<xs:element name="xAxis" minOccurs="1" maxOccurs="1">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="Element" minOccurs="1" maxOccurs="1">
+											<xs:complexType>
+												<xs:complexContent>
+													<xs:extension base="types:StructuredPropertyElement">
+														<xs:attribute name="numberOfTicks" use="optional" type="types:UInteger" default="5" />
+														<xs:attribute name="position" use="optional" type="types:brease.enum.VerticalAlign" default="bottom" />
+														<xs:attribute name="style" use="optional" type="types:StyleReference" default="default" />
+														<xs:attribute name="timeFormat" use="optional" type="types:String" default="hh:mm:ss" />
+														<xs:attribute name="timeSpan" use="optional" type="types:UNumber" default="60" />
+														<xs:attribute name="visible" use="optional" type="types:Boolean" default="true" />
+														<xs:attribute name="gridColor" use="optional" type="types:Color" default="#DBDBDB" />
+														<xs:attribute name="color" use="optional" type="types:Color" default="#000000" />
+														<xs:attribute name="textColor" use="optional" type="types:Color" default="#000000" />
+														<xs:attribute name="disabledTextColor" use="optional" type="types:Color" default="#808080" />
+														<xs:attribute name="fontName" use="optional" type="types:FontName" default="Arial" />
+														<xs:attribute name="fontSize" use="optional" type="types:PixelVal" default="12px" />
+														<xs:attribute name="tickLabelRotation" use="optional" type="types:Rotation" default="0deg" />
+													</xs:extension >
+												</xs:complexContent>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+								<xs:unique name="widgets.brease.OnlineChartHDA.uniquexAxisId">
+									<xs:selector xpath="iat:Element"/>
+									<xs:field xpath="@id"/>
+								</xs:unique>
+							</xs:element>
+							<xs:element name="yAxis" minOccurs="1" maxOccurs="1">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="Element" minOccurs="1" maxOccurs="5">
+											<xs:complexType>
+												<xs:complexContent>
+													<xs:extension base="types:StructuredPropertyElement">
+														<xs:attribute name="format" use="optional" type="types:brease.config.MeasurementSystemFormat" default="{&apos;metric&apos;:{ &apos;decimalPlaces&apos; : 1, &apos;minimumIntegerDigits&apos; : 1 }, &apos;imperial&apos; :{ &apos;decimalPlaces&apos; : 1, &apos;minimumIntegerDigits&apos; : 1 }, &apos;imperial-us&apos; :{ &apos;decimalPlaces&apos; : 1, &apos;minimumIntegerDigits&apos; : 1 }}" />
+														<xs:attribute name="max" use="optional" type="types:Number" default="100" />
+														<xs:attribute name="min" use="optional" type="types:Number" default="0" />
+														<xs:attribute name="position" use="optional" type="types:brease.enum.HorizontalAlign" default="left" />
+														<xs:attribute name="rangeMode" use="optional" type="types:brease.enum.RangeMode" default="autoscale" />
+														<xs:attribute name="showUnit" use="optional" type="types:Boolean" default="true" />
+														<xs:attribute name="style" use="optional" type="types:StyleReference" default="default" />
+														<xs:attribute name="title" use="optional" type="types:String" default="" />
+														<xs:attribute name="unit" use="optional" type="types:brease.config.MeasurementSystemUnit" default="" />
+														<xs:attribute name="visible" use="optional" type="types:Boolean" default="true" />
+														<xs:attribute name="textColor" use="optional" type="types:Color" default="#000000" />
+														<xs:attribute name="disabledTextColor" use="optional" type="types:Color" default="#808080" />
+														<xs:attribute name="color" use="optional" type="types:Color" default="#000000" />
+														<xs:attribute name="gridColor" use="optional" type="types:Color" default="#DBDBDB" />
+														<xs:attribute name="fontSize" use="optional" type="types:PixelVal" default="12px" />
+														<xs:attribute name="fontName" use="optional" type="types:FontName" default="Arial" />
+														<xs:attribute name="titleTextColor" use="optional" type="types:Color" default="#000000" />
+														<xs:attribute name="titleFontSize" use="optional" type="types:PixelVal" default="12px" />
+														<xs:attribute name="titleFontName" use="optional" type="types:FontName" default="Arial" />
+													</xs:extension >
+												</xs:complexContent>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+								<xs:unique name="widgets.brease.OnlineChartHDA.uniqueyAxisId">
+									<xs:selector xpath="iat:Element"/>
+									<xs:field xpath="@id"/>
+								</xs:unique>
+							</xs:element>
+						</xs:all>
+					</xs:complexType>
+				</xs:element>
+			</xs:all>
+			<xs:attribute name="maxTimeDeviation" use="optional" type="types:UInteger" default="10" />
+			<xs:attribute name="updateBufferTime" use="optional" type="types:UInteger" default="2000" />
+			<xs:attribute name="updateChartTime" use="optional" type="types:UInteger" default="200" />
+			<xs:attribute name="zoomType" use="optional" type="types:brease.enum.ChartZoomType" default="xy" />
+			<xs:attribute name="borderWidth" use="optional" type="types:PixelValCollection" default="0px" />
+			<xs:attribute name="borderColor" use="optional" type="types:ColorCollection" default="#000000" />
+			<xs:attribute name="borderStyle" use="optional" type="types:BorderStyle" default="solid" />
+			<xs:attribute name="backColor" use="optional" type="types:Color" default="#DBDBDB" />
+			<xs:attribute name="chartColor" use="optional" type="types:Color" default="#FFFFFF" />
+			<xs:attribute name="disabledChartColor" use="optional" type="types:Color" default="#F0F0F0" />
+		</xs:extension>
+	</xs:complexContent>
+</xs:complexType>
+</xs:schema>

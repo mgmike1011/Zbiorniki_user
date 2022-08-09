@@ -1,0 +1,20 @@
+@import "mixins.scss";
+@mixin widgets_brease_OnlineChartHDA_base {
+	@include elemWidth(720);
+	@include elemHeight(440);
+	border-width: 0px;
+	border-color: #000000;
+	border-style: solid;
+	background-color: #DBDBDB;
+& .chartColor {
+	background-color: #DBDBDB;
+}
+& .chartColor {
+	color: #FFFFFF;
+}
+& .disabledChartColor {
+	color: #F0F0F0;
+}
+
+}
+

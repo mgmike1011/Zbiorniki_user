@@ -7,7 +7,7 @@
         <Widget xsi:type="widgets.brease.AlarmListItem" id="AlarmListItem2" zIndex="1" columnType="name" text="$IAT/AlarmPage/IDtxt" />
         <Widget xsi:type="widgets.brease.AlarmListItem" id="AlarmListItem3" width="345" zIndex="2" text="$IAT/AlarmPage/Messagetxt" />
         <Widget xsi:type="widgets.brease.AlarmListItem" id="AlarmListItem4" zIndex="3" columnType="state" text="$IAT/AlarmPage/Statetxt" />
-        <Widget xsi:type="widgets.brease.AlarmListItem" id="AlarmListItem5" zIndex="4" columnType="code" text="$IAT/AlarmPage/Codetxt" />
+        <Widget xsi:type="widgets.brease.AlarmListItem" id="AlarmListItem5" width="150" zIndex="4" columnType="code" text="$IAT/AlarmPage/Codetxt" />
       </Widgets>
     </Widget>
     <Widget xsi:type="widgets.brease.Button" id="Button1" top="525" left="720" width="180" zIndex="1" text="$IAT/AlarmPage/Acktxt" permissionOperate="['Administrators', 'Operator']" />

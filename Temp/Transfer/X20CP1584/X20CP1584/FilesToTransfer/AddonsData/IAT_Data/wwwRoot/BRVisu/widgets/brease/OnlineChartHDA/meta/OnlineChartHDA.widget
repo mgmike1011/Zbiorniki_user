@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WidgetLibrary xmlns="http://www.br-automation.com/iat2014/widget">
+	<Widget name="widgets.brease.OnlineChartHDA">
+		<ASEngineeringInfo>
+			<IsProjectable>true</IsProjectable>
+			<LicenseInfo>licensed</LicenseInfo>
+		</ASEngineeringInfo>
+		<Dependencies>
+			<Files>
+				<File>brease/core/BaseWidget.js</File>
+				<File>brease/core/Utils.js</File>
+				<File>brease/enum/Enum.js</File>
+				<File>brease/events/BreaseEvent.js</File>
+				<File>widgets/brease/common/ErrorHandling/libs/CommissioningErrorHandler.js</File>
+				<File>widgets/brease/OnlineChartHDA/libs/config/Config.js</File>
+				<File>widgets/brease/OnlineChartHDA/libs/StructProperties/XAxis.js</File>
+				<File>widgets/brease/OnlineChartHDA/libs/StructProperties/YAxis.js</File>
+				<File>widgets/brease/OnlineChartHDA/libs/StructProperties/Graph.js</File>
+				<File>widgets/brease/OnlineChartHDA/libs/StructProperties/Cursor.js</File>
+				<File>widgets/brease/OnlineChartHDA/libs/MsgOverlay.js</File>
+				<File>widgets/brease/OnlineChartHDA/libs/Renderer.js</File>
+				<File>widgets/brease/OnlineChartHDA/libs/DataAdapter.js</File>
+				<File>widgets/brease/OnlineChartHDA/libs/StyleElemsUtils.js</File>
+				<File>brease/decorators/DragAndDropCapability.js</File>
+				<File>brease/decorators/MeasurementSystemDependency.js</File>
+				<File>brease/decorators/CultureDependency.js</File>
+				<File>widgets/brease/common/DragDropProperties/libs/DroppablePropertiesEvents.js</File>
+				<File>widgets/brease/BusyIndicator/BusyIndicator.js</File>
+			</Files>
+			<Widgets>
+				<Widget>widgets/brease/OnlineChartHDA/OnlineChartHDA.js</Widget>
+				<Widget>widgets/brease/BusyIndicator/BusyIndicator.js</Widget>
+			</Widgets>
+		</Dependencies>
+		<Categories>
+			<Category name="Category">Chart</Category>
+		</Categories>
+		<Descriptions>
+			<Description name="short">Display historical + online data</Description>
+			<Description name="de">Widget zur Anzeige von historischen und online Daten in einem Diagramm</Description>
+			<Description name="en">Widget to display historical and online data in a chart</Description>
+		</Descriptions>
+		<Inheritance>
+			<Class level="0">widgets.brease.OnlineChartHDA</Class>
+			<Class level="1">brease.core.BaseWidget</Class>
+		</Inheritance>
+		<Parents>
+			<Parent>*</Parent>
+		</Parents>
+		<Children>
+		</Children>
+		<Methods>
+			<Method name="Focus" read="false">
+				<Description>Sets focus on the widget element, if it can be focused and keyboardOperation=true</Description>
+			</Method>
+			<Method name="Freeze" read="false">
+				<Description>Stops the update of the chart data and allows to use zoom and scrolling functions.</Description>
+			</Method>
+			<Method name="GetStatus" read="true">
+				<Description>Returns true if the graph is not in freeze mode.</Description>
+				<Result type="Boolean"/>
+			</Method>
+			<Method name="ScrollDown" read="false">
+				<Description>Scrolls down 25% (only in freeze mode)</Description>
+			</Method>
+			<Method name="ScrollLeft" read="false">
+				<Description>Scrolls left 25% (only in freeze mode)</Description>
+			</Method>
+			<Method name="ScrollRight" read="false">
+				<Description>Scrolls right 25% (only in freeze mode)</Description>
+			</Method>
+			<Method name="ScrollUp" read="false">
+				<Description>Scrolls up 25% (only in freeze mode)</Description>
+			</Method>
+			<Method name="ScrollXAxis" read="false">
+				<Description>Scroll xAxis in any directon in seconds. Use negative number to scroll back in history. Prevents scrolling beyond limits (start: first datapoint timestamp, end: freeze time))</Description>
+				<Result type="Number"/>
+				<Arguments>
+					<Argument name="xAxisId" type="PropertyCollectionReference" index="0" required="true" typeRefId="xAxis"/>
+					<Argument name="offset" type="Number" index="1" required="true"/>
+				</Arguments>
+			</Method>
+			<Method name="SetCursorStyle" read="false">
+				<Description>Sets style of cursor</Description>
+				<Arguments>
+					<Argument name="cursorId" type="PropertyCollectionReference" index="0" required="true" typeRefId="cursor"/>
+					<Argument name="value" type="StyleReference" index="1" required="true" typeRefId="widgets.brease.OnlineChartHDA.Cursor"/>
+				</Arguments>
+			</Method>
+			<Method name="SetEnable" read="false">
+				<Description>Sets the state of property «enable»</Description>
+				<Arguments>
+					<Argument name="value" type="Boolean" index="0" required="true"/>
+				</Arguments>
+			</Method>
+			<Method name="SetGraphStyle" read="false">
+				<Description>Sets style of graph</Description>
+				<Arguments>
+					<Argument name="graphId" type="PropertyCollectionReference" index="0" required="true" typeRefId="graph"/>
+					<Argument name="value" type="StyleReference" index="1" required="true" typeRefId="widgets.brease.OnlineChartHDA.Graph"/>
+				</Arguments>
+			</Method>
+			<Method name="SetGraphVisible" read="false">
+				<Description>Sets visibility of graph</Description>
+				<Arguments>
+					<Argument name="graphId" type="PropertyCollectionReference" index="0" required="true" typeRefId="graph"/>
+					<Argument name="value" type="Boolean" index="1" required="true"/>
+				</Arguments>
+			</Method>
+			<Method name="SetStyle" read="false">
+				<Description>Sets new style to the widget.</Description>
+				<Arguments>
+					<Argument name="value" type="StyleReference" index="0" required="true"/>
+				</Arguments>
+			</Method>
+			<Method name="SetVisible" read="false">
+				<Description>Sets the state of property «visible»</Description>
+				<Arguments>
+					<Argument name="value" type="Boolean" index="0" required="true"/>
+				</Arguments>
+			</Method>
+			<Method name="SetXAxisStyle" read="false">
+				<Description>Sets style of xAxis</Description>
+				<Arguments>
+					<Argument name="xAxisId" type="PropertyCollectionReference" index="0" required="true" typeRefId="xAxis"/>
+					<Argument name="value" type="StyleReference" index="1" required="true" typeRefId="widgets.brease.OnlineChartHDA.XAxis"/>
+				</Arguments>
+			</Method>
+			<Method name="SetXAxisTime" read="false">
+				<Description>Sets start and end time of XAxis in freeze mode. Time is in UTC. Prevents setting times beyond limits by setting range automatically (start: first datapoint timestamp, end: freeze time).</Description>
+				<Result type="Number"/>
+				<Arguments>
+					<Argument name="xAxisId" type="PropertyCollectionReference" index="0" required="true" typeRefId="xAxis"/>
+					<Argument name="start" type="DateTime" index="1" required="true"/>
+					<Argument name="end" type="DateTime" index="2" required="true"/>
+				</Arguments>
+			</Method>
+			<Method name="SetXAxisTimeSpan" read="false">
+				<Description>Sets timeSpan of XAxis</Description>
+				<Arguments>
+					<Argument name="xAxisId" type="PropertyCollectionReference" index="0" required="true" typeRefId="xAxis"/>
+					<Argument name="timeSpan" type="UNumber" index="1" required="true"/>
+				</Arguments>
+			</Method>
+			<Method name="SetXAxisVisible" read="false">
+				<Description>Sets visibility of xAxis</Description>
+				<Arguments>
+					<Argument name="xAxisId" type="PropertyCollectionReference" index="0" required="true" typeRefId="xAxis"/>
+					<Argument name="value" type="Boolean" index="1" required="true"/>
+				</Arguments>
+			</Method>
+			<Method name="SetYAxisStyle" read="false">
+				<Description>Sets style of yAxis</Description>
+				<Arguments>
+					<Argument name="yAxisId" type="PropertyCollectionReference" index="0" required="true" typeRefId="yAxis"/>
+					<Argument name="value" type="StyleReference" index="1" required="true" typeRefId="widgets.brease.OnlineChartHDA.YAxis"/>
+				</Arguments>
+			</Method>
+			<Method name="SetYAxisVisible" read="false">
+				<Description>Sets visibility of yAxis</Description>
+				<Arguments>
+					<Argument name="yAxisId" type="PropertyCollectionReference" index="0" required="true" typeRefId="yAxis"/>
+					<Argument name="value" type="Boolean" index="1" required="true"/>
+				</Arguments>
+			</Method>
+			<Method name="SetZoomType" read="false">
+				<Description>Defines on which Axis zomming is enabled</Description>
+				<Arguments>
+					<Argument name="zoomType" type="brease.enum.ChartZoomType" index="0" required="true"/>
+				</Arguments>
+			</Method>
+			<Method name="ShowTooltip" read="false"/>
+			<Method name="Unfreeze" read="false">
+				<Description>Restarts the update of the chart data and prevents to use zoom and scrolling functions.</Description>
+			</Method>
+			<Method name="ZoomIn" read="false">
+				<Description>Zooms in 20%</Description>
+			</Method>
+			<Method name="ZoomOut" read="false">
+				<Description>Zooms out 20% (only in freeze mode)</Description>
+			</Method>
+			<Method name="ZoomReset" read="false">
+				<Description>Resets zoom to 0% (only in freeze mode)</Description>
+			</Method>
+		</Methods>
+		<Events>
+			<Event name="Click">
+				<Description>Fired when element is clicked on.</Description>
+				<Arguments>
+					<Argument name="origin" type="String" index="0" required="true">
+						<Description>id of widget that triggered this event</Description>
+					</Argument>
+					<Argument name="horizontalPos" type="String" index="1" required="true">
+						<Description>horizontal position of click in pixel i.e &apos;10px&apos;</Description>
+					</Argument>
+					<Argument name="verticalPos" type="String" index="2" required="true">
+						<Description>vertical position of click in pixel i.e &apos;10px&apos;</Description>
+					</Argument>
+				</Arguments>
+			</Event>
+			<Event name="DisabledClick">
+				<Description>Fired when disabled element is clicked on.</Description>
+				<Arguments>
+					<Argument name="origin" type="String" index="0" required="true">
+						<Description>id of widget that triggered this event</Description>
+					</Argument>
+					<Argument name="hasPermission" type="Boolean" index="1" required="true">
+						<Description>defines if the state is caused due to missing roles of the current user</Description>
+					</Argument>
+					<Argument name="horizontalPos" type="String" index="2" required="true">
+						<Description>horizontal position of click in pixel i.e &apos;10px&apos;</Description>
+					</Argument>
+					<Argument name="verticalPos" type="String" index="3" required="true">
+						<Description>vertical position of click in pixel i.e &apos;10px&apos;</Description>
+					</Argument>
+				</Arguments>
+			</Event>
+			<Event name="EnableChanged">
+				<Description>Fired when operability of the widget changes.</Description>
+				<Arguments>
+					<Argument name="value" type="Boolean" index="0" required="true">
+						<Description>operability</Description>
+					</Argument>
+				</Arguments>
+			</Event>
+			<Event name="FocusIn">
+				<Description>Fired when the widgets gets focus</Description>
+			</Event>
+			<Event name="FocusOut">
+				<Description>Fired when the widgets lost focus</Description>
+			</Event>
+			<Event name="OnDragEnter">
+				<Description>Fired when element has onDragEnter.</Description>
+				<Arguments>
+					<Argument name="contentId" type="String" index="0" required="true">
+						<Description>content id of the widget that has been entering the droppable widget</Description>
+					</Argument>
+					<Argument name="widgetId" type="String" index="1" required="true">
+						<Description>id of the widget that has been entering the droppable widget</Description>
+					</Argument>
+				</Arguments>
+			</Event>
+			<Event name="OnDragLeave">
+				<Description>Fired when element has OnDragLeave.</Description>
+				<Arguments>
+					<Argument name="contentId" type="String" index="0" required="true">
+						<Description>content id of the widget that has been leaving the droppable widget</Description>
+					</Argument>
+					<Argument name="widgetId" type="String" index="1" required="true">
+						<Description>id of the widget that has been leaving the droppable widget</Description>
+					</Argument>
+				</Arguments>
+			</Event>
+			<Event name="OnDrop">
+				<Description>Fired when element has OnDrop.</Description>
+				<Arguments>
+					<Argument name="contentId" type="String" index="0" required="true">
+						<Description>content id of the widget that has been dropped on the droppable widget</Description>
+					</Argument>
+					<Argument name="widgetId" type="String" index="1" required="true">
+						<Description>id of the widget that has been dropped on the droppable widget</Description>
+					</Argument>
+				</Arguments>
+			</Event>
+			<Event name="VisibleChanged">
+				<Description>Fired when the visibility of the widget changes.</Description>
+				<Arguments>
+					<Argument name="value" type="Boolean" index="0" required="true">
+						<Description>visibility</Description>
+					</Argument>
+				</Arguments>
+			</Event>
+		</Events>
+		<Properties>
+			<Property name="enable" type="Boolean" initOnly="false" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Behavior" defaultValue="true">
+				<Description>Initial option to enable widget.</Description>
+			</Property>
+			<Property name="maxTimeDeviation" type="UInteger" initOnly="true" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Behavior" defaultValue="10">
+				<Description>Maximal time deviation in seconds between server and client before error message is displayed in chart.</Description>
+			</Property>
+			<Property name="permissionOperate" type="RoleCollection" initOnly="true" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Accessibility">
+				<Description>restricts operability to users, which have given roles</Description>
+			</Property>
+			<Property name="permissionView" type="RoleCollection" initOnly="true" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Accessibility">
+				<Description>restricts visibility to users, which have given roles</Description>
+			</Property>
+			<Property name="style" type="StyleReference" initOnly="false" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Appearance" defaultValue="default">
+				<Description>reference to a style for this widget type</Description>
+			</Property>
+			<Property name="tabIndex" type="Integer" initOnly="true" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Behavior" defaultValue="-1">
+				<Description>sets if a widget should have autofocus enabled (0), the order of the focus (&gt;0),
+or if autofocus should be disabled (-1)				</Description>
+			</Property>
+			<Property name="tooltip" type="String" initOnly="true" localizable="true" editableBinding="false" readOnly="false" required="false" projectable="true" category="Appearance" defaultValue="">
+				<Description>reference to a tooltip for a widget</Description>
+			</Property>
+			<Property name="updateBufferTime" type="UInteger" initOnly="true" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Behavior" defaultValue="2000">
+				<Description>Interval in ms in which the historical data is updated.
+If set to 0 historical data will be used only once (initial).
+After that only online data will be used.				</Description>
+			</Property>
+			<Property name="updateChartTime" type="UInteger" initOnly="true" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Behavior" defaultValue="200">
+				<Description>Interval in ms in which the chart is redrawn.</Description>
+			</Property>
+			<Property name="visible" type="Boolean" initOnly="false" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Behavior" defaultValue="true">
+				<Description>change visibility</Description>
+			</Property>
+			<Property name="zoomType" type="brease.enum.ChartZoomType" initOnly="false" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Behavior" defaultValue="xy">
+				<Description>Defines for which axes zooming should be possible.</Description>
+			</Property>
+		</Properties>
+		<StructuredProperties>
+			<StructuredProperty name="cursor" category="Collections" type="widgets.brease.OnlineChartHDA.Cursor" maxSize="1" minSize="1">
+				<Description>Defines appearance and behaviour of the cursor for data analysis</Description>
+				<Properties>
+					<Property name="style" type="StyleReference" initOnly="false" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Appearance" typeRefId="widgets.brease.OnlineChartHDA.Cursor" defaultValue="default">
+						<Description>Reference to a style that can be created by the user.</Description>
+					</Property>
+					<Property name="visible" type="Boolean" initOnly="false" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Behavior" defaultValue="true">
+						<Description>Defines the visibility of the cursor. (Visible = true, invisible = false)</Description>
+					</Property>
+				</Properties>
+				<StyleProperties>
+					<StyleProperty name="fontName" category="Font" type="FontName" default="Arial">
+						<StyleElement selector=".trackballLabel" attribute="font-family"/>
+						<Description>Font for the cursor labels</Description>
+					</StyleProperty>
+					<StyleProperty name="fontSize" category="Font" type="PixelVal" default="12px">
+						<StyleElement selector=".trackballLabel" attribute="font-size"/>
+						<Description>Size for the cursor labels</Description>
+					</StyleProperty>
+				</StyleProperties>
+			</StructuredProperty>
+			<StructuredProperty name="graph" category="Collections" type="widgets.brease.OnlineChartHDA.Graph" maxSize="8" minSize="1">
+				<Description>Defines appearance and behaviour of the graph instances</Description>
+				<Properties>
+					<Property name="cursorNode" type="brease.datatype.Node" initOnly="false" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="false" category="Data" defaultValue="">
+						<Description>Current value with unit at which the cursor intersects the graph.
+If there is no data point before the cursor or the cursor is not active, the property will be set to null.						</Description>
+					</Property>
+					<Property name="cursorValue" type="Number" initOnly="false" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="false" nodeRefId="cursorNode" category="Data" defaultValue="0">
+						<Description>Current value at which the cursor intersects the graph.
+If there is no data point before the cursor or the cursor is not active, the property will be set to null.						</Description>
+					</Property>
+					<Property name="node" type="brease.datatype.Node" initOnly="false" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="false" category="Data" defaultValue="">
+						<Description>Defines the data source of the graph.</Description>
+					</Property>
+					<Property name="style" type="StyleReference" initOnly="false" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Appearance" typeRefId="widgets.brease.OnlineChartHDA.Graph" defaultValue="default">
+						<Description>Reference to a style that can be created by the user.</Description>
+					</Property>
+					<Property name="type" type="brease.enum.GraphType" initOnly="true" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Behavior" defaultValue="stepLine">
+						<Description>Defines the visual representation of the data.</Description>
+					</Property>
+					<Property name="value" type="Number" initOnly="false" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="false" nodeRefId="node" nodeOnly="true" category="Data" defaultValue="0"/>
+					<Property name="visible" type="Boolean" initOnly="false" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Behavior" defaultValue="true">
+						<Description>Defines the visibility of the graph. (Visible = true, invisible = false)</Description>
+					</Property>
+					<Property name="yAxisReference" type="PropertyCollectionReference" initOnly="true" localizable="false" editableBinding="false" readOnly="false" required="true" projectable="true" category="Behavior" typeRefId="yAxis">
+						<Description>Specifies the id of the yAxis that has to be associated with this graph.
+The yAxis defines the display unit and scales with the graph when autoscaling.						</Description>
+					</Property>
+				</Properties>
+				<StyleProperties>
+					<StyleProperty name="lineColor" category="Appearance" type="Color" default="#FF0000">
+						<StyleElement selector="&amp; .lineColor" attribute="color"/>
+						<Description>Color of the line graph</Description>
+					</StyleProperty>
+					<StyleProperty name="disabledLineColor" category="Appearance" type="Color" default="#DBDBDB">
+						<StyleElement selector="&amp; .disabledLineColor" attribute="color"/>
+						<Description>Color of the line graph when widget is disabled</Description>
+					</StyleProperty>
+					<StyleProperty name="lineWidth" category="Appearance" type="PixelVal" default="3px">
+						<StyleElement selector="&amp; .lineWidth" attribute="width"/>
+						<Description>Width of the line graph</Description>
+					</StyleProperty>
+				</StyleProperties>
+			</StructuredProperty>
+			<StructuredProperty name="xAxis" category="Collections" type="widgets.brease.OnlineChartHDA.XAxis" maxSize="1" minSize="1">
+				<Description>Defines appearance and behaviour of the xAxis instances</Description>
+				<Properties>
+					<Property name="numberOfTicks" type="UInteger" initOnly="false" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Behavior" defaultValue="5">
+						<Description>Number of tick labels to be shown.</Description>
+					</Property>
+					<Property name="position" type="brease.enum.VerticalAlign" initOnly="true" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Appearance" defaultValue="bottom">
+						<Description>Defines weather the axis is positioned at the bottom or at the top of the chart</Description>
+					</Property>
+					<Property name="style" type="StyleReference" initOnly="false" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Appearance" typeRefId="widgets.brease.OnlineChartHDA.XAxis" defaultValue="default">
+						<Description>Reference to a style that can be created by the user.</Description>
+					</Property>
+					<Property name="timeFormat" type="String" initOnly="false" localizable="true" editableBinding="false" readOnly="false" required="false" projectable="true" category="Appearance" defaultValue="hh:mm:ss">
+						<Description>Specifies the format of the time shown in the tick labels. This is either a format string (ee.g. &quot;HH:mm&quot;) or a pattern (&quot;F&quot;).
+Read more about &lt;a href=&quot;../FAQ/FormatDate.html&quot;&gt;Date Formats						</Description>
+					</Property>
+					<Property name="timeSpan" type="UNumber" initOnly="false" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Behavior" defaultValue="60">
+						<Description>Defines the visible time window of the axis in seconds.</Description>
+					</Property>
+					<Property name="visible" type="Boolean" initOnly="false" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Behavior" defaultValue="true">
+						<Description>Defines the visibility of the graph. (Visible = true, invisible = false)</Description>
+					</Property>
+				</Properties>
+				<StyleProperties>
+					<StyleProperty name="gridColor" category="Appearance" type="Color" default="#DBDBDB">
+						<StyleElement selector="&amp; .gridXAxisColor" attribute="color"/>
+						<Description>Sets the color for the chart grid</Description>
+					</StyleProperty>
+					<StyleProperty name="color" category="Appearance" type="Color" default="#000000">
+						<StyleElement selector="&amp; .xAxisTickColor" attribute="color"/>
+						<Description>Sets the color for the x Axis line and tick</Description>
+					</StyleProperty>
+					<StyleProperty name="textColor" category="Appearance" type="Color" default="#000000">
+						<StyleElement selector="&amp; .xAxisTextColor" attribute="color"/>
+						<Description>Sets the color for the x Axis labels</Description>
+					</StyleProperty>
+					<StyleProperty name="disabledTextColor" category="Appearance" type="Color" default="#808080">
+						<StyleElement selector="&amp; .disabledxAxisTextColor" attribute="color"/>
+						<Description>Sets the color for the x Axis labels</Description>
+					</StyleProperty>
+					<StyleProperty name="fontName" category="Font" type="FontName" default="Arial">
+						<StyleElement selector="&amp; .xAxisFontName" attribute="font-family"/>
+						<Description>Font for the x axis labels</Description>
+					</StyleProperty>
+					<StyleProperty name="fontSize" category="Font" type="PixelVal" default="12px">
+						<StyleElement selector="&amp; .xAxisFontSize" attribute="font-size"/>
+						<Description>Size for the x axis labels</Description>
+					</StyleProperty>
+					<StyleProperty name="tickLabelRotation" category="Appearance" type="Rotation" default="0deg">
+						<StyleElement selector="&amp; .xAxisTickLabelRotation" attribute="@include rotate($value)"/>
+						<Description>Defines rotation for time axis tick labels</Description>
+					</StyleProperty>
+				</StyleProperties>
+			</StructuredProperty>
+			<StructuredProperty name="yAxis" category="Collections" type="widgets.brease.OnlineChartHDA.YAxis" maxSize="5" minSize="1">
+				<Description>Defines appearance and behaviour of the yAxis instances</Description>
+				<Properties>
+					<Property name="format" type="brease.config.MeasurementSystemFormat" initOnly="false" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Appearance" defaultValue="{&apos;metric&apos;:{ &apos;decimalPlaces&apos; : 1, &apos;minimumIntegerDigits&apos; : 1 }, &apos;imperial&apos; :{ &apos;decimalPlaces&apos; : 1, &apos;minimumIntegerDigits&apos; : 1 }, &apos;imperial-us&apos; :{ &apos;decimalPlaces&apos; : 1, &apos;minimumIntegerDigits&apos; : 1 }}">
+						<Description>NumberFormat for every measurement system.
+Defines the number format of the labels.						</Description>
+					</Property>
+					<Property name="max" type="Number" initOnly="false" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Behavior" defaultValue="100">
+						<Description>Defines the maximum range if rangeMode is set to fromConfiguration. This value has no unit and will not be converted!</Description>
+					</Property>
+					<Property name="min" type="Number" initOnly="false" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Behavior" defaultValue="0">
+						<Description>Defines the minimum range if rangeMode is set to fromConfiguration. This value has no unit and will not be converted!</Description>
+					</Property>
+					<Property name="position" type="brease.enum.HorizontalAlign" initOnly="true" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Appearance" defaultValue="left">
+						<Description>Defines weather the axis is positioned left or right in the chart.</Description>
+					</Property>
+					<Property name="rangeMode" type="brease.enum.RangeMode" initOnly="true" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Behavior" defaultValue="autoscale">
+						<Description>Defines how the range is drawn. If rangeMode fromConfiguration is used the range is static and will not be converted!</Description>
+					</Property>
+					<Property name="showUnit" type="Boolean" initOnly="true" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Appearance" defaultValue="true">
+						<Description>Defines whether the unit should be displayed.</Description>
+					</Property>
+					<Property name="style" type="StyleReference" initOnly="false" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Appearance" typeRefId="widgets.brease.OnlineChartHDA.YAxis" defaultValue="default">
+						<Description>Reference to a style that can be created by the user.</Description>
+					</Property>
+					<Property name="title" type="String" initOnly="true" localizable="true" editableBinding="false" readOnly="false" required="false" projectable="true" category="Appearance" defaultValue="">
+						<Description>Title of axis.</Description>
+					</Property>
+					<Property name="unit" type="brease.config.MeasurementSystemUnit" initOnly="false" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Appearance" defaultValue="">
+						<Description>Unit code for every measurement system.</Description>
+					</Property>
+					<Property name="visible" type="Boolean" initOnly="false" localizable="false" editableBinding="false" readOnly="false" required="false" projectable="true" category="Behavior" defaultValue="true">
+						<Description>Defines the visibility of the graph. (Visible = true, invisible = false)</Description>
+					</Property>
+				</Properties>
+				<StyleProperties>
+					<StyleProperty name="textColor" category="Appearance" type="Color" default="#000000">
+						<StyleElement selector="&amp; .yAxisTextColor" attribute="color"/>
+						<Description>Color of y axis labels</Description>
+					</StyleProperty>
+					<StyleProperty name="disabledTextColor" category="Appearance" type="Color" default="#808080">
+						<StyleElement selector="&amp; .disabledyAxisTextColor" attribute="color"/>
+						<Description>Color of y axis labels when widget is disabled</Description>
+					</StyleProperty>
+					<StyleProperty name="color" category="Appearance" type="Color" default="#000000">
+						<StyleElement selector="&amp; .yAxisColor" attribute="color"/>
+						<Description>Color of y axis</Description>
+					</StyleProperty>
+					<StyleProperty name="gridColor" category="Appearance" type="Color" default="#DBDBDB">
+						<StyleElement selector="&amp; .gridYAxisColor" attribute="color"/>
+						<Description>Color of y axis grid</Description>
+					</StyleProperty>
+					<StyleProperty name="fontSize" category="Font" type="PixelVal" default="12px">
+						<StyleElement selector="&amp; .yAxisFontSize" attribute="font-size"/>
+						<Description>Font size for the y axis labels</Description>
+					</StyleProperty>
+					<StyleProperty name="fontName" category="Font" type="FontName" default="Arial">
+						<StyleElement selector="&amp; .yAxisFontName" attribute="font-family"/>
+						<Description>Font name for the y axis labels</Description>
+					</StyleProperty>
+					<StyleProperty name="titleTextColor" category="Appearance" type="Color" default="#000000">
+						<StyleElement selector="&amp; .titleTextColor" attribute="color"/>
+						<Description>Color of title for y axis</Description>
+					</StyleProperty>
+					<StyleProperty name="titleFontSize" category="Font" type="PixelVal" default="12px">
+						<StyleElement selector="&amp; .titleFontSize" attribute="font-size"/>
+						<Description>Font size of title for y axis</Description>
+					</StyleProperty>
+					<StyleProperty name="titleFontName" category="Font" type="FontName" default="Arial">
+						<StyleElement selector="&amp; .titleFontName" attribute="font-family"/>
+						<Description>Font size of title for y axis</Description>
+					</StyleProperty>
+				</StyleProperties>
+			</StructuredProperty>
+		</StructuredProperties>
+		<StyleProperties>
+			<StyleProperty name="width" type="Size" not_styleable="true" owner="widgets.brease.OnlineChartHDA" category="Layout" groupRefId="Size" groupOrder="1" default="720">
+				<StyleElement attribute="@include elemWidth($value)"/>
+				<Description>outer width of widget</Description>
+			</StyleProperty>
+			<StyleProperty name="height" type="Size" not_styleable="true" owner="widgets.brease.OnlineChartHDA" category="Layout" groupRefId="Size" groupOrder="2" default="440">
+				<StyleElement attribute="@include elemHeight($value)"/>
+				<Description>outer height of widget</Description>
+			</StyleProperty>
+			<StyleProperty name="top" type="Integer" not_styleable="true" owner="brease.core.BaseWidget" category="Layout" groupRefId="Position" groupOrder="1">
+				<StyleElement attribute="@include elemTop($value)"/>
+				<Description>absolute position measured from top boundary of parent container</Description>
+			</StyleProperty>
+			<StyleProperty name="left" type="Integer" not_styleable="true" owner="brease.core.BaseWidget" category="Layout" groupRefId="Position" groupOrder="2">
+				<StyleElement attribute="@include elemLeft($value)"/>
+				<Description>absolute position measured from left boundary of parent container</Description>
+			</StyleProperty>
+			<StyleProperty name="zIndex" type="UInteger" not_styleable="true" owner="brease.core.BaseWidget" category="Layout" required="true">
+				<StyleElement attribute="z-index"/>
+				<Description>The zIndex property specifies the z-order of a widget and its childs.&lt;br/&gt;
+        When widgets overlap, z-order determines which one covers the other. A widget with a larger zIndex generally covers a widget with a lower one.&lt;br/&gt;
+        The zIndex must be unique within a content.&lt;br/&gt;				</Description>
+			</StyleProperty>
+			<StyleProperty name="borderWidth" type="PixelValCollection" category="Appearance" default="0px">
+				<StyleElement attribute="border-width"/>
+				<Description>Sets the width of the border. For further information, please check its type.</Description>
+			</StyleProperty>
+			<StyleProperty name="borderColor" type="ColorCollection" category="Appearance" default="#000000">
+				<StyleElement attribute="border-color"/>
+				<Description>Sets the border color</Description>
+			</StyleProperty>
+			<StyleProperty name="borderStyle" type="BorderStyle" category="Appearance" default="solid">
+				<StyleElement attribute="border-style"/>
+				<Description>Style of the Border of the widget</Description>
+			</StyleProperty>
+			<StyleProperty name="backColor" category="Appearance" type="Color" default="#DBDBDB">
+				<StyleElement attribute="background-color"/>
+				<StyleElement selector="&amp; .chartColor" attribute="background-color"/>
+				<Description>Sets the background color</Description>
+			</StyleProperty>
+			<StyleProperty name="chartColor" category="Appearance" type="Color" default="#FFFFFF">
+				<StyleElement selector="&amp; .chartColor" attribute="color"/>
+				<Description>Sets the color for the chart area</Description>
+			</StyleProperty>
+			<StyleProperty name="disabledChartColor" category="Appearance" type="Color" default="#F0F0F0">
+				<StyleElement selector="&amp; .disabledChartColor" attribute="color"/>
+				<Description>Sets the color for the chart area when widget is disabled</Description>
+			</StyleProperty>
+		</StyleProperties>
+		<PropertyGroups>
+			<PropertyGroup name="Size" type="String" category="Layout">
+				<Description>outer height and width of widget</Description>
+			</PropertyGroup>
+			<PropertyGroup name="Position" type="String" category="Layout">
+				<Description>top and left of widget</Description>
+			</PropertyGroup>
+		</PropertyGroups>
+	<BindingTemplates>
+  
+</BindingTemplates>
+</Widget>
+</WidgetLibrary>

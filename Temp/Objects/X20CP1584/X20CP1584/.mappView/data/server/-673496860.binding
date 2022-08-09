@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingDefinition xmlns="http://www.br-automation.com/iat2014/binding/runtime/v1">
+  <Content id="ContentServicePageControl">
+    <Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gZb1_poziom" attribute="node" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="ContentServicePageControl_OnlineChartHDA1" attribute="graph[ZB1Level].node" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="ContentServicePageControl">
+    <Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gZb2_poziom" attribute="node" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="ContentServicePageControl_OnlineChartHDA1" attribute="graph[ZB2Level].node" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="ContentServicePageControl">
+    <Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gZb3_poziom" attribute="node" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="ContentServicePageControl_OnlineChartHDA1" attribute="graph[graph1].node" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+</BindingDefinition>

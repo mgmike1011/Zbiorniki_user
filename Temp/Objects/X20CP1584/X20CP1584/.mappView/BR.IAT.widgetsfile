@@ -32,6 +32,12 @@
   <widget name="widgets.brease.NumericInput" />
   <widget name="widgets.brease.NumericOutput" />
   <widget name="widgets.brease.NumPad" />
+  <widget name="widgets.brease.OnlineChartHDA">
+    <StructuredProperty name="widgets.brease.OnlineChartHDA.Cursor" widget="widgets.brease.OnlineChartHDA" />
+    <StructuredProperty name="widgets.brease.OnlineChartHDA.Graph" widget="widgets.brease.OnlineChartHDA" />
+    <StructuredProperty name="widgets.brease.OnlineChartHDA.XAxis" widget="widgets.brease.OnlineChartHDA" />
+    <StructuredProperty name="widgets.brease.OnlineChartHDA.YAxis" widget="widgets.brease.OnlineChartHDA" />
+  </widget>
   <widget name="widgets.brease.Password" />
   <widget name="widgets.brease.ProgressBar" />
   <widget name="widgets.brease.RadioButton" />

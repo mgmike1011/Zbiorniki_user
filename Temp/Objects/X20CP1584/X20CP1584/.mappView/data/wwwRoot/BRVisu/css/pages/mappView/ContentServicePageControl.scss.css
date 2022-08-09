@@ -123,3 +123,73 @@
 #ContentServicePageControl_LanguageSelector1 {
   z-index: 0;
 }
+
+#ContentServicePageControl_OnlineChartHDA1 {
+  width: 720px;
+}
+
+#ContentServicePageControl_OnlineChartHDA1 {
+  top: 180px;
+  position: absolute;
+}
+
+#ContentServicePageControl_OnlineChartHDA1 {
+  left: 15px;
+  position: absolute;
+}
+
+#ContentServicePageControl_OnlineChartHDA1 {
+  height: 405px;
+}
+
+#ContentServicePageControl_OnlineChartHDA1 {
+  z-index: 3;
+}
+
+#ContentServicePageControl_OnlineChartHDA1 {
+  background-color: #404040;
+}
+
+#ContentServicePageControl_OnlineChartHDA1 .chartColor {
+  background-color: #404040;
+}
+
+#ContentServicePageControl_OnlineChartHDA1 .chartColor {
+  color: #e0e0e0;
+}
+
+#ContentServicePageControl_OnlineChartHDA1 .disabledChartColor {
+  color: #404040;
+}
+
+#ContentServicePageControl_OnlineChartHDA1_yAxis_yAxis1 .disabledyAxisTextColor {
+  color: #404040;
+}
+
+#ContentServicePageControl_OnlineChartHDA1_yAxis_yAxis1 .yAxisColor {
+  color: #404040;
+}
+
+#ContentServicePageControl_OnlineChartHDA1_yAxis_yAxis1 .gridYAxisColor {
+  color: #404040;
+}
+
+#ContentServicePageControl_OnlineChartHDA1_xAxis_xAxis1 .gridXAxisColor {
+  color: #404040;
+}
+
+#ContentServicePageControl_OnlineChartHDA1_xAxis_xAxis1 .xAxisTickColor {
+  color: #404040;
+}
+
+#ContentServicePageControl_OnlineChartHDA1_xAxis_xAxis1 .disabledxAxisTextColor {
+  color: #404040;
+}
+
+#ContentServicePageControl_OnlineChartHDA1_graph_ZB2Level .lineColor {
+  color: red;
+}
+
+#ContentServicePageControl_OnlineChartHDA1_graph_graph1 .lineColor {
+  color: #00c000;
+}

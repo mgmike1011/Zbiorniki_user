@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructuredProperty type="widgets.brease.OnlineChartHDA.XAxis" xmlns="http://www.br-automation.com/iat2014/widget" ><StyleProperties>
+      <StyleProperty name="gridColor" category="Appearance" type="Color" default="#DBDBDB">
+        <StyleElement selector="&amp; .gridXAxisColor" attribute="color"/>
+        <Description>
+          Sets the color for the chart grid
+        </Description>
+      </StyleProperty>
+
+      <StyleProperty name="color" category="Appearance" type="Color" default="#000000">
+        <StyleElement selector="&amp; .xAxisTickColor" attribute="color"/>
+        <Description>
+          Sets the color for the x Axis line and tick
+        </Description>
+      </StyleProperty>
+
+      <StyleProperty name="textColor" category="Appearance" type="Color" default="#000000">
+        <StyleElement selector="&amp; .xAxisTextColor" attribute="color"/>
+        <Description>
+          Sets the color for the x Axis labels
+        </Description>
+      </StyleProperty>
+
+      <StyleProperty name="disabledTextColor" category="Appearance" type="Color" default="#808080">
+        <StyleElement selector="&amp; .disabledxAxisTextColor" attribute="color"/>
+        <Description>
+          Sets the color for the x Axis labels
+        </Description>
+      </StyleProperty>
+
+      <StyleProperty name="fontName" category="Font" type="FontName" default="Arial">
+        <StyleElement selector="&amp; .xAxisFontName" attribute="font-family"/>
+        <Description>
+          Font for the x axis labels
+        </Description>
+      </StyleProperty>
+
+      <StyleProperty name="fontSize" category="Font" type="PixelVal" default="12px">
+        <StyleElement selector="&amp; .xAxisFontSize" attribute="font-size"/>
+        <Description>
+          Size for the x axis labels
+        </Description>
+      </StyleProperty>
+
+      <StyleProperty name="tickLabelRotation" category="Appearance" type="Rotation" default="0deg">
+        <StyleElement selector="&amp; .xAxisTickLabelRotation" attribute="@include rotate($value)"/>
+        <Description>
+          Defines rotation for time axis tick labels
+        </Description>
+      </StyleProperty>
+    </StyleProperties></StructuredProperty>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Content id="ContentServicePageControl" height="600" width="1130" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Content id="ContentServicePageControl" height="600" width="1130" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2">
   <Widgets>
     <Widget xsi:type="widgets.brease.Login" id="Login1" top="15" left="15" width="405" height="150" zIndex="0" buttonLabel="$IAT/ServicePage/Login_txt" passwordLabel="$IAT/ServicePage/Passwordtxt" userLabel="$IAT/ServicePage/Usernametxt" />
     <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox1" top="15" left="553" zIndex="1" text="$IAT/ServicePage/Metricsystemtxt" textColor="rgba(64, 64, 64, 1)" bold="true">
@@ -11,6 +11,24 @@
       <Widgets>
         <Widget xsi:type="widgets.brease.LanguageSelector" id="LanguageSelector1" top="15" left="25" width="150" height="75" zIndex="0" />
       </Widgets>
+    </Widget>
+    <Widget xsi:type="widgets.brease.OnlineChartHDA" id="OnlineChartHDA1" top="180" left="15" height="405" zIndex="3" backColor="rgba(64, 64, 64, 1)" chartColor="rgba(224, 224, 224, 1)" disabledChartColor="rgba(64, 64, 64, 1)">
+      <Properties>
+        <yAxis>
+          <Element id="yAxis1" title="$IAT/MainPageControl/Fillingtxt" unit="{'metric':'LTR','imperial':'GLI','imperial-us':'GLL'}" disabledTextColor="rgba(64, 64, 64, 1)" color="rgba(64, 64, 64, 1)" gridColor="rgba(64, 64, 64, 1)" />
+        </yAxis>
+        <xAxis>
+          <Element id="xAxis1" timeSpan="120" gridColor="rgba(64, 64, 64, 1)" color="rgba(64, 64, 64, 1)" disabledTextColor="rgba(64, 64, 64, 1)" />
+        </xAxis>
+        <graph>
+          <Element id="ZB1Level" yAxisReference="yAxis1" />
+          <Element id="ZB2Level" yAxisReference="yAxis1" lineColor="rgba(255, 0, 0, 1)" />
+          <Element id="graph1" yAxisReference="yAxis1" lineColor="rgba(0, 192, 0, 1)" />
+        </graph>
+        <cursor>
+          <Element id="cursor1" />
+        </cursor>
+      </Properties>
     </Widget>
   </Widgets>
 </Content>
