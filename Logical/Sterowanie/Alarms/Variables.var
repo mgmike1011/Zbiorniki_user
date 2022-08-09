@@ -1,8 +1,8 @@
 VAR
 	AlarmsXCore : MpAlarmXCore;
-	LevelTooHigh : INT := 9000;
 END_VAR
 VAR CONSTANT
-	LevelCritical : INT := 10000;
-	LevelTooLow : INT := 500;
+	LevelTooHigh : INT := 9000; (*Liquid level in liters - alarm too high set.*)
+	LevelCritical : INT := 10000; (*Liquid level in liters - alarm critical level set.*)
+	LevelTooLow : INT := 500; (*Liquid level in liters - alarm too low set.*)
 END_VAR

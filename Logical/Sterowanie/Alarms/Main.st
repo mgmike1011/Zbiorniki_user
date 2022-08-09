@@ -77,7 +77,9 @@ PROGRAM _CYCLIC
 END_PROGRAM
 
 PROGRAM _EXIT
-	(* Insert code here *)
+	//
+	// Exit code 
+	//
 	AlarmsXCore.Enable := FALSE;
 	AlarmsXCore();
 END_PROGRAM

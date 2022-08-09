@@ -1,8 +1,8 @@
 VAR
-	ZB3Percentage : INT := 0;
-	ZB2Percentage : INT := 0;
-	ZB1Percentage : INT := 0;
+	ZB3Percentage : INT := 0; (*Level of liquid in tank 3 in percentage.*)
+	ZB2Percentage : INT := 0; (*Level of liquid in tank 2 in percentage.*)
+	ZB1Percentage : INT := 0; (*Level of liquid in tank 1 in percentage.*)
 END_VAR
 VAR CONSTANT
-	TankCapacity : INT := 10000;
+	TankCapacity : INT := 10000; (*Tank capacity in liters.*)
 END_VAR

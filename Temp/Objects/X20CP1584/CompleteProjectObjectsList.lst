@@ -1845,7 +1845,7 @@
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Sterowanie\AutomaticControl\Variables.var"
     LogicalPath="Sterowanie.AutomaticControl.Variables.var"
     Type="File"
-    LastWriteTime="133045022919638016"
+    LastWriteTime="133045207455843553"
     Private="true" />
   <Object
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Sterowanie\LevelScaling\IEC.prg"
@@ -1868,7 +1868,7 @@
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Sterowanie\LevelScaling\Variables.var"
     LogicalPath="Sterowanie.LevelScaling.Variables.var"
     Type="File"
-    LastWriteTime="133044320396879129"
+    LastWriteTime="133045205406185117"
     Private="true" />
   <Object
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Sterowanie\Alarms\IEC.prg"
@@ -1879,7 +1879,7 @@
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Sterowanie\Alarms\Main.st"
     LogicalPath="Sterowanie.Alarms.Main.st"
     Type="File"
-    LastWriteTime="133045117011856580"
+    LastWriteTime="133045208314528810"
     Private="false" />
   <Object
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Sterowanie\Alarms\Types.typ"
@@ -1891,7 +1891,7 @@
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Sterowanie\Alarms\Variables.var"
     LogicalPath="Sterowanie.Alarms.Variables.var"
     Type="File"
-    LastWriteTime="133044405148867861"
+    LastWriteTime="133045209313106826"
     Private="true" />
   <Object
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Sterowanie\RecipeMgr\IEC.prg"
@@ -1902,7 +1902,7 @@
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Sterowanie\RecipeMgr\Main.st"
     LogicalPath="Sterowanie.RecipeMgr.Main.st"
     Type="File"
-    LastWriteTime="133045192365540172"
+    LastWriteTime="133045199407079993"
     Private="false" />
   <Object
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Sterowanie\RecipeMgr\Types.typ"
@@ -1937,7 +1937,7 @@
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\Cpu.pkg"
     LogicalPath="X20CP1584.X20CP1584"
     Type="Cpu"
-    LastWriteTime="133045191403251652" />
+    LastWriteTime="133045192688024523" />
   <Object
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\Cpu.sw"
     LogicalPath="X20CP1584.X20CP1584.Cpu.sw"

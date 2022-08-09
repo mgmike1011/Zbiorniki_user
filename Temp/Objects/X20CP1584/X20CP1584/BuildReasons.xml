@@ -8,20 +8,84 @@
     <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\wwwroot\brvisu\release\burthemeflat2.min.css" differs.
 </BuildReason>
   </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\opcuamap\opcuamap.uar">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\sterowanie\automaticcontrol\variables.var" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\automaticc\main.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\sterowanie\automaticcontrol\variables.var" differs.
+</BuildReason>
+  </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\recipemgr\main.st.o">
     <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\sterowanie\recipemgr\main.st" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\alarms\main.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\sterowanie\alarms\main.st" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\levelscali\main.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\sterowanie\levelscaling\variables.var" differs.
 </BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\recipemgr\_bur_pvdef.st.o">
     <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\recipemgr\main.st.o" differs.
 </BuildReason>
   </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\levelscali\_bur_pvdef.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\levelscali\main.st.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\alarms\_bur_pvdef.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\alarms\main.st.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\automaticc\_bur_pvdef.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\automaticc\main.st.o" differs.
+</BuildReason>
+  </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\recipemgr\a.out">
     <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\recipemgr\main.st.o" differs.
 </BuildReason>
   </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\levelscali\a.out">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\levelscali\main.st.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\alarms\a.out">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\alarms\main.st.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\automaticc\a.out">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\automaticc\main.st.o" differs.
+</BuildReason>
+  </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\recipemgr\recipemgr.ox">
     <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\recipemgr\a.out" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\automaticc\automaticc.ox">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\automaticc\a.out" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\automaticc.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\automaticc\automaticc.ox" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\levelscali\levelscali.ox">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\levelscali\a.out" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\alarms\alarms.ox">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\alarms\a.out" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\levelscali.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\levelscali\levelscali.ox" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\alarms.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\alarms\alarms.ox" differs.
 </BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\recipemgr.br">
@@ -42,7 +106,7 @@
     <BuildReason>Rule is forced.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\binaries\x20cp1584\x20cp1584\transfer.lst">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\recipemgr.br" differs.
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\automaticc.br" differs.
 </BuildReason>
   </Rule>
 </BuildReasons>
