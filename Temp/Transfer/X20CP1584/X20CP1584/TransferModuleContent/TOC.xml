@@ -16,7 +16,7 @@
 					<File Name="2139907734.binding" Size="510" HashValue="3AFB003A15E44D0CE0F59A613E155BF2" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="654233811.eventbinding" Size="34451" HashValue="E4DD359C1DCDF72B3EEF1782218C0FB0" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="861746268.eventbinding" Size="1220" HashValue="9CA85F2250962163CB4B6F74B590B405" ProjectDependent="1" IgnoreDifference="0" />
-					<File Name="Config.mappviewcfg" Size="1815" HashValue="0D783EFE3B6004B6CBB7D0F6FD6D506D" ProjectDependent="1" IgnoreDifference="0" />
+					<File Name="Config.mappviewcfg" Size="1815" HashValue="0EA491C6210CC67CF6BBF744242C9BE9" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="Tanks_expressionsSet.expression" Size="6689" HashValue="5C8492414502DD6702B0E1CA5B9AE395" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="VisualizationOperatorControl.vis" Size="1829" HashValue="DA82E55619FBF2B00D8C198DA235AEEC" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="Zbiorniki.vis" Size="1299" HashValue="74AD0C15CC0E07A33ECDBAB1D002DE3C" ProjectDependent="1" IgnoreDifference="0" />
@@ -674,7 +674,7 @@
 							<File Name="BuRThemeFlat1.min.css" Size="278723" HashValue="A60C7D40CC8F8AFA7C7F120D506D0D13" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="BuRThemeFlat2.min.css" Size="281683" HashValue="38E48926F6B22D3B66E42E17256A42E3" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="brease.js" Size="1322616" HashValue="879EC169D8D474D75CEBEA3EFD6C3418" ProjectDependent="1" IgnoreDifference="0" />
-							<File Name="brease_core.min.css" Size="445378" HashValue="7781EF5C0E8A0039080CF6B32C30F717" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="brease_core.min.css" Size="445631" HashValue="13BA3117D1B872BFCE294CD68A9E70D2" ProjectDependent="1" IgnoreDifference="0" />
 						</Folder>
 						<Folder Name="system" ProjectDependent="1" IgnoreDifference="0">
 							<Folder Name="brease" ProjectDependent="1" IgnoreDifference="0">
@@ -2394,7 +2394,7 @@
 							<File Name="ContentAlarmPageControl.html" Size="2792" HashValue="9170F148E77B590EB5857CD41ABD4EC4" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="ContentLeftControl.html" Size="1534" HashValue="FE8B5790E0481FED401F3F497AF5A62C" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="ContentLoginDialog.html" Size="1349" HashValue="2A76D5DB856E52F6743C4AC04F5031E0" ProjectDependent="1" IgnoreDifference="0" />
-							<File Name="ContentMainPageControl.html" Size="13227" HashValue="0D2C0300F8B20DE0A442F3D2C5AB582B" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="ContentMainPageControl.html" Size="13314" HashValue="17B717A024917DEAC5F5B1F7AE1FDC0C" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="ContentManualDialog.html" Size="5503" HashValue="57B6F37B3D7DD66A424A1178C5818D61" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="ContentServicePageControl.html" Size="2907" HashValue="FCE1AE70FBAF690EB47FC0CBE6315EEA" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="ContentTopControl.html" Size="1764" HashValue="ADC2FD4B3A8EFB3F0848A580AE255447" ProjectDependent="1" IgnoreDifference="0" />
@@ -2479,7 +2479,7 @@
 			<Folder Name="OPCUA" ProjectDependent="1" IgnoreDifference="0" IsGroup="1">
 				<Folder Name="NodeSet" ProjectDependent="1" IgnoreDifference="0">
 					<Folder Name="Generated" ProjectDependent="1" IgnoreDifference="0">
-						<File Name="OpcUaMap.uar.gz" Size="834" HashValue="ADA77138118B969C147755116AD17E49" ProjectDependent="1" IgnoreDifference="0" />
+						<File Name="OpcUaMap.uar.gz" Size="836" HashValue="5FB75FEB0515F45B9ABDC0B92CB85ACD" ProjectDependent="1" IgnoreDifference="0" />
 					</Folder>
 					<Folder Name="Vendor" ProjectDependent="1" IgnoreDifference="0">
 						<File Name="plc.aprol.uanodeset" Size="6712" HashValue="08ADF5B15D3AF0566E164F0E4D4FB418" ProjectDependent="1" IgnoreDifference="0" />
@@ -2569,7 +2569,7 @@
 			<Module Name="::ArSvcReg" Type="18" Size="78216" Modified="2016-12-09 07:57:34" Version="4.92" ProjectDependent="1" />
 			<Module Name="::ArUser" Type="18" Size="18020" Modified="2021-12-02 10:35:57" Version="4.92" ProjectDependent="1" />
 			<Module Name="::AsIecCon" Type="18" Size="17432" Modified="2021-12-02 10:27:54" Version="4.92" ProjectDependent="1" />
-			<Module Name="::AutomaticC" Type="17" Size="3736" Modified="2022-08-09 09:10:09" Version="1.00" ProjectDependent="1" />
+			<Module Name="::AutomaticC" Type="17" Size="3736" Modified="2022-08-09 11:20:25" Version="1.00" ProjectDependent="1" />
 			<Module Name="::ClockSigna" Type="17" Size="2396" Modified="2022-08-08 15:19:48" Version="1.00" ProjectDependent="1" />
 			<Module Name="::Config" Type="136" Size="17648" Modified="2022-08-08 15:46:58" Version="5.18" ProjectDependent="1" />
 			<Module Name="::DataObj" Type="18" Size="13788" Modified="2021-12-02 10:38:05" Version="4.92" ProjectDependent="1" />
@@ -2582,7 +2582,7 @@
 			<Module Name="::Role" Type="136" Size="1040" Modified="2022-08-08 18:38:45" Version="1.00" ProjectDependent="1" />
 			<Module Name="::TC" Type="136" Size="1716" Modified="2022-08-09 09:31:13" Version="1.00" ProjectDependent="1" />
 			<Module Name="::TCLang" Type="136" Size="1840" Modified="2022-08-08 09:39:09" Version="1.00" ProjectDependent="1" />
-			<Module Name="::Tanks" Type="17" Size="2284" Modified="2022-08-08 15:19:48" Version="1.00" ProjectDependent="1" />
+			<Module Name="::Tanks" Type="17" Size="2284" Modified="2022-08-09 11:20:25" Version="1.00" ProjectDependent="1" />
 			<Module Name="::User" Type="136" Size="1604" Modified="2022-08-08 18:38:45" Version="1.00" ProjectDependent="1" />
 			<Module Name="::ashwac" Type="136" Size="212" Modified="2022-08-08 09:39:09" Version="1.00" ProjectDependent="1" />
 			<Module Name="::astime" Type="18" Size="24304" Modified="2021-12-02 10:35:49" Version="4.92" ProjectDependent="1" />

@@ -4116,6 +4116,10 @@ div[id$="_breaseMainWrapper"]{position:absolute;pointer-events:none}.breaseInfoB
   font-size: 18px;
 }
 
+#ContentMainPageControl_BtnStart span {
+  font-weight: bold;
+}
+
 #ContentMainPageControl_BtnStop {
   top: 95px;
   position: absolute;
@@ -4164,6 +4168,10 @@ div[id$="_breaseMainWrapper"]{position:absolute;pointer-events:none}.breaseInfoB
 
 #ContentMainPageControl_BtnStop span {
   font-size: 18px;
+}
+
+#ContentMainPageControl_BtnStop span {
+  font-weight: bold;
 }
 
 #ContentMainPageControl_GrpBoxMixing {
@@ -4582,12 +4590,12 @@ div[id$="_breaseMainWrapper"]{position:absolute;pointer-events:none}.breaseInfoB
 }
 
 #ContentMainPageControl_ToggleButton1 {
-  left: 50px;
+  left: 30px;
   position: absolute;
 }
 
 #ContentMainPageControl_ToggleButton1 {
-  width: 140px;
+  width: 180px;
 }
 
 #ContentMainPageControl_ToggleButton1 {
@@ -4602,18 +4610,22 @@ div[id$="_breaseMainWrapper"]{position:absolute;pointer-events:none}.breaseInfoB
   color: #404040;
 }
 
+#ContentMainPageControl_ToggleButton1 span {
+  font-weight: bold;
+}
+
 #ContentMainPageControl_ToggleButton2 {
   top: 95px;
   position: absolute;
 }
 
 #ContentMainPageControl_ToggleButton2 {
-  left: 50px;
+  left: 30px;
   position: absolute;
 }
 
 #ContentMainPageControl_ToggleButton2 {
-  width: 140px;
+  width: 180px;
 }
 
 #ContentMainPageControl_ToggleButton2 {
@@ -4622,6 +4634,14 @@ div[id$="_breaseMainWrapper"]{position:absolute;pointer-events:none}.breaseInfoB
 
 #ContentMainPageControl_ToggleButton2 {
   z-index: 1;
+}
+
+#ContentMainPageControl_ToggleButton2:not(.disabled):not(.active):not(.checked) span {
+  color: #404040;
+}
+
+#ContentMainPageControl_ToggleButton2 span {
+  font-weight: bold;
 }
 #ContentAlarmPageControl_AlarmList1 {
   top: 15px;

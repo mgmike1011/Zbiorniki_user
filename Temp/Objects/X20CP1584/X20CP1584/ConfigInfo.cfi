@@ -23,18 +23,6 @@
   <TaskClass
     Name="Cyclic#4">
     <Task
-      Name="Tanks"
-      Disable="false"
-      Source="Sterowanie.Tanks"
-      Language="IEC">
-      <InternalFile
-        Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Temp\Objects\X20CP1584\X20CP1584\Tanks\Main.st.var" />
-      <File
-        Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Sterowanie\Tanks\Types.typ" />
-      <File
-        Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Sterowanie\Tanks\Variables.var" />
-    </Task>
-    <Task
       Name="AutomaticC"
       Disable="false"
       Source="Sterowanie.AutomaticControl"
@@ -45,6 +33,18 @@
         Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Sterowanie\AutomaticControl\Types.typ" />
       <File
         Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Sterowanie\AutomaticControl\Variables.var" />
+    </Task>
+    <Task
+      Name="Tanks"
+      Disable="false"
+      Source="Sterowanie.Tanks"
+      Language="IEC">
+      <InternalFile
+        Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Temp\Objects\X20CP1584\X20CP1584\Tanks\Main.st.var" />
+      <File
+        Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Sterowanie\Tanks\Types.typ" />
+      <File
+        Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Sterowanie\Tanks\Variables.var" />
     </Task>
     <Task
       Name="LevelScali"

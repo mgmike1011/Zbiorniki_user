@@ -1522,7 +1522,7 @@
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\VisualizationOperatorControl\Pages\MainPageControl\ContentMainPageControl.content"
     LogicalPath="mappView.VisualizationOperatorControl.Pages.MainPageControl.ContentMainPageControl.content"
     Type="File"
-    LastWriteTime="133045041898525493"
+    LastWriteTime="133045075716350912"
     Private="false" />
   <Object
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\mappView\VisualizationOperatorControl\Pages\AlarmPageControl\Package.pkg"
@@ -1810,12 +1810,12 @@
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\Cpu.pkg"
     LogicalPath="X20CP1584.X20CP1584"
     Type="Cpu"
-    LastWriteTime="133045072687427987" />
+    LastWriteTime="133045104422813441" />
   <Object
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\Cpu.sw"
     LogicalPath="X20CP1584.X20CP1584.Cpu.sw"
     Type="File"
-    LastWriteTime="133044378141989310"
+    LastWriteTime="133045104183773091"
     Private="false" />
   <Object
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\Cpu.per"
@@ -1976,7 +1976,7 @@
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\mappView\Config.mappviewcfg"
     LogicalPath="X20CP1584.X20CP1584.mappView.Config.mappviewcfg"
     Type="File"
-    LastWriteTime="133044181658599698"
+    LastWriteTime="133045087983883981"
     Private="false" />
   <Object
     Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Physical\X20CP1584\X20CP1584\mappView\MainPage.binding"

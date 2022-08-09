@@ -395,6 +395,11 @@
 		font-size: 18px;
 	}
 }
+#ContentMainPageControl_BtnStart {
+	span{
+	@include font-weight-bold(true);
+	}
+}
 #ContentMainPageControl_BtnStop {
 	@include elemTop(95);
 }
@@ -443,6 +448,11 @@
 #ContentMainPageControl_BtnStop {
 	span{
 		font-size: 18px;
+	}
+}
+#ContentMainPageControl_BtnStop {
+	span{
+	@include font-weight-bold(true);
 	}
 }
 #ContentMainPageControl_GrpBoxMixing {
@@ -790,10 +800,10 @@
 	@include elemTop(20);
 }
 #ContentMainPageControl_ToggleButton1 {
-	@include elemLeft(50);
+	@include elemLeft(30);
 }
 #ContentMainPageControl_ToggleButton1 {
-	@include elemAutoWidth(140);
+	@include elemAutoWidth(180);
 }
 #ContentMainPageControl_ToggleButton1 {
 	@include elemAutoHeight(60);
@@ -806,18 +816,33 @@
 		color: rgba(64, 64, 64, 1);
 	}
 }
+#ContentMainPageControl_ToggleButton1 {
+	span{
+	@include font-weight-bold(true);
+	}
+}
 #ContentMainPageControl_ToggleButton2 {
 	@include elemTop(95);
 }
 #ContentMainPageControl_ToggleButton2 {
-	@include elemLeft(50);
+	@include elemLeft(30);
 }
 #ContentMainPageControl_ToggleButton2 {
-	@include elemAutoWidth(140);
+	@include elemAutoWidth(180);
 }
 #ContentMainPageControl_ToggleButton2 {
 	@include elemAutoHeight(60);
 }
 #ContentMainPageControl_ToggleButton2 {
 		z-index: 1;
+}
+#ContentMainPageControl_ToggleButton2 {
+	&:not(.disabled):not(.active):not(.checked) span{
+		color: rgba(64, 64, 64, 1);
+	}
+}
+#ContentMainPageControl_ToggleButton2 {
+	span{
+	@include font-weight-bold(true);
+	}
 }

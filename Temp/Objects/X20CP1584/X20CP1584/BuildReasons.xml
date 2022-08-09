@@ -4,48 +4,8 @@
     <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\iat_media.job" differs.
 </BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\validatebindings._markerfile">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\x20cp1584\x20cp1584\mappview\contentmanualdialog.binding" differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\server\-2125524779.binding._markerfile">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\x20cp1584\x20cp1584\mappview\contentmanualdialog.binding" differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\wwwroot\contents\mappview\contentmanualdialog._markerfile">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\mappview\visualizationoperatorcontrol\dialogs\dialogmanual\contentmanualdialog.content" differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\wwwroot\transformations\eventbinding\parametertypemapping.xml">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\mappview\visualizationoperatorcontrol\dialogs\dialogmanual\contentmanualdialog.content" differs.
-</BuildReason>
-  </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\wwwroot\brvisu\css\themes\grunt.themescsso._markerfile">
     <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\wwwroot\brvisu\release\burthemeflat2.min.css" differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\duplicatebindingsfinder._markerfile">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\validatebindings._markerfile" differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\wwwroot\brvisu\css\pages\mappview\visualizationoperatorcontrol\dialogs\dialogmanual\dialog_styles.scss">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\wwwroot\contents\mappview\contentmanualdialog._markerfile" differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\wwwroot\brvisu\css\pages\mappview\contentmanualdialog.scss.css">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\wwwroot\contents\mappview\contentmanualdialog._markerfile" differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\wwwroot\visualizationoperatorcontrol.json">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\wwwroot\brvisu\css\pages\mappview\visualizationoperatorcontrol\dialogs\dialogmanual\dialog_styles.scss" differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\wwwroot\brvisu\css\pages\mappview\visualizationoperatorcontrol\dialogs\dialogmanual\dialog_styles.scss.css">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\wwwroot\brvisu\css\pages\mappview\visualizationoperatorcontrol\dialogs\dialogmanual\dialog_styles.scss" differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\wwwroot\brvisu\css\brease_core.css">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\wwwroot\brvisu\css\pages\mappview\visualizationoperatorcontrol\dialogs\dialogmanual\dialog_styles.scss.css" differs.
 </BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\x20cp1584\x20cp1584\.mappview\data\wwwroot\grunt.breasecsso._markerfile">
