@@ -43,6 +43,8 @@
         <Variable Name="ZB2LevelMax" />
         <Variable Name="ZB3LevelMax" />
         <Variable Name="ZB3LevelMaxMix" />
+        <Variable Name="AnalogValve" />
+        <Variable Name="ManualState" />
       </Task>
       <Task Name="LevelScali">
         <Variable Name="TankCapacity" />

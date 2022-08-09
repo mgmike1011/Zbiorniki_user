@@ -4,5 +4,6 @@
   <Objects>
     <Object Type="File">MainLayout.layout</Object>
     <Object Type="File">LoginDialogLayout.layout</Object>
+    <Object Type="File">ManualDialogLayout.layout</Object>
   </Objects>
 </Package>

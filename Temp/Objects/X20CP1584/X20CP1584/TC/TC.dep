@@ -3,4 +3,5 @@ $(AS_PROJECT_PATH)/Logical/mappView/VisualizationOperatorControl/Resources/Texts
 $(AS_PROJECT_PATH)/Logical/mappView/VisualizationOperatorControl/Resources/Texts/TextsMainPageControl.tmx
 $(AS_PROJECT_PATH)/Logical/mappView/VisualizationOperatorControl/Resources/Texts/TextsAlarmPage.tmx
 $(AS_PROJECT_PATH)/Logical/mappView/VisualizationOperatorControl/Resources/Texts/TextsServicePage.tmx
+$(AS_PROJECT_PATH)/Logical/mappView/VisualizationOperatorControl/Resources/Texts/TextsManualDialog.tmx
 $(AS_PROJECT_PATH)/Logical/mappView/Project.language

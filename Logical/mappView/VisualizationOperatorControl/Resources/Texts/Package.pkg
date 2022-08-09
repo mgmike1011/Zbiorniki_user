@@ -7,5 +7,6 @@
     <Object Type="File">TextsMainPageControl.tmx</Object>
     <Object Type="File">TextsAlarmPage.tmx</Object>
     <Object Type="File">TextsServicePage.tmx</Object>
+    <Object Type="File">TextsManualDialog.tmx</Object>
   </Objects>
 </Package>

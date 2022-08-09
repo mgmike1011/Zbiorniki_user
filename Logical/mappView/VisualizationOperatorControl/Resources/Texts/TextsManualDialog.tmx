@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT/ManualDialog</prop>
+  </header>
+  <body>
+    <tu tuid="ZB1valvetxt">
+      <tuv xml:lang="pl">
+        <seg>Zawór 1</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Valve 1</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ZB2valvetxt">
+      <tuv xml:lang="pl">
+        <seg>Zawór 2</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Valve 2</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ZB3maintxt">
+      <tuv xml:lang="pl">
+        <seg>Zawór 3 główny</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Valve 3 main</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ZB3lefttxt">
+      <tuv xml:lang="pl">
+        <seg>Zawór 3 lewy</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Valve 3 left</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ZB3righttxt">
+      <tuv xml:lang="pl">
+        <seg>Zawór 3 prawy</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Valve 3 right</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ManualDialogtxt">
+      <tuv xml:lang="pl">
+        <seg>Sterowanie ręczne</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Manual control</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Mixertxt">
+      <tuv xml:lang="pl">
+        <seg>Mieszadło</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Mixer</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

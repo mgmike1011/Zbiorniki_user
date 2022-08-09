@@ -41,13 +41,15 @@
 		<Class Name="AddonsData">
 			<Folder Name="IAT_Data" ProjectDependent="1" IsGroup="1">
 				<Folder Name="server" ProjectDependent="1">
+					<File Name="-2125524779.binding" Size="4364" HashValue="A229A71E02BE2E9AC9F7CAB835A35767" ProjectDependent="1"/>
 					<File Name="-222062230.binding" Size="14403" HashValue="AF615BF7430CBCB9EA390965D202223C" ProjectDependent="1"/>
-					<File Name="-683776460.binding" Size="6624" HashValue="902BDD752ACDC92A6C91AC1318331CBF" ProjectDependent="1"/>
+					<File Name="-683776460.binding" Size="8419" HashValue="3678A9DBFF7F265DF1ACA315FF292677" ProjectDependent="1"/>
+					<File Name="-774815643.eventbinding" Size="572" HashValue="B471A4F532228A0583262FDDFFA2BEF9" ProjectDependent="1"/>
 					<File Name="1247878736.eventbinding" Size="727" HashValue="B4EB6E51CAAD7F8873AA5CD207C6F372" ProjectDependent="1"/>
 					<File Name="1534101751.binding" Size="4207" HashValue="C693CF4D34275461B64AF0A88175BD53" ProjectDependent="1"/>
 					<File Name="1563350379.eventbinding" Size="872" HashValue="83ACC0F2BA2288CE6D870E8332FBD48B" ProjectDependent="1"/>
 					<File Name="1625532323.binding" Size="18985" HashValue="BC9E37C5DE8D3CAEE048716709859CEF" ProjectDependent="1"/>
-					<File Name="1823084006.eventbinding" Size="6231" HashValue="7EE2A95899C3BB85BAE890FFE8ECEB2D" ProjectDependent="1"/>
+					<File Name="1823084006.eventbinding" Size="6838" HashValue="B6518C9125424E809107064387E48561" ProjectDependent="1"/>
 					<File Name="2139907734.binding" Size="510" HashValue="3AFB003A15E44D0CE0F59A613E155BF2" ProjectDependent="1"/>
 					<File Name="654233811.eventbinding" Size="34451" HashValue="E4DD359C1DCDF72B3EEF1782218C0FB0" ProjectDependent="1"/>
 					<File Name="861746268.eventbinding" Size="1220" HashValue="9CA85F2250962163CB4B6F74B590B405" ProjectDependent="1"/>
@@ -55,13 +57,13 @@
 					<File Name="Config.mappviewcfg" Size="1815" HashValue="0D783EFE3B6004B6CBB7D0F6FD6D506D" ProjectDependent="1"/>
 					<File Name="svar_1.sessionVar" Size="5135" HashValue="3DD5FA269102CC26E083AFCBAF490FAD" ProjectDependent="1"/>
 					<File Name="Tanks_expressionsSet.expression" Size="6689" HashValue="5C8492414502DD6702B0E1CA5B9AE395" ProjectDependent="1"/>
-					<File Name="VisualizationOperatorControl.vis" Size="1661" HashValue="CBCA430C0D5BB56C1D193EF8DF7E7F60" ProjectDependent="1"/>
+					<File Name="VisualizationOperatorControl.vis" Size="1829" HashValue="DA82E55619FBF2B00D8C198DA235AEEC" ProjectDependent="1"/>
 					<File Name="Zbiorniki.vis" Size="1299" HashValue="74AD0C15CC0E07A33ECDBAB1D002DE3C" ProjectDependent="1"/>
 				</Folder>
 				<Folder Name="wwwRoot" ProjectDependent="1">
 					<File Name="favicon.ico" Size="1406" HashValue="B3D2122594565CE5AF565BE898EF539A" ProjectDependent="1"/>
 					<File Name="index.html" Size="4385" HashValue="BC3ED7AA954B2FBC318B1E291F29D2CE" ProjectDependent="1"/>
-					<File Name="VisualizationOperatorControl.json" Size="2676" HashValue="88C7EAF91F4BA4B78C372253DDECF270" ProjectDependent="1"/>
+					<File Name="VisualizationOperatorControl.json" Size="3095" HashValue="AD1142ECB0C229E5498033286153279C" ProjectDependent="1"/>
 					<File Name="Zbiorniki.json" Size="479" HashValue="B0D9D6E2455181DA5ED6318E4D6783B3" ProjectDependent="1"/>
 					<Folder Name="BRVisu" ProjectDependent="1">
 						<File Name="bootstrapper.min.js" Size="13375" HashValue="D970BA2261EFFBADA669B768E509AAF3" ProjectDependent="1"/>
@@ -714,10 +716,10 @@
 							</Folder>
 						</Folder>
 						<Folder Name="release" ProjectDependent="1">
-							<File Name="brease.js" Size="1312775" HashValue="774DF340632B88C7752A1E605A96CD4B" ProjectDependent="1"/>
-							<File Name="brease_core.min.css" Size="442703" HashValue="4FC9AD48D51996BEAC377E320BD027DB" ProjectDependent="1"/>
-							<File Name="BuRThemeFlat1.min.css" Size="269006" HashValue="537C5D6BD5990A76A2F34B4F37EAD568" ProjectDependent="1"/>
-							<File Name="BuRThemeFlat2.min.css" Size="271985" HashValue="63469BD3FAAE362DFD24E0D01BA93D9E" ProjectDependent="1"/>
+							<File Name="brease.js" Size="1322616" HashValue="879EC169D8D474D75CEBEA3EFD6C3418" ProjectDependent="1"/>
+							<File Name="brease_core.min.css" Size="445378" HashValue="7781EF5C0E8A0039080CF6B32C30F717" ProjectDependent="1"/>
+							<File Name="BuRThemeFlat1.min.css" Size="278723" HashValue="A60C7D40CC8F8AFA7C7F120D506D0D13" ProjectDependent="1"/>
+							<File Name="BuRThemeFlat2.min.css" Size="281683" HashValue="38E48926F6B22D3B66E42E17256A42E3" ProjectDependent="1"/>
 						</Folder>
 						<Folder Name="system" ProjectDependent="1">
 							<Folder Name="brease" ProjectDependent="1">
@@ -2374,6 +2376,30 @@
 										<File Name="ToggleButton_Styles.xsd" Size="4327" HashValue="63BFC7CCC8F4B8145EE9B3352076D4ED" ProjectDependent="1"/>
 									</Folder>
 								</Folder>
+								<Folder Name="ToggleSwitch" ProjectDependent="1">
+									<File Name="ToggleSwitch.html" Size="488" HashValue="17EB8A5802B6768B75BBA4ABC87C765E" ProjectDependent="1"/>
+									<File Name="ToggleSwitch.js" Size="14155" HashValue="96A312C128799864C994129C82925DA1" ProjectDependent="1"/>
+									<Folder Name="css" ProjectDependent="1">
+										<File Name="ToggleSwitch.sass.css" Size="2764" HashValue="D696F7A21F4195FD4B7471D9BEDCCE36" ProjectDependent="1"/>
+										<File Name="ToggleSwitch.scss" Size="3270" HashValue="FE0AFDE695F21F8DDCBAAD7C2685344B" ProjectDependent="1"/>
+									</Folder>
+									<Folder Name="designer" ProjectDependent="1">
+										<File Name="ClassInfo.js" Size="3234" HashValue="B53DC06D152ADB7077A4B927E2F3A0AE" ProjectDependent="1"/>
+									</Folder>
+									<Folder Name="meta" ProjectDependent="1">
+										<File Name="ToggleSwitch.json" Size="34317" HashValue="6DB7F6422D34BCE2B4DE1427145E9D01" ProjectDependent="1"/>
+										<File Name="ToggleSwitch.style" Size="10382" HashValue="C4E9BA48B2F5EC74C87D89FD3FB5D8B9" ProjectDependent="1"/>
+										<File Name="ToggleSwitch.widget" Size="37973" HashValue="1F744C3D6EDFFFF511BAA837A4CC4136" ProjectDependent="1"/>
+										<File Name="ToggleSwitch.xsd" Size="6365" HashValue="393328BBCE2933C36FCAEF4A2E29D435" ProjectDependent="1"/>
+										<File Name="ToggleSwitch_base.scss" Size="3580" HashValue="A9B68BD0AF65A40D3A2A2431BB6877EC" ProjectDependent="1"/>
+										<File Name="ToggleSwitch_Copied.markerFile" Size="0" HashValue="D41D8CD98F00B204E9800998ECF8427E" ProjectDependent="1"/>
+										<File Name="ToggleSwitch_default.sass.css" Size="4127" HashValue="3647C8447C3BBD443A2C3A8E57ED7FC3" ProjectDependent="1"/>
+										<File Name="ToggleSwitch_default.scss" Size="3670" HashValue="928DCA24BD541B7D8944333B6AA2AC93" ProjectDependent="1"/>
+										<File Name="ToggleSwitch_doc.html" Size="44253" HashValue="53332D5B37EBAE717775FF22B44990D5" ProjectDependent="1"/>
+										<File Name="ToggleSwitch_EventsActions.xsd" Size="7725" HashValue="E1F9328E1E1CC8EAAD6FA56A40E98BF3" ProjectDependent="1"/>
+										<File Name="ToggleSwitch_Styles.xsd" Size="3907" HashValue="26D670E1846617E06BFFDD6B035F7F76" ProjectDependent="1"/>
+									</Folder>
+								</Folder>
 								<Folder Name="Window" ProjectDependent="1">
 									<File Name="Window.html" Size="201" HashValue="91A5BB93C585D543BF44F8C3E4CB8B52" ProjectDependent="1"/>
 									<File Name="Window.js" Size="37964" HashValue="981D2F528AB008FF8F45952913B4EB31" ProjectDependent="1"/>
@@ -2409,7 +2435,8 @@
 							<File Name="ContentAlarmPageControl.html" Size="2792" HashValue="9170F148E77B590EB5857CD41ABD4EC4" ProjectDependent="1"/>
 							<File Name="ContentLeftControl.html" Size="1534" HashValue="FE8B5790E0481FED401F3F497AF5A62C" ProjectDependent="1"/>
 							<File Name="ContentLoginDialog.html" Size="1349" HashValue="2A76D5DB856E52F6743C4AC04F5031E0" ProjectDependent="1"/>
-							<File Name="ContentMainPageControl.html" Size="11911" HashValue="AAE0F93A03E721C08ED36B34FFB187FF" ProjectDependent="1"/>
+							<File Name="ContentMainPageControl.html" Size="13227" HashValue="0D2C0300F8B20DE0A442F3D2C5AB582B" ProjectDependent="1"/>
+							<File Name="ContentManualDialog.html" Size="5503" HashValue="57B6F37B3D7DD66A424A1178C5818D61" ProjectDependent="1"/>
 							<File Name="ContentServicePageControl.html" Size="2907" HashValue="FCE1AE70FBAF690EB47FC0CBE6315EEA" ProjectDependent="1"/>
 							<File Name="ContentTopControl.html" Size="1764" HashValue="ADC2FD4B3A8EFB3F0848A580AE255447" ProjectDependent="1"/>
 							<File Name="MainPageContent.html" Size="49239" HashValue="119AC7CF8C2A2FC35E44E17D90EB7707" ProjectDependent="1"/>
@@ -2489,7 +2516,7 @@
 			<Folder Name="OPCUA" ProjectDependent="1" IsGroup="1">
 				<Folder Name="NodeSet" ProjectDependent="1">
 					<Folder Name="Generated" ProjectDependent="1">
-						<File Name="OpcUaMap.uar.gz" Size="818" HashValue="C22EBDA44F7055771345B1CF1AC073EA" ProjectDependent="1"/>
+						<File Name="OpcUaMap.uar.gz" Size="834" HashValue="ADA77138118B969C147755116AD17E49" ProjectDependent="1"/>
 					</Folder>
 					<Folder Name="Vendor" ProjectDependent="1">
 						<File Name="plc.aprol.uanodeset" Size="6712" HashValue="08ADF5B15D3AF0566E164F0E4D4FB418" ProjectDependent="1"/>

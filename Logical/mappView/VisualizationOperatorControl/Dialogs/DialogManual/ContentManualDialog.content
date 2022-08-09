@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="ContentManualDialog" height="400" width="600" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.ToggleSwitch" id="ToggleSwitch1" top="60" left="90" width="420" zIndex="0" mouseDownText="$IAT/ManualDialog/ZB1valvetxt" text="$IAT/ManualDialog/ZB1valvetxt" bold="true" />
+    <Widget xsi:type="widgets.brease.Label" id="Label1" top="15" left="90" width="420" zIndex="1" text="$IAT/ManualDialog/ManualDialogtxt" textColor="rgba(64, 64, 64, 1)" textAlign="center" fontSize="20px" bold="true" />
+    <Widget xsi:type="widgets.brease.ToggleSwitch" id="ToggleSwitchZB2" top="105" left="90" width="420" zIndex="2" mouseDownText="$IAT/ManualDialog/ZB2valvetxt" text="$IAT/ManualDialog/ZB2valvetxt" bold="true" />
+    <Widget xsi:type="widgets.brease.ToggleSwitch" id="ToggleSwitchZB3Main" top="150" left="90" width="420" zIndex="3" mouseDownText="$IAT/ManualDialog/ZB3maintxt" text="$IAT/ManualDialog/ZB3maintxt" bold="true" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput1" top="315" left="315" width="190" zIndex="4" unit="{'metric':'P1','imperial':'P1','imperial-us':'P1'}" unitAlign="right" textAlign="center" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput2" top="270" left="315" width="190" zIndex="5" unit="{'metric':'P1','imperial':'P1','imperial-us':'P1'}" unitAlign="right" textAlign="center" />
+    <Widget xsi:type="widgets.brease.Label" id="Label2" top="270" left="90" width="165" zIndex="6" text="$IAT/ManualDialog/ZB3lefttxt" textColor="rgba(64, 64, 64, 1)" fontSize="18px" bold="true" />
+    <Widget xsi:type="widgets.brease.Label" id="Label3" top="315" left="90" width="165" zIndex="7" text="$IAT/ManualDialog/ZB3righttxt" textColor="rgba(64, 64, 64, 1)" fontSize="18px" bold="true" />
+    <Widget xsi:type="widgets.brease.ToggleSwitch" id="ToggleSwitch2" top="195" left="90" width="420" zIndex="8" mouseDownText="$IAT/ManualDialog/Mixertxt" text="$IAT/ManualDialog/Mixertxt" bold="true" />
+    <Widget xsi:type="widgets.brease.Line" id="Line1" zIndex="9" x1="15" x2="585" y1="45" y2="45" />
+  </Widgets>
+</Content>

@@ -16,6 +16,7 @@
       <Property ID="TargetFile[3]" Value="mappView.VisualizationOperatorControl.Resources.Texts.TextsMainPageControl.tmx" />
       <Property ID="TargetFile[4]" Value="mappView.VisualizationOperatorControl.Resources.Texts.TextsAlarmPage.tmx" />
       <Property ID="TargetFile[5]" Value="mappView.VisualizationOperatorControl.Resources.Texts.TextsServicePage.tmx" />
+      <Property ID="TargetFile[6]" Value="mappView.VisualizationOperatorControl.Resources.Texts.TextsManualDialog.tmx" />
     </Group>
   </Element>
 </Configuration>

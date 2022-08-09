@@ -43,5 +43,6 @@
   <widget name="widgets.brease.TextInput" />
   <widget name="widgets.brease.TextPicker" />
   <widget name="widgets.brease.ToggleButton" />
+  <widget name="widgets.brease.ToggleSwitch" />
   <widget name="widgets.brease.Window" />
 </widgets>

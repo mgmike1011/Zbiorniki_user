@@ -495,7 +495,7 @@
 }
 
 #ContentMainPageControl_GrpBoxMixing {
-  left: 300px;
+  left: 303px;
   position: absolute;
 }
 
@@ -629,7 +629,7 @@
 }
 
 #ContentMainPageControl_GrpBoxValveControl {
-  left: 585px;
+  left: 870px;
   position: absolute;
 }
 
@@ -859,4 +859,90 @@
 
 #ContentMainPageControl_ImgZB3 {
   z-index: 14;
+}
+
+#ContentMainPageControl_GroupBox1 {
+  top: 15px;
+  position: absolute;
+}
+
+#ContentMainPageControl_GroupBox1 {
+  left: 587px;
+  position: absolute;
+}
+
+#ContentMainPageControl_GroupBox1 {
+  width: 240px;
+}
+
+#ContentMainPageControl_GroupBox1 {
+  height: 205px;
+}
+
+#ContentMainPageControl_GroupBox1 {
+  z-index: 15;
+}
+
+#ContentMainPageControl_GroupBox1 > .header span {
+  color: #404040;
+}
+
+#ContentMainPageControl_GroupBox1 > .header span {
+  font-size: 20px;
+}
+
+#ContentMainPageControl_GroupBox1 > .header {
+  height: 40px;
+}
+
+#ContentMainPageControl_GroupBox1 > .header span {
+  font-weight: bold;
+}
+
+#ContentMainPageControl_ToggleButton1 {
+  top: 20px;
+  position: absolute;
+}
+
+#ContentMainPageControl_ToggleButton1 {
+  left: 50px;
+  position: absolute;
+}
+
+#ContentMainPageControl_ToggleButton1 {
+  width: 140px;
+}
+
+#ContentMainPageControl_ToggleButton1 {
+  height: 60px;
+}
+
+#ContentMainPageControl_ToggleButton1 {
+  z-index: 0;
+}
+
+#ContentMainPageControl_ToggleButton1:not(.disabled):not(.active):not(.checked) span {
+  color: #404040;
+}
+
+#ContentMainPageControl_ToggleButton2 {
+  top: 95px;
+  position: absolute;
+}
+
+#ContentMainPageControl_ToggleButton2 {
+  left: 50px;
+  position: absolute;
+}
+
+#ContentMainPageControl_ToggleButton2 {
+  width: 140px;
+}
+
+#ContentMainPageControl_ToggleButton2 {
+  height: 60px;
+}
+
+#ContentMainPageControl_ToggleButton2 {
+  z-index: 1;
 }

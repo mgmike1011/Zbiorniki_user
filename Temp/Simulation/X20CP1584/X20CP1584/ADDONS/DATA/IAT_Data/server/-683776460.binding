@@ -87,4 +87,28 @@
 <Target xsi:type="brease" refId="ContentMainPageControl_NumericInput1" attribute="editable::node" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
 </Binding>
   </Content>
+  <Content id="ContentMainPageControl">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AutomaticC:AnalogValve" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="ContentMainPageControl_ToggleButton1" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AutomaticC:AnalogValve" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="ContentMainPageControl_ToggleButton1" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="ContentMainPageControl">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AutomaticC:AnalogValve" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="ContentMainPageControl_GrpBoxValveControl" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="ContentMainPageControl">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AutomaticC:ManualState" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="ContentMainPageControl_ToggleButton2" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AutomaticC:ManualState" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="ContentMainPageControl_ToggleButton2" attribute="editable::value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
 </BindingDefinition>

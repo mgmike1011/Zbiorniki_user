@@ -53,5 +53,17 @@
 <Source xsi:type="opcUa" refId="::AsGlobalPV:gZb3_zawor_lewy" attribute="node" />
 <Target xsi:type="brease" contentRefId="ContentMainPageControl" widgetRefId="NumericInput1" attribute="node" />
 </Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AutomaticC:AnalogValve" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentMainPageControl" widgetRefId="ToggleButton1" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AutomaticC:AnalogValve" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentMainPageControl" widgetRefId="GrpBoxValveControl" attribute="enable" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AutomaticC:ManualState" attribute="value" />
+<Target xsi:type="brease" contentRefId="ContentMainPageControl" widgetRefId="ToggleButton2" attribute="value" />
+</Binding>
 </Bindings>
 </BindingsSet>

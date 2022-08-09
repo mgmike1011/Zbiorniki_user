@@ -449,7 +449,7 @@
 	@include elemTop(15);
 }
 #ContentMainPageControl_GrpBoxMixing {
-	@include elemLeft(300);
+	@include elemLeft(303);
 }
 #ContentMainPageControl_GrpBoxMixing {
 	@include elemWidth(240);
@@ -577,7 +577,7 @@
 	@include elemTop(15);
 }
 #ContentMainPageControl_GrpBoxValveControl {
-	@include elemLeft(585);
+	@include elemLeft(870);
 }
 #ContentMainPageControl_GrpBoxValveControl {
 	@include elemWidth(240);
@@ -750,4 +750,74 @@
 }
 #ContentMainPageControl_ImgZB3 {
 		z-index: 14;
+}
+#ContentMainPageControl_GroupBox1 {
+	@include elemTop(15);
+}
+#ContentMainPageControl_GroupBox1 {
+	@include elemLeft(587);
+}
+#ContentMainPageControl_GroupBox1 {
+	@include elemWidth(240);
+}
+#ContentMainPageControl_GroupBox1 {
+	@include elemHeight(205);
+}
+#ContentMainPageControl_GroupBox1 {
+		z-index: 15;
+}
+#ContentMainPageControl_GroupBox1 {
+	> .header span{
+		color: rgba(64, 64, 64, 1);
+	}
+}
+#ContentMainPageControl_GroupBox1 {
+	> .header span{
+		font-size: 20px;
+	}
+}
+#ContentMainPageControl_GroupBox1 {
+	> .header{
+	height: 20px + 20px;
+	}
+}
+#ContentMainPageControl_GroupBox1 {
+	> .header span{
+	@include font-weight-bold(true);
+	}
+}
+#ContentMainPageControl_ToggleButton1 {
+	@include elemTop(20);
+}
+#ContentMainPageControl_ToggleButton1 {
+	@include elemLeft(50);
+}
+#ContentMainPageControl_ToggleButton1 {
+	@include elemAutoWidth(140);
+}
+#ContentMainPageControl_ToggleButton1 {
+	@include elemAutoHeight(60);
+}
+#ContentMainPageControl_ToggleButton1 {
+		z-index: 0;
+}
+#ContentMainPageControl_ToggleButton1 {
+	&:not(.disabled):not(.active):not(.checked) span{
+		color: rgba(64, 64, 64, 1);
+	}
+}
+#ContentMainPageControl_ToggleButton2 {
+	@include elemTop(95);
+}
+#ContentMainPageControl_ToggleButton2 {
+	@include elemLeft(50);
+}
+#ContentMainPageControl_ToggleButton2 {
+	@include elemAutoWidth(140);
+}
+#ContentMainPageControl_ToggleButton2 {
+	@include elemAutoHeight(60);
+}
+#ContentMainPageControl_ToggleButton2 {
+		z-index: 1;
 }

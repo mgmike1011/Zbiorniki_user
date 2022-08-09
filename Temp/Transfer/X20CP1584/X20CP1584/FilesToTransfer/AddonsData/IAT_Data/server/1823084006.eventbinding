@@ -117,4 +117,16 @@
       </EventHandler>
     </EventBinding>
   </Content>
+  <Content id="ContentMainPageControl">
+    <EventBinding id="ContentMainPageControl.ToggleButton2.Click">
+      <Source type="widgets.brease.ToggleButton.Event" event="Click" refId="ContentMainPageControl_ToggleButton2" />
+      <EventHandler>
+        <Action>
+          <Target type="clientSystem.Action">
+            <Method type="clientSystem.Action.OpenDialog"><Parameter name="dialogId" xsi:type="ANY_STRING" value="DialogManual" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Content>
 </EventBindingDefinition>

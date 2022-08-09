@@ -142,5 +142,37 @@ status</seg>
         <seg>ZB3 right valve</seg>
       </tuv>
     </tu>
+    <tu tuid="AnalogValvetxt">
+      <tuv xml:lang="pl">
+        <seg>Zawory analogowe</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Analoge valve</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Controltxt">
+      <tuv xml:lang="pl">
+        <seg>Sterowanie</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Control</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Automatictxt">
+      <tuv xml:lang="pl">
+        <seg>Automatyczny</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Automatic</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Manualtxt">
+      <tuv xml:lang="pl">
+        <seg>Ręczny</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Manual</seg>
+      </tuv>
+    </tu>
   </body>
 </tmx>

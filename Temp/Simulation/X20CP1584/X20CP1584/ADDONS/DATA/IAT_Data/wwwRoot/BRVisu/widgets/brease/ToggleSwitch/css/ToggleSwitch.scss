@@ -1,0 +1,160 @@
+@import '../../../../css/libs/variables.scss';
+@import '../../../../css/libs/mixins.scss';
+
+.breaseToggleSwitch {
+    @include displayFlexBox(true);
+    @include flex-direction(row);
+    @include justify-content(start);
+    height: 30px;
+    width: 76px;
+    padding: 0;
+    background-color: #555;
+    border: none;
+    position: relative;
+
+    &.image-right {
+        @include flex-direction(row);
+
+        img, svg {
+            margin: 0px 0px 0px 0px;
+        }
+
+        .wrapper {
+            flex-direction: row;
+        }
+    }
+
+    &.image-left {
+        @include flex-direction(row);
+
+        img, svg {
+            margin: 0px 0px 0px 0px;
+        }
+
+        .wrapper {
+            flex-direction: row;
+        }
+    }
+
+    &.image-top {
+        @include flex-direction(row);
+
+        img, svg {
+            margin: 0px 0px 0px 0px;
+        }
+
+        .wrapper {
+            flex-direction: column;
+        }
+    }
+
+    &.image-bottom {
+        @include flex-direction(row);
+
+        img, svg {
+            margin: 0px 0px 0px 0px;
+        }
+
+        .wrapper {
+            flex-direction: column;
+        }
+    }
+
+    &:not(.editMode) {
+        .wrapper {
+            @include transition(flex 0.2s ease-in-out);
+        }
+    }
+
+    .contentWrapper {
+        width: 100%;
+        height: 100%;
+        padding: 2px;
+        position: relative;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        box-sizing: border-box;
+        align-items: center;
+        min-height: inherit;
+    }
+
+    .breaseToggleSwitch_toggle {
+        height: 100%;
+        width: 30px;
+        background: #FFF;
+        background-size: 100% 100%;
+        flex-grow: 0;
+        flex-shrink: 0;
+    }
+
+    .wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow-x: hidden;
+        flex: 1;
+
+        .before, .after {
+            position: relative;
+            font-size: 12px;
+            font-weight: normal;
+            align-self: center;
+            line-height: normal;
+        }
+
+        img, svg {
+            position: relative;
+            align-self: center;
+            flex-shrink: 0;
+            flex-grow: 0;
+        }
+    }
+
+    &:not(.checked) {
+        .wrapper:first-child {
+            flex: 0;
+            width: 0;
+        }
+
+        .wrapper:last-child {
+            padding-left: inherit;
+        }
+
+        &.editMode {
+            &.wordWrap {
+                .wrapper:first-child span {
+                    white-space: pre-line;
+                }
+            }
+        }
+    }
+
+    &.checked {
+        .wrapper:first-child {
+            padding-right: inherit;
+        }
+
+        .wrapper:last-child {
+            flex: 0;
+            width: 0;
+        }
+
+        &.editMode {
+            &.wordWrap {
+                .wrapper:last-child span {
+                    white-space: pre-line;
+                }
+            }
+        }
+    }
+
+    &.disabled {
+        background-color: #CCCCCC;
+
+        &.checked {
+            background-color: #CCCCCC;
+        }
+    }
+}

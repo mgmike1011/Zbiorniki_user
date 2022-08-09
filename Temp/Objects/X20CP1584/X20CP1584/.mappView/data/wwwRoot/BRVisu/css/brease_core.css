@@ -4172,7 +4172,7 @@ div[id$="_breaseMainWrapper"]{position:absolute;pointer-events:none}.breaseInfoB
 }
 
 #ContentMainPageControl_GrpBoxMixing {
-  left: 300px;
+  left: 303px;
   position: absolute;
 }
 
@@ -4306,7 +4306,7 @@ div[id$="_breaseMainWrapper"]{position:absolute;pointer-events:none}.breaseInfoB
 }
 
 #ContentMainPageControl_GrpBoxValveControl {
-  left: 585px;
+  left: 870px;
   position: absolute;
 }
 
@@ -4536,6 +4536,92 @@ div[id$="_breaseMainWrapper"]{position:absolute;pointer-events:none}.breaseInfoB
 
 #ContentMainPageControl_ImgZB3 {
   z-index: 14;
+}
+
+#ContentMainPageControl_GroupBox1 {
+  top: 15px;
+  position: absolute;
+}
+
+#ContentMainPageControl_GroupBox1 {
+  left: 587px;
+  position: absolute;
+}
+
+#ContentMainPageControl_GroupBox1 {
+  width: 240px;
+}
+
+#ContentMainPageControl_GroupBox1 {
+  height: 205px;
+}
+
+#ContentMainPageControl_GroupBox1 {
+  z-index: 15;
+}
+
+#ContentMainPageControl_GroupBox1 > .header span {
+  color: #404040;
+}
+
+#ContentMainPageControl_GroupBox1 > .header span {
+  font-size: 20px;
+}
+
+#ContentMainPageControl_GroupBox1 > .header {
+  height: 40px;
+}
+
+#ContentMainPageControl_GroupBox1 > .header span {
+  font-weight: bold;
+}
+
+#ContentMainPageControl_ToggleButton1 {
+  top: 20px;
+  position: absolute;
+}
+
+#ContentMainPageControl_ToggleButton1 {
+  left: 50px;
+  position: absolute;
+}
+
+#ContentMainPageControl_ToggleButton1 {
+  width: 140px;
+}
+
+#ContentMainPageControl_ToggleButton1 {
+  height: 60px;
+}
+
+#ContentMainPageControl_ToggleButton1 {
+  z-index: 0;
+}
+
+#ContentMainPageControl_ToggleButton1:not(.disabled):not(.active):not(.checked) span {
+  color: #404040;
+}
+
+#ContentMainPageControl_ToggleButton2 {
+  top: 95px;
+  position: absolute;
+}
+
+#ContentMainPageControl_ToggleButton2 {
+  left: 50px;
+  position: absolute;
+}
+
+#ContentMainPageControl_ToggleButton2 {
+  width: 140px;
+}
+
+#ContentMainPageControl_ToggleButton2 {
+  height: 60px;
+}
+
+#ContentMainPageControl_ToggleButton2 {
+  z-index: 1;
 }
 #ContentAlarmPageControl_AlarmList1 {
   top: 15px;
@@ -4787,6 +4873,292 @@ div[id$="_breaseMainWrapper"]{position:absolute;pointer-events:none}.breaseInfoB
 
 #ContentLoginDialog_Login1 {
   z-index: 0;
+}
+#ContentManualDialog_ToggleSwitch1 {
+  height: 30px;
+}
+
+#ContentManualDialog_ToggleSwitch1 {
+  top: 60px;
+  position: absolute;
+}
+
+#ContentManualDialog_ToggleSwitch1 {
+  left: 90px;
+  position: absolute;
+}
+
+#ContentManualDialog_ToggleSwitch1 {
+  width: 420px;
+}
+
+#ContentManualDialog_ToggleSwitch1 {
+  z-index: 0;
+}
+
+#ContentManualDialog_ToggleSwitch1 .wrapper .before {
+  font-weight: bold;
+}
+
+#ContentManualDialog_ToggleSwitch1 .wrapper .after {
+  font-weight: bold;
+}
+
+#ContentManualDialog_Label1 {
+  height: 30px;
+}
+
+#ContentManualDialog_Label1 {
+  top: 15px;
+  position: absolute;
+}
+
+#ContentManualDialog_Label1 {
+  left: 90px;
+  position: absolute;
+}
+
+#ContentManualDialog_Label1 {
+  width: 420px;
+}
+
+#ContentManualDialog_Label1 {
+  z-index: 1;
+}
+
+#ContentManualDialog_Label1 span {
+  color: #404040;
+}
+
+#ContentManualDialog_Label1 {
+  justify-content: center;
+  text-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+#ContentManualDialog_Label1 {
+  font-size: 20px;
+}
+
+#ContentManualDialog_Label1 {
+  font-weight: bold;
+}
+
+#ContentManualDialog_ToggleSwitchZB2 {
+  height: 30px;
+}
+
+#ContentManualDialog_ToggleSwitchZB2 {
+  top: 105px;
+  position: absolute;
+}
+
+#ContentManualDialog_ToggleSwitchZB2 {
+  left: 90px;
+  position: absolute;
+}
+
+#ContentManualDialog_ToggleSwitchZB2 {
+  width: 420px;
+}
+
+#ContentManualDialog_ToggleSwitchZB2 {
+  z-index: 2;
+}
+
+#ContentManualDialog_ToggleSwitchZB2 .wrapper .before {
+  font-weight: bold;
+}
+
+#ContentManualDialog_ToggleSwitchZB2 .wrapper .after {
+  font-weight: bold;
+}
+
+#ContentManualDialog_ToggleSwitchZB3Main {
+  height: 30px;
+}
+
+#ContentManualDialog_ToggleSwitchZB3Main {
+  top: 150px;
+  position: absolute;
+}
+
+#ContentManualDialog_ToggleSwitchZB3Main {
+  left: 90px;
+  position: absolute;
+}
+
+#ContentManualDialog_ToggleSwitchZB3Main {
+  width: 420px;
+}
+
+#ContentManualDialog_ToggleSwitchZB3Main {
+  z-index: 3;
+}
+
+#ContentManualDialog_ToggleSwitchZB3Main .wrapper .before {
+  font-weight: bold;
+}
+
+#ContentManualDialog_ToggleSwitchZB3Main .wrapper .after {
+  font-weight: bold;
+}
+
+#ContentManualDialog_NumericInput1 {
+  height: 30px;
+}
+
+#ContentManualDialog_NumericInput1 {
+  top: 315px;
+  position: absolute;
+}
+
+#ContentManualDialog_NumericInput1 {
+  left: 315px;
+  position: absolute;
+}
+
+#ContentManualDialog_NumericInput1 {
+  width: 190px;
+}
+
+#ContentManualDialog_NumericInput1 {
+  z-index: 4;
+}
+
+#ContentManualDialog_NumericInput1 input {
+  justify-content: center;
+  text-align: center;
+}
+
+#ContentManualDialog_NumericInput2 {
+  height: 30px;
+}
+
+#ContentManualDialog_NumericInput2 {
+  top: 270px;
+  position: absolute;
+}
+
+#ContentManualDialog_NumericInput2 {
+  left: 315px;
+  position: absolute;
+}
+
+#ContentManualDialog_NumericInput2 {
+  width: 190px;
+}
+
+#ContentManualDialog_NumericInput2 {
+  z-index: 5;
+}
+
+#ContentManualDialog_NumericInput2 input {
+  justify-content: center;
+  text-align: center;
+}
+
+#ContentManualDialog_Label2 {
+  height: 30px;
+}
+
+#ContentManualDialog_Label2 {
+  top: 270px;
+  position: absolute;
+}
+
+#ContentManualDialog_Label2 {
+  left: 90px;
+  position: absolute;
+}
+
+#ContentManualDialog_Label2 {
+  width: 165px;
+}
+
+#ContentManualDialog_Label2 {
+  z-index: 6;
+}
+
+#ContentManualDialog_Label2 span {
+  color: #404040;
+}
+
+#ContentManualDialog_Label2 {
+  font-size: 18px;
+}
+
+#ContentManualDialog_Label2 {
+  font-weight: bold;
+}
+
+#ContentManualDialog_Label3 {
+  height: 30px;
+}
+
+#ContentManualDialog_Label3 {
+  top: 315px;
+  position: absolute;
+}
+
+#ContentManualDialog_Label3 {
+  left: 90px;
+  position: absolute;
+}
+
+#ContentManualDialog_Label3 {
+  width: 165px;
+}
+
+#ContentManualDialog_Label3 {
+  z-index: 7;
+}
+
+#ContentManualDialog_Label3 span {
+  color: #404040;
+}
+
+#ContentManualDialog_Label3 {
+  font-size: 18px;
+}
+
+#ContentManualDialog_Label3 {
+  font-weight: bold;
+}
+
+#ContentManualDialog_ToggleSwitch2 {
+  height: 30px;
+}
+
+#ContentManualDialog_ToggleSwitch2 {
+  top: 195px;
+  position: absolute;
+}
+
+#ContentManualDialog_ToggleSwitch2 {
+  left: 90px;
+  position: absolute;
+}
+
+#ContentManualDialog_ToggleSwitch2 {
+  width: 420px;
+}
+
+#ContentManualDialog_ToggleSwitch2 {
+  z-index: 8;
+}
+
+#ContentManualDialog_ToggleSwitch2 .wrapper .before {
+  font-weight: bold;
+}
+
+#ContentManualDialog_ToggleSwitch2 .wrapper .after {
+  font-weight: bold;
+}
+
+#ContentManualDialog_Line1 {
+  z-index: 9;
 }
 .remove{display:none !important}
 .system_brease_Area_style_default {

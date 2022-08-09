@@ -550,6 +550,75 @@ span {
 }
 
 }
+@import "../../../../widgets/brease/ToggleSwitch/meta/ToggleSwitch_base";
+.widgets_brease_ToggleSwitch_style_Command {
+@include widgets_brease_ToggleSwitch_base; 
+.wrapper .before {
+	font-size: 20px;
+}
+.wrapper .after {
+	font-size: 20px;
+}
+.wrapper .before {
+@include font-weight-bold(false);
+}
+.wrapper .after {
+@include font-weight-bold(false);
+}
+&:not(.disabled):not(.checked) .wrapper .before {
+	color: #646464;
+}
+&:not(.disabled):not(.checked) .wrapper .after {
+	color: #646464;
+}
+&.checked:not(.disabled) .breaseToggleSwitch_toggle {
+	color: #ffffff;
+}
+&.checked:not(.disabled) .wrapper .before {
+	color: #ffffff;
+}
+&.checked:not(.disabled) .wrapper .after {
+	color: #ffffff;
+}
+@include border-radius(0px);
+.breaseToggleSwitch_toggle {
+@include border-radius(0px - 2px);
+}
+&:not(.disabled) .breaseToggleSwitch_toggle {
+background-color: #646464;
+}
+&:not(.active):not(.checked) {
+	border-width: 0px 6px 0px 0px;
+}
+&.disabled {
+	border-width: 0px 6px 0px 0px;
+}
+&:not(.disabled):not(.checked) {
+	border-color: #646464;
+}
+&.active:not(.disabled):not(.editMode) {
+	border-width: 0px 0px 0px 6px;
+}
+&.checked:not(.disabled) {
+	border-width: 0px 0px 0px 6px;
+}
+&.checked:not(.disabled) {
+	border-color: #646464;
+}
+&:not(.checked):not(.disabled) {
+background-color: #ffffff;
+}
+&.active:not(.disabled) {
+background-color: #ffffff;
+}
+&.checked:not(.disabled) {
+background-color: #39f;
+}
+&.disabled:not(.checked) {
+	background-color: #d1d1d1;
+}
+
+}
 @import "../../../../widgets/brease/RadioButton/meta/RadioButton_base";
 .widgets_brease_RadioButton_style_Caption {
 @include widgets_brease_RadioButton_base; 

@@ -10,15 +10,18 @@
   <BindingsSets>
     <BindingsSet refId="ContentMainPageControl_binding" />
     <BindingsSet refId="ContentAlarmPageControl_binding" />
+    <BindingsSet refId="ContentManualDialog_binding" />
   </BindingsSets>
   <EventBindingsSets>
     <EventBindingsSet refId="ContentMainPageControl_eventbinding" />
     <EventBindingsSet refId="ContentAlarmPageControl_eventbinding" />
     <EventBindingsSet refId="ContentLoginDialog_eventbinding" />
     <EventBindingsSet refId="ContentTopControl_eventbinding" />
+    <EventBindingsSet refId="ContentManualDialog_eventbinding" />
   </EventBindingsSets>
   <Dialogs>
     <Dialog refId="DialogLogin" />
+    <Dialog refId="DialogManual" />
   </Dialogs>
   <Contents>
     <Content refId="ContentTopControl" />
@@ -27,6 +30,7 @@
     <Content refId="ContentAlarmPageControl" />
     <Content refId="ContentServicePageControl" />
     <Content refId="ContentLoginDialog" />
+    <Content refId="ContentManualDialog" />
   </Contents>
   <SnippetsSets />
   <VariablesSets />

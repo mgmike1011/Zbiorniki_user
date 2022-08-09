@@ -16,5 +16,7 @@
     <Object Type="File">ContentAlarmPageControl.binding</Object>
     <Object Type="File">ContentLoginDialog.eventbinding</Object>
     <Object Type="File">ContentTopControl.eventbinding</Object>
+    <Object Type="File">ContentManualDialog.binding</Object>
+    <Object Type="File">ContentManualDialog.eventbinding</Object>
   </Objects>
 </Package>

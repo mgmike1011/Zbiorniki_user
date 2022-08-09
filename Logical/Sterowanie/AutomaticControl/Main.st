@@ -36,8 +36,10 @@ PROGRAM _CYCLIC
 			ELSIF gZb3_poziom = ZB3LevelMaxMix AND Mieszanie THEN
 				Step := STATE_MIXING_3;
 			END_IF;
-			gZb3_zawor_prawy := 1;
-			gZb3_zawor_lewy := 1;
+			IF NOT AnalogValve THEN
+				gZb3_zawor_prawy := 1;
+				gZb3_zawor_lewy := 1;
+			END_IF;
 			TimerMixing.IN := FALSE;
 		STATE_MIXING_3:
 			gZb3_zawor_prawy := 0;
@@ -57,12 +59,28 @@ PROGRAM _CYCLIC
 			IF gZb3_poziom <= 0 THEN
 				Step := STATE_STOP;
 			END_IF;
+		STATE_MANUAL:
+			IF NOT ManualState THEN
+				gZb3_zawor_prawy := 0;
+				gZb3_zawor_lewy := 0;
+				gMieszadlo := FALSE;
+				gZb1_zawor := FALSE;
+				gZb2_zawor := FALSE;
+				gZb3_zawor_lewy := FALSE;
+				gZb3_zawor_prawy := FALSE;
+				gZb3_zawor_glowny := FALSE;
+				Step := STATE_STOP;
+			END_IF;
 	END_CASE;
 	// Call Timer function block
 	TimerMixing();
-	// STOP button
+	// STOP button - EMERGENCY
 	IF Stop THEN
 		Step := STATE_STOP;
+	END_IF;
+	// Manual mode
+	IF ManualState THEN
+		Step := STATE_MANUAL;
 	END_IF;
 END_PROGRAM
 

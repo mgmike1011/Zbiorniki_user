@@ -1,4 +1,5 @@
 VAR
+	AnalogValve : BOOL := FALSE;
 	Step : State := STATE_STOP;
 	Mieszanie : BOOL := FALSE;
 	Start : BOOL := FALSE;
@@ -8,4 +9,5 @@ VAR
 	ZB2LevelMax : INT := 8000;
 	ZB1LevelMax : INT := 8000;
 	Stop : BOOL := FALSE;
+	ManualState : BOOL := FALSE;
 END_VAR

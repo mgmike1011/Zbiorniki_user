@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingDefinition xmlns="http://www.br-automation.com/iat2014/eventbinding/runtime/v2">
+  <Visualization>
+    <EventBinding id="EventBinding_5">
+      <Source type="clientSystem.Event" event="DialogClosed" />
+      <EventHandler>
+        <Action>
+          <Target type="opcUa.NodeAction" refId="::AutomaticC:ManualState">
+            <Method type="opcUa.NodeAction.ToggleValueBool" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Visualization>
+</EventBindingDefinition>

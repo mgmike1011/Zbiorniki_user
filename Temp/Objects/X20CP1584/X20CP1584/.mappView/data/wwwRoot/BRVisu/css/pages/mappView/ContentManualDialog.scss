@@ -1,0 +1,225 @@
+﻿@import "mixins.scss";
+#ContentManualDialog_ToggleSwitch1 {
+	@include elemAutoHeight(30);
+}
+#ContentManualDialog_ToggleSwitch1 {
+	@include elemTop(60);
+}
+#ContentManualDialog_ToggleSwitch1 {
+	@include elemLeft(90);
+}
+#ContentManualDialog_ToggleSwitch1 {
+	@include elemAutoWidth(420);
+}
+#ContentManualDialog_ToggleSwitch1 {
+		z-index: 0;
+}
+#ContentManualDialog_ToggleSwitch1 {
+	.wrapper .before{
+	@include font-weight-bold(true);
+	}
+}
+#ContentManualDialog_ToggleSwitch1 {
+	.wrapper .after{
+	@include font-weight-bold(true);
+	}
+}
+#ContentManualDialog_Label1 {
+	@include elemAutoHeight(30);
+}
+#ContentManualDialog_Label1 {
+	@include elemTop(15);
+}
+#ContentManualDialog_Label1 {
+	@include elemLeft(90);
+}
+#ContentManualDialog_Label1 {
+	@include elemAutoWidth(420);
+}
+#ContentManualDialog_Label1 {
+		z-index: 1;
+}
+#ContentManualDialog_Label1 {
+	& span{
+		color: rgba(64, 64, 64, 1);
+	}
+}
+#ContentManualDialog_Label1 {
+	@include text-alignment-all('center');
+}
+#ContentManualDialog_Label1 {
+		font-size: 20px;
+}
+#ContentManualDialog_Label1 {
+	@include font-weight-bold(true);
+}
+#ContentManualDialog_ToggleSwitchZB2 {
+	@include elemAutoHeight(30);
+}
+#ContentManualDialog_ToggleSwitchZB2 {
+	@include elemTop(105);
+}
+#ContentManualDialog_ToggleSwitchZB2 {
+	@include elemLeft(90);
+}
+#ContentManualDialog_ToggleSwitchZB2 {
+	@include elemAutoWidth(420);
+}
+#ContentManualDialog_ToggleSwitchZB2 {
+		z-index: 2;
+}
+#ContentManualDialog_ToggleSwitchZB2 {
+	.wrapper .before{
+	@include font-weight-bold(true);
+	}
+}
+#ContentManualDialog_ToggleSwitchZB2 {
+	.wrapper .after{
+	@include font-weight-bold(true);
+	}
+}
+#ContentManualDialog_ToggleSwitchZB3Main {
+	@include elemAutoHeight(30);
+}
+#ContentManualDialog_ToggleSwitchZB3Main {
+	@include elemTop(150);
+}
+#ContentManualDialog_ToggleSwitchZB3Main {
+	@include elemLeft(90);
+}
+#ContentManualDialog_ToggleSwitchZB3Main {
+	@include elemAutoWidth(420);
+}
+#ContentManualDialog_ToggleSwitchZB3Main {
+		z-index: 3;
+}
+#ContentManualDialog_ToggleSwitchZB3Main {
+	.wrapper .before{
+	@include font-weight-bold(true);
+	}
+}
+#ContentManualDialog_ToggleSwitchZB3Main {
+	.wrapper .after{
+	@include font-weight-bold(true);
+	}
+}
+#ContentManualDialog_NumericInput1 {
+	@include elemAutoHeight(30);
+}
+#ContentManualDialog_NumericInput1 {
+	@include elemTop(315);
+}
+#ContentManualDialog_NumericInput1 {
+	@include elemLeft(315);
+}
+#ContentManualDialog_NumericInput1 {
+	@include elemAutoWidth(190);
+}
+#ContentManualDialog_NumericInput1 {
+		z-index: 4;
+}
+#ContentManualDialog_NumericInput1 {
+	input{
+	@include text-alignment(center);
+	}
+}
+#ContentManualDialog_NumericInput2 {
+	@include elemAutoHeight(30);
+}
+#ContentManualDialog_NumericInput2 {
+	@include elemTop(270);
+}
+#ContentManualDialog_NumericInput2 {
+	@include elemLeft(315);
+}
+#ContentManualDialog_NumericInput2 {
+	@include elemAutoWidth(190);
+}
+#ContentManualDialog_NumericInput2 {
+		z-index: 5;
+}
+#ContentManualDialog_NumericInput2 {
+	input{
+	@include text-alignment(center);
+	}
+}
+#ContentManualDialog_Label2 {
+	@include elemAutoHeight(30);
+}
+#ContentManualDialog_Label2 {
+	@include elemTop(270);
+}
+#ContentManualDialog_Label2 {
+	@include elemLeft(90);
+}
+#ContentManualDialog_Label2 {
+	@include elemAutoWidth(165);
+}
+#ContentManualDialog_Label2 {
+		z-index: 6;
+}
+#ContentManualDialog_Label2 {
+	& span{
+		color: rgba(64, 64, 64, 1);
+	}
+}
+#ContentManualDialog_Label2 {
+		font-size: 18px;
+}
+#ContentManualDialog_Label2 {
+	@include font-weight-bold(true);
+}
+#ContentManualDialog_Label3 {
+	@include elemAutoHeight(30);
+}
+#ContentManualDialog_Label3 {
+	@include elemTop(315);
+}
+#ContentManualDialog_Label3 {
+	@include elemLeft(90);
+}
+#ContentManualDialog_Label3 {
+	@include elemAutoWidth(165);
+}
+#ContentManualDialog_Label3 {
+		z-index: 7;
+}
+#ContentManualDialog_Label3 {
+	& span{
+		color: rgba(64, 64, 64, 1);
+	}
+}
+#ContentManualDialog_Label3 {
+		font-size: 18px;
+}
+#ContentManualDialog_Label3 {
+	@include font-weight-bold(true);
+}
+#ContentManualDialog_ToggleSwitch2 {
+	@include elemAutoHeight(30);
+}
+#ContentManualDialog_ToggleSwitch2 {
+	@include elemTop(195);
+}
+#ContentManualDialog_ToggleSwitch2 {
+	@include elemLeft(90);
+}
+#ContentManualDialog_ToggleSwitch2 {
+	@include elemAutoWidth(420);
+}
+#ContentManualDialog_ToggleSwitch2 {
+		z-index: 8;
+}
+#ContentManualDialog_ToggleSwitch2 {
+	.wrapper .before{
+	@include font-weight-bold(true);
+	}
+}
+#ContentManualDialog_ToggleSwitch2 {
+	.wrapper .after{
+	@include font-weight-bold(true);
+	}
+}
+#ContentManualDialog_Line1 {
+		z-index: 9;
+}
