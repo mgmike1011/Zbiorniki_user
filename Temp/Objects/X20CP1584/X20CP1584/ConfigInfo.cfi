@@ -70,6 +70,18 @@
       <File
         Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Sterowanie\Alarms\Variables.var" />
     </Task>
+    <Task
+      Name="RecipeMgr"
+      Disable="false"
+      Source="Sterowanie.RecipeMgr"
+      Language="IEC">
+      <InternalFile
+        Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Temp\Objects\X20CP1584\X20CP1584\RecipeMgr\Main.st.var" />
+      <File
+        Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Sterowanie\RecipeMgr\Types.typ" />
+      <File
+        Path="D:\BuR\Projekt_indywidualny_\Zbiorniki_user\Logical\Sterowanie\RecipeMgr\Variables.var" />
+    </Task>
   </TaskClass>
   <TaskClass
     Name="Cyclic#5" />

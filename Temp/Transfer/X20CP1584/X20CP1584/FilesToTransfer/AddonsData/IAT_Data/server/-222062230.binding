@@ -19,13 +19,13 @@
 		</Binding>
   </Content>
   <Content id="MainPageContent">
-    <Binding mode="twoWay">
+    <Binding mode="oneWay">
 			<Source xsi:type="opcUa" refId="::AsGlobalPV:gZb2_zawor" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
 			<Target xsi:type="brease" refId="MainPageContent_ProgressBarTank2Inside" attribute="visible" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
 		</Binding>
   </Content>
   <Content id="MainPageContent">
-    <Binding mode="twoWay">
+    <Binding mode="oneWay">
 			<Source xsi:type="opcUa" refId="::AsGlobalPV:gZb1_zawor" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
 			<Target xsi:type="brease" refId="MainPageContent_ProgressBarTank1Inside" attribute="visible" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
 		</Binding>
@@ -85,13 +85,13 @@
 		</Binding>
   </Content>
   <Content id="MainPageContent">
-    <Binding mode="twoWay">
+    <Binding mode="oneWay">
 			<Source xsi:type="opcUa" refId="::AsGlobalPV:gZb1_zawor" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
 			<Target xsi:type="brease" refId="MainPageContent_Line65" attribute="visible" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
 		</Binding>
   </Content>
   <Content id="MainPageContent">
-    <Binding mode="twoWay">
+    <Binding mode="oneWay">
 			<Source xsi:type="opcUa" refId="::AsGlobalPV:gZb1_zawor" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
 			<Target xsi:type="brease" refId="MainPageContent_Rectangle8" attribute="visible" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
 		</Binding>

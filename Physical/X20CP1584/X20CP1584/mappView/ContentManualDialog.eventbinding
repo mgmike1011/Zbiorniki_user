@@ -6,7 +6,7 @@
       <EventHandler>
         <Action>
           <Target xsi:type="opcUa.NodeAction" refId="::AutomaticC:ManualState">
-            <Method xsi:type="opcUa.NodeAction.ToggleValueBool" />
+            <Method xsi:type="opcUa.NodeAction.SetValueBool" value="false" />
           </Target>
         </Action>
       </EventHandler>

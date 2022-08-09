@@ -72,7 +72,7 @@ PROGRAM _CYCLIC
 	ELSIF gZb3_poziom > LevelTooLow THEN
 		MpAlarmXReset(gAlarmXCore,'ZB3LevelTooLow');
 	END_IF;
-	// 
+	// Call alarm function block
 	AlarmsXCore();
 END_PROGRAM
 

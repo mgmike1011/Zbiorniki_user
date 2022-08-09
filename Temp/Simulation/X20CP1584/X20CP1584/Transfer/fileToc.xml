@@ -42,14 +42,14 @@
 			<Folder Name="IAT_Data" ProjectDependent="1" IsGroup="1">
 				<Folder Name="server" ProjectDependent="1">
 					<File Name="-2125524779.binding" Size="4364" HashValue="A229A71E02BE2E9AC9F7CAB835A35767" ProjectDependent="1"/>
-					<File Name="-222062230.binding" Size="14403" HashValue="AF615BF7430CBCB9EA390965D202223C" ProjectDependent="1"/>
+					<File Name="-222062230.binding" Size="14403" HashValue="0B8CEA000E429B299A661C456359EFC8" ProjectDependent="1"/>
 					<File Name="-683776460.binding" Size="8419" HashValue="3678A9DBFF7F265DF1ACA315FF292677" ProjectDependent="1"/>
-					<File Name="-774815643.eventbinding" Size="572" HashValue="B471A4F532228A0583262FDDFFA2BEF9" ProjectDependent="1"/>
+					<File Name="-774815643.eventbinding" Size="686" HashValue="15FBBD7CB7B693CFC156D2C9D7C002E7" ProjectDependent="1"/>
 					<File Name="1247878736.eventbinding" Size="727" HashValue="B4EB6E51CAAD7F8873AA5CD207C6F372" ProjectDependent="1"/>
 					<File Name="1534101751.binding" Size="4207" HashValue="C693CF4D34275461B64AF0A88175BD53" ProjectDependent="1"/>
 					<File Name="1563350379.eventbinding" Size="872" HashValue="83ACC0F2BA2288CE6D870E8332FBD48B" ProjectDependent="1"/>
 					<File Name="1625532323.binding" Size="18985" HashValue="BC9E37C5DE8D3CAEE048716709859CEF" ProjectDependent="1"/>
-					<File Name="1823084006.eventbinding" Size="6838" HashValue="B6518C9125424E809107064387E48561" ProjectDependent="1"/>
+					<File Name="1823084006.eventbinding" Size="7914" HashValue="A97063C88C2EC6EDCF40F44B9AA47516" ProjectDependent="1"/>
 					<File Name="2139907734.binding" Size="510" HashValue="3AFB003A15E44D0CE0F59A613E155BF2" ProjectDependent="1"/>
 					<File Name="654233811.eventbinding" Size="34451" HashValue="E4DD359C1DCDF72B3EEF1782218C0FB0" ProjectDependent="1"/>
 					<File Name="861746268.eventbinding" Size="1220" HashValue="9CA85F2250962163CB4B6F74B590B405" ProjectDependent="1"/>
@@ -2516,7 +2516,7 @@
 			<Folder Name="OPCUA" ProjectDependent="1">
 				<Folder Name="NodeSet" ProjectDependent="1" IsGroup="1">
 					<Folder Name="Generated" ProjectDependent="1" IsGroup="1">
-						<File Name="OpcUaMap.uar.gz" Size="836" HashValue="5FB75FEB0515F45B9ABDC0B92CB85ACD" ProjectDependent="1"/>
+						<File Name="OpcUaMap.uar.gz" Size="889" HashValue="634C87249C6F3BF5B398CB7BD1AD7E77" ProjectDependent="1"/>
 					</Folder>
 					<Folder Name="Vendor" ProjectDependent="1" IsGroup="1">
 						<File Name="plc.aprol.uanodeset" Size="6712" HashValue="08ADF5B15D3AF0566E164F0E4D4FB418" ProjectDependent="1"/>

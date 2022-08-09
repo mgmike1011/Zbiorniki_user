@@ -1,4 +1,4 @@
 WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=LevelScali 
 Position X=0 Y=0 Width=0 Height=0 TabWidth Name=129 Type=0 Scope=0 Force=0 Index=0 ASCIIString=0
                                     name                                     type force                                                            value level type len format place expand specs
-                           ZB1Percentage                                      INT    0 "                                                              51"    0    3    1   10    1    0         
+                           ZB1Percentage                                      INT    0 "                                                              77"    0    3    1   10    1    0         

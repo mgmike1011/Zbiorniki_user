@@ -118,5 +118,26 @@
         </Action>
       </EventHandler>
     </EventBinding>
+    <EventBinding id="ContentMainPageControl.Button1.Click">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="ContentMainPageControl" widgetRefId="Button1" event="Click" />
+      <EventHandler>
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target xsi:type="clientSystem.Action">
+                <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="DialogManual" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target xsi:type="opcUa.NodeAction" refId="::AutomaticC:ManualState">
+                <Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+    </EventBinding>
   </Bindings>
 </EventBindingSet>

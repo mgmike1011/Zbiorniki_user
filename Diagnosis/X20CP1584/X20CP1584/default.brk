@@ -1,2 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<breakpoints />
+<breakpoints>
+  <breakpoint>
+    <status>Y</status>
+    <file>Logical/Sterowanie/AutomaticControl/Main.st</file>
+    <position>64</position>
+    <condition></condition>
+    <instance></instance>
+    <program>AutomaticC</program>
+  </breakpoint>
+  <breakpoint>
+    <status>Y</status>
+    <file>Logical/Sterowanie/AutomaticControl/Main.st</file>
+    <position>16</position>
+    <condition></condition>
+    <instance></instance>
+    <program>AutomaticC</program>
+  </breakpoint>
+</breakpoints>

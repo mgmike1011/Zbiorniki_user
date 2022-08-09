@@ -16,12 +16,12 @@
 			<Target xsi:type="brease" contentRefId="MainPageContent" widgetRefId="ProgressBarTank3" attribute="value" />
 		</Binding>
 
-		<Binding mode="twoWay">
+		<Binding mode="oneWay">
 			<Source xsi:type="opcUa" refId="::AsGlobalPV:gZb2_zawor" attribute="value" />
 			<Target xsi:type="brease" contentRefId="MainPageContent" widgetRefId="ProgressBarTank2Inside" attribute="visible" />
 		</Binding>
 
-		<Binding mode="twoWay">
+		<Binding mode="oneWay">
 			<Source xsi:type="opcUa" refId="::AsGlobalPV:gZb1_zawor" attribute="value" />
 			<Target xsi:type="brease" contentRefId="MainPageContent" widgetRefId="ProgressBarTank1Inside" attribute="visible" />
 		</Binding>
@@ -71,12 +71,12 @@
 			<Target xsi:type="brease" contentRefId="MainPageContent" widgetRefId="Rectangle10" attribute="visible" />
 		</Binding>
 
-		<Binding mode="twoWay">
+		<Binding mode="oneWay">
 			<Source xsi:type="opcUa" refId="::AsGlobalPV:gZb1_zawor" attribute="value" />
 			<Target xsi:type="brease" contentRefId="MainPageContent" widgetRefId="Line65" attribute="visible" />
 		</Binding>
 
-		<Binding mode="twoWay">
+		<Binding mode="oneWay">
 			<Source xsi:type="opcUa" refId="::AsGlobalPV:gZb1_zawor" attribute="value" />
 			<Target xsi:type="brease" contentRefId="MainPageContent" widgetRefId="Rectangle8" attribute="visible" />
 		</Binding>

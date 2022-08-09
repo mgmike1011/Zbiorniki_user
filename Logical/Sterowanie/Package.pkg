@@ -7,5 +7,6 @@
     <Object Type="Program" Language="IEC">AutomaticControl</Object>
     <Object Type="Program" Language="IEC">LevelScaling</Object>
     <Object Type="Program" Language="IEC">Alarms</Object>
+    <Object Type="Program" Language="IEC">RecipeMgr</Object>
   </Objects>
 </Package>

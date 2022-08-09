@@ -4,6 +4,7 @@ PROGRAM _INIT
 	// Init Code
 	//
 	TimerMixing.PT := T#5s;
+	ManualState := FALSE;
 END_PROGRAM
 
 PROGRAM _CYCLIC
@@ -88,6 +89,6 @@ PROGRAM _EXIT
 	//
 	// Exit Code
 	//
-	 
+	ManualState := FALSE;
 END_PROGRAM
 

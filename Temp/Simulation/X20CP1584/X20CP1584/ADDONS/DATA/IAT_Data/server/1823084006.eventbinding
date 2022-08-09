@@ -129,4 +129,27 @@
       </EventHandler>
     </EventBinding>
   </Content>
+  <Content id="ContentMainPageControl">
+    <EventBinding id="ContentMainPageControl.Button1.Click">
+      <Source type="widgets.brease.Button.Event" event="Click" refId="ContentMainPageControl_Button1" />
+      <EventHandler>
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target type="clientSystem.Action">
+                <Method type="clientSystem.Action.OpenDialog"><Parameter name="dialogId" xsi:type="ANY_STRING" value="DialogManual" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target type="opcUa.NodeAction" refId="::AutomaticC:ManualState">
+                <Method type="opcUa.NodeAction.SetValueBool"><Parameter name="value" xsi:type="BOOL" value="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /></Method>
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+    </EventBinding>
+  </Content>
 </EventBindingDefinition>

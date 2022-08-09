@@ -20,11 +20,11 @@
     <Module Name="&lt;Default&gt;">
       <GlobalVariables>
         <Variable Name="gMieszadlo" />
-        <Variable Name="gZb1_poziom" />
+        <Variable Name="gZb1_poziom" Historizing="True" HistoryBufferSize="1000" HistorySamplingInterval="Timer5" />
         <Variable Name="gZb1_zawor" />
-        <Variable Name="gZb2_poziom" EngineeringUnitId="1" />
+        <Variable Name="gZb2_poziom" Historizing="True" HistoryBufferSize="1000" HistorySamplingInterval="Timer5" EngineeringUnitId="1" />
         <Variable Name="gZb2_zawor" />
-        <Variable Name="gZb3_poziom" EngineeringUnitId="1" />
+        <Variable Name="gZb3_poziom" Historizing="True" HistoryBufferSize="1000" HistorySamplingInterval="Timer5" EngineeringUnitId="1" />
         <Variable Name="gZb3_zawor_glowny" />
         <Variable Name="gZb3_zawor_lewy" EURangesId="1" />
         <Variable Name="gZb3_zawor_prawy" EURangesId="1" />
